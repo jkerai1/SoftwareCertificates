@@ -5,3 +5,6 @@ e.g. https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/
 
 
 Caution: Some Certs for unsanctioned applications may be used for other applications from the same org that may be legitimate e.g. BlueJeans Conferencing (sanctioned) BlueJeans Remote Desktop Control (unsanctioned)
+
+
+Useful Ref For Programs people install on fresh desktop: https://ninite.com/
