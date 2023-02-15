@@ -8,3 +8,5 @@ Caution: Some Certs for unsanctioned applications may be used for other applicat
 
 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)
+
+App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm
