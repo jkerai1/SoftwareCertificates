@@ -14,7 +14,7 @@ App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm
 Also See: https://axelarator.github.io/posts/codesigningcerts/  
 
 
-To Export Software Certificates:
+# To Export Software Certificates:
 Right Click on Exe, Select Properties:
 
 Go To Digital Signature Tab:  
@@ -26,7 +26,8 @@ View Certificate:
 
 Details Tab: 
 ![image](https://user-images.githubusercontent.com/55988027/222768233-2ada4ab9-fd4b-4588-87a4-2e39ad09fecc.png)
- 
+
+
 Copy To File:
 ![image](https://user-images.githubusercontent.com/55988027/222768521-e6df24dc-76b2-46c7-b8d2-8c5d02c8337e.png)
 
