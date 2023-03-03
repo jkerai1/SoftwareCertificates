@@ -21,7 +21,7 @@ Go To Digital Signature Tab:
 ![image](https://user-images.githubusercontent.com/55988027/222768857-102613c0-fa21-4193-aca8-4682a5439604.png)
 
 
-View Certificate - by hitting details:  
+Click details then View Certificate:  
 
 ![image](https://user-images.githubusercontent.com/55988027/222768203-9015f003-8f3f-4823-af34-c06a3d897d0b.png)  
 ![image](https://user-images.githubusercontent.com/55988027/222769196-22285fb2-c829-4a28-a655-8909cacc6c4a.png)
