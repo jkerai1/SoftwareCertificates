@@ -14,7 +14,7 @@ App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm
 Also See: https://axelarator.github.io/posts/codesigningcerts/  
 
 
-# To Export Software Certificates:
+# To Export Software Certificates - Pull Requests Welcome:
 Right Click on Exe, Select Properties:
 
 Go To Digital Signature Tab:  
