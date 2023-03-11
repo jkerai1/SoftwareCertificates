@@ -53,7 +53,7 @@ Indicators then Import - note it it doesn't matter whether you are in File Hash,
 
 ![image](https://user-images.githubusercontent.com/55988027/224496619-136fbd3f-7b3a-405f-9b85-edb993c42e94.png)  
 
-Import then Hit Done - note that duplicates are skipped so you can keep adding to the existing CSV:  
+Choose File, then hit Import then Hit Done - note that duplicates are skipped so you can keep adding to the existing CSV:    
 
 ![image](https://user-images.githubusercontent.com/55988027/224496768-7ff90df4-66b2-4398-8307-f424a9ac0303.png)
 
