@@ -1,0 +1,1 @@
+Mostly bloatware/Adware crap.
