@@ -37,5 +37,23 @@ Copy To File:
 ![image](https://user-images.githubusercontent.com/55988027/222768521-e6df24dc-76b2-46c7-b8d2-8c5d02c8337e.png)
 
 Export as Cer:  
-![image](https://user-images.githubusercontent.com/55988027/222768623-1c6c9523-19ff-4d0f-a7ce-623036ed77fa.png)
+![image](https://user-images.githubusercontent.com/55988027/222768623-1c6c9523-19ff-4d0f-a7ce-623036ed77fa.png)  
+
+# How to Bulk Upload the IOC CSV to MDE
+
+As far as I know, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
+
+From Defender, Go To Settings on bottom left:  
+![image](https://user-images.githubusercontent.com/55988027/224496554-e26e2672-6216-4694-ab8a-015d0c08451a.png)
+
+Then Endpoints:  
+![image](https://user-images.githubusercontent.com/55988027/224496573-0a89865c-e882-4eb8-9172-aa3e5a1ba430.png)  
+
+Indicators then Import - note it it doesn't matter whether you are in File Hash,Domain, IP or Cert tab:  
+
+![image](https://user-images.githubusercontent.com/55988027/224496619-136fbd3f-7b3a-405f-9b85-edb993c42e94.png)  
+
+
+
+
 
