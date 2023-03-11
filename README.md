@@ -1,4 +1,4 @@
-# SofwareCertificates
+# SoftwareCertificates
 Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using MDE IOC/AppLocker/WDAC
 
 e.g. https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide
