@@ -8,7 +8,7 @@ Caution: Some Certs for unsanctioned applications may be used for other applicat
 
 please do not bulk upload these certs without checking, chances are it will break your environment!
 
-For what its worth personally WDAC > Applocker > IOC blocking
+For what its worth personally WDAC >>>> Applocker >> IOC blocking
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  
 
