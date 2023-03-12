@@ -17,6 +17,7 @@ Enable MDE Attack Surface Reduction rules - Particulary:
 > Block abuse of exploited vulnerable signed drivers  
 
 Ideally set UAC control to highest  - *Detection Oppurtunity*: Monitor UAC Bypass techniques  
+The obvious remediation - get WDAC (easier said than done: https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview)   
 
 When you upload a cert to MDE it also uploads the hash that was signed by cert which also blocks the hash which adds extra layer to Cert Removal Attack - however hash based blocking is not scalable  
 
