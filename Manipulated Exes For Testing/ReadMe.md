@@ -19,6 +19,7 @@ How to manipulate Certificates
 
 SigThief:  
 https://github.com/secretsquirrel/SigThief  
+https://axelarator.github.io/posts/codesigningcerts/  
 
 DelCert:  
 https://github.com/MadhukarMoogala/delcert  
