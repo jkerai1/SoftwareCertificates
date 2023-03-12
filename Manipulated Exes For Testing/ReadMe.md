@@ -1,4 +1,4 @@
-Use These For Testing/Building Detections for Exes that have been manipulated
+Use These For Testing/Building Detections for Exes that have been manipulated. The Brave Exe signature has been replaced with Signals and the nordVPN's Cert has been removed
 
 Post-Testing:
 
