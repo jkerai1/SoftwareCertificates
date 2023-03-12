@@ -11,7 +11,7 @@ Note that the certificate is NOT valid as the hash has changed
 Ensure SmartScreen is enabled, if you force users to use edge even better  
 Ensure UAC blocks Applications with Revoked/Invalid Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps  
 Enable MDE Attack Surface Reduction rules - Particulary:  
-> Block executable files from running unless they meet a prevalence, age, or trusted list criterion
+> Block executable files from running unless they meet a prevalence, age, or trusted list criterion  
 > Block untrusted and unsigned processes that run from USB  
 > Block executable content from email client and webmail  
 > Block abuse of exploited vulnerable signed drivers  
