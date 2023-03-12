@@ -31,7 +31,7 @@ Blocking without smartscreen:
 
 ![image](https://user-images.githubusercontent.com/55988027/224571628-5fce3d24-acba-4f55-b148-2806fb880d51.png)  
 
-MDE Attack Surfacce Reduction Rule Test:  
+MDE Attack Surface Reduction Rule Test:  
 
 **PENDING**  
 
