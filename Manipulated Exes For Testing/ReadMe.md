@@ -23,7 +23,9 @@ When you upload a cert to MDE it also uploads the hash that was signed by cert w
 Lets suppose you reverse engineer an executable to change the hash, a few things will happen:
 >Cert wouldnt be valid if hash is changed - UAC/SmartScreen will block this if set  
 >Lets suppose you remove the cert after changing hash - Then SmartScreen/ASR/WDAC would fire as foreign unsigned executable  
->If MZ compression is used on this executable then CheckSum might fail  
+>If MZ compression is used on this executable then CheckSum might fail 
+
+If a code signing certificate is ever stolen and is marked as revoked then UAC protection from earlier should prevent execution, though this is a difficult one to test    
 
 SmartScreen Blocking Examples:  
 
