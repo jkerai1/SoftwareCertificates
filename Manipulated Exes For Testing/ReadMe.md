@@ -5,6 +5,16 @@ Post-Testing:
 Ensure SmartScreen is enabled as per the test, if you force users to use edge even better
 Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps
 
+
+SmartScreen Examples:  
+
+At Browser Download Level:
+![image](https://user-images.githubusercontent.com/55988027/224532539-bfe6cb2a-c904-4c47-a663-decbeafe752c.png)
+
+At Execution Level:
+![image](https://user-images.githubusercontent.com/55988027/224532555-60b30708-a7d6-469f-9725-a673e5947fab.png)  
+
+
 How to manipulate Certificates  
 
 SigThief:  
