@@ -17,7 +17,7 @@ Cert wouldnt be valid if hash is changed - UAC will block this if set
 Lets suppose you remove the cert after changing hash - Then SmartScreen/ASR/WDAC would fire as foreign unsigned executable
 If MZ compression is used on this executable then CheckSum might fail  
 
-SmartScreen Examples:  
+SmartScreen Blocking Examples:  
 
 At Browser Level when downloading:  
 ![image](https://user-images.githubusercontent.com/55988027/224532539-bfe6cb2a-c904-4c47-a663-decbeafe752c.png)  
