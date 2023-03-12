@@ -27,6 +27,8 @@ Lets suppose you reverse engineer an executable to change the hash, a few things
 
 If a code signing certificate is ever stolen and is marked as revoked then UAC protection from earlier should prevent execution, though this is a difficult one to test    
 
+# Examples  
+
 SmartScreen Blocking Examples:  
 
 At Browser Level when downloading:  
