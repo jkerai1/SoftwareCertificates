@@ -1,4 +1,7 @@
-Use These For Testing/Building Detections for Exes that have been manipulated. The First Brave Exe signature has been replaced with Signals and the second with AMD and the nordVPN's Cert has been removed entirely using delcert
+Use These For Testing/Building Detections for Exes that have been manipulated. 
+
+The First Brave Exe signature has been replaced with Signals and the second with AMD and the nordVPN's Cert has been removed entirely using delcert
+NoCert - SigThief -BraveBrowserSetup - Cert Removed using SigThief
 
 Post-Testing:
 
