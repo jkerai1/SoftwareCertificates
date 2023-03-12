@@ -30,7 +30,7 @@ Blocking without smartscreen:
 
 ![image](https://user-images.githubusercontent.com/55988027/224571628-5fce3d24-acba-4f55-b148-2806fb880d51.png)  
 
-How to manipulate Certificates  
+# How to manipulate Certificates  
 
 SigThief:  
 https://github.com/secretsquirrel/SigThief  
@@ -45,3 +45,6 @@ https://learn.microsoft.com/en-us/windows/win32/api/imagehlp/nf-imagehlp-imagere
 
 SignTool:  
 https://stackoverflow.com/questions/31869552/how-to-install-signtool-exe-for-windows-10  
+
+
+Further Reading: https://axelarator.github.io/posts/codesigningcerts/  
