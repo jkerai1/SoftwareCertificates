@@ -1,9 +1,9 @@
 Use These For Testing/Building Detections for Exes that have been manipulated. 
 
-SigThief-Brave.exe - Swapped with Signal Cert using Sig Thief
-SigThief-Brave (2).exe - Swapped With AMD Cert using Sig Thief
-DelCert - NordVPNSetup.exe - Cert Deleted using Delcert
-NoCert - SigThief -BraveBrowserSetup - Cert Removed using SigThief
+SigThief - Brave.exe - Swapped with Signal Cert using Sig Thief  
+SigThief-Brave (2).exe - Swapped With AMD Cert using Sig Thief  
+DelCert - NordVPNSetup.exe - Cert Deleted using Delcert  
+NoCert - SigThief -BraveBrowserSetup - Cert Removed using SigThief  
 
 Post-Testing:
 
