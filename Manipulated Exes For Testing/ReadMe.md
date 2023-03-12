@@ -29,9 +29,7 @@ If a code signing certificate is ever stolen and is marked as revoked then UAC p
 
 # Examples  
 
-SmartScreen Blocking Examples:  
-
-At Browser Level when downloading:  
+At Browser Level when downloading, blocked via SmartScreen:  
 ![image](https://user-images.githubusercontent.com/55988027/224532539-bfe6cb2a-c904-4c47-a663-decbeafe752c.png)  
 
 At Execution Level with SmartScreen:  
