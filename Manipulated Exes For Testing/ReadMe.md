@@ -2,13 +2,13 @@ Use These For Testing/Building Detections for Exes that have been manipulated
 
 Post-Testing:
 
-Ensure SmartScreen is enabled as per the test, if you force users to use edge even better
+Ensure SmartScreen is enabled as per the test, if you force users to use edge even better  
 Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps
 
 
 SmartScreen Examples:  
 
-At Browser Level when downloading:
+At Browser Level when downloading:  
 ![image](https://user-images.githubusercontent.com/55988027/224532539-bfe6cb2a-c904-4c47-a663-decbeafe752c.png)  
 
 At Execution Level:  
