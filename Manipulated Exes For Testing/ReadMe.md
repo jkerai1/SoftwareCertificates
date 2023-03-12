@@ -1,9 +1,10 @@
-Use These For Testing/Building Detections for Exes that have been manipulated. The First Brave Exe signature has been replaced with Signals and the second with AMD and the nordVPN's Cert has been removed
+Use These For Testing/Building Detections for Exes that have been manipulated. The First Brave Exe signature has been replaced with Signals and the second with AMD and the nordVPN's Cert has been removed entirely using delcert
 
 Post-Testing:
 
 Ensure SmartScreen is enabled as per the test, if you force users to use edge even better  
 Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps
+Ideally set UAC control to highest  
 
 
 SmartScreen Examples:  
