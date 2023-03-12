@@ -11,7 +11,7 @@ Ensure SmartScreen is enabled, if you force users to use edge even better
 Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps  
 Ideally set UAC control to highest  - *Detection Oppurtunity*: Monitor UAC Bypass techniques  
 
-When you upload a cert to MDE it also uploads the hash that was signed by cert which also blocks the hash which adds extra layer to Cert Removal Attack   
+When you upload a cert to MDE it also uploads the hash that was signed by cert which also blocks the hash which adds extra layer to Cert Removal Attack - however hash based blocking is not scalable  
 
 Lets suppose you reverse engineer an executable to change the hash, a few things will happen:
 >Cert wouldnt be valid if hash is changed - UAC/SmartScreen will block this if set  
