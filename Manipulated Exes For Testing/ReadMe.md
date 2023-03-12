@@ -5,7 +5,7 @@ SigThief-Brave (2).exe - Swapped With AMD Cert using Sig Thief
 DelCert - NordVPNSetup.exe - Cert Deleted using Delcert  
 NoCert - SigThief -BraveBrowserSetup - Cert Removed using SigThief  
 
-Post-Testing:
+# Post-Testing:
 
 Ensure SmartScreen is enabled, if you force users to use edge even better  
 Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps  
