@@ -3,7 +3,7 @@ Use These For Testing/Building Detections for Exes that have been manipulated. T
 Post-Testing:
 
 Ensure SmartScreen is enabled as per the test, if you force users to use edge even better  
-Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps
+Ensure UAC blocks Applications with Revoked Certificates: https://learn.microsoft.com/en-us/troubleshoot/windows-client/identity/uac-blocks-elevation-executable-apps  
 Ideally set UAC control to highest  
 
 
