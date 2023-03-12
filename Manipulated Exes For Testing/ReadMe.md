@@ -36,7 +36,7 @@ At Browser Level when downloading, blocked via SmartScreen:
 At Execution Level with SmartScreen:  
 ![image](https://user-images.githubusercontent.com/55988027/224532555-60b30708-a7d6-469f-9725-a673e5947fab.png)  
 
-Blocking without smartscreen:  
+Blocking without smartscreen or MDE:  
 
 ![image](https://user-images.githubusercontent.com/55988027/224571628-5fce3d24-acba-4f55-b148-2806fb880d51.png)  
 
