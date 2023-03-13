@@ -21,7 +21,7 @@ Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (al
 
 # To Export Software Certificates - Pull Requests Welcome:
 
-**Looking to automate this process with Python**  
+**Looking to automate this process with Python but for now see below**  
 
 Right Click on Exe, Select Properties:
 
