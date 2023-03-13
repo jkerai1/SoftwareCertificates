@@ -41,9 +41,9 @@ Copy To File:
 Export as Cer:  
 ![image](https://user-images.githubusercontent.com/55988027/222768623-1c6c9523-19ff-4d0f-a7ce-623036ed77fa.png)  
 
-# How to Bulk Upload the IOC CSV to MDE
+# How to Upload the Bulk IOC CSV to MDE
 
-As far as I know, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
+As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
 
 From Defender, Go To Settings on bottom left:  
 ![image](https://user-images.githubusercontent.com/55988027/224496554-e26e2672-6216-4694-ab8a-015d0c08451a.png)
