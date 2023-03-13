@@ -8,7 +8,7 @@ Caution: Some Certs for unsanctioned applications may be used for other applicat
 
 please do not bulk upload these certs without checking, chances are it will break your environment!
 
-For what its worth personally WDAC >>>> Applocker >> IOC blocking
+For what its worth personally WDAC >>>> Applocker
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  
 
@@ -62,3 +62,8 @@ Choose File, then hit Import then Hit Done - note that duplicates are skipped so
 # Python Bulk Ripper  
 
 Work In Progress  
+
+
+# Testing Tampered Executables  
+
+https://github.com/jkerai1/SoftwareCertificates/tree/main/Manipulated%20Exes%20For%20Testing  
