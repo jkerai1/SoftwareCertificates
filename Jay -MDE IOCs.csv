@@ -257,3 +257,11 @@ DomainName,tableau-r.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
 DomainName,anydesk-r.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
 DomainName,anydesk-o.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
 DomainName,quickbooks-q.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,icol.boulevate.pics,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,suite.targetx.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,ct8hs.canksru.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,meleklertv.com.tr,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,ums.koreanair.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName, quanticasrl.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,stmservice.crm,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+FileSha256,ef08d26008bf5429b577a06136ac7b15caf71ea51acebbcaab8cedc451acd375,,Block,Low,Malicious File ,Malicious File,,,,,FALSE
