@@ -265,3 +265,128 @@ DomainName,ums.koreanair.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALS
 DomainName, quanticasrl.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,stmservice.crm,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 FileSha256,ef08d26008bf5429b577a06136ac7b15caf71ea51acebbcaab8cedc451acd375,,Block,Low,Malicious File ,Malicious File,,,,,FALSE
+DomainName,fctin410-5928ert.monster,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,sptr.eomail6.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,s6eq.44.poia.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,imxhbf6r.rcazscmm.shahrarman.ir,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,0jt3eel1on63fbe18f23c8e.fileondun.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,"dqb6q.canksru.ru
+
+ ",,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName, thegelerlawgroup.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,hjrbgeius-gh48tu-hrh9utn.org,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,bigholedrive-1316850103.cos.ap-singapore.myqcloud.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,quickerrefundllc.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,soccer.sincsports.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,rt3-t.customer.goindigo.in,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,curvecheckfitness.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,tsfacasrusticas.com.br,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,g-03656.shop,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,newsbreakmail.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,vx26vjcoxc63f129bbbd601.opticair.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,my.dealersocket.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,lapizzadicalvonatale.it,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,hhu.kca.stwpbogor.ac.id,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,usx.uie.iscomsoft.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,victimesscodeslakeser.thisboysareveryhappy.shop,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,dcoluccioandsorns.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,bomberosbarcelonaquindio.org,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,baculiform-sambar.herokuapp.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,azimute.historia.ufrj.br,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,shacc.kr,,Block,Low,c2 domain,c2 domain,,,,,FALSE
+DomainName,hondes.getenjoyment.net,,Block,Low,c2 domain,c2 domain,,,,,FALSE
+DomainName,rthaaaulic64185f434b885.opticair.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,mewing-chinchilla-e96.notion.site,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,hiyo.fr,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,jupb.edomcaa.online,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,shalomimoveissg.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,brscapim.com,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,metodoatalhomilionario.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,ehlseguros.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,dlucc.com,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,cleverwolf.in,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,tumcecm.decments-su.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,u21wxiiw.goldhaven.sa.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+FileSha256,"	22bb73e97b01be2e11d741f3f4852380b3dae91d9ac511f33de8877a9e7c0534",,Block,Low,Russian MalDoc,Russian MalDoc,,,,,FALSE
+DomainName,freebookkeeping.cf,,Block,Low,Phishing Domain,Russian MalDoc,,,,,FALSE
+FileSha256,d3057949c50dcc3e761a0262808ca6525cc93503c19debd045707d4a511a6faf,,Block,Low,Potential MalDoc,Potential MalDoc,,,,,FALSE
+DomainName,uvr.grl.hydropodes.sa.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,uoc2pqm2lz63f84f83b3f5a.decounet-io.ru,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,rxjapan.jp,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,moneycointv.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,nts.embluemail.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+FileSha256,DFE0DC3FBCBB04E82ABBBECDE9F4DED4378474F1C0EF0F09FE53AEC54B2531EB,,Block,Low,Phishing html,Phishing html,,,,,FALSE
+DomainName,bullgaming.dk,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,redjhonda.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,premoldadosmota.com.br,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,office-microsoft.kiruhura.go.ug,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,mzacur.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,xinhuawei.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,bamwinery.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,g4vunfptla641ea742bfdfd.nodbe.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,mikasatukasa.pt,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,danli.veroo.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,gelsystem.co.tz,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,slvrstan.my.id,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,amoako-boafo-1316850103.cos.ap-seoul.myqcloud.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,login.midukrecycling.co,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,yeniabiyeler.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,nasho.anoed.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,rezervasyonhatti.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,1belagro.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,1it.fit,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,4fly.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,aim-time.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,alanda-hotel.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,ardena.pro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,arlex.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,as-auto.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bbvoyage.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,blog.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bonita.pro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,brisbaneunitmanagement.com.au,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bugry.rent,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,gaz-snab.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bahsine226.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bestiris.com.ua,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,christianecrestani.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,crm.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,demo.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,fasadkrov.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,fighthouse.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,igryshka.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kgsn.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kug19.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,malli.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mama-mia.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,hohloma.pigasilc.beget.tech,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kniharnia.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,maxidom.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mealux.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mido.bntu.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,news.coin.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kanzler-style.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,coral.school,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,energyplus.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,atoir.info,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,chefshop.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bieffe-italy.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,do4aopt.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,garrett.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,efremov.market,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,fitnessfood.cafe,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,glifor-sornyaka.net,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,help.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bitrix24.donnarosa.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,casa.tiscali.it,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,sistemaexacto.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,edfyto.anoed.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,1rvd.41.fida-cameroon.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,ipfs.io,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,0du7.12.seymenkimyatemizlik.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,xinhuawei.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,genuinevision.ca,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,pub-2f278acfc41d42c0819903bab3948030.r2.dev,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,vb01.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,activelistening.ie,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,erasmusandsons.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
