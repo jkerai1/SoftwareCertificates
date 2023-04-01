@@ -7,7 +7,7 @@ DomainName,zrry.pics,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,0ffice365faxcenter.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,determined-golick.143-198-80-107.plesk.page,,Block,Low,Parked Domain,Potentially parked Domain,,,,,FALSE
 IpAddress,165.232.124.88,,Block ,Low,Malicious Digital Ocean IP,Malicious Digital Ocean IP,,,,,FALSE
-DomainName,mail4.shservidores25.com.br,,Block ,Low,Malicious Webpage,Malicious Domain,,,,,FALSE
+DomainName,shservidores25.com.br,,Block ,Low,Malicious Webpage,Malicious Domain,,,,,FALSE
 FileSha256,c664767a3bbc112903ab6c76410f25e076a9911fb44cdfeb34e6da91dd3e7929,,Block,Low,Malicious File from Discord,Malicious File from Discord,,,,,FALSE
 DomainName,transfer.sh/0tUIJu/Updater.zip ,,Block,Low,powerRAT delivery,PowerRAT delivery URL,,,,,FALSE
 DomainName,instagwordp.ru,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
@@ -19,7 +19,7 @@ DomainName,lespritjardin.be,,Block,Low,Potentially malicious Domain,Potentially 
 DomainName,sliack.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 DomainName,recp.mkt81.net,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 DomainName,"
-isngvosqnv63c6b44119a28.fmrsolu.ru",,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+fmrsolu.ru",,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 FileSha256,9976625B5A3035DC68E878AD5AC3682CCB74EF2007C501C8023291548E11301A,,Block,Low,Cucky Hash,Cucky Hash,,,,,FALSE
 FileSha256,C60F778641942B7B0C00F3214211B137B683E8296ABB1905D2557BFB245BF775,,Block,Low,Cstealer Loader,Cstealer loader,,,,,FALSE
 FileSha256,E3181EE97D3FFD31C22C2C303C6E75D0196912083D0C21536E5833EE7D108736,,Block,Low,Packed Cstealer,Cstealer loader,,,,,FALSE
@@ -36,7 +36,7 @@ DomainName,anydleslk-download.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALS
 DomainName,zoomvideo-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
 DomainName,zoom-video-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
 DomainName,istaller-zoom.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
-DomainName,noteepad.hasankahrimanoglu.com.tr,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,hasankahrimanoglu.com.tr,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
 FileSha256,4a55c833abf08ecfe4fb3a7f40d34ae5aec5850bc2d79f977c8ee5e8a6f450d4,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
 DomainName,forwardtrokd.click,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 DomainName,phenotypebest.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
@@ -60,10 +60,10 @@ FileSha256,dd3730841bb62b131a08cb37fbd8e1e541fb9cab6baf6c378e84d1c77e858e3a,,Blo
 FileSha256,e4584bb5db986d9f64297863cd5a7c4062aeeb7e4775dbda4d93d760406165a8,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
 FileSha256,e01264912f6b5d3f3cd84261b4b19408c317e06f83292d6f2ca87ebfb0b71fdc,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
 FileSha256,d0c428a9f32f9fa987ec74f50217d09e821d79435215eceab272dd45438c5a44,,Block,Low,Potentially malicious python malware,Potentially malicious python malware,,,,,FALSE
-DomainName,tours.pvphoto.co,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,pvphoto.co,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,"
-jqtlwoptwp63c679df7e4ab.rihann.ru",,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
-DomainName,mrsharriscamillelatrice.ziflow.io,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+rihann.ru",,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,ziflow.io,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,flamcoggrenadec.gq,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 FileSha256,6e2069758228e8d69f8c0a82a88ca7433a0a71076c9b1cb0d4646ba8236edf23,,Block,Low,NOBELIUM ,NOBELIUM ,,,,,FALSE
 FileSha256,24caf54e7c3fe308444093f7ac64d6d520c8f44ea4251e09e24931bdb72f5548,,Block,Low,NOBELIUM ,NOBELIUM ,,,,,FALSE
@@ -109,14 +109,6 @@ FileSha256,ad6dc3aa9ad06e69164fc5691cc802541225d4d424be2827d23d04021c67207a,,Blo
 FileSha256,578b2fb9c2bd0e84e8b281f31e822549e6ea506689fd4033e429aa040e2a3d83,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
 FileSha256,e742f489d2cd2971358580b2f67b01ac290e9ea0c690608d2cd553c51ed398cc,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
 FileSha256,0b8b27387cfee9c9c46064858bb2beab6553b7505a8fe0c468b08dd217d9c0ca,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
-DomainName,blp.whydreamdesign.com,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,bosslevelgamer.com,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,rlaxxtv.com,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,blog.ceterus.se,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,hubzter.com,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,thewire.in,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,zavodzastanovanje.hr,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
-DomainName,albrechtpartners.com,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
 FileSha256,a3368501e8923f3c7a697da2742e305711e5e52dbe329fb31623a24e1b246bd8,,Block,Low,Malware,Malware,,,,,FALSE
 DomainName,o365987656898087.xyz,,Block,Low,DEV-0928 domain,DEV-0928 domain,,,,,FALSE
 FileSha256,b565a7b25dc4227872fe972ceee9ff8fce91eb10b373ebc9401f4f32348244ef ,,Block,Low,hardbit,Hardbit,,,,,FALSE
@@ -124,7 +116,7 @@ FileSha256,fafbe16c5646bf1776dd3ef62ba905b9b2cb0ee51043859a2f3cdda7dfe20d4c,,Blo
 FileSha256,422e0e4e01c826c8a9f31cb3a3b37ba29fb4b4b8c4841e16194258435056d8a3,,Block,Low,hardbit,Hardbit,,,,,FALSE
 FileSha256,a0138b24593483f50ae7656985b6d6cfe77f7676ba374026199ad49ad26f2992,,Block,Low,hardbit,Hardbit,,,,,FALSE
 FileSha256,cb239d641cfa610b1eaf0ecd0f48c42dd147f547b888e4505297c4e9521d8afe,,Block,Low,hardbit,Hardbit,,,,,FALSE
-DomainName,links.next-retail.mkt4934.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,next-retail.mkt4934.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,netorgft6272555-my.sharepoint.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,helthbrotthersg.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,ehonlionetodo.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
@@ -223,12 +215,10 @@ DomainName,fuckchina.govnb.com,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,fuckeryoumm.nmb.bet,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,microsafes.no-ip.org,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,kr.942m.com,,Block,Low,Plugx,Plugx,,,,,FALSE
-DomainName,services.darkhero.org,,Block,Low,Plugx,Plugx,,,,,FALSE
-DomainName,wps.daj8.me,,Block,Low,Plugx,Plugx,,,,,FALSE
-DomainName,wpsup.daj8.me,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,daj8.me,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,92al.com,,Block,Low,Plugx,Plugx,,,,,FALSE
-DomainName,tank.hja63.com,,Block,Low,Plugx,Plugx,,,,,FALSE
-DomainName,services.darkhero.org,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,hja63.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,darkhero.org,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,efvsx.gq,,Block,Low,LokiBot,Lokibot,,,,,FALSE
 FileSha256,f72eb1f5581cc460e1cac912aac998e023b52b7bd365d888e59293cec63742ac,,Block,Low,SoulSeek,Soulseek,,,,,FALSE
 FileSha256,6fb60d4b3ebbf856d489a943e52c5f36085a1c985e767b179bfce0fcb1cfcf75 ,,Block,Low,Nicotine+,Nicotine+,,,,,FALSE
@@ -259,18 +249,18 @@ DomainName,anydesk-o.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
 DomainName,quickbooks-q.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
 DomainName,icol.boulevate.pics,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,suite.targetx.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,ct8hs.canksru.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,canksru.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,meleklertv.com.tr,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,ums.koreanair.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName, quanticasrl.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,stmservice.crm,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 FileSha256,ef08d26008bf5429b577a06136ac7b15caf71ea51acebbcaab8cedc451acd375,,Block,Low,Malicious File ,Malicious File,,,,,FALSE
 DomainName,fctin410-5928ert.monster,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,sptr.eomail6.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,s6eq.44.poia.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,imxhbf6r.rcazscmm.shahrarman.ir,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,eomail6.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,poia.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,shahrarman.ir,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,0jt3eel1on63fbe18f23c8e.fileondun.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,"dqb6q.canksru.ru
+DomainName,"canksru.ru
 
  ",,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName, thegelerlawgroup.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
@@ -278,12 +268,11 @@ DomainName,hjrbgeius-gh48tu-hrh9utn.org,,Block,Low,Phishing Domain,Phishing doma
 DomainName,bigholedrive-1316850103.cos.ap-singapore.myqcloud.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,quickerrefundllc.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,soccer.sincsports.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,rt3-t.customer.goindigo.in,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,curvecheckfitness.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,tsfacasrusticas.com.br,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,g-03656.shop,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,newsbreakmail.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,vx26vjcoxc63f129bbbd601.opticair.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,opticair.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,my.dealersocket.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,lapizzadicalvonatale.it,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,hhu.kca.stwpbogor.ac.id,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
@@ -323,15 +312,15 @@ DomainName,office-microsoft.kiruhura.go.ug,,Block,Low,Phishing,Phishing,,,,,FALS
 DomainName,mzacur.com,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,xinhuawei.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,bamwinery.com,,Block,Low,Phishing,Phishing,,,,,FALSE
-DomainName,g4vunfptla641ea742bfdfd.nodbe.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,nodbe.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,mikasatukasa.pt,,Block,Low,Phishing,Phishing,,,,,FALSE
-DomainName,danli.veroo.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,veroo.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,gelsystem.co.tz,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,slvrstan.my.id,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,amoako-boafo-1316850103.cos.ap-seoul.myqcloud.com,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,login.midukrecycling.co,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,yeniabiyeler.com,,Block,Low,Phishing,Phishing,,,,,FALSE
-DomainName,nasho.anoed.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,anoed.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,rezervasyonhatti.com,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,1belagro.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,1it.fit,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
@@ -342,7 +331,7 @@ DomainName,ardena.pro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,arlex.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,as-auto.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,bbvoyage.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
-DomainName,blog.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,bonita.pro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,brisbaneunitmanagement.com.au,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,bugry.rent,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
@@ -390,3 +379,39 @@ DomainName,pub-2f278acfc41d42c0819903bab3948030.r2.dev,,Block,Low, IOC Hunt,IOC 
 DomainName,vb01.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,activelistening.ie,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,erasmusandsons.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,dunamistrd.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,qwepoi123098.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,zacharryblogs.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,blockfirfrofound.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,BliSkdAsfs.info,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,65565.danre.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,nlbdr.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,huy-koleyewon.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+FileSha256,1c9fb4786aa7c695011e96124f8e0b2427eac45fe111e9c4514ae6b8b4ded413,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+FileSha256,7986bbaee8940da11ce089383521ab420c443ab7b15ed42aed91fd31ce833896,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bayareadoorsllc.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,eggfoodafv.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,choicepromocoes.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,go2sophia.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mfashionz.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,inmobiliariaesmirna.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,enscoinvestcoyllc.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,adagro.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,shreeombuildcon.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,elliottkosloff.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,thegameofcrosses.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,eschoolbathinda.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,internet-cabletvdeals.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bitisolution.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,buyandpayhairmoodnowagainfriday.shop,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,centinium.ro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mkt.freee.co.jp,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,hsedermchyne.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,scitechnol.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,winterhero.buzz,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,6666deb5098e7874a2ddbca2b325cd37b4810ac1ed17b5908f81484d9f438e7f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,553af150837d027b5beefea467460e2660f6204b49bb07a127c6fc0a0f7e59c8,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,fd47043b55a8386c710be0783590cdb6d95f6bcc90e2cb9e43ab2453049cc5eb,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,881a98493eadcadb9d8cacf559f295e1820fa15e7500545e8721e76b277afb36,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,be6f4646ad9e844c16ff7109b64532be8daa2f88335d236d06de3eb2ef4a003f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,9b2327e87c2c4c60943c7ee61ee97ef12a0383ea42a4cb740f21bd88718a4dac,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
