@@ -151,7 +151,7 @@ DomainName,"	albrechtpartners.com",,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,roger.tv,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,picheakhar.ir,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,carfluidfinder.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-DomainName,blog.maltebauer.de,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,maltebauer.de,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,amelia.itec.ee,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,mytaboo.net,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,recfaces.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
@@ -209,8 +209,8 @@ DomainName,mail.kerrnadeau.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,hst1.keystonehealth.org,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,remotewebaccess.lclc.net,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,258d534b.usemac.pw,,Block,Low,Potentially malicious domain,Potentially malicious domain,,,,,FALSE
-DomainName,a2.fafafazq.com,,Block,Low,Plugx,Plugx,,,,,FALSE
-DomainName,fly.pad62.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,fafafazq.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,pad62.com,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,fuckchina.govnb.com,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,fuckeryoumm.nmb.bet,,Block,Low,Plugx,Plugx,,,,,FALSE
 DomainName,microsafes.no-ip.org,,Block,Low,Plugx,Plugx,,,,,FALSE
@@ -294,7 +294,7 @@ DomainName,metodoatalhomilionario.com.br,,Block,Low,Possibly Compromised Domain,
 DomainName,ehlseguros.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
 DomainName,dlucc.com,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
 DomainName,cleverwolf.in,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
-DomainName,tumcecm.decments-su.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,decments-su.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,u21wxiiw.goldhaven.sa.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 FileSha256,"	22bb73e97b01be2e11d741f3f4852380b3dae91d9ac511f33de8877a9e7c0534",,Block,Low,Russian MalDoc,Russian MalDoc,,,,,FALSE
 DomainName,freebookkeeping.cf,,Block,Low,Phishing Domain,Russian MalDoc,,,,,FALSE
@@ -384,7 +384,7 @@ DomainName,qwepoi123098.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,zacharryblogs.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,blockfirfrofound.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,BliSkdAsfs.info,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
-DomainName,65565.danre.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,danre.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,nlbdr.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,huy-koleyewon.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 FileSha256,1c9fb4786aa7c695011e96124f8e0b2427eac45fe111e9c4514ae6b8b4ded413,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
