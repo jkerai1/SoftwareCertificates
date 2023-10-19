@@ -1,7 +1,7 @@
 All Mostly Garbage
 
-OpenVPN may be expected 
+OpenVPN/Cisco/Fortigate may be expected 
 
-For what its worth I think the best 3 vpns are Mullvad, proton and windscribe  
+For what its worth I think the best 3 public vpns are Mullvad, proton and windscribe  
 
 Ngrok commonly abused my Threat Actors  
