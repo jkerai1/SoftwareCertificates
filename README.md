@@ -1,4 +1,9 @@
-# SoftwareCertificates
+[![GitHub stars](https://img.shields.io/github/stars/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/network)
+[![GitHub issues](https://img.shields.io/github/issues/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/pulls)
+
+SoftwareCertificates
 Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using MDE IOC/AppLocker/WDAC
 
 e.g. https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide
