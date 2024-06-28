@@ -21,7 +21,7 @@ Also See A good article on abusing code signing certs: https://axelarator.github
 
 Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉) 
 
-Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)
+Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)  
 # How to block a certificate in MDE?
 
 Download the Repo by hitting the "Code button" then "Download Zip"  
@@ -30,11 +30,11 @@ Unzip the downloaded folder
 
 ![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/95a7565b-cde4-4314-b4c1-3fc453b42b09)
 
-From Security.microsoft.com navigate to Settings > Endpoints > Indicators and then the "certifcate" tab on the right
+From Security.microsoft.com navigate to Settings > Endpoints > Indicators and then the "certificates" tab on the right of the sub menu  
 
 ![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/145b27f1-4770-46f2-b9ce-39c84b87bb20)
 
-Then hit "add Item"
+Then hit "add Item" next to the plus  
 
 Browse for the certificate from the unzipped folder. Fill in the title and description
 
