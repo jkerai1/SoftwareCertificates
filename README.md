@@ -22,6 +22,32 @@ Also See A good article on abusing code signing certs: https://axelarator.github
 Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉) 
 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)
+# How to block a certificate in MDE?
+
+Download the Repo by hitting the "Code button" then "Download Zip"  
+
+Unzip the downloaded folder  
+
+![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/95a7565b-cde4-4314-b4c1-3fc453b42b09)
+
+From Security.microsoft.com navigate to Settings > Endpoints > Indicators and then the "certifcate" tab on the right
+
+![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/145b27f1-4770-46f2-b9ce-39c84b87bb20)
+
+Then hit "add Item"
+
+Browse for the certificate from the unzipped folder. Fill in the title and description
+
+![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/24aa1f5f-123e-437c-a5ac-ca01ed61013f)
+
+Hit Next. The default mode is "allow" so change this to "block" and then hit next
+
+![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/74227ca9-da26-4bdb-a719-ac301303a022)
+
+Set the Scope of the block, then hit "next" and then "finish"
+
+Example:  
+![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/7352a94b-1bf5-41b0-b26c-6acd118a27c4)
 
 
 # To Export Software Certificates - Pull Requests Welcome:
