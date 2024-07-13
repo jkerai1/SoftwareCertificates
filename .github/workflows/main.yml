@@ -20,7 +20,7 @@ jobs:
         for file in $(find . -name "*.cer" ! -path "./${target_dir}/*"); do
           filename=$(basename "${file}")
           if [ ! -f "${target_dir}/${filename}" ]; then
-            mv "${file}" "${target_dir}/"
+            mv ${file} ${target_dir}/
           else
             echo "$filename already exists in $target_dir. Skipping..."
           fi
