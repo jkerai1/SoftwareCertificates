@@ -3,23 +3,21 @@
 [![GitHub issues](https://img.shields.io/github/issues/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/pulls)
 
-SoftwareCertificates
-Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using MDE IOC/AppLocker/WDAC
+# SoftwareCertificates  
 
-e.g. https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide
+Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using [MDE IOC](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide)/AppLocker/[WDAC](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview)
 
 
-Caution: Some Certs for unsanctioned applications may be used for other applications from the same org that may be legitimate e.g. BlueJeans Conferencing (sanctioned) BlueJeans Remote Desktop Control (unsanctioned)
+__Caution__: Some Certs for unsanctioned applications may be used for other applications from the same org that may be legitimate e.g. BlueJeans Conferencing (sanctioned) BlueJeans Remote Desktop Control (unsanctioned)
 
-please do not bulk upload these certs without checking, chances are it will break your environment!
+Please do not bulk upload these certs without checking, you may be impacting a user or service!
 
-For what its worth personally WDAC >>>> Applocker
+_For what its worth personally WDAC >>>> Applocker_
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getintopc.com/all-software-categories/
 
-Also [See A good article on abusing code signing certs](https://axelarator.github.io/posts/codesigningcerts/)  
+Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)
 
-Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉) 
 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)  
 # How to block a certificate in MDE?
@@ -108,6 +106,8 @@ Work In Progress
 
 # Testing Tampered Executables  
 [https://github.com/jkerai1/SoftwareCertificates/tree/main/Manipulated%20Exes%20For%20Testing  ](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)
+
+[See also A good article on abusing code signing certs](https://axelarator.github.io/posts/codesigningcerts/)  
 
 
 # See More From Me on IOC Blocking!  
