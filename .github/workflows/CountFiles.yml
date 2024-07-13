@@ -20,7 +20,7 @@ jobs:
     - name: Count files in folder
       id: count
       run: |
-        FOLDER="All Certs Uncategorized" 
+        FOLDER= '"All Certs Uncategorized"'
         FILE_COUNT=$(find $FOLDER -type f | wc -l)
         echo "file_count=$FILE_COUNT" >> $GITHUB_ENV
 
@@ -32,7 +32,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git checkout -b badges
+        cd ".github"
+        cd "workflows"
         git add file-count-badge.json
         git commit -m "Update file count badge"
         git push origin badges
