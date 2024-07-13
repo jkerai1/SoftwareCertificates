@@ -1,0 +1,38 @@
+name: Count Files
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  count-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Count files in folder
+      id: count
+      run: |
+        FOLDER="All Certs Uncategorized" 
+        FILE_COUNT=$(find $FOLDER -type f | wc -l)
+        echo "file_count=$FILE_COUNT" >> $GITHUB_ENV
+
+    - name: Create badge data
+      run: |
+        echo "{\"schemaVersion\": 1, \"label\": \"files\", \"message\": \"${{ env.file_count }}\", \"color\": \"blue\"}" > file-count-badge.json
+
+    - name: Commit badge data
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git checkout -b badges
+        git add file-count-badge.json
+        git commit -m "Update file count badge"
+        git push origin badges
