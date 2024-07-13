@@ -20,7 +20,7 @@ jobs:
     - name: Count files in folder
       id: count
       run: |
-        FOLDER= '"All Certs Uncategorized"'
+        FOLDER= 'All Certs Uncategorized'
         FILE_COUNT=$(find $FOLDER -type f | wc -l)
         echo "file_count=$FILE_COUNT" >> $GITHUB_ENV
 
