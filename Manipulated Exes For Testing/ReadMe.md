@@ -64,4 +64,5 @@ SignTool:
 https://stackoverflow.com/questions/31869552/how-to-install-signtool-exe-for-windows-10  
 
 
-Further Reading: https://axelarator.github.io/posts/codesigningcerts/  
+# Further Reading  
+[See A good article on abusing code signing certs](https://axelarator.github.io/posts/codesigningcerts/)  
