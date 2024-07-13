@@ -83,7 +83,7 @@ DeviceEvents
 | summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
 ```
 
-# How to Upload the Bulk IOC CSV to MDE
+# How to Upload the Bulk IOC CSV to MDE (Bulk-IOC-CSVs Folder)  
 
 As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
 
