@@ -1,0 +1,44 @@
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+DomainName,erefincr.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,bbnsolucoes.com.br,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,cloudflare-ipfs.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,veterinariamontilla.com.ar,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,sumampatraslados.com.ar,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,storjshare.io,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,e5fdfd8e485933768a0ca11e.workers.dev,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,carmiten.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,dueleidi.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,rullbullpullpushcndapp.web.app,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,kute.pw,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,fynn81.workers.dev,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,activeonlinemailuelmanagment.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,jimdosite.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,mouexii.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,copefood.xyz,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,dragnsurvey.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,reviewandbuy.net,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,dboxadobodtdr.online,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,9ecdd17f2bf9e0b6f8d26584.workers.dev,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,0auth-signrenewcredentials.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,docxservice110365.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,v0wfoeirtshwala-factuugroup.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,legance7.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,87650975.online,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,yesware.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,Stratwood-gs.ro,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,blackgreekwebsites.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,digidip.in ,,Block,,JSB IOC,Potentially malicious,,,,,FALSE
+DomainName,nvnire42.top,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,unolyst.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,coperationcompany.xyz,,Block,,JSB IOC,Potentially malicious,,,,,FALSE
+DomainName,investigacao.net,,Block,,JSB IOC,Potentially malicious,,,,,FALSE
+DomainName,linkedinrecruiterportal.com,,Block,,AITM,AITM,,,,,FALSE
+DomainName,88mansession.com,,Block,,AITM,AITM,,,,,FALSE
+DomainName,powerashlgingeleski.online,,Block,,AITM,AITM,,,,,FALSE
+DomainName,maknastudio.com,,Block,,AITM,AITM,,,,,FALSE
+DomainName,vvtxxrz.online,,Block,,Low Tier Phish,Low Tier Phish,,,,,FALSE
+DomainName,valleymoid.online,,Block,,AITM,AiTM,,,,,FALSE
+DomainName,varncouver.online,,Block,,AITM,AiTM,,,,,FALSE
+DomainName,wemerelectric.com,,Block,,AITM,AiTM,,,,,FALSE
+DomainName,cornpounding.us,,Block,,AITM,AiTM,,,,,FALSE
+DomainName,37dc8cc1.b8e1083cad63e5cf64afc41c.workers.dev,,Block,,AITM,AiTM,,,,,FALSE

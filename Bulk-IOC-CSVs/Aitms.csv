@@ -1,0 +1,61 @@
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+DomainName,erefincr.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,bbnsolucoes.com.br,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,cloudflare-ipfs.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,veterinariamontilla.com.ar,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,sumampatraslados.com.ar,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,storjshare.io,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,e5fdfd8e485933768a0ca11e.workers.dev,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,carmiten.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,dueleidi.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,rullbullpullpushcndapp.web.app,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,kute.pw,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,fynn81.workers.dev,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,activeonlinemailuelmanagment.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,jimdosite.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,mouexii.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,copefood.xyz,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,dragnsurvey.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,reviewandbuy.net,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,dboxadobodtdr.online,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,9ecdd17f2bf9e0b6f8d26584.workers.dev,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,0auth-signrenewcredentials.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,docxservice110365.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,v0wfoeirtshwala-factuugroup.com,,Block,,JSB IOC,Tool Written by jkerai1,,,,,FALSE
+DomainName,legance7.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,87650975.online,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,yesware.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,Stratwood-gs.ro,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,blackgreekwebsites.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,digidip.in ,,Block,,JSB IOC,Potentially malicious,,,,,FALSE
+DomainName,nvnire42.top,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,unolyst.com,,Block,,JSB IOC,AiTM,,,,,FALSE
+DomainName,coperationcompany.xyz,,Block,,JSB IOC,Potentially malicious,,,,,FALSE
+DomainName,investigacao.net,,Block,,JSB IOC,Potentially malicious,,,,,FALSE
+DomainName,saamodmoemixz.pages.dev,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,kurk293.workers.dev,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,asctrans-vn.com,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,gatronove.com,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,docu-storagethrod.ru,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,hur-fi.com,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,wielecfruit.eu,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,pub-fa781a976ec44c10bd5cccb948e8c9c8.r2.dev,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,k199x.com,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,minhaclaro.dtmmkt.com.br,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,lochemsegolfcluba.xyz,,Block,,Potentially Malicious,Potentially malicious,,,,,FALSE
+DomainName,ptv352.com,,Block,,Potentially Malicious,Potentially malicious,,,,,FALSE
+DomainName,textbin.net,,Block,,Site used to deliver payloads and/or exfiltrate Data,Site used to deliver payloads and/or exfiltrate Data,,,,,FALSE
+DomainName,cafueling.online,,Block,,Spoofing Sharepoint,Spoofing Sharepoint,,,,,FALSE
+DomainName,stericycle.online,,Block,,Spoofing Sharepoint,Spoofing Sharepoint,,,,,FALSE
+DomainName,herberaircraft.online,,Block,,Spoofing Sharepoint,Spoofing Sharepoint,,,,,FALSE
+DomainName,pintagon-7e5.workers.dev,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,yocpowertsinctech.eu,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,agmaybor.ru,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,vivacredpg.com.br,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,microsoftpowerpoint-microsoftfile.powerappsportals.com,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,microsoftofficepowerpoint.click,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,signaturerequested.fr-par-1.linodeobjects.com,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,fackev.com,,Block,,Potentially Malicious,Potentially malicious,,,,,FALSE
+DomainName,eatistr.com,,Block,,Potentially Malicious,Potentially malicious,,,,,FALSE
+DomainName,elnevadosolidario.org,,Block,,Aitm,Aitm,,,,,FALSE
+DomainName,susangarvey.org,,Block,,Aitm,Aitm,,,,,FALSE

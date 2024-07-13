@@ -1,0 +1,436 @@
+﻿IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+DomainName,jsecoin.com,,Block,Informational,Cryptocurrency Domain,In Browser miner,,,,,FALSE
+DomainName,knaben.eu,,Block,Low,peer to peer site,Torrent Metascrapper,,,,,FALSE
+DomainName,amsi.fail,,Block,Informational,Used for AMSI bypass,Site generates obfuscated code for AMSI Bypass,,,,,FALSE
+DomainName,wveeam.com,,Block,Informational,Veeam Phishing Site,malware downloader,,,,,FALSE
+DomainName,zrry.pics,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,0ffice365faxcenter.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,determined-golick.143-198-80-107.plesk.page,,Block,Low,Parked Domain,Potentially parked Domain,,,,,FALSE
+IpAddress,165.232.124.88,,Block ,Low,Malicious Digital Ocean IP,Malicious Digital Ocean IP,,,,,FALSE
+DomainName,shservidores25.com.br,,Block ,Low,Malicious Webpage,Malicious Domain,,,,,FALSE
+FileSha256,c664767a3bbc112903ab6c76410f25e076a9911fb44cdfeb34e6da91dd3e7929,,Block,Low,Malicious File from Discord,Malicious File from Discord,,,,,FALSE
+DomainName,transfer.sh/0tUIJu/Updater.zip ,,Block,Low,powerRAT delivery,PowerRAT delivery URL,,,,,FALSE
+DomainName,instagwordp.ru,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,cargozwoa.ru,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,quilers.ru,,Block,Low,"
+DEV-0867 ","Phishing domain from 
+DEV-0867 ",,,,,FALSE
+DomainName,lespritjardin.be,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,sliack.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,recp.mkt81.net,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,"
+fmrsolu.ru",,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+FileSha256,9976625B5A3035DC68E878AD5AC3682CCB74EF2007C501C8023291548E11301A,,Block,Low,Cucky Hash,Cucky Hash,,,,,FALSE
+FileSha256,C60F778641942B7B0C00F3214211B137B683E8296ABB1905D2557BFB245BF775,,Block,Low,Cstealer Loader,Cstealer loader,,,,,FALSE
+FileSha256,E3181EE97D3FFD31C22C2C303C6E75D0196912083D0C21536E5833EE7D108736,,Block,Low,Packed Cstealer,Cstealer loader,,,,,FALSE
+FileSha256,E45DF7418CA47A9A4C4803697F4B28C618469C6E5A5678213AB81DF9FCC9FD51,,Block,Low,Packed Cstealer,Cstealer loader,,,,,FALSE
+DomainName,zolotayavitrina.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,bluestacks-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,zoomus-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,install-zoom.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,install-anydeslk.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,install-anydesk.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,zoom-meetings-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,zoom-meetings-download.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,anydleslk-download.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,zoomvideo-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,zoom-video-install.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,istaller-zoom.com,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,hasankahrimanoglu.com.tr,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+FileSha256,4a55c833abf08ecfe4fb3a7f40d34ae5aec5850bc2d79f977c8ee5e8a6f450d4,,Block,Low,Rhadamanthys ,Rhadamanthys,,,,,FALSE
+DomainName,forwardtrokd.click,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,phenotypebest.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,bizkwote.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,moses-staff.se,,Block,Low,Moses domain,Moses domain,,,,,FALSE
+DomainName,abrahams-ax.nu,,Block,Low,Moses domain,Moses domain,,,,,FALSE
+DomainName,abrahams-ax.se,,Block,Low,Moses domain,Moses domain,,,,,FALSE
+DomainName,dlxfreight.bid,,Block,Low,Kronos Domain,Kronos Domain,,,,,FALSE
+DomainName,tomolina.top,,Block,Low,Kronos Domain,Kronos Domain,,,,,FALSE
+DomainName,dlxfreightmore.com,,Block,Low,Kronos Domain,Kronos Domain,,,,,FALSE
+DomainName,facturacionmexico.net,,Block,Low,Kronos Domain,Kronos Domain,,,,,FALSE
+FileSha256,0e4800e38fb6389f00d9e35f1a65669fecb3abf141a2680b9b8a5b5d255ae2cb,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,6e96dcad29a10b63f89f50040f107cdd29e850aa21c5831344976953f6704ff5,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,28ed2fded652523af511803dbea91b8cefc040ecec703b5308a6c849fb009888,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,32e1fafe04aa05424aaf18bca254760e87bba0114a16788a06768233ea9b70ab,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,129c9bdfe44b7b79abf04f56b35a65edd43d63b6294c7f05a3d140413533f385,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,421dbec55ce3481c5cecb630b4d216bacd07ce35a912abe57af81a3641414e83,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,4264a0c8d7acc6f10539285aa557a2d9d0298285b0a75a51a283241ccf11c94f,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,a7dfb6bb7ca1c8271570ddcf81bb921cf4f222e6e190e5f420d4e1eda0a0c1f2,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,dd3730841bb62b131a08cb37fbd8e1e541fb9cab6baf6c378e84d1c77e858e3a,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,e4584bb5db986d9f64297863cd5a7c4062aeeb7e4775dbda4d93d760406165a8,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,e01264912f6b5d3f3cd84261b4b19408c317e06f83292d6f2ca87ebfb0b71fdc,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
+FileSha256,d0c428a9f32f9fa987ec74f50217d09e821d79435215eceab272dd45438c5a44,,Block,Low,Potentially malicious python malware,Potentially malicious python malware,,,,,FALSE
+DomainName,pvphoto.co,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,"
+rihann.ru",,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,ziflow.io,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,flamcoggrenadec.gq,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+FileSha256,6e2069758228e8d69f8c0a82a88ca7433a0a71076c9b1cb0d4646ba8236edf23,,Block,Low,NOBELIUM ,NOBELIUM ,,,,,FALSE
+FileSha256,24caf54e7c3fe308444093f7ac64d6d520c8f44ea4251e09e24931bdb72f5548,,Block,Low,NOBELIUM ,NOBELIUM ,,,,,FALSE
+FileSha256,6866041f93141697ec166fe64e35b00c5fcd5d009500ecf58dd0b7e28764b167,,Block,Low,NOBELIUM ,NOBELIUM ,,,,,FALSE
+DomainName,jesuit-percolate.herokuapp.com,,Block,Low,Potentially Malicious Domain,Potentially Malicious Domain,,,,,FALSE
+IpAddress,179.60.147.152,,Block,Low,Bruteforcing IP,Bruteforcing IP,,,,,FALSE
+DomainName,psicologosgandia.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,bloxham.co.uk,,Block,Low,Potentially Malicious Domain,Potentially malicious Domain operating under stolen database,,,,,FALSE
+DomainName,thebloxhampartnership.co.uk,,Block,Low,Potentially Malicious Domain,Parked Domain being used to redirect to adult site,,,,,FALSE
+FileSha256,70445f15ea1feb9a65e9610e6471bda4356fae8d0baa726cc3c2f43612bfde67,,Block,Low,Utorrent hash,Utorrent hash,,,,,FALSE
+FileSha256,3d59dff3e743f83fc7e0541b2f19ab19ccc916b4719fe9abfbd410b815470f4d,,Block,Low,Malicious Email Attachment,Malicious Email Attachment,,,,,FALSE
+DomainName,spztec.link,,Block,Low,Malicious Domain,Malicious Domain,,,,,FALSE
+DomainName,revshells.com,,Block,Low,reverse  shell,Site allows quick deployment of reverse shells,,,,,FALSE
+DomainName,rtsafetech.com,,Block,Low,c2 domain,c2 domain,,,,,FALSE
+FileSha256,77d6f1914af6caf909fa2a246fcec05f500f79dd56e5d0d466d55924695c702d,,Block,Low,Stealc,Stealc,,,,,FALSE
+FileSha256,e5711e041c2dc4e78f1bc5808441863b7a777ecfbdace4943202224c7fec778f,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,eb7480822f32679a558f8ea2b0a09ba7531003ea4c2644d6e7804478add7bddc,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,df30d74ab6600c1532a14c53a7f08f1afd41ec63cf427a4b91b99c3c2524caba,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,7b6d71a2330ee5ab5b64ee9b6d01f0789e0e97696407c12ad7c60c4b6f1e70fa,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,6c743c890151d0719150246382b5e0158e8abc4a29dd4b2f049ce7d313b1a330,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,3496b6b45631550e0e27bf37da9e170bee3d0423365fb99e3f644a266c126c44,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,fdfad320b77c94d91123a7bb8f1efdf9f835b0c1fd093fa8ead23bfbc8ce04e2,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,a340ef5adb00a2bf1a0735600491ca98ac8045b57db892dedc27575a53b25056,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,186abb7d786ce7f21e4e23af2581d052b6787b5c99fdea4e740fed221433b277,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,2249b76a9326209a165cef9d04ad89582811842bcc2b22dd4aca7dd0663f5e52,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,c09936f39188511ae2a855ec5dcb74c0970f88249cc4402ce3e2672cff4144b3,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,32e214baf2ebb523692647a0a2cec76d3104a0f56b511c34f01a959bee0e4ce5,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,daf2b66a2a795c09a18efac97a9a2131a6b1fd4e46a1a9df1372089dba2c88f0,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,10f96f64659415e46c3f2f823bdb855aab42d0bfced811c9a3b72aea5f22d880,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,651fa2efb001fc59208ab90bd7a618884d50d6d5873a2a631d05ad84bec9f7e8,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,dfc579efc1a87c44f7f24de68f078d0c7ff4fbd2ebfd4819f8181d3c87c9d557,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,1a1c2a1b5fde3a33d831c47889afe3bb64cf1509082c310c72b9a659f9951d2c,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,56af6422d42d3f15ac583496ce44a506115c31226713a11907c044236accf4cb,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,6b8cb18a9249c74a7a13023959fa2c703caa6a43e2914152e8c18edf429486dd,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,4ed74a205fad15c843174d7d8b30ae60a181e79f31cc30ebc683072f187e4cdd,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,6333dc9f7a3de2c6ff7ba23b747687f873a634dfe017fba2cc47a38087bc0c9f,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,c9f989c41d951b7cf7de38c98495babf9740151b39e7fdf155b6dbe71f7bcaed,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,fbc936ab18ea79daf3f1e3a4b802891dfe4e060589f8f970636f461d29c14d76,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,e7e00e0f817fcb305f82aec2e60045fcdb1b334b2621c09133b6b81284002009,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,fbf2c439ef9f75ee7adcb9c94cff77b430637c070c2eac6fada4a437e96262e3,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,27505da467a55676d599fc54e101cecb22b3bd6febfa21ba5dab303122099a7e,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,ad6dc3aa9ad06e69164fc5691cc802541225d4d424be2827d23d04021c67207a,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,578b2fb9c2bd0e84e8b281f31e822549e6ea506689fd4033e429aa040e2a3d83,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,e742f489d2cd2971358580b2f67b01ac290e9ea0c690608d2cd553c51ed398cc,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,0b8b27387cfee9c9c46064858bb2beab6553b7505a8fe0c468b08dd217d9c0ca,,Block,Low,Mallox Loader,Mallox Loader,,,,,FALSE
+FileSha256,a3368501e8923f3c7a697da2742e305711e5e52dbe329fb31623a24e1b246bd8,,Block,Low,Malware,Malware,,,,,FALSE
+DomainName,o365987656898087.xyz,,Block,Low,DEV-0928 domain,DEV-0928 domain,,,,,FALSE
+FileSha256,b565a7b25dc4227872fe972ceee9ff8fce91eb10b373ebc9401f4f32348244ef ,,Block,Low,hardbit,Hardbit,,,,,FALSE
+FileSha256,fafbe16c5646bf1776dd3ef62ba905b9b2cb0ee51043859a2f3cdda7dfe20d4c,,Block,Low,hardbit,Hardbit,,,,,FALSE
+FileSha256,422e0e4e01c826c8a9f31cb3a3b37ba29fb4b4b8c4841e16194258435056d8a3,,Block,Low,hardbit,Hardbit,,,,,FALSE
+FileSha256,a0138b24593483f50ae7656985b6d6cfe77f7676ba374026199ad49ad26f2992,,Block,Low,hardbit,Hardbit,,,,,FALSE
+FileSha256,cb239d641cfa610b1eaf0ecd0f48c42dd147f547b888e4505297c4e9521d8afe,,Block,Low,hardbit,Hardbit,,,,,FALSE
+DomainName,next-retail.mkt4934.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,netorgft6272555-my.sharepoint.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,helthbrotthersg.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,ehonlionetodo.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,thefirstupd.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,myvigyan.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,tarcomputadoras.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,somosnutrisalud.cl,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,wi-protect.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,oiartzunirratia.eus,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+FileSha256,"	36ee7dff97f4789c5db6c8cfd894c3fa3ba2313648dd44eb99cd49bffd00e048",,Block,Low,AsyncRAT OneNote File ,AsyncRAT OneNote File ,,,,,FALSE
+FileSha256,"	63aa08feb545bb249a75fd3319fc911934fba3b8f31fac2bb2c3f44de1333bcb",,Block,Low,Dropped Batch File,Dropped Batch File,,,,,FALSE
+FileSha256,"	0c49b5030b910b09c8575a09800a1bd085bd4d16f7c0bed8062d0257b43a56ed",,Block,Low,IcedID OneNote File ,IcedID OneNote File ,,,,,FALSE
+FileSha256,"	fbad60002286599ca06d0ecb3624740efbf13ee5fda545341b3e0bf4d5348cfe",,Block,Low,IcedID DLL Payload,IcedID DLL Payload,,,,,FALSE
+FileSha256,"	b375e37ee678d8fa056e06cfeccbe1077d517365a46981a811adb637ba5c838c",,Block,Low,CobaltStrike DLL Payload,CobaltStrike DLL Payload,,,,,FALSE
+FileSha256,e93a79b0e10f59ee89f01f6ad827716234f61f37252cb8a86ad19a1d2a50d7e8,,Block,Low,Qakbot OneNote File (hta dropped),Qakbot OneNote File (hta dropped),,,,,FALSE
+FileSha256,"	f05d16207f093809a940d1caec7c6fd432319e248fc556c5ad2717b52be72a11",,Block,Low,Qakbot OneNote File (cmd dropped),Qakbot OneNote File (cmd dropped),,,,,FALSE
+FileSha256,f9a5106ac501e9dd700115310b20ed8aa0dbdaf854f556b44f04bba1ae28b783,,Block,Low,CMD file to download Qakbot,CMD file to download Qakbot,,,,,FALSE
+FileSha256,"	0ee181ce1138e076f9ccac1601ae5b8357d9c2d378b313dce3b363a04687e2f0",,Block,Low,Redline OneNote File ,Redline OneNote File ,,,,,FALSE
+FileSha256,"	e501319e9297fb68c79bdc32bada702d6f38f14ae3cd66e915be0aca98a83c82",,Block,Low,Dropped Hta File 1,Dropped Hta File 1,,,,,FALSE
+FileSha256,"	7b96da9c88b9ad7a56fdc220c0a68a196f8ce46e2247cd1c6cc26d6a4f12f870",,Block,Low,"	Dropped Hta File 1","	Dropped Hta File 1",,,,,FALSE
+FileSha256,5b2c5889d8004f48abd37cf66eec91153eaa3a84514ab4ffdf4ee99e456dbbf7,,Block,Low,Dropped Hta File 1,Dropped Hta File 1,,,,,FALSE
+FileSha256,"	97bfa0bd9f3b382280f67839c650a3d7be16aa31f124810f3a9b9559e34619c6",,Block,Low,Redline payload,Redline payload,,,,,FALSE
+DomainName,"	aderbuild.com.au",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,blp.whydreamdesign.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,bosslevelgamer.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,"	rlaxxtv.com",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,"	blog.ceterus.se",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,hubzter.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,thewire.in,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,zavodzastanovanje.hr,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,"	albrechtpartners.com",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,roger.tv,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,picheakhar.ir,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,carfluidfinder.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,maltebauer.de,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,amelia.itec.ee,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,mytaboo.net,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,recfaces.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,hlt.pl,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,akschap.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,israelwithstyle.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,jonathanbartz.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,jp.imonitorsoft.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,junk-bros.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,kakiosk.adsparkdev.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,kepw.org,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,kristinee.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,lakeside-fishandchips.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,5e762412e8cf8a22f16a384d9bde312d8ac2610804c422db90d226f1fb4197d7,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	e2d60a6a388bebd8409b694e5199b94151a572047c786e01dbb30cf272d073d4",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	d0c75e43928d7a5eee86490af5a133c8ad17b284b349fdddf3e2d3b35c401aa8",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	41f81b9246f97b1a60e3c348e7659eb7fa191d3d4fa4032c4b4f432fd9d9b187",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	54edfd67a2ccc452733625885e2a77ed0463665f6bd3ac11360395a0ad6e1606",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,171bfd481a2e6afd8d409856460e90e8022efe30e2afc799de5760aa5f812e9c,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	9eb3783d3c73197458dc4200b75ce91ae6fb78d773289e94adaecd96730f65d9",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	5a2eea2485038ad7f94601f235c46e37eec70716f907f648845c476f809ab51b",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	e05cf4398f7996fc96c2ded2544098730ae78666183eb98ed9a163e8f0eba018",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,"	fafb24d181a39a0a8ae4d2a3d16f2d68ed5c9a4dcaaab186e200f0682900f0df",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,5b6f4ba22efa0be45e97c57722ed1b9986742d35d7bb5a6730ff8b49fc626022,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,63bf85c27e048cf7f243177531b9f4b1a3cb679a41a6cc8964d6d195d869093e,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,df19635adf3ae95927f848832d9aa2058f33f6fc6899c7fe04445e4892b3d044,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,156bbb2650dabc0fbbe7a0a4f38b69db54fb2dfe59d93bbba21f09bca3bbb0d3,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,a287d24b.idiqol.pw,,Block,Low,Malicious domain,Malicious Domain,,,,,FALSE
+DomainName,1bf552bc.iherun.pw,,Block,Low,Malicious domain,Malicious Domain,,,,,FALSE
+DomainName,dqb6q5cudo63fb9da0e6659.pacificx.ru,,Block,Low,Malicious domain,Malicious Domain,,,,,FALSE
+DomainName,akh.com.qa,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,sergey-mavrodi.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,mruhkylwcirnw.com,,Block,Low,Potentially malicious Domain,Potentially Malicious Domain,,,,,FALSE
+FileSha256,855f411bd0667b650c4f2fd3c9fbb4fa9209cf40b0d655fa9304dcdd956e0808,,Block,Low,Nevada Ransomware,Nevada Ransomware,,,,,FALSE
+FileSha256,cb87ec5825659ec1919ac6ffdec4b88e4336c0be420c726ceab1917689fdd161,,Block,Low,Lokibot,Lokibot,,,,,FALSE
+DomainName,jonathanbartz.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,jp.imonitorsoft.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,kakiosk.adsparkdev.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,kristinee.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,kepw.org,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,lakeside-fishandchips.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,8ec37dac2beaa494dcefec62f0bf4ae30a6ce44b27a588169d8f0476bbc94115,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,da.kummara.org.au,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,remote.minervacorporate.com.au,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,e72e49dc1d95efabc2c12c46df373173f2e20dab715caf58b1be9ca41ec0e172,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,0e9071714a4af0be1f96cffc3b0e58520b827d9e58297cb0e02d97551eca3799,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,39280139735145ba6f0918b684ab664a3de7f93b1e3ebcdd071a5300486b8d20,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,41a0407371124bcad7cab56227078ccd635ba6e6b4374b973754af96b7f58119,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,02aa5b52137410de7cc26747f26e07b65c936d019ee2e1afae268a00e78a1f7f,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,2a07877cb53404888e1b6f81bb07a35bc804daa1439317bccde9c498a521644c,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,5d98d1193fcbb2479668a24697023829fc9dc1f7d31833c3c42b8380ef859ff1,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,mccurtain.smaartnet.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,gw.sterimaxinc.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,mail.kerrnadeau.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,hst1.keystonehealth.org,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,remotewebaccess.lclc.net,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,258d534b.usemac.pw,,Block,Low,Potentially malicious domain,Potentially malicious domain,,,,,FALSE
+DomainName,fafafazq.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,pad62.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,fuckchina.govnb.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,fuckeryoumm.nmb.bet,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,microsafes.no-ip.org,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,kr.942m.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,daj8.me,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,92al.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,hja63.com,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,darkhero.org,,Block,Low,Plugx,Plugx,,,,,FALSE
+DomainName,efvsx.gq,,Block,Low,LokiBot,Lokibot,,,,,FALSE
+FileSha256,f72eb1f5581cc460e1cac912aac998e023b52b7bd365d888e59293cec63742ac,,Block,Low,SoulSeek,Soulseek,,,,,FALSE
+FileSha256,6fb60d4b3ebbf856d489a943e52c5f36085a1c985e767b179bfce0fcb1cfcf75 ,,Block,Low,Nicotine+,Nicotine+,,,,,FALSE
+FileSha256,c8efce02bc41947169164386d5f5d6ae9ff2d7b4bfa781913e198432867d1b96,,Block,Low,agent tesla,agent tesla,,,,,FALSE
+FileSha256,9b742a890aff9c7a2b54b620fe5e1fcfa553648695d79c892564de09b850c92b,,Block,Low,LummaC2,LummaC2,,,,,FALSE
+FileSha256,277d7f450268aeb4e7fe942f70a9df63aa429d703e9400370f0621a438e918bf,,Block,Low,LummaC2,LummaC2,,,,,FALSE
+FileSha256,60247d4ddd08204818b60ade4bfc32d6c31756c574a5fe2cd521381385a0f868,,Block,Low,LummaC2,LummaC2,,,,,FALSE
+FileSha256,d932ee10f02ea5bb60ed867d9687a906f1b8472f01fc5543b06f9ab22059b264,,Block,Low,LummaC2,LummaC2,,,,,FALSE
+FileSha256,4b2b0d2d654fbbdcd68f4a6a453797c7c7172b8fed55e5a7576369ba9a8b6d2d,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,chatgpt-t.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,zoomvideor.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,spotify-uss.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,tableau-r.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,adobe-l.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+FileSha256,1b12f8cdb1fd0bc06b7f182a51f7c6e49133784ae691a6eec97b0df6c71acf38,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,uelcoskdi.ru,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,ujdhsndjfks.ru,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,isoridkf.ru,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,gameindikdowd.ru,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,jhgfdlkjhaoiu.su,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,reggy506.ru,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,reggy914.ru,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,openoffice-a.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,bitwarden-t.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,tableau-r.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,anydesk-r.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,anydesk-o.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,quickbooks-q.com,,Block,Low,BatLoader,BatLoader,,,,,FALSE
+DomainName,icol.boulevate.pics,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,suite.targetx.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,canksru.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,meleklertv.com.tr,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,ums.koreanair.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName, quanticasrl.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,stmservice.crm,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+FileSha256,ef08d26008bf5429b577a06136ac7b15caf71ea51acebbcaab8cedc451acd375,,Block,Low,Malicious File ,Malicious File,,,,,FALSE
+DomainName,fctin410-5928ert.monster,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,eomail6.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,poia.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,shahrarman.ir,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,0jt3eel1on63fbe18f23c8e.fileondun.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,"canksru.ru
+
+ ",,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName, thegelerlawgroup.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,hjrbgeius-gh48tu-hrh9utn.org,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,bigholedrive-1316850103.cos.ap-singapore.myqcloud.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,quickerrefundllc.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,soccer.sincsports.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,curvecheckfitness.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,tsfacasrusticas.com.br,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,g-03656.shop,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,newsbreakmail.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,opticair.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,my.dealersocket.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,lapizzadicalvonatale.it,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,hhu.kca.stwpbogor.ac.id,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,usx.uie.iscomsoft.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,victimesscodeslakeser.thisboysareveryhappy.shop,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,dcoluccioandsorns.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,bomberosbarcelonaquindio.org,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,baculiform-sambar.herokuapp.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,azimute.historia.ufrj.br,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,shacc.kr,,Block,Low,c2 domain,c2 domain,,,,,FALSE
+DomainName,hondes.getenjoyment.net,,Block,Low,c2 domain,c2 domain,,,,,FALSE
+DomainName,rthaaaulic64185f434b885.opticair.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,mewing-chinchilla-e96.notion.site,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,hiyo.fr,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,jupb.edomcaa.online,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,shalomimoveissg.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,brscapim.com,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,metodoatalhomilionario.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,ehlseguros.com.br,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,dlucc.com,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,cleverwolf.in,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
+DomainName,decments-su.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,u21wxiiw.goldhaven.sa.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+FileSha256,"	22bb73e97b01be2e11d741f3f4852380b3dae91d9ac511f33de8877a9e7c0534",,Block,Low,Russian MalDoc,Russian MalDoc,,,,,FALSE
+DomainName,freebookkeeping.cf,,Block,Low,Phishing Domain,Russian MalDoc,,,,,FALSE
+FileSha256,d3057949c50dcc3e761a0262808ca6525cc93503c19debd045707d4a511a6faf,,Block,Low,Potential MalDoc,Potential MalDoc,,,,,FALSE
+DomainName,uvr.grl.hydropodes.sa.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,uoc2pqm2lz63f84f83b3f5a.decounet-io.ru,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,rxjapan.jp,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,moneycointv.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+DomainName,nts.embluemail.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
+FileSha256,DFE0DC3FBCBB04E82ABBBECDE9F4DED4378474F1C0EF0F09FE53AEC54B2531EB,,Block,Low,Phishing html,Phishing html,,,,,FALSE
+DomainName,bullgaming.dk,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,redjhonda.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,premoldadosmota.com.br,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,office-microsoft.kiruhura.go.ug,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,mzacur.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,xinhuawei.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,bamwinery.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,nodbe.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,mikasatukasa.pt,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,veroo.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,gelsystem.co.tz,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,slvrstan.my.id,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,amoako-boafo-1316850103.cos.ap-seoul.myqcloud.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,login.midukrecycling.co,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,yeniabiyeler.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,anoed.ru,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,rezervasyonhatti.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,1belagro.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,1it.fit,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,4fly.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,aim-time.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,alanda-hotel.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,ardena.pro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,arlex.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,as-auto.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bbvoyage.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bonita.pro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,brisbaneunitmanagement.com.au,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bugry.rent,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,gaz-snab.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bahsine226.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bestiris.com.ua,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,christianecrestani.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,crm.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,demo.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,fasadkrov.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,fighthouse.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,igryshka.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kgsn.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kug19.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,malli.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mama-mia.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,hohloma.pigasilc.beget.tech,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kniharnia.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,maxidom.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mealux.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mido.bntu.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,news.coin.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,kanzler-style.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,coral.school,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,energyplus.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,atoir.info,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,chefshop.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bieffe-italy.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,do4aopt.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,garrett.kz,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,efremov.market,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,fitnessfood.cafe,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,glifor-sornyaka.net,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,help.super-puper.su,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bitrix24.donnarosa.by,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,casa.tiscali.it,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,sistemaexacto.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,edfyto.anoed.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,1rvd.41.fida-cameroon.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,ipfs.io,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,0du7.12.seymenkimyatemizlik.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,xinhuawei.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,genuinevision.ca,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,pub-2f278acfc41d42c0819903bab3948030.r2.dev,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,vb01.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,activelistening.ie,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,erasmusandsons.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,dunamistrd.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,qwepoi123098.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,zacharryblogs.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,blockfirfrofound.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,BliSkdAsfs.info,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,danre.co.za,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,nlbdr.ru,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,huy-koleyewon.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+FileSha256,1c9fb4786aa7c695011e96124f8e0b2427eac45fe111e9c4514ae6b8b4ded413,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+FileSha256,7986bbaee8940da11ce089383521ab420c443ab7b15ed42aed91fd31ce833896,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bayareadoorsllc.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,eggfoodafv.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,choicepromocoes.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,go2sophia.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mfashionz.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,inmobiliariaesmirna.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,enscoinvestcoyllc.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,adagro.com.br,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,shreeombuildcon.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,elliottkosloff.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,thegameofcrosses.org,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,eschoolbathinda.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,internet-cabletvdeals.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,bitisolution.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,buyandpayhairmoodnowagainfriday.shop,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,centinium.ro,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,mkt.freee.co.jp,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,hsedermchyne.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,scitechnol.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
+DomainName,winterhero.buzz,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,6666deb5098e7874a2ddbca2b325cd37b4810ac1ed17b5908f81484d9f438e7f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,553af150837d027b5beefea467460e2660f6204b49bb07a127c6fc0a0f7e59c8,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,fd47043b55a8386c710be0783590cdb6d95f6bcc90e2cb9e43ab2453049cc5eb,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,881a98493eadcadb9d8cacf559f295e1820fa15e7500545e8721e76b277afb36,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,be6f4646ad9e844c16ff7109b64532be8daa2f88335d236d06de3eb2ef4a003f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,9b2327e87c2c4c60943c7ee61ee97ef12a0383ea42a4cb740f21bd88718a4dac,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+DomainName,electronel.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,modificpsi.com,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,hyey6b.affectstraight.co.in,,Block,Low,Phishing,Phishing,,,,,FALSE
+DomainName,alockajilly.com,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,zoomersoidfor.com,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,choifejuce.lol,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,opiransiuera.com,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,erinindiaka.quest,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,opiransiuera.com,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,zoomersoidfor.com,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,considerf.info,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,antiflamez.bar,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,onlinecloud.cloud,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,guteyutu.com ,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,fazehotafa.com,,Block,Low,IceID,IceID,,,,,FALSE
+DomainName,lovlr.com,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
+DomainName,luckies.cc,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
+DomainName,lukeamiller.net,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
+DomainName,hjlinen.com,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
