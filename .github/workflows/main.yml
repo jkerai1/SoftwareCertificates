@@ -17,7 +17,7 @@ jobs:
       run: |
         cd "All Certs Uncategorized"
         for file in $(git diff --name-only HEAD^ HEAD | grep '.cer$'); do  
-          cp "$file" target_directory/
+          cp "$file" "All Certs Uncategorized"
         done
         
     - name: Commit changes
