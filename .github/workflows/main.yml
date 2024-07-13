@@ -15,8 +15,8 @@ jobs:
 
     - name: Copy files
       run: |
-        cd "All Certs Uncategorized"
-        target_dir="All Certs Uncategorized"
+        cd 'All Certs Uncategorized'
+        target_dir='All Certs Uncategorized'
         for file in $(find . -name "*.cer" ! -path "./${target_dir}/*"); do
           filename=$(basename "${file}")
           if [ ! -f "${target_dir}/${filename}" ]; then
