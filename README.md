@@ -75,6 +75,14 @@ Copy To File:
 Export as Cer:  
 ![image](https://user-images.githubusercontent.com/55988027/222768623-1c6c9523-19ff-4d0f-a7ce-623036ed77fa.png)  
 
+# Monitor Blocks in KQL
+```
+DeviceEvents
+| where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection")
+| join kind=leftouter DeviceFileCertificateInfo on SHA1
+| summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
+```
+
 # How to Upload the Bulk IOC CSV to MDE
 
 As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
