@@ -17,14 +17,14 @@ For what its worth personally WDAC >>>> Applocker
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getintopc.com/all-software-categories/
 
-Also See A good article on abusing code signing certs: https://axelarator.github.io/posts/codesigningcerts/  
+Also [See A good article on abusing code signing certs](https://axelarator.github.io/posts/codesigningcerts/)  
 
 Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉) 
 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)  
 # How to block a certificate in MDE?
 
-Download the Repo by hitting the "Code button" then "Download Zip"  
+Download the Repo by hitting the "Code button" then "[Download Zip](https://github.com/jkerai1/SoftwareCertificates/archive/refs/heads/main.zip)"  
 
 Unzip the downloaded folder  
 
