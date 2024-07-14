@@ -76,7 +76,7 @@ Export as Cer:
 # Monitor Blocks in KQL
 ```
 DeviceEvents
-| where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection")
+| where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection") or (AdditionalFields.ResponseCategory == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
 | summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
 ```
