@@ -73,12 +73,24 @@ Copy To File:
 Export as Cer:  
 ![image](https://user-images.githubusercontent.com/55988027/222768623-1c6c9523-19ff-4d0f-a7ce-623036ed77fa.png)  
 
-# Monitor Blocks in KQL
+# KQL
+
+Monitor Blocks:
 ```
 DeviceEvents
 | where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection") or (AdditionalFields.ResponseCategory == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
 | summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
+```
+Find Unusual Software Certificates:
+
+```
+DeviceFileCertificateInfo
+| join DeviceFileEvents on SHA1
+| summarize count() by Signer //FileName,SHA1,Issuer,FileOriginUrl
+| where Signer !contains "Google "
+| where not(Signer has_any("Intel","fortinet",".net","citrix","microsoft","HP Inc.","adobe","cisco","Avaya Inc.","Zoom Video Communications, Inc.","zscaler","oracle","Advanced Micro Devices Inc.","Lenovo","Hewlett-Packard Company","RingCentral","Symantec","Mozilla","Dell Technologies Inc.")) 
+| order by count_
 ```
 
 # How to Upload the Bulk IOC CSV to MDE (Bulk-IOC-CSVs Folder)  
