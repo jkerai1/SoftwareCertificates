@@ -1,0 +1,57 @@
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+Url,https://chromewebstore.google.com/detail/keep-awake/bijihlabcfdnabacffofojgmehjdielb,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake-display-system/apmicgkbejflkgeljipcebaoeigmangd,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake/inglelmldhjcljkomheneakjkpadclhf,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/caffeine-keep-awake/fcblbbbkcneogddmpmfdchnocbpfpmag,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-computer-awake-for-a/imbpigcghoambmanjekibelfjemnnool,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/stay-awake-keep-your-comp/gofaiibillcpfajafckhoieamembimje,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/awake-keep-awake-while-do/ihmfnheijlagmmbbegepekbebgpkolop,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake-your-system-or/kioaomfokioenhackhaijiebhhkkcojo,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/be-awake/ibaenepllmhoekeccnhdbnijijebehdl,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake/hjfibcmcdbeaikcglnhineogdmpdchio,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/turn-off-sleep-mode/pinjghhmldainbadpbmjhcjefadbmnck,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/pinger/egbpibkpckbdhmacfijknpecliodfcgh,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/stay-awake-keep-your-com/odapbgbfegnaghhclilijaamaoellbla,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/caffeine-keep-awake/kfcdcelkpooajbeepngjepgklbagnkng,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/awake-keep-awake-while-/dflagdhilgplmbbhibadcnmbodcndaba,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/keep-awake/gfhofbkjceebgbcepiodhhmelbdbdcfh,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/keep-awake-display-sys/jjaendaehnalocdginbjmaclfjgidlla,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/keep-computer-awake-for-/gpcjnpdkecmdghbnkeifiljlknkjhjke,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/windscribe-free-proxy-a/dkkdbpgldnmkhcliffjpajcfdjkcaddf,,Block,,Windscribe VPN,Windscribe VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/nordvpn-the-fastest-vpn/fphgeikpdcdcheaochkhldmnfblfogla,,Block,,Nord VPN,Nord VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/nordvpn-vpn-proxy-for-pri/fjoaledfpmneenckfbpdfhkmimnjocfa,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/free-vpn-1vpn/akcocjjpkmlniicdeemdceeajlmoabhg,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/browser-vpn-free-and-unli/kdjilbflpbbilgehjjppohpfplnapkbp,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/easygood-free-unlimited-v/pgpcjennihmkbbpifnjkdpkagpaggfaa,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/windscribe-free-proxy-and/hnmpcagpplmpfojmgmnngilcnanddlhb,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/surfshark-vpn-extension/ailoabdmgclmfmhdagmlohpjlbpffblp,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/vpn-surf-fast-vpn-by-unbl/nhnfcgpcbfclhfafjlooihdfghaeinfc,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/vpn-ultimate-best-vpn-by/epeigjgefhajkiiallmfblgglmdbhfab,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/urban-vpn-proxy/eppiocemhmnlbhjplcgkofciiegomcon,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/urban-vpn-proxy/nimlmejbmnecnaghgmbahmbaddhjbecg,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/safum-vpn-free-vpn/ncpkioolbefiinmbflfglojjabaipegg,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/brisk-vpn/dcilfpgbkejhaalpickaaelfddepgkgg,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/swift-vpn/bpedpmldadicceehkgfgpmnijinnegog,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/motion-vpn-free-vpn/djfhdcpegfikhnpnkdecmfejdeggchal,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/free-vpn-1vpn/dalhgafbhpdolibignjckpmiejgfddjp,,Block,,Browser VPN,Browser VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/keep-awake-screen-only/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/keep-awake-screen-only/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/search/?q=vpn,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/ivyvpn/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/vpn-sumo/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/connectedover/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/push-vpn-unlimited-wifi-proxy/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/stay-secure-with-cyberghost/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/vpn-az-proxy/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/browsec/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/vpn-free-betternet-proxy,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/avast-secureline-vpn/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/hide-my-ip-vpn/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/bright-vpn/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/trust-zone-vpn-proxy/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/free-vpn-proxy/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/cloudvpn-vpn-service/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/vpn-grab-a-proxy-free/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/vpn-master/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/hotvpn-private-vpn-and-proxy/,,Block,,VPN,VPN,,,,,FALSE
+Url,https://addons.mozilla.org/en-US/firefox/addon/secureproxy/,,Block,,VPN,VPN,,,,,FALSE
