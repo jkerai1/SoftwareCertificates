@@ -18,12 +18,6 @@
 .kickass.to
 .kickasstorrents.com
 .limetorrents.cc
-.sway.com
-.sway.office.com
-.sway.officeppe.com
-.sway-cdn.com
-.eus-www.sway-cdn.com
-.sway.cloud.microsoft
 .millenvpn.jp
 .mullvad.net
 .openvpn.net
