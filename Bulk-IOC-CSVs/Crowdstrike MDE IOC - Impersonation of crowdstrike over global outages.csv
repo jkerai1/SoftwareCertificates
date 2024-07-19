@@ -31,4 +31,4 @@ DomainName,microsoftcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phi
 DomainName,crowdfalcon-immed-update.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstuck.org,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,failstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,winsstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,
+DomainName,winsstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
