@@ -5,6 +5,16 @@ Note there is a limit of 500 IOCs at a time in bulk
 
 Crowdstrike being looked at via https://urlscan.io/search/#crowdstrike*  
 
+# KQL 
+
+```
+let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = CrowdstrikeIOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where RemoteUrl in (DomainList )
+```
+
 
 # See More From Me on IOC Blocking!  
 
