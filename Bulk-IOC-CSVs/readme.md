@@ -1,7 +1,9 @@
 Bulk CSV lists for blocking IOCs that aren't certificates  
 
 
-Note there is a limit of 500 IOCs at a time in bulk  
+Note there is a limit of 500 IOCs at a time in bulk 
+
+Crowdstrike being looked at via https://urlscan.io/search/#crowdstrike*  
 
 
 # See More From Me on IOC Blocking!  
