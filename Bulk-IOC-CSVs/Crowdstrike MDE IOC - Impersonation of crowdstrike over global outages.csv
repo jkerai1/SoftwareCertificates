@@ -7,7 +7,6 @@ DomainName,crowdstrikefix.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,
 DomainName,crowdstrikedown.site,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstriketoken.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrike-helpdesk.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikebluescreen.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrike-bsod.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikedown.site,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrike0day.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
