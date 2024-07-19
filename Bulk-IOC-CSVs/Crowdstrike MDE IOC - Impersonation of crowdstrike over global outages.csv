@@ -27,3 +27,5 @@ DomainName,crowdfalcon-immed-update.com,,Block,Low,Crowdstrike phish,Crowdstrike
 DomainName,crowdstuck.org,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,failstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,winsstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+Url,https://hoo.be/crowdstrike,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikeoutage.info,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
