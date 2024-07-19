@@ -18,7 +18,6 @@ DomainName,crowdstrike-cloudtrail-storage-bb-126d5e.s3.us-west-1.amazonaws.com,,
 DomainName,crowdstrikeoutage.info,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,clownstrike.co.uk,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikebsod.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,whatiscrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,clownstrike.co,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,microsoftcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdfalcon-immed-update.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
