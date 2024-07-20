@@ -57,3 +57,4 @@ DomainName,crowdstrike.es,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FAL
 DomainName,crowdstrokeme.me,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstriek.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikexdr.in,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,portalintranetgrupobbva.com,,Block,Low,Crowdstrike phish,Crowdstrike phish https://app.any.run/tasks/5f515fa2-bd4a-49fd-88e2-d35b0c8376d9,,,,,FALSE
