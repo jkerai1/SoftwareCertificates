@@ -1,0 +1,37 @@
+Crowdstrike campaign queries
+
+let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = CrowdstrikeIOCs
+| project IndicatorValue;
+let emailurl = EmailUrlInfo
+| where UrlDomain in~(DomainList)
+| join EmailEvents on NetworkMessageId;
+let emailevent = EmailEvents
+| where SenderFromDomain in~(DomainList);
+DeviceNetworkEvents
+| where RemoteUrl in~(DomainList )
+| union emailurl, emailevent
+
+DeviceFileEvents
+| where TimeGenerated > ago(4d)
+| join kind=leftouter DeviceFileCertificateInfo on SHA1
+//| where AdditionalFields.FileType == "PortableExecutable" or FileName endswith ".exe"
+| where SignerHash == "ccf8c4f9272d8a25477af13ec71f97a3027c7319" or FileName contains "Crowdstrike" or SHA256 == "96dec6e07229201a02f538310815c695cf6147c548ff1c6a0def2fe38f3dcbc8" or SHA256 =="4491901eff338ab52c85a77a3fbd3ce80fda738046ee3b7da7be468da5b331a3" //or Signer == "VideoLAN"
+
+DeviceNetworkEvents
+| where RemoteUrl contains "storjshare.io" or RemoteIP == "213.5.130.58"
+
+DeviceProcessEvents
+| where ProcessCommandLine has_any("avastui.exe","avgui.exe","bdservicehost.exe","nswscsvc.exe","sophoshealth.exe","Carroll Carroll","champion.pif",@"564784\L","locatedflattrendsoperating")
+
+AuditLogs
+| where OperationName =~ "Read BitLocker key"
+| extend userPrincipalName = tolower(tostring(parse_json(tostring(InitiatedBy.user)).userPrincipalName))
+| extend KeyId = tostring(TargetResources[0].displayName)
+| extend ipAddress = tostring(parse_json(tostring(InitiatedBy.user)).ipAddress)
+| summarize keys_accessed=dcount(KeyId), ipAddresses=make_set(ipAddress) by userPrincipalName
+| join kind=leftouter (SecurityAlert
+| where ProviderName =~ "IPC"
+| extend userPrincipalName = tolower(tostring(parse_json(ExtendedProperties).["User Account"]))
+| summarize user_alert_count=count() by userPrincipalName) on userPrincipalName
+| project userPrincipalName, keys_accessed, ipAddresses, user_alert_count
