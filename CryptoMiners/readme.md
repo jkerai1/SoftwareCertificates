@@ -36,3 +36,6 @@ DeviceProcessEvents //Ref https://www.kqlsearch.com/query/Cryptominingdetection&
     "zdHJhdHVtK3VkcDovL"
 )
 ```
+# See Also 
+
+[BlockList](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv) 
