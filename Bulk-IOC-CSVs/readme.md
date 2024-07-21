@@ -47,10 +47,9 @@ let emailevent = EmailEvents
 DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | union emailurl, emailevent
-
 ```
 
-# BlocklistProjec
+# BlocklistProject
 ```
 let PornBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt"] with (format="csv", ignoreFirstRecord=False)
 | where type !startswith "#"
