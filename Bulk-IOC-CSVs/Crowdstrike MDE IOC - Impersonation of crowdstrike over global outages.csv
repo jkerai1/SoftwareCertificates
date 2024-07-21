@@ -78,3 +78,4 @@ DomainName,crowdstrikerecovery.com,,Block,Low,Crowdstrike phish,Crowdstrike phis
 DomainName,crowdstrikeclassaction.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrike.phpartners.org,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikeodayl.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrike.com.vc,Block,Low,Crowdstrike phish,Crowdstrike phish https://www.linkedin.com/posts/perception-point_handala-crowdstrike-malware-ugcPost-7220731109242773504-9f8b,,,,,FALSE
