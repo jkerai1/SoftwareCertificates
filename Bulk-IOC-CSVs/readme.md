@@ -50,6 +50,43 @@ DeviceNetworkEvents
 
 ```
 
+# BlocklistProjec
+```
+let PornBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt"] with (format="csv", ignoreFirstRecord=False)
+| where type !startswith "#"
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
+| project RemoteUrl;
+let PiracyBlockListProj=  externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt"] with (format="csv", ignoreFirstRecord=False)
+| where type !startswith "#"
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
+| project RemoteUrl;
+let TorrentBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/torrent.txt"] with (format="csv", ignoreFirstRecord=False)
+| where type !startswith "#"
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
+| project RemoteUrl;
+let PhishingBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt"] with (format="csv", ignoreFirstRecord=False)
+| where type !startswith "#"
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
+| project RemoteUrl;
+let MalwareBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt"] with (format="csv", ignoreFirstRecord=False)
+| where type !startswith "#"
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
+| project RemoteUrl;
+let RansomBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt"] with (format="csv", ignoreFirstRecord=False)
+| where type !startswith "#"
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
+| project RemoteUrl;
+DeviceNetworkEvents
+| where RemoteUrl in~(PornBlockListProj) or RemoteUrl in~(TorrentBlockListProj) or RemoteUrl in~(PiracyBlockListProj) or RemoteUrl in~(PhishingBlockListProj) or  RemoteUrl in~(MalwareBlockListProj) or RemoteUrl in~(RansomBlockListProj)
+| summarize count() by RemoteUrl
+```
+
 # See More From Me on IOC Blocking!  
 
 [Block TypoSquats in MDE/TABL](https://github.com/jkerai1/DNSTwistToMDEIOC) [![GitHub stars](https://img.shields.io/github/stars/jkerai1/DNSTwistToMDEIOC?style=flat-square)](https://github.com/jkerai1/DNSTwistToMDEIOC/stargazers)  
