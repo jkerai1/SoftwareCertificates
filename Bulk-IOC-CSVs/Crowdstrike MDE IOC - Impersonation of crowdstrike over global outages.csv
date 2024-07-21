@@ -82,3 +82,4 @@ DomainName,crowdstrike.com.vc,,Block,Low,Crowdstrike phish,Crowdstrike phish htt
 Url, https://link.storjshare.io/s/jvktcsf5ypoak5aucs6fn6noqgga/crowdstrikesupport/update.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 FileSha256,96dec6e07229201a02f538310815c695cf6147c548ff1c6a0def2fe38f3dcbc8,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 FileSha256, 4491901eff338ab52c85a77a3fbd3ce80fda738046ee3b7da7be468da5b331a3,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+FileSha256, c44506fe6e1ede5a104008755abf5b6ace51f1a84ad656a2dccc7f2c39c0eca2,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
