@@ -1,6 +1,19 @@
 
 # KQL
 
+# Coins
+```
+let Crypto = externaldata(type:string)[@"https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/ZeroDot1_CoinBlockerLists/master/domains.list"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = Crypto
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type, " ", ""),"0.0.0.0","")
+| project RemoteUrl;
+DeviceNetworkEvents
+| where RemoteUrl in~(DomainList)
+| summarize count() by RemoteUrl
+```
+
+# Process
 ```
 DeviceProcessEvents //Ref https://www.kqlsearch.com/query/Cryptominingdetection&clyfkv3xv00yimc0qpggs4hdy
 | where ProcessCommandLine has_any ( 
