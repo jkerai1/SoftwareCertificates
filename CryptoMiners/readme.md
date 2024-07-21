@@ -1,12 +1,12 @@
 
 # KQL
 
-# Coins
+# Coin Domains
 ```
 let Crypto = externaldata(type:string)[@"https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/ZeroDot1_CoinBlockerLists/master/domains.list"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = Crypto
 | where type !startswith "#"
-| extend RemoteUrl = replace_string(replace_string(type, " ", ""),"0.0.0.0","")
+| extend RemoteUrl = replace_string(type, " ", "")
 | project RemoteUrl;
 DeviceNetworkEvents
 | where RemoteUrl in~(DomainList)
