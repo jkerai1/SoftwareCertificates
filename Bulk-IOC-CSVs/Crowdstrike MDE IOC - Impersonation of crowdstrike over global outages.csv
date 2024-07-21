@@ -93,3 +93,11 @@ FileSha256, be074196291ccf74b3c4c8bd292f92da99ec37a25dc8af651bd0ba3f0d020349,,Bl
 FileSha256, b6f321a48812dc922b26953020c9a60949ec429a921033cfaf1e9f7d088ee628,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 FileSha256,b1fcb0339b9ef4860bb1ed1e5ba0e148321be64696af64f3b1643d1311028cb3,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 FileSha256, b6f321a48812dc922b26953020c9a60949ec429a921033cfaf1e9f7d088ee628,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrike.cam,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikewindowsoutage.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikeoops.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikeoopsie.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,isitcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrike-bluescreen.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikesupporte.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikesupdate.us,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
