@@ -75,3 +75,4 @@ DomainName,crowdstrikeold.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,
 DomainName,isitcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,supportecrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikerecovery.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikeclassaction.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
