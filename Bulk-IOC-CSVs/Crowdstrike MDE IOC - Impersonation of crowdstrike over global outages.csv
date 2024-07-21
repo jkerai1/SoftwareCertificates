@@ -76,3 +76,5 @@ DomainName,isitcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,
 DomainName,supportecrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikerecovery.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikeclassaction.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrike.phpartners.org,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikeodayl.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
