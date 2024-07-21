@@ -30,6 +30,7 @@ let DomainList = CrowdstrikeIOCs
 | project IndicatorValue;
 EmailUrlInfo
 | where UrlDomain in~(DomainList)
+| join EmailEvents on NetworkMessageId
 ```
 
 # See More From Me on IOC Blocking!  
