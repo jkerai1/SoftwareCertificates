@@ -106,3 +106,4 @@ FileSha256, 5677150817cadc64cee5423b3261ab890a2483c9b4fd32efd4b2645e8e875e73,,Bl
 FileSha256, 02fed6f9de34a28ae4d3c693fbf28f9ca15551ca77780c7c56d5421a4cb07860,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,explainplaysettwisting.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,thelifeandmore.com,,Warn,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,1qgxtxd2n.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
