@@ -14,7 +14,7 @@ DeviceNetworkEvents
 | union emailurl, emailevent
 
 
-//TypoSquatted Crowdstrike Domains
+//TypoSquatted Crowdstrike Domains ref: https://github.com/jkerai1/DNSTwistToMDEIOC/
 let CrowdstrikeTypoSquats = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/DNSTwistToMDEIOC/main/Examples/DNSTwist%20crowdstrike.com07-22-24.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = CrowdstrikeTypoSquats
 | project IndicatorValue;
@@ -28,7 +28,7 @@ DeviceNetworkEvents
 | union emailurl, emailevent
 
 
-//Hananda Malware from storjshare which was certificate swapped with VideoLans Certificate
+//Hananda Malware from storjshare which was certificate swapped with VideoLans Certificate ref: https://www.virustotal.com/gui/file/96dec6e07229201a02f538310815c695cf6147c548ff1c6a0def2fe38f3dcbc8
 DeviceFileEvents
 | where TimeGenerated > ago(4d)
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
@@ -36,8 +36,10 @@ DeviceFileEvents
 | where SignerHash == "ccf8c4f9272d8a25477af13ec71f97a3027c7319" or FileName contains "Crowdstrike" or SHA256 == "96dec6e07229201a02f538310815c695cf6147c548ff1c6a0def2fe38f3dcbc8" or SHA256 =="4491901eff338ab52c85a77a3fbd3ce80fda738046ee3b7da7be468da5b331a3" //or Signer == "VideoLAN"
 
 DeviceNetworkEvents
-| where RemoteUrl contains "storjshare.io" or RemoteIP == "213.5.130.58"
+| where RemoteUrl contains "storjshare.io" or RemoteIP == "213.5.130.58" //where malware came from + the C2 IP
+//Ref: https://urlscan.io/result/0e292e05-a04d-47f6-9bdb-71a76b22fa01/
 
+//Hanada malware Looks for other AV/EDR installed and creates files in temp directory.
 DeviceProcessEvents
 | where ProcessCommandLine has_any("avastui.exe","avgui.exe","bdservicehost.exe","nswscsvc.exe","sophoshealth.exe","Carroll Carroll","champion.pif",@"564784\L","locatedflattrendsoperating")
 
