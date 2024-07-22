@@ -1,158 +1,158 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
-DomainName,crowdstrikebluescreen.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike0day.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike-bsod.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikedoomsday.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefix.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike-helpdesk.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefix.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crashstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstriketoken.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fix-crowdstrike-bsod.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,xamzgjedu.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikebsodfix.blob.core.windows.net,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikecommuication.app,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fix-crowdstrike-apocalypse.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,supportportal-crowdstrike-com.translate.goog,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike-cloudtrail-storage-bb-126d5e.s3.us-west-1.amazonaws.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeoutage.info,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,clownstrike.co.uk,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikebsod.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,clownstrike.co,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,microsoftcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdfalcon-immed-update.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstuck.org,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,failstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,winsstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-Url,https://hoo.be/crowdstrike,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeoutage.info,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.buzz,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.life,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.live,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,okta-crowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeconnectingevents.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.technology,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.live,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeconnects.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikedown.site,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeevents.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeeventshub.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeoptimizer.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeeventsplus.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefix.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeredbird.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikestore.com.br,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikewhisper.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fix-crowdstrike-apocalypse.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fix-crowdstrike-bsod.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,whatiscrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike-falcon.online,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikereport.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefix.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,mightywind.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeoutage.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikerecovery1.blob.core.windows.net,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.woccpa.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.es,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrokeme.me,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstriek.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikexdr.in,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,portalintranetgrupobbva.com,,Block,Low,Crowdstrike phish,Crowdstrike phish https://app.any.run/tasks/5f515fa2-bd4a-49fd-88e2-d35b0c8376d9,,,,,FALSE
-DomainName,conflictstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,failstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,strikefaststudio.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikedown.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,iscrowdstrikedown.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fuckcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fuckingcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeupdate.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeglitch.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikelawsuit.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikebug.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike-out.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefixer.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeold.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,isitcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,supportecrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikerecovery.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeclassaction.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.phpartners.org,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeodayl.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.com.vc,,Block,Low,Crowdstrike phish,Crowdstrike phish https://www.linkedin.com/posts/perception-point_handala-crowdstrike-malware-ugcPost-7220731109242773504-9f8b,,,,,FALSE
-Url, https://link.storjshare.io/s/jvktcsf5ypoak5aucs6fn6noqgga/crowdstrikesupport/update.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256,96dec6e07229201a02f538310815c695cf6147c548ff1c6a0def2fe38f3dcbc8,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 4491901eff338ab52c85a77a3fbd3ce80fda738046ee3b7da7be468da5b331a3,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, c44506fe6e1ede5a104008755abf5b6ace51f1a84ad656a2dccc7f2c39c0eca2,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-Url, https://link.storjshare.io/s/jwyite7mez2ilyvm2esxw2jq3apq/crowdstrikeisrael/update.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 5ae3838d77c2102766538f783d0a4b4205e7d2cdba4e0ad2ab332dc8ab32fea9,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 931308cfe733376e19d6cd2401e27f8b2945cec0b9c696aebe7029ea76d45bf6,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 52019f47f96ca868fa4e747c3b99cba1b7aa57317bf8ebf9fcbf09aa576fe006,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, d6d5ff8e9dc6d2b195a6715280c2f1ba471048a7ce68d256040672b801fda0ea,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 48a3398bbbf24ecd64c27cb2a31e69a6b60e9a69f33fe191bcf5fddbabd9e184,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, be074196291ccf74b3c4c8bd292f92da99ec37a25dc8af651bd0ba3f0d020349,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, b6f321a48812dc922b26953020c9a60949ec429a921033cfaf1e9f7d088ee628,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256,b1fcb0339b9ef4860bb1ed1e5ba0e148321be64696af64f3b1643d1311028cb3,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, b6f321a48812dc922b26953020c9a60949ec429a921033cfaf1e9f7d088ee628,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.cam,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikewindowsoutage.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeoops.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeoopsie.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,isitcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike-bluescreen.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikesupporte.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikesupdate.us,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,zb1pr.app.link,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 5677150817cadc64cee5423b3261ab890a2483c9b4fd32efd4b2645e8e875e73,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-FileSha256, 02fed6f9de34a28ae4d3c693fbf28f9ca15551ca77780c7c56d5421a4cb07860,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,explainplaysettwisting.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,thelifeandmore.com,,Warn,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,1qgxtxd2n.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstroke.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,wpcfalconinstall.blob.core.windows.net,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-Url,https://136.0.77.2/s/jvktcsf5ypoak5aucs6fn6noqgga/crowdstrikesupport/update.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.orora.group,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrife.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikecure.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikebenefits.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeswag.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstruck.shop,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,commscopedocs.z13.web.core.windows.net,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,iscrowdstrikestilldown.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstruck.us,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstruck.me,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,howtofixcrowdstrikeissue.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,fix-crowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefix.in,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,iscrowdstrikefixed.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,clownstrike-2024.printify.me,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,clownstrike.gg,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike24hoursofspa.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.develop.net,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.gcs-web.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikes.ws,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,recoverycrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.gcs-web.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,wild.pccc.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.one,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdshart.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikesettlement.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikezerotrust.ws,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikes.ws,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.ru,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikezerotrust.ws,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.s4io.live,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,Crowdstrikehealthcare.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike2.xyz,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,Crowdstrike.ee,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowds.trikefix.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,lab-crowdstrike-manage.stashaway.co,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.us.mcas-df-gov.us,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikebackup.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstroke.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeyou.xyz,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrike.wiki,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,supportcrowdstrike.lol,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikeplatform.info,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikemdr.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstrikefix.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
-DomainName,crowdstriker.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikebluescreen.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike0day.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-bsod.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikedoomsday.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefix.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-helpdesk.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefix.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crashstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstriketoken.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fix-crowdstrike-bsod.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,xamzgjedu.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikebsodfix.blob.core.windows.net,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikecommuication.app,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fix-crowdstrike-apocalypse.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,supportportal-crowdstrike-com.translate.goog,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-cloudtrail-storage-bb-126d5e.s3.us-west-1.amazonaws.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeoutage.info,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,clownstrike.co.uk,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikebsod.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,clownstrike.co,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,microsoftcrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdfalcon-immed-update.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstuck.org,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,failstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,winsstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+Url,https://hoo.be/crowdstrike,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeoutage.info,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.buzz,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.life,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.live,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,okta-crowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeconnectingevents.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.technology,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.live,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeconnects.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikedown.site,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeevents.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeeventshub.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeoptimizer.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeeventsplus.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefix.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeredbird.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikestore.com.br,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikewhisper.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fix-crowdstrike-apocalypse.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fix-crowdstrike-bsod.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,whatiscrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-falcon.online,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikereport.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefix.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,mightywind.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeoutage.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikerecovery1.blob.core.windows.net,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.woccpa.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.es,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrokeme.me,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstriek.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikexdr.in,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,portalintranetgrupobbva.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious https://app.any.run/tasks/5f515fa2-bd4a-49fd-88e2-d35b0c8376d9,,,,,FALSE
+DomainName,conflictstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,failstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,strikefaststudio.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikedown.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,iscrowdstrikedown.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fuckcrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fuckingcrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeupdate.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeglitch.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikelawsuit.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikebug.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-out.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefixer.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeold.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,isitcrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,supportecrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikerecovery.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeclassaction.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.phpartners.org,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeodayl.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.com.vc,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious https://www.linkedin.com/posts/perception-point_handala-crowdstrike-malware-ugcPost-7220731109242773504-9f8b,,,,,FALSE
+Url, https://link.storjshare.io/s/jvktcsf5ypoak5aucs6fn6noqgga/crowdstrikesupport/update.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256,96dec6e07229201a02f538310815c695cf6147c548ff1c6a0def2fe38f3dcbc8,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 4491901eff338ab52c85a77a3fbd3ce80fda738046ee3b7da7be468da5b331a3,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, c44506fe6e1ede5a104008755abf5b6ace51f1a84ad656a2dccc7f2c39c0eca2,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+Url, https://link.storjshare.io/s/jwyite7mez2ilyvm2esxw2jq3apq/crowdstrikeisrael/update.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 5ae3838d77c2102766538f783d0a4b4205e7d2cdba4e0ad2ab332dc8ab32fea9,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 931308cfe733376e19d6cd2401e27f8b2945cec0b9c696aebe7029ea76d45bf6,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 52019f47f96ca868fa4e747c3b99cba1b7aa57317bf8ebf9fcbf09aa576fe006,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, d6d5ff8e9dc6d2b195a6715280c2f1ba471048a7ce68d256040672b801fda0ea,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 48a3398bbbf24ecd64c27cb2a31e69a6b60e9a69f33fe191bcf5fddbabd9e184,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, be074196291ccf74b3c4c8bd292f92da99ec37a25dc8af651bd0ba3f0d020349,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, b6f321a48812dc922b26953020c9a60949ec429a921033cfaf1e9f7d088ee628,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256,b1fcb0339b9ef4860bb1ed1e5ba0e148321be64696af64f3b1643d1311028cb3,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, b6f321a48812dc922b26953020c9a60949ec429a921033cfaf1e9f7d088ee628,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.cam,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikewindowsoutage.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeoops.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeoopsie.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,isitcrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-bluescreen.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikesupporte.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikesupdate.us,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,zb1pr.app.link,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 5677150817cadc64cee5423b3261ab890a2483c9b4fd32efd4b2645e8e875e73,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 02fed6f9de34a28ae4d3c693fbf28f9ca15551ca77780c7c56d5421a4cb07860,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,explainplaysettwisting.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,thelifeandmore.com,,Warn,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,1qgxtxd2n.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstroke.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,wpcfalconinstall.blob.core.windows.net,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+Url,https://136.0.77.2/s/jvktcsf5ypoak5aucs6fn6noqgga/crowdstrikesupport/update.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.orora.group,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrife.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikecure.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikebenefits.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeswag.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstruck.shop,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,commscopedocs.z13.web.core.windows.net,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,iscrowdstrikestilldown.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstruck.us,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstruck.me,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,howtofixcrowdstrikeissue.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,fix-crowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefix.in,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,iscrowdstrikefixed.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,clownstrike-2024.printify.me,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,clownstrike.gg,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike24hoursofspa.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.develop.net,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.gcs-web.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikes.ws,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,recoverycrowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.gcs-web.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,wild.pccc.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.one,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdshart.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikesettlement.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikezerotrust.ws,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikes.ws,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.ru,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikezerotrust.ws,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.s4io.live,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,Crowdstrikehealthcare.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike2.xyz,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,Crowdstrike.ee,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowds.trikefix.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,lab-crowdstrike-manage.stashaway.co,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.us.mcas-df-gov.us,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikebackup.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstroke.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeyou.xyz,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.wiki,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,supportcrowdstrike.lol,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikeplatform.info,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikemdr.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikefix.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstriker.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
