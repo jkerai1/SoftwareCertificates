@@ -39,6 +39,9 @@ DeviceNetworkEvents
 | where RemoteUrl contains "storjshare.io" or RemoteIP == "213.5.130.58" //where malware came from + the C2 IP
 //Ref: https://urlscan.io/result/0e292e05-a04d-47f6-9bdb-71a76b22fa01/
 
+CommonSecurityLog
+| where DestinationIP == "213.5.130.58"
+
 //Hanada malware Looks for other AV/EDR installed and creates files in temp directory.
 DeviceProcessEvents
 | where ProcessCommandLine has_any("avastui.exe","avgui.exe","bdservicehost.exe","nswscsvc.exe","sophoshealth.exe","Carroll Carroll","champion.pif",@"564784\L","locatedflattrendsoperating")
