@@ -1,5 +1,6 @@
 Crowdstrike campaign queries
 
+//Phishing Related Domains
 let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = CrowdstrikeIOCs
 | project IndicatorValue;
@@ -12,6 +13,7 @@ DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | union emailurl, emailevent
 
+//Hananda Malware from storjshare which was certificate swapped with VideoLans Certificate
 DeviceFileEvents
 | where TimeGenerated > ago(4d)
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
@@ -24,6 +26,8 @@ DeviceNetworkEvents
 DeviceProcessEvents
 | where ProcessCommandLine has_any("avastui.exe","avgui.exe","bdservicehost.exe","nswscsvc.exe","sophoshealth.exe","Carroll Carroll","champion.pif",@"564784\L","locatedflattrendsoperating")
 
+
+//Monitor Bitlocker key retrieval operations as part of recovery from crowdstrike fix
 AuditLogs
 | where OperationName =~ "Read BitLocker key"
 | extend userPrincipalName = tolower(tostring(parse_json(tostring(InitiatedBy.user)).userPrincipalName))
