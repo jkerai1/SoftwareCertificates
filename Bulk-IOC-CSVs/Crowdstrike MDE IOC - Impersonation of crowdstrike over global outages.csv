@@ -152,3 +152,4 @@ DomainName,crowdstroke.zip,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FA
 DomainName,crowdstrikeyou.xyz,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrike.wiki,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,supportcrowdstrike.lol,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,crowdstrikeplatform.info,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
