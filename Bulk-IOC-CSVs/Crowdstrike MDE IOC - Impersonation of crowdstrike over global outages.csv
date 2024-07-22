@@ -101,3 +101,8 @@ DomainName,isitcrowdstrike.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,
 DomainName,crowdstrike-bluescreen.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikesupporte.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
 DomainName,crowdstrikesupdate.us,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,zb1pr.app.link,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+FileSha256, 5677150817cadc64cee5423b3261ab890a2483c9b4fd32efd4b2645e8e875e73,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+FileSha256, 02fed6f9de34a28ae4d3c693fbf28f9ca15551ca77780c7c56d5421a4cb07860,,BlockAndRemediate,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,explainplaysettwisting.com,,Block,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
+DomainName,thelifeandmore.com,,Warn,Low,Crowdstrike phish,Crowdstrike phish,,,,,FALSE
