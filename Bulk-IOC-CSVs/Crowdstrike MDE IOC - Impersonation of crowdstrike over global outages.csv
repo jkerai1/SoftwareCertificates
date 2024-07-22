@@ -156,4 +156,4 @@ DomainName,crowdstrikeplatform.info,,Block,Low,crowdstrike phish / lookalike /po
 DomainName,crowdstrikemdr.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,crowdstrikefix.zip,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,crowdstriker.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
-DomainName,emails-verification.com,,Block,Low,phish,,,,,FALSE
+DomainName,emails-verification.com,,Block,Low,phish,phish,,,,,FALSE
