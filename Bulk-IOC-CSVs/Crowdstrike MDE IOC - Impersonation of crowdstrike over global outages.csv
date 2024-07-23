@@ -162,3 +162,11 @@ FileSha256, 5eaf0f1c1d23f4372e24eb15ee969552c416a38dbc45e4f2b4af283e3bfb8721,,Bl
 FileSha256, 4ad9845e691dd415420e0c253ba452772495c0b971f48294b54631e79a22644a,,BlockAndRemediate,Low,crowdstrike phish / lookalike /potentially malicious,https://www.crowdstrike.com/blog/fake-recovery-manual-used-to-deliver-unidentified-stealer/,,,,,FALSE
 Url,http://172.104.160.126:8099/payload2.txt,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 Url,http://172.104.160.126:5000/Uploadss,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdszrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,cowdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crwdstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrikke.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike-staging.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowstrike.org,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,bsodsm8rLIxamzgjedu.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crashstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
