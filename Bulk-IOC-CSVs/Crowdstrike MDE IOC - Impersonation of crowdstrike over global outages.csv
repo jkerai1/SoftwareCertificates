@@ -156,3 +156,4 @@ DomainName,crowstrike.org,,Block,Low,crowdstrike phish / lookalike /potentially 
 DomainName,bsodsm8rLIxamzgjedu.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,crashstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,crowdstrike.technology,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+FileSha256, 21653e267a6c7e4f10064ad2489dba54e04612cc7ce4043b8c8dcaf8b39210d6,,BlockAndRemediate,Low,crowdstrike malware,https://www.crowdstrike.com/blog/threat-actor-distributes-python-based-information-stealer/,,,,,FALSE
