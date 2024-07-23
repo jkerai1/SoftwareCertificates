@@ -170,3 +170,5 @@ DomainName,crowdstrike-staging.com,,Block,Low,crowdstrike phish / lookalike /pot
 DomainName,crowstrike.org,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,bsodsm8rLIxamzgjedu.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,crashstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,crowdstrike.technology,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,lab-crowdstrike-manage.stashaway.co,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
