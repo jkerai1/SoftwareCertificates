@@ -3,6 +3,7 @@ Crowdstrike campaign queries
 //Phishing Related Domains
 let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = CrowdstrikeIOCs
+| where type <> "FileSha256"
 | project IndicatorValue;
 let emailurl = EmailUrlInfo
 | where UrlDomain in~(DomainList)
