@@ -157,3 +157,8 @@ DomainName,bsodsm8rLIxamzgjedu.com,,Block,Low,crowdstrike phish / lookalike /pot
 DomainName,crashstrike.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 DomainName,crowdstrike.technology,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
 FileSha256, 21653e267a6c7e4f10064ad2489dba54e04612cc7ce4043b8c8dcaf8b39210d6,,BlockAndRemediate,Low,crowdstrike malware,https://www.crowdstrike.com/blog/threat-actor-distributes-python-based-information-stealer/,,,,,FALSE
+DomainName,dshu.xyz,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,klaxusonline.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,xryptbx.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,web3versecoin.com,,Block,Low,crowdstrike phish / lookalike /potentially malicious,crowdstrike phish / lookalike /potentially malicious,,,,,FALSE
+DomainName,theprofits.online,,Block,Low,crowdstrike phish,crowdstrike phish https://www.crowdstrike.com/blog/threat-actor-distributes-python-based-information-stealer/,,,,,FALSE
