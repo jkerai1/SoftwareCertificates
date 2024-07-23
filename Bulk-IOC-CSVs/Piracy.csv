@@ -144,3 +144,7 @@ DomainName,beakerbrowser.com,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,scuttlebutt.nz,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,flood.js.org,,Block,Low,Piracy,Piracy,,,,,FALSE
 Url,https://www.reddit.com/r/seedboxes/,,Block,Low,Piracy,Piracy,,,,,FALSE
+DomainName,megacloud.tv,,Block,Low,Piracy,Piracy,,,,,FALSE
+DomainName,tvonline123.com,,Block,Low,Piracy,Piracy,,,,,FALSE
+DomainName,onionplay.city,,Block,Low,Piracy,Piracy,,,,,FALSE
+DomainName,arc018.to,,Block,Low,Piracy,Piracy,,,,,FALSE
