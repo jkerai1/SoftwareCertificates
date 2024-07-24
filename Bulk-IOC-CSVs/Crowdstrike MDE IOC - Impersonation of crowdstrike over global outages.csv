@@ -174,8 +174,8 @@ FileSha256,280900902df7bb855b27614884b369e5e0da25ff22efacc59443a4f593ccd145,,Blo
 FileSha256,e9cd2429628e3955dd1f7c714fbaa3e3b85bfaac0bc31582cf9c5232cb8fc352,,BlockAndRemediate,Low,crowdstrike malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
 FileSha256,a992cee863a4668698af92b4f9bd427d7a827996bf09824b89beff21578b49bd,,BlockAndRemediate,Low,crowdstrike malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
 DomainName,msoffice365updater.blob.core.windows.net,,Block,Low,Crowdstrike Malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
-DomainName,crowndstrikeoffice365.blob.core.windows.net,,Block,Low,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
-DomainName,updatemsoffice365.blob.core.windows.net,,Block,Low,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
-DomainName,systemwidowsupdate.blob.core.windows.net,,Block,Low,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
-DomainName,office365updatter.blob.core.windows.net,,Block,Low,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
-DomainName,msofflce365ypdate.blob.core.windows.net,,Block,Low,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
+DomainName,crowndstrikeoffice365.blob.core.windows.net,,Block,Low,Crowdstrike Malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
+DomainName,updatemsoffice365.blob.core.windows.net,,Block,Low,Crowdstrike Malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
+DomainName,systemwidowsupdate.blob.core.windows.net,,Block,Low,Crowdstrike Malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
+DomainName,office365updatter.blob.core.windows.net,,Block,Low,Crowdstrike Malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
+DomainName,msofflce365ypdate.blob.core.windows.net,,Block,Low,Crowdstrike Malware,https://www.linkedin.com/posts/mathanrajtk_crowdstrike-activity-7221924820517629952-1IfE,,,,,FALSE
