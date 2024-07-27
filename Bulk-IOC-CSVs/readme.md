@@ -53,31 +53,25 @@ DeviceNetworkEvents
 ```
 let PornBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt"] with (format="csv", ignoreFirstRecord=False)
 | where type !startswith "#"
-| where type !startswith "#"
 | extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
 | project RemoteUrl;
 let PiracyBlockListProj=  externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt"] with (format="csv", ignoreFirstRecord=False)
-| where type !startswith "#"
 | where type !startswith "#"
 | extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
 | project RemoteUrl;
 let TorrentBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/torrent.txt"] with (format="csv", ignoreFirstRecord=False)
 | where type !startswith "#"
-| where type !startswith "#"
 | extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
 | project RemoteUrl;
 let PhishingBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt"] with (format="csv", ignoreFirstRecord=False)
-| where type !startswith "#"
 | where type !startswith "#"
 | extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
 | project RemoteUrl;
 let MalwareBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt"] with (format="csv", ignoreFirstRecord=False)
 | where type !startswith "#"
-| where type !startswith "#"
 | extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
 | project RemoteUrl;
 let RansomBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt"] with (format="csv", ignoreFirstRecord=False)
-| where type !startswith "#"
 | where type !startswith "#"
 | extend RemoteUrl = replace_string(replace_string(type,"0.0.0.0", "")," ","")
 | project RemoteUrl;
