@@ -12,8 +12,6 @@ __Caution__: Some Certs for unsanctioned applications may be used for other appl
 
 Please do not bulk upload these certs without checking, you may be impacting a user or service!
 
-_For what its worth personally WDAC >>>> Applocker_
-
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getintopc.com/all-software-categories/
 
 Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)
@@ -28,7 +26,7 @@ Unzip the downloaded folder
 
 ![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/95a7565b-cde4-4314-b4c1-3fc453b42b09)
 
-From Security.microsoft.com navigate to Settings > Endpoints > Indicators and then the "certificates" tab on the right of the sub menu  
+From [Defender](https://security.microsoft.com) navigate to Settings > Endpoints > Indicators and then the "certificates" tab on the right of the sub menu  
 
 ![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/145b27f1-4770-46f2-b9ce-39c84b87bb20)
 
