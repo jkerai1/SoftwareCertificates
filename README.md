@@ -16,12 +16,13 @@ App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getint
 
 Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)  
 
-Note that Certificate thumbprints will rotate as certificates are rolled so this is NOT the best way to block applications  
-
 
 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)  
-# How to block a certificate in MDE?
+# How to block a certificate in MDE?  
+
+Note that Certificate thumbprints will rotate as certificates are rolled so this is NOT the best way to block applications  
+
 
 Download the Repo by hitting the "Code button" then "[Download Zip](https://github.com/jkerai1/SoftwareCertificates/archive/refs/heads/main.zip)"  
 
