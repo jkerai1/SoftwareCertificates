@@ -36,7 +36,7 @@ Browse for the certificate from the unzipped folder. Fill in the title and descr
 
 ![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/24aa1f5f-123e-437c-a5ac-ca01ed61013f)
 
-Hit Next. The default mode is "allow" so change this to "block" and then hit next
+Hit Next. The default mode is "allow" so change this to "Block And Remediate" and then hit next
 
 ![image](https://github.com/jkerai1/SoftwareCertificates/assets/55988027/74227ca9-da26-4bdb-a719-ac301303a022)
 
