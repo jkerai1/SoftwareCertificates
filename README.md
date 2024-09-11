@@ -14,7 +14,10 @@ Please do not bulk upload these certs without checking, you may be impacting a u
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getintopc.com/all-software-categories/
 
-Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)
+Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)  
+
+Note that Certificate thumbprints will rotate as certificates are rolled so this is NOT the best way to block applications  
+
 
 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)  
