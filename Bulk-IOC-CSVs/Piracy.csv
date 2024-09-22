@@ -182,10 +182,10 @@ DomainName,yiffer.xyz,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,bin.sx,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,leak.sx,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,nulled.to,,Block,Low,Piracy,Piracy,,,,,FALSE
-DomainName,tmpfiles.org,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,FALSE
-DomainName,tempfile.io,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,,FALSE
-DomainName,tmpsend.com,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,,FALSE
-DomainName,temp-file-share.web.app,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,,FALSE
-DomainName,temp.sh,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,,FALSE
-DomainName,filebin.net,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,,FALSE
-DomainName,uploadnow.io,,Block,Low,Piracy/Temp File Share,,Piracy/Temp File Share,,,,,,FALSE
+DomainName,tmpfiles.org,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,FALSE
+DomainName,tempfile.io,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,,FALSE
+DomainName,tmpsend.com,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,,FALSE
+DomainName,temp-file-share.web.app,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,,FALSE
+DomainName,temp.sh,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,,FALSE
+DomainName,filebin.net,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,,FALSE
+DomainName,uploadnow.io,,Block,Low,Piracy/Temp File Share,Piracy/Temp File Share,,,,,,FALSE
