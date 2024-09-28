@@ -189,3 +189,5 @@ DomainName,temp-file-share.web.app,,Block,Low,Piracy/Temp File Hosting/Malware D
 DomainName,temp.sh,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,filebin.net,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,uploadnow.io,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,123-movies.bet,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,123moviesreal.site,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
