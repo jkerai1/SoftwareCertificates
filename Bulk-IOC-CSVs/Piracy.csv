@@ -109,7 +109,7 @@ DomainName,monkrus.ws,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,infogalactic.com,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,transmissionbt.com,,Block,Low,Piracy,Piracy,,,,,FALSE
 Url,https://github.com/Mika-/torrent-control,,Block,Low,Piracy,Piracy,,,,,FALSE
-DomainName,wiztorrent.com/,,Block,Low,Piracy,Piracy,,,,,FALSE
+DomainName,wiztorrent.com,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,lookmovie2.to,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,onionplay.se,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,catflix.su,,Block,Low,Piracy,Piracy,,,,,FALSE
