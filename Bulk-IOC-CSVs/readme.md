@@ -5,6 +5,9 @@ Note there is a limit of 500 IOCs at a time in bulk
 
 Crowdstrike being looked at via https://urlscan.io/search/#crowdstrike*  
 
+Also Contained in here are some lists for disallowed applications to run
+
+
 # DeviceNetworkEvents Example KQL 
 
 ```
