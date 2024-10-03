@@ -1,0 +1,253 @@
+set application $serviceName1 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern 2file.net
+Set rulebase security rule rule$serviceName1 application $serviceName1 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern 2file.net
+Set rulebase security rule rule$serviceName1 application $serviceName1 from any to any action deny
+
+set application $serviceName2 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern 4chan.org
+Set rulebase security rule rule$serviceName1 application $serviceName2 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern 4chan.org
+Set rulebase security rule rule$serviceName2 application $serviceName2 from any to any action deny
+
+set application $serviceName3 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern ac-data.info
+Set rulebase security rule rule$serviceName1 application $serviceName3 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern ac-data.info
+Set rulebase security rule rule$serviceName3 application $serviceName3 from any to any action deny
+
+set application $serviceName4 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern airvpn.org
+Set rulebase security rule rule$serviceName1 application $serviceName4 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern airvpn.org
+Set rulebase security rule rule$serviceName4 application $serviceName4 from any to any action deny
+
+set application $serviceName5 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern atlasvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName5 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern atlasvpn.com
+Set rulebase security rule rule$serviceName5 application $serviceName5 from any to any action deny
+
+set application $serviceName6 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern labs.binance.com
+Set rulebase security rule rule$serviceName1 application $serviceName6 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern labs.binance.com
+Set rulebase security rule rule$serviceName6 application $serviceName6 from any to any action deny
+
+set application $serviceName7 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern bittorrent.com
+Set rulebase security rule rule$serviceName1 application $serviceName7 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern bittorrent.com
+Set rulebase security rule rule$serviceName7 application $serviceName7 from any to any action deny
+
+set application $serviceName8 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern clearvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName8 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern clearvpn.com
+Set rulebase security rule rule$serviceName8 application $serviceName8 from any to any action deny
+
+set application $serviceName9 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern dacloud.me
+Set rulebase security rule rule$serviceName1 application $serviceName9 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern dacloud.me
+Set rulebase security rule rule$serviceName9 application $serviceName9 from any to any action deny
+
+set application $serviceName10 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern droidvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName10 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern droidvpn.com
+Set rulebase security rule rule$serviceName10 application $serviceName10 from any to any action deny
+
+set application $serviceName11 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern ex.ua
+Set rulebase security rule rule$serviceName1 application $serviceName11 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern ex.ua
+Set rulebase security rule rule$serviceName11 application $serviceName11 from any to any action deny
+
+set application $serviceName12 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern expressvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName12 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern expressvpn.com
+Set rulebase security rule rule$serviceName12 application $serviceName12 from any to any action deny
+
+set application $serviceName13 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern extratorrent.cc
+Set rulebase security rule rule$serviceName1 application $serviceName13 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern extratorrent.cc
+Set rulebase security rule rule$serviceName13 application $serviceName13 from any to any action deny
+
+set application $serviceName14 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern gigafile.nu
+Set rulebase security rule rule$serviceName1 application $serviceName14 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern gigafile.nu
+Set rulebase security rule rule$serviceName14 application $serviceName14 from any to any action deny
+
+set application $serviceName15 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern hastebin.com
+Set rulebase security rule rule$serviceName1 application $serviceName15 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern hastebin.com
+Set rulebase security rule rule$serviceName15 application $serviceName15 from any to any action deny
+
+set application $serviceName16 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern hola.org
+Set rulebase security rule rule$serviceName1 application $serviceName16 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern hola.org
+Set rulebase security rule rule$serviceName16 application $serviceName16 from any to any action deny
+
+set application $serviceName17 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern kat.cr
+Set rulebase security rule rule$serviceName1 application $serviceName17 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern kat.cr
+Set rulebase security rule rule$serviceName1 application $serviceName17 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern kickass.to
+Set rulebase security rule rule$serviceName1 application $serviceName17 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern kickasstorrents.com
+Set rulebase security rule rule$serviceName17 application $serviceName17 from any to any action deny
+
+set application $serviceName18 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern limetorrents.cc
+Set rulebase security rule rule$serviceName1 application $serviceName18 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern limetorrents.cc
+Set rulebase security rule rule$serviceName18 application $serviceName18 from any to any action deny
+
+set application $serviceName20 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern millenvpn.jp
+Set rulebase security rule rule$serviceName1 application $serviceName20 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern millenvpn.jp
+Set rulebase security rule rule$serviceName20 application $serviceName20 from any to any action deny
+
+set application $serviceName21 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern mullvad.net
+Set rulebase security rule rule$serviceName1 application $serviceName21 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern mullvad.net
+Set rulebase security rule rule$serviceName21 application $serviceName21 from any to any action deny
+
+set application $serviceName22 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern openvpn.net
+Set rulebase security rule rule$serviceName1 application $serviceName22 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern openvpn.net
+Set rulebase security rule rule$serviceName22 application $serviceName22 from any to any action deny
+
+set application $serviceName23 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern protonvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName23 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern protonvpn.com
+Set rulebase security rule rule$serviceName23 application $serviceName23 from any to any action deny
+
+set application $serviceName24 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern billing.purevpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName24 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern billing.purevpn.com
+Set rulebase security rule rule$serviceName24 application $serviceName24 from any to any action deny
+
+set application $serviceName25 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern queentorrent.net
+Set rulebase security rule rule$serviceName1 application $serviceName25 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern queentorrent.net
+Set rulebase security rule rule$serviceName25 application $serviceName25 from any to any action deny
+
+set application $serviceName26 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern sogou.com
+Set rulebase security rule rule$serviceName1 application $serviceName26 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern sogou.com
+Set rulebase security rule rule$serviceName26 application $serviceName26 from any to any action deny
+
+set application $serviceName27 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern strongvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName27 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern strongvpn.com
+Set rulebase security rule rule$serviceName27 application $serviceName27 from any to any action deny
+
+set application $serviceName28 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern thepiratebay.org
+Set rulebase security rule rule$serviceName1 application $serviceName28 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern thepiratebay.org
+Set rulebase security rule rule$serviceName1 application $serviceName28 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern thepiratebay.se
+Set rulebase security rule rule$serviceName28 application $serviceName28 from any to any action deny
+
+set application $serviceName29 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torproject.org
+Set rulebase security rule rule$serviceName1 application $serviceName29 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torproject.org
+Set rulebase security rule rule$serviceName29 application $serviceName29 from any to any action deny
+
+set application $serviceName30 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torguard.net
+Set rulebase security rule rule$serviceName1 application $serviceName30 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torguard.net
+Set rulebase security rule rule$serviceName30 application $serviceName30 from any to any action deny
+
+set application $serviceName31 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentdownloads.me
+Set rulebase security rule rule$serviceName1 application $serviceName31 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentdownloads.me
+Set rulebase security rule rule$serviceName31 application $serviceName31 from any to any action deny
+
+set application $serviceName32 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrent4all.com
+Set rulebase security rule rule$serviceName1 application $serviceName32 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrent4all.com
+Set rulebase security rule rule$serviceName32 application $serviceName32 from any to any action deny
+
+set application $serviceName33 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentfunk.com
+Set rulebase security rule rule$serviceName1 application $serviceName33 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentfunk.com
+Set rulebase security rule rule$serviceName33 application $serviceName33 from any to any action deny
+
+set application $serviceName34 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentking.eu
+Set rulebase security rule rule$serviceName1 application $serviceName34 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentking.eu
+Set rulebase security rule rule$serviceName34 application $serviceName34 from any to any action deny
+
+set application $serviceName35 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentprivacy.com
+Set rulebase security rule rule$serviceName1 application $serviceName35 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentprivacy.com
+Set rulebase security rule rule$serviceName35 application $serviceName35 from any to any action deny
+
+set application $serviceName36 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentproject.se
+Set rulebase security rule rule$serviceName1 application $serviceName36 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentproject.se
+Set rulebase security rule rule$serviceName36 application $serviceName36 from any to any action deny
+
+set application $serviceName37 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentwarrior.net
+Set rulebase security rule rule$serviceName1 application $serviceName37 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentwarrior.net
+Set rulebase security rule rule$serviceName37 application $serviceName37 from any to any action deny
+
+set application $serviceName38 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrents.me
+Set rulebase security rule rule$serviceName1 application $serviceName38 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrents.me
+Set rulebase security rule rule$serviceName38 application $serviceName38 from any to any action deny
+
+set application $serviceName39 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.in
+Set rulebase security rule rule$serviceName1 application $serviceName39 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.in
+Set rulebase security rule rule$serviceName1 application $serviceName39 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.me
+Set rulebase security rule rule$serviceName1 application $serviceName39 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.ch
+Set rulebase security rule rule$serviceName1 application $serviceName39 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.eu
+Set rulebase security rule rule$serviceName39 application $serviceName39 from any to any action deny
+
+set application $serviceName40 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.cl
+Set rulebase security rule rule$serviceName1 application $serviceName40 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.cl
+Set rulebase security rule rule$serviceName40 application $serviceName40 from any to any action deny
+
+set application $serviceName41 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.to
+Set rulebase security rule rule$serviceName1 application $serviceName41 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz.to
+Set rulebase security rule rule$serviceName41 application $serviceName41 from any to any action deny
+
+set application $serviceName42 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz2.eu
+Set rulebase security rule rule$serviceName1 application $serviceName42 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentz2.eu
+Set rulebase security rule rule$serviceName42 application $serviceName42 from any to any action deny
+
+set application $serviceName43 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentzeu.to
+Set rulebase security rule rule$serviceName1 application $serviceName43 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrentzeu.to
+Set rulebase security rule rule$serviceName43 application $serviceName43 from any to any action deny
+
+set application $serviceName44 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern transfertpro.com
+Set rulebase security rule rule$serviceName1 application $serviceName44 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern transfertpro.com
+Set rulebase security rule rule$serviceName44 application $serviceName44 from any to any action deny
+
+set application $serviceName45 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern treetorrent.com
+Set rulebase security rule rule$serviceName1 application $serviceName45 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern treetorrent.com
+Set rulebase security rule rule$serviceName45 application $serviceName45 from any to any action deny
+
+set application $serviceName46 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern turbovpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName46 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern turbovpn.com
+Set rulebase security rule rule$serviceName46 application $serviceName46 from any to any action deny
+
+set application $serviceName47 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern tusfiles.net
+Set rulebase security rule rule$serviceName1 application $serviceName47 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern tusfiles.net
+Set rulebase security rule rule$serviceName1 application $serviceName47 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern tusfiles.com
+Set rulebase security rule rule$serviceName47 application $serviceName47 from any to any action deny
+
+set application $serviceName48 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern upload.ee
+Set rulebase security rule rule$serviceName1 application $serviceName48 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern upload.ee
+Set rulebase security rule rule$serviceName48 application $serviceName48 from any to any action deny
+
+set application $serviceName49 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern utorrent.com
+Set rulebase security rule rule$serviceName1 application $serviceName49 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern utorrent.com
+Set rulebase security rule rule$serviceName49 application $serviceName49 from any to any action deny
+
+set application $serviceName50 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern vpnunlimitedapp.com
+Set rulebase security rule rule$serviceName1 application $serviceName50 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern vpnunlimitedapp.com
+Set rulebase security rule rule$serviceName50 application $serviceName50 from any to any action deny
+
+set application $serviceName51 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern vyprvpn.com
+Set rulebase security rule rule$serviceName1 application $serviceName51 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern vyprvpn.com
+Set rulebase security rule rule$serviceName51 application $serviceName51 from any to any action deny
+
+set application $serviceName52 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern wesendit.com
+Set rulebase security rule rule$serviceName1 application $serviceName52 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern wesendit.com
+Set rulebase security rule rule$serviceName1 application $serviceName52 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern wesendit.io
+Set rulebase security rule rule$serviceName1 application $serviceName52 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern wesendit.info
+Set rulebase security rule rule$serviceName52 application $serviceName52 from any to any action deny
+
+set application $serviceName53 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern webtorrent.io
+Set rulebase security rule rule$serviceName1 application $serviceName53 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern webtorrent.io
+Set rulebase security rule rule$serviceName53 application $serviceName53 from any to any action deny
+
+set application $serviceName54 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern worldwidetorrents.eu
+Set rulebase security rule rule$serviceName1 application $serviceName54 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern worldwidetorrents.eu
+Set rulebase security rule rule$serviceName54 application $serviceName54 from any to any action deny
+
+set application $serviceName55 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern yourbittorrent.com
+Set rulebase security rule rule$serviceName1 application $serviceName55 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern yourbittorrent.com
+Set rulebase security rule rule$serviceName55 application $serviceName55 from any to any action deny
+
+set application $serviceName56 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern zamunda.net
+Set rulebase security rule rule$serviceName1 application $serviceName56 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern zamunda.net
+Set rulebase security rule rule$serviceName56 application $serviceName56 from any to any action deny
+
+set application $serviceName57 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern crackmypdf.com
+Set rulebase security rule rule$serviceName1 application $serviceName57 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern crackmypdf.com
+Set rulebase security rule rule$serviceName57 application $serviceName57 from any to any action deny
+
+set application $serviceName58 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern ontorrent.net
+Set rulebase security rule rule$serviceName1 application $serviceName58 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern ontorrent.net
+Set rulebase security rule rule$serviceName58 application $serviceName58 from any to any action deny
+
+set application $serviceName59 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern qbittorrent.org
+Set rulebase security rule rule$serviceName1 application $serviceName59 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern qbittorrent.org
+Set rulebase security rule rule$serviceName59 application $serviceName59 from any to any action deny
+
+set application $serviceName60 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern skytorrents.in
+Set rulebase security rule rule$serviceName1 application $serviceName60 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern skytorrents.in
+Set rulebase security rule rule$serviceName60 application $serviceName60 from any to any action deny
+
+set application $serviceName61 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrent.cd
+Set rulebase security rule rule$serviceName1 application $serviceName61 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrent.cd
+Set rulebase security rule rule$serviceName61 application $serviceName61 from any to any action deny
+
+set application $serviceName62 category $pancategory subcategory $pansubcategory technology browser-based risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrenthound.cc
+Set rulebase security rule rule$serviceName1 application $serviceName62 from any to any action deny set application $serviceName category $pancategory subcategory $pansubcategory technology browser-baes risk $panrisk signature s1 and-condition a1 or-condition o1 operator pattern-match context http-req-host-header pattern torrenthound.cc
+Set rulebase security rule rule$serviceName62 application $serviceName62 from any to any action deny
+
