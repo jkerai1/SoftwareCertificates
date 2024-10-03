@@ -1,0 +1,23 @@
+ OPR/
+Opera/
+SeaMonkey/
+Vivaldi/
+YaBrowser/
+; MSIE 
+Trident/7.0
+NintendoBrowser/
+360Spider
+adbeat.com
+crawler@grapeshot.co.uk
+BecomeBot
+Convera
+bitlybot
+Exabot-Images
+facebot/
+ZumBot
+Lunascape
+OviBrowser/
+QQBrowser/
+Kinza/
+MQQBrowser/
+go-resty
