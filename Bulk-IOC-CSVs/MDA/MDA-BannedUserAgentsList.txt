@@ -27,9 +27,11 @@ Trident/
  AVG/
 BlackBerry Browser/
 Browzar/
+ BeakerBrowser/
 NintendoBrowser/
 SamsungBrowser/
 Waterfox/
+ Byffox/
 360Spider
 adbeat.com
 crawler@grapeshot.co.uk
