@@ -9,7 +9,7 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 - [File Policy](#file-policy)
 - [Malware Detection Policy](#malware-detection-policy)
 - [Block Script Baseline](#block-script-baseline)
-- [App Governance](#app-govenrance)
+- [App Governance](#app-governance)
 - [Misc](#misc)
 
 
