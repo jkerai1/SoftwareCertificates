@@ -229,11 +229,15 @@ Policies in this category:
 
 ## Add IP Range for Usage in policies
 
-Add Corporate IP Range for Usage in policies/Override False positives/Add Extra Tag for Blocking
+Add Corporate IP Range for Usage in policies/Override False positives.
 
 Settings > Cloud Apps > IP Address ranges  
 
 ![image](https://github.com/user-attachments/assets/9deb496c-f3a0-45ae-ab80-eb00433ab90a)
+
+Policy result:
+
+![image](https://github.com/user-attachments/assets/bbca1c5b-1b6c-4cd2-b788-17dc8a1b44e9)
 
 
 ## Enforce MDA Blocks to MDE
