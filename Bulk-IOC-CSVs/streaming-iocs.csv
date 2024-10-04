@@ -6,7 +6,6 @@ DomainName,channel5.com,,Block,Informational,Streaming,Block streaming/entertain
 DomainName,Disneyplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,Paramountplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,Universalplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
-DomainName,web.play.universalplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,Netflix.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.amazon.co.uk/gp/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.amazon.com/gp/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
@@ -16,7 +15,7 @@ DomainName,nowtv.com,,Block,Informational,Streaming,Block streaming/entertainmen
 DomainName,go.sky.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.sky.com/watch/sky-go,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,https://virgintvgo.virginmedia.com/,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
-DomainName,https://www.hulu.com/,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,hulu.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,cc.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,comedycentral.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,uktv.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
@@ -44,7 +43,7 @@ DomainName,Crackle.com,,Block,Informational,Streaming,Block streaming/entertainm
 DomainName,Spotify.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,NoxTV.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,Tidal.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
-DomainName,Youtube.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,youtube.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,music.youtube.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,annas-archive.org,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.apple.com/uk/itunes/,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
@@ -94,6 +93,6 @@ DomainName,real-fmovies.show,,Block,Informational,Streaming,Block streaming/ente
 DomainName,flix2day.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,fmovie.life,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,fmovis-co.pages.dev,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
-DomainName,www1.fmovies.top,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,fmovies.top,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,ultrastreamlinks.online,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,flixtortv.to,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
