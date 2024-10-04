@@ -41,6 +41,10 @@ __Block malware download__
 
 ![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
 
+__Copy Paste__
+
+![image](https://github.com/user-attachments/assets/351d1108-fc28-4646-94f9-e7e5ca26ef2e)
+
 # App Discovery Policy
 
 __Block Risky apps__
