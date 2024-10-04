@@ -75,4 +75,4 @@ DomainName,filefactory.com,,Block,Informational,File Transfer/Paste Like Site,Un
 DomainName,dpaste.de,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,dpaste.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pasted.co,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,controlc.com,,,,,,,,,,
+DomainName,controlc.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
