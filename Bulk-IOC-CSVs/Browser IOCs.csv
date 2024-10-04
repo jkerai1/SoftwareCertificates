@@ -34,6 +34,6 @@ DomainName,opera.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned
 DomainName,puffin.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
 DomainName,yandex.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd?hl=en-US&gl=US,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
+DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned,TBH I'd just block the entire of .uptodown.com,Unsanctioned,,,,false
 DomainName,torproject.org,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
 DomainName,brave.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
