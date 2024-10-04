@@ -108,7 +108,7 @@ __Dark Web Monitoring__
 
 # File Policy
 
-Externally shared source code. Should be on by default but don't forget to add other extensions relevant to your org.
+Externally shared source code. Should be on by default but don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d06686722d26d176fad46879d41) relevant to your org.
 
 ![image](https://github.com/user-attachments/assets/e282a56a-780a-41d7-8fdc-7395b3e5285d)
 
