@@ -49,7 +49,8 @@ __Block Risky apps__
 
 __Auto Unsanction Web Mail__
 
-I find 8 to be a good spot for legitimate work email vs personal email. Be sure to use the "edit and preview results" to check you are not going to block actual used business mail. Note that Gmail is a 10 so you'll need to unsanction manually.
+I find 8 to be a good spot for legitimate work email vs personal email. Feel Free to edit this threshold.
+Be sure to use the "edit and preview results" to check you are not going to block actual used business mail. Note that Gmail is a 10 so you'll need to unsanction Gmail manually.
 
 ![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
 
