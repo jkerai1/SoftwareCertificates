@@ -12,6 +12,7 @@ __Block "bad"/ hosting IPs__
 
 __Block user Agents:__
 
+List of User agents can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/MDA-BannedUserAgentsList.txt
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
 Alternatively you can use Edge For Business Enforcement (Preview):
