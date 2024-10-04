@@ -153,9 +153,11 @@ Settings > Cloud Apps > Microsoft Defender For Endpoint
 
 __Information Protection__
 
-This is optional and depends on company compliance requirements.   
+This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content
 
-Explict Oauth consent will be required to Inspect Protected files, this only applys to the App Connector and NOT the Conditional access app control.
+Microsoft Information Protection settings - this only applies to the App Connector and NOT the Conditional access app control.
+
+Explict Oauth consent will be required to Inspect Protected files
 
 Settings > Cloud Apps > Microsoft Information Protection
 
