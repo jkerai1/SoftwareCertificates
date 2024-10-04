@@ -145,3 +145,13 @@ Settings > Cloud Apps > Files
 
 ![image](https://github.com/user-attachments/assets/0b1c9b52-a74d-4afd-bdb3-e8c094c17391)
 
+__App Onboarding/Maintenance__
+
+Always have a back-out plan
+
+Settings > Cloud Apps > App onboarding/maintenance
+
+![image](https://github.com/user-attachments/assets/905b1451-3b92-4abd-98a5-4900272406b1)
+
+
+
