@@ -1,5 +1,74 @@
-# Collection of useful stuff for MDA!
+# Collection of useful ideas for MDA!
 
 
+# Access Policy
+
+Many Clever things can be done here but I'd consider blocking anonymous/hosting Ips to be the bare miniuium:
+
+__Block "bad"/ hosting IPs__  
+![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
+![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
+
+__Block user Agents:__
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
+
+
+
+# Session Policy  
+
+You can also leverage Purview, file extensions etc. Malware Upload/Download should be bare minimium.
+
+__Block malware Upload__
+![image](https://github.com/user-attachments/assets/a1bf7a05-fbbc-4e42-a7ff-c4de3adbfec0)
+
+![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
+
+__Block malware download__
+![image](https://github.com/user-attachments/assets/a535b0d3-943b-4d16-a48d-172a51ec46ac)
+
+![image](https://github.com/user-attachments/assets/f8d33b1a-05a1-4ee7-88b5-4c7997ab37e9)
+
+
+# App Discovery Policy
+
+__Block Risky apps__
+
+![image](https://github.com/user-attachments/assets/68a29e71-f351-4f70-a447-ecb16653461e)
+
+__Auto Unsanction Web Mail__
+
+![image](https://github.com/user-attachments/assets/e2370393-bc68-4a28-a9bb-76f06bd665e0)
+
+__Auto ban discovered Transfer apps__
+
+![image](https://github.com/user-attachments/assets/1ffe7e43-678e-47d3-a431-1f74d53a4d8f)
+
+__Auto ban discovered Paste apps__
+
+![image](https://github.com/user-attachments/assets/8f73a520-ead9-4dc1-9a32-8ea990c0124e)
+
+__Monitor Cloud Storage__
+
+![image](https://github.com/user-attachments/assets/13b017a8-3c76-4ebc-aeca-c92a3a01e3d6)
+
+
+# File Policy
+
+Externally shared source code. Should be on by default but don't forget to add other extensions relevant to your org.
+
+![image](https://github.com/user-attachments/assets/e282a56a-780a-41d7-8fdc-7395b3e5285d)
+
+
+# Malware Detection Policy
+
+May be off by default, remember to enable and add any apprioprate auto goverance action.
+
+![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
+
+# Block Script Baseline
+
+Contains export scripts for apps you should probably be blocking in MDA and can apply to various products such as zscaler, cisco, fortigate. This should show the example output from MDA.
+
+
+
