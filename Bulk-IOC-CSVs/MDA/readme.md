@@ -79,7 +79,8 @@ See More Browser Blocking stuff here:
 
 You can also leverage Purview, file extensions etc. Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequiste here also.  
 
-Policy Templates are available via: 
+Policy Templates are available via:  
+
 ![image](https://github.com/user-attachments/assets/79b8a3ed-d6ce-4eba-9195-89ecd401975b)
 
 
@@ -101,6 +102,7 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$
 
 ![image](https://github.com/user-attachments/assets/35977a49-06ea-4ebf-b776-8474acf92f21)
 
+![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)
 
 # App Discovery Policy
 
