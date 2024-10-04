@@ -8,7 +8,7 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 - [Session Policy](#session-policy)
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
-  * [Copy Paste](#copy-paste)
+  * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
 - [App Discovery Policy](#app-discovery-policy)
   * [Auto Block Risky apps](#auto-block-risky-apps)
   * [Auto Unsanction Web Mail](#auto-unsanction-web-mail)
@@ -23,7 +23,7 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 - [App Governance](#app-governance)
   * [Disable Overprivileged App](#disable-overprivileged-app)
   * [Disable High privileged new app](#disable-high-privileged-new-app)
-  * [Other policies [Legacy Experience]](#other-policies)
+  * [Other policies](#other-policies)
 - [Misc](#misc)
   * [Add IP Range for Usage in policies](#add-ip-range-for-usage-in-policies)
   * [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde)
@@ -82,7 +82,7 @@ You can also leverage Purview, file extensions etc. Malware Upload/Download shou
 
 ![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
 
-## Copy Paste
+## Copy Paste Credit Card Numbers
 
 E.g. blocking Copy paste of Credit Card Numbers
 
@@ -166,7 +166,7 @@ After you have unsanctioned/sanctioned apps remember to generate blocklist for a
 
 ![image](https://github.com/user-attachments/assets/81a09755-1328-426f-bc71-f19209dab495)
 
-## Other policies 
+## Other policies
 
 This is the legacy experience  
 
