@@ -1,4 +1,4 @@
-# Collection of useful ideas for MDA!
+# Collection of useful ideas for MDA/ Defender for Cloud Apps / DfCA / MCAS
 
 
 # Access Policy
@@ -21,14 +21,13 @@ You can also leverage Purview, file extensions etc. Malware Upload/Download shou
 
 __Block malware Upload__
 ![image](https://github.com/user-attachments/assets/a1bf7a05-fbbc-4e42-a7ff-c4de3adbfec0)
+![image](https://github.com/user-attachments/assets/f8d33b1a-05a1-4ee7-88b5-4c7997ab37e9)
 
-![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
 
 __Block malware download__
 ![image](https://github.com/user-attachments/assets/a535b0d3-943b-4d16-a48d-172a51ec46ac)
 
-![image](https://github.com/user-attachments/assets/f8d33b1a-05a1-4ee7-88b5-4c7997ab37e9)
-
+![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
 
 # App Discovery Policy
 
