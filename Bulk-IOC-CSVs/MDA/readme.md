@@ -71,7 +71,7 @@ Monitor if the transfer is above X %
 
 # Activity Policy
 
-Consider adding a Govenrance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
+Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
 
 __Dark Web Monitoring__
 ![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
@@ -101,6 +101,16 @@ After you have unsanctioned/sanctioned apps remember to generate blocklist for a
 
 # App Govenrance
 
+__Disable Overprivileged App__
+
+![image](https://github.com/user-attachments/assets/9daa039e-5108-476b-84db-5e3db9223507)
+
+__Disable High priviliged new app__
+
+![image](https://github.com/user-attachments/assets/81a09755-1328-426f-bc71-f19209dab495)
+
+__Other policies [Legacy Experience]__
+
 The Revoke action is off by default in MDA for App Govenrance so you can turn this on if you'd like.  
 
 This can be done from App Govenrance > Policies > Other Policies  
@@ -108,8 +118,6 @@ This can be done from App Govenrance > Policies > Other Policies
 Malicious OAuth app consent / Misleading OAuth app name / Misleading publisher name for an OAuth app  
 
 ![image](https://github.com/user-attachments/assets/72bfeda8-fca3-4a05-bb90-30ab0b6e0060)
-
-
 
 
 # Misc
