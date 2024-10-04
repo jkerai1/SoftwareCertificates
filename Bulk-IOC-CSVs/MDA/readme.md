@@ -25,7 +25,9 @@ Settings > Cloud Apps > Edge For Business Protection
 ![image](https://github.com/user-attachments/assets/6e81968b-1d9a-4114-a5ec-0441f8110573)
 
 
-
+See More Browser Blocking stuff here:
+[Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
+[Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Browser%20IOCs.csv)
 
 # Session Policy  
 
