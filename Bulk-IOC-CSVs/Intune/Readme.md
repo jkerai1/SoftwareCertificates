@@ -1,6 +1,6 @@
 # Intune Stuff!  
 
-Browser whitelisting is MUCH better than blacklisting. However if this is something you are struggling to achieve, this list may give you a good starting point  
+Browser extension whitelisting is MUCH better than blacklisting. However if this is something you are struggling to achieve, this list may give you a good starting point  
 
 I've included:  
 
