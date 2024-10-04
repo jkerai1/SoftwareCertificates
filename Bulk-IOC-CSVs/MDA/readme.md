@@ -1,5 +1,6 @@
 # Collection of useful ideas for MDA/ Defender for Cloud Apps / DfCA / MCAS
 
+Not a comprehensive list, just some ideas of the capability of MDA and some of the settings you may have missed. When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.
 
 # Access Policy
 
@@ -13,7 +14,7 @@ __Block user Agents:__
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
-Alternatively you can use Edge For Business Enforcement:
+Alternatively you can use Edge For Business Enforcement (Preview):
 
 Settings > Cloud Apps > Edge For Business Protection
 
@@ -60,6 +61,7 @@ __Auto ban discovered Paste apps__
 
 __Monitor Cloud Storage__
 
+Monitor if the transfer is above X %
 ![image](https://github.com/user-attachments/assets/13b017a8-3c76-4ebc-aeca-c92a3a01e3d6)
 
 
@@ -108,7 +110,7 @@ Malicious OAuth app consent / Misleading OAuth app name / Misleading publisher n
 
 # Misc
 
-__Add Corporate IP Range for Usage in policies/Override False positives__
+__Add Corporate IP Range for Usage in policies/Override False positives/Add Extra Tag for Blocking__
 
 Settings > Cloud Apps > IP Address ranges  
 
@@ -123,7 +125,23 @@ Settings > Cloud Apps > Microsoft Defender For Endpoint
 
 __Information Protection__
 
+This is optional and depends on company compliance requirements.   
+
+Explict Oauth consent will be required to Inspect Protected files, this only applys to the App Connector and NOT the Conditional access app control.
 
 Settings > Cloud Apps > Microsoft Information Protection
 
 ![image](https://github.com/user-attachments/assets/1e37ee94-30dd-4b0a-a9b1-8a65c1db47a5)
+
+__User Monitoring__
+
+I tend to turn this off because it can be annoying:
+
+![image](https://github.com/user-attachments/assets/60dbb043-b918-48ea-b9d3-1ba146f4b11b)
+
+__File Monitoring__
+
+Settings > Cloud Apps > Files
+
+![image](https://github.com/user-attachments/assets/0b1c9b52-a74d-4afd-bdb3-e8c094c17391)
+
