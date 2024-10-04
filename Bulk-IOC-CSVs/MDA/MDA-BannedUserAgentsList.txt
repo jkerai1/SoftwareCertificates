@@ -26,6 +26,7 @@ Puffin/
 Trident/
  AVG/
 BlackBerry Browser/
+ Valve Steam GameOverlay
 Browzar/
 NoxBrowser/
 BeakerBrowser/
@@ -56,6 +57,42 @@ QQBrowser/
 Kinza/
 MQQBrowser/
 go-resty
+CoolNovo/
+ Crazy Browser
+coc_coc_browser
+Browser/Phantom/
+chimlac/
+LBBROWSER/
+webissimo3/
+OpenFin/
+OhHaiBrowser/
+ Bang/
+baidubrowser/
+OceanHero
+Netscape/
+AmigaOS/
+Mobicip/
+NetSurf/
+NTENTBrowser
+ catalyst/
+OppoBrowser/
+ Orca/1
+PocketBook/
+conkeror/
+Qazweb/
+Qutebrowser/
+SalamWeb/
+GinxDroidBrowser/
+SputnikBrowser/
+Galeon/
+FreeU/
+Ghostery
+TenFourFox/
+VivoBrowser/
+Kinza/
+Kazehakase/
+Keepsafe Browser
+ Kindle/
 
 
 Spaces have been included in some to future proof any overlapping strings
