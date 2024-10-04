@@ -8,17 +8,17 @@ YaBrowser/
 ; MSIE 
  Kiwi 
  Epic/1.
- DuckDuckGo/
+DuckDuckGo/
 AlohaBrowser/
 AvantBrowser/
 OneBrowser/
- Brave/
+Brave/
 ArcticFox/
 iceweasel/
- Midori/
- Avira/
- Element Browser 
- BriskBard/
+Midori/
+Avira/
+Element Browser 
+BriskBard/
 PaleMoon/
  Dragon/
 Maxthon/
@@ -32,10 +32,10 @@ NoxBrowser/
 NintendoBrowser/
 SamsungBrowser/
 Waterfox/
- Byffox/
- bloket
+Byffox/
+bloket
 OculusBrowser/
- MZBrowser/
+MZBrowser/
 AirSearch/
 SurfBrowser/
 jig browser 
@@ -56,5 +56,6 @@ MQQBrowser/
 go-resty
 
 
+Spaces have been included in some to future proof any overlapping strings
 
 # Reference https://whatmyuseragent.com/browser
