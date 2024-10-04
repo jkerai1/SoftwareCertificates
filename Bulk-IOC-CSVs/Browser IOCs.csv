@@ -3,40 +3,40 @@ DomainName,astian.org,,Block,Informational,Midori Browser,Midori Browser,Unsanct
 DomainName,bromite.org,,Block,Informational,Bromite Browser,Bromite Browser,Unsanctioned,,,,false
 DomainName,thorium.rocks,,Block,Informational,Throium Browser,Throium Browser,Unsanctioned,,,,false
 DomainName,librewolf.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-DomainName,cromite.org,,Block,Informational,Unsanctioned Browser,Unsanctioned Browser,Unsanctioned,,,,false
-DomainName,safe-guard.app,,Block,Informational,Unsanctioned Browser,Unsanctioned,Unsanctioned,,,,false
-DomainName,pinokio.computer,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,alohabrowser.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,waterfox.net,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,alohabrowser.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,avantbrowser.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,briskbard.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,floorp.app,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,wavesor.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,palemoon.org,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,naver.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,dolphin-anty.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,avast.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,arc.net,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,beakerbrowser.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,seamonkey-project.org,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,brave.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,vivaldi.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-Url,https://www.ecosia.org/browser,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,epicbrowser.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,maxthon.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,mullvad.net,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-Url,https://apps.microsoft.com/detail/9n3g1m08p81p?hl=en-US&gl=US,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,opera.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,puffin.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,yandex.com,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,yandex.ru,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd?hl=en-US&gl=US,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
-DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned,TBH I'd just block the entire of .uptodown.com,Unsanctioned,,,,false
-DomainName,torproject.org,,Block,Informational,Unsanctioned,Unsanctioned,Unsanctioned,,,,false
+DomainName,cromite.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,safe-guard.app,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,pinokio.computer,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,alohabrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,waterfox.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,alohabrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,avantbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,briskbard.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,floorp.app,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,wavesor.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,palemoon.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,naver.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,dolphin-anty.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,avast.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,arc.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,beakerbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,seamonkey-project.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,brave.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,vivaldi.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://www.ecosia.org/browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,epicbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,maxthon.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,mullvad.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9n3g1m08p81p?hl=en-US&gl=US,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,opera.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,puffin.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,yandex.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,yandex.ru,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd?hl=en-US&gl=US,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned browser,TBH I'd just block the entire of .uptodown.com,Unsanctioned,,,,false
+DomainName,torproject.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
 FileSha256,D3F8397BBFDFF5E1687855312329C292FF05EB81A7D086408D30AC3B1308B763,,BlockAndRemediate,Informational,Arc Browser Installer,Unsanctioned,Unsanctioned,,,,false
 FileSha256,0e87f0fa2ce3888f051d3d1c8f120fe54b35c4eb04a9bd0f3893e4b562fccf4a,,BlockAndRemediate,Informational,Pinkio Browser,Unsanctioned,Unsanctioned,,,,false
