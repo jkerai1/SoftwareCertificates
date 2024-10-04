@@ -52,7 +52,9 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$
 
 # App Discovery Policy
 
-__Block Risky apps__
+These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday, this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
+
+__Auto Block Risky apps__
 
 ![image](https://github.com/user-attachments/assets/68a29e71-f351-4f70-a447-ecb16653461e)
 
@@ -64,7 +66,9 @@ Be sure to use the "edit and preview results" to check you are not going to bloc
 ![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
 
 
-__Auto ban discovered Transfer apps__
+__Auto ban discovered File Transfer apps__
+
+Leveraging domain here may have too much impact, for paste also using domain is safer.
 
 ![image](https://github.com/user-attachments/assets/1ffe7e43-678e-47d3-a431-1f74d53a4d8f)
 
@@ -72,11 +76,14 @@ __Auto ban discovered Paste apps__
 
 ![image](https://github.com/user-attachments/assets/8f73a520-ead9-4dc1-9a32-8ea990c0124e)
 
+See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv
+
 __Monitor Cloud Storage__
 
 Monitor if the transfer is above X %
 ![image](https://github.com/user-attachments/assets/13b017a8-3c76-4ebc-aeca-c92a3a01e3d6)
 
+See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backup%20or%20Exfil%20Tools
 
 # Activity Policy
 
