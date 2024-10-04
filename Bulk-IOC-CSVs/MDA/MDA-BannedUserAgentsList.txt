@@ -10,6 +10,8 @@ YaBrowser/
  Epic/1.
  DuckDuckGo/
 AlohaBrowser/
+AvantBrowser/
+OneBrowser/
  Brave/
 ArcticFox/
 iceweasel/
@@ -18,9 +20,11 @@ iceweasel/
  Element Browser 
  BriskBard/
 PaleMoon/
+ Dragon/
 Maxthon/
 Puffin/
 Trident/
+ AVG/
 BlackBerry Browser/
 NintendoBrowser/
 SamsungBrowser/
