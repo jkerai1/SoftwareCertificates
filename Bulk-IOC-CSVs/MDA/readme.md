@@ -121,7 +121,7 @@ __Disable Overprivileged App__
 
 ![image](https://github.com/user-attachments/assets/9daa039e-5108-476b-84db-5e3db9223507)
 
-__Disable High priviliged new app__
+__Disable High privileged new app__
 
 ![image](https://github.com/user-attachments/assets/81a09755-1328-426f-bc71-f19209dab495)
 
