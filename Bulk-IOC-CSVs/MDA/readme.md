@@ -13,6 +13,14 @@ __Block user Agents:__
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
+Alternatively you can use Edge For Business Enforcement:
+
+Settings > Cloud Apps > Edge For Business Protection
+
+
+![image](https://github.com/user-attachments/assets/6e81968b-1d9a-4114-a5ec-0441f8110573)
+
+
 
 
 # Session Policy  
@@ -98,4 +106,24 @@ Malicious OAuth app consent / Misleading OAuth app name / Misleading publisher n
 
 
 
+# Misc
 
+__Add Corporate IP Range for Usage in policies/Override False positives__
+
+Settings > Cloud Apps > IP Address ranges  
+
+![image](https://github.com/user-attachments/assets/9deb496c-f3a0-45ae-ab80-eb00433ab90a)
+
+
+__Enforce MDA Blocks to MDE__ 
+
+Settings > Cloud Apps > Microsoft Defender For Endpoint 
+
+![image](https://github.com/user-attachments/assets/cbf669a5-d6ca-4dbe-b232-f4b5d4ddaf8b)
+
+__Information Protection__
+
+
+Settings > Cloud Apps > Microsoft Information Protection
+
+![image](https://github.com/user-attachments/assets/1e37ee94-30dd-4b0a-a9b1-8a65c1db47a5)
