@@ -139,8 +139,10 @@ See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/mai
 
 ## Monitor Cloud Storage
 
-Monitor if the transfer is above X %
-![image](https://github.com/user-attachments/assets/13b017a8-3c76-4ebc-aeca-c92a3a01e3d6)
+Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or meaningful in the default policy so I tend to remove this.  
+
+![image](https://github.com/user-attachments/assets/63dbc74c-2fa0-46be-819b-bb303623c1c6)
+
 
 See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backup%20or%20Exfil%20Tools
 
