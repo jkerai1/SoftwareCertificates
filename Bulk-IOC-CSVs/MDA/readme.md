@@ -2,6 +2,19 @@
 
 Not a comprehensive list, just some ideas of the capability of MDA and some of the settings you may have missed. When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.
 
+- [Access Policy](#access-policy)
+- [Session Policy](#session-policy)
+- [App Discovery Policy](#app-discovery-policy)
+- [Activity Policy](#activity-policy)
+- [File Policy](#file-policy)
+- [Malware Detection Policy](#malware-detection-policy)
+- [Block Script Baseline](#block-script-baseline)
+- [App Governance](#app-govenrance)
+- [Misc](#misc)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # Access Policy
 
 Many Clever things can be done here but I'd consider blocking anonymous/hosting Ips to be the bare miniuium. When Conditional access hands over control to MDA these will then apply.  
@@ -117,7 +130,7 @@ https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-
 After you have unsanctioned/sanctioned apps remember to generate blocklist for additional downstream protection:
 ![image](https://github.com/user-attachments/assets/1c94c17d-f03d-474f-9007-eb4a0d0d3dae)
 
-# App Govenrance
+# App Governance
 
 __Disable Overprivileged App__
 
