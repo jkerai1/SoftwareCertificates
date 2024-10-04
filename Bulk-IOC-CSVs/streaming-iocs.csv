@@ -1,0 +1,98 @@
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+Url,BBC.co.uk/iplayer,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,itv.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,channel4.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,channel5.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Disneyplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Paramountplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Universalplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,web.play.universalplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Netflix.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+Url,https://www.amazon.co.uk/gp/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+Url,https://www.amazon.com/gp/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+Url,https://www.amazon.co.uk/Amazon-Video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+Url,https://www.amazon.com/Amazon-Video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,nowtv.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,go.sky.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+Url,https://www.sky.com/watch/sky-go,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,https://virgintvgo.virginmedia.com/,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,https://www.hulu.com/,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,cc.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,comedycentral.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,uktv.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,corporate.uktv.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,justwatch.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Britbox.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Roku.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Pluto.tv,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Tubitv.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,plex.tv,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,jellyfin.org,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,stremio.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,kodi.tv,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,popcornflix.cam,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,vudu.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,xumo.tv,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,freeview.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,ReelGood.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Kanopy.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Xumo.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Rakuten.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Rakuten.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Cruchyroll.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Crackle.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Spotify.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,NoxTV.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Tidal.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Youtube.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,music.youtube.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,annas-archive.org,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+Url,https://www.apple.com/uk/itunes/,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,imdb.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,xfinity.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Formula1.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Eurosport.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Directv.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,JioCinema.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,aol.com/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Streem.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,streem.com.au,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,mlb.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,tntsports.co.uk,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,NFL.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,NBA.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,NHL.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Hotstar.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,espn.com/watch,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,UEFA.tv,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,HBO.com ,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,max.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,Yandex.com,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.ru,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.by,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.kz,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.uz,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.com.trt,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.fr,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.az,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.com.ge,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.com.am,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.co.il,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.lv,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.lt,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.ee,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.md,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.tm,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.tj,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,Yandex.eu,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,ya.ru,,Block,Informational,Yandex,Block Yandex (Russian Conotations),,,,,FALSE
+DomainName,fmovies.to,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,fmovie-s.to,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,2fmovie.in,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,fmoviestv.cc,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,real-fmovies.show,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,flix2day.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,fmovie.life,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,fmovis-co.pages.dev,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,www1.fmovies.top,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,tv.apple.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
