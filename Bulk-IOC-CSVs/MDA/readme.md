@@ -71,7 +71,7 @@ See More Browser Blocking stuff here:
 
 # Session Policy  
 
-You can also leverage Purview, file extensions etc. Malware Upload/Download should be bare minimium.
+You can also leverage Purview, file extensions etc. Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequiste here also.  
 
 ## Block malware Upload
 ![image](https://github.com/user-attachments/assets/a1bf7a05-fbbc-4e42-a7ff-c4de3adbfec0)
