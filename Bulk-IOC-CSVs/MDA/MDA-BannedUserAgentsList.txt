@@ -20,7 +20,7 @@ Avira/
 Element Browser 
 BriskBard/
 PaleMoon/
- Dragon/
+Dragon/
 Maxthon/
 Puffin/
 Trident/
@@ -28,7 +28,7 @@ Trident/
 BlackBerry Browser/
 Browzar/
 NoxBrowser/
- BeakerBrowser/
+BeakerBrowser/
 NintendoBrowser/
 SamsungBrowser/
 Waterfox/
@@ -39,6 +39,7 @@ MZBrowser/
 AirSearch/
 SurfBrowser/
 jig browser 
+SznProhlizec
 360Spider
 adbeat.com
 crawler@grapeshot.co.uk
@@ -57,5 +58,9 @@ go-resty
 
 
 Spaces have been included in some to future proof any overlapping strings
+
+MSIE and Trident refer to IE
+
+Note: That some of these browsers will not be supported in AZ portal natively such as seamonkey. Everything after the 27 or so is tending to the more niche categories. If you really need to block ALL user agents just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection)
 
 # Reference https://whatmyuseragent.com/browser
