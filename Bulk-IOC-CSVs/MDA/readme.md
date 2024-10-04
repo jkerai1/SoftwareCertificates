@@ -115,7 +115,7 @@ Externally shared source code. Should be on by default but don't forget to add o
 
 # Malware Detection Policy
 
-May be off by default, remember to enable and add any apprioprate auto Govenrance action.
+May be off by default, remember to enable and add any apprioprate auto Governance action.
 
 ![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
 
