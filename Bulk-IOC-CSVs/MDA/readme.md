@@ -4,7 +4,9 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 
 # Access Policy
 
-Many Clever things can be done here but I'd consider blocking anonymous/hosting Ips to be the bare miniuium:
+Many Clever things can be done here but I'd consider blocking anonymous/hosting Ips to be the bare miniuium. When Conditional access hands over control to MDA these will then apply.  
+
+Note: Just because you fail to pass Access policy, it will still show as success in condiitonal access because CA successfully handed the session over
 
 __Block "bad"/ hosting IPs__  
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
