@@ -25,8 +25,8 @@ Maxthon/
 Puffin/
 Trident/
  AVG/
+Valve Steam GameOverlay
 BlackBerry Browser
- Valve Steam GameOverlay
 Browzar
 NoxBrowser
 BeakerBrowser
@@ -83,7 +83,7 @@ OppoBrowser
 PocketBook
 conkeror/
 Qazweb/
-Qutebrowser/
+Qutebrowser
 SalamWeb/
 GinxDroidBrowser
 SputnikBrowser
@@ -118,11 +118,41 @@ PicoBrowser
 ; Palm-
 chromeframe/
 LBBROWSER/
-EA Download Manager Origin/
+EA Download Manager Origin
 Charon; Inferno
 BrowseX
 BanglaBrowser
-
+Basilisk/
+ Odd/
+Obigo
+OceanHero
+Arvin/
+NetFrontLifeBrowser
+AOLShield
+Navigateur web
+OffByOne
+ BlackHawk/
+Colibri
+Cornowser
+CravingExplorer
+Cunaguaro
+Cyberfox
+PrivacyWall
+Decentr
+PlayFreeBrowser
+BREW
+PalmOS
+Origyn
+Oregano
+SmartTV
+SymbianOS
+MxNitro/
+Kuaiso
+ Torrent/
+115Browser
+AlohaLite
+Maemo
+ACHEETAHI
 
 Spaces have been included in some to future proof any overlapping strings
 
