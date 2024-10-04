@@ -27,11 +27,18 @@ Trident/
  AVG/
 BlackBerry Browser/
 Browzar/
+NoxBrowser/
  BeakerBrowser/
 NintendoBrowser/
 SamsungBrowser/
 Waterfox/
  Byffox/
+ bloket
+OculusBrowser/
+ MZBrowser/
+AirSearch/
+SurfBrowser/
+jig browser 
 360Spider
 adbeat.com
 crawler@grapeshot.co.uk
