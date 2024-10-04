@@ -23,7 +23,7 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 - [App Governance](#app-governance)
   * [Disable Overprivileged App](#disable-overprivileged-app)
   * [Disable High privileged new app](#disable-high-privileged-new-app)
-  * [Other policies [Legacy Experience]](#other-policies-legacy-experience-)
+  * [Other policies [Legacy Experience]](#other-policies)
 - [Misc](#misc)
   * [Add IP Range for Usage in policies](#add-ip-range-for-usage-in-policies)
   * [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde)
@@ -35,7 +35,10 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 
 # Access Policy
 
-Many Clever things can be done here but I'd consider blocking anonymous/hosting Ips to be the bare miniuium. When Conditional access hands over control to MDA these will then apply.  
+I'd consider blocking anonymous/hosting IPs to be the bare miniuium. When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA.
+
+![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
+
 
 *Note*: Just because you fail to pass Access policy, it will still show as success in condiitonal access because CA successfully handed the session over. You'll need to review the Cloud App Activity Log  in these scenarios.
 
@@ -44,6 +47,8 @@ Many Clever things can be done here but I'd consider blocking anonymous/hosting 
 ## Block Anonymous IPs
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
+
+[KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl)
 
 ## Block user Agents
 
@@ -58,9 +63,10 @@ Settings > Cloud Apps > Edge For Business Protection
 ![image](https://github.com/user-attachments/assets/6e81968b-1d9a-4114-a5ec-0441f8110573)
 
 
-See More Browser Blocking stuff here:
+See More Browser Blocking stuff here:  
 [Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
-[Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Browser%20IOCs.csv)
+[Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Browser%20IOCs.csv)  
+[User Agent KQL Parser](https://www.kqlsearch.com/query/Identity-parseuseragent&clmoxrwnu002tmc0k2lnnqbnz)
 
 # Session Policy  
 
