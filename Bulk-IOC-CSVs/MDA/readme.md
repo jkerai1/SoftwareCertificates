@@ -68,7 +68,24 @@ May be off by default, remember to enable and add any apprioprate auto goverance
 
 # Block Script Baseline
 
-Contains export scripts for apps you should probably be blocking in MDA and can apply to various products such as zscaler, cisco, fortigate. This should show the example output from MDA.
+Contains export scripts for apps you should probably be blocking in MDA and can apply to various products such as zscaler, cisco, fortigate. This should show the example output from MDA. 
+
+https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline
+
+After you have unsanctioned/sanctioned apps remember to generate blocklist for additional downstream protection:
+![image](https://github.com/user-attachments/assets/1c94c17d-f03d-474f-9007-eb4a0d0d3dae)
+
+# App Goverance
+
+The Revoke action is off by default in MDA for App Goverance so you can turn this on if you'd like.  
+
+This can be done from App Goverance > Policies > Other Policies  
+
+Malicious OAuth app consent / Misleading OAuth app name / Misleading publisher name for an OAuth app  
+
+![image](https://github.com/user-attachments/assets/72bfeda8-fca3-4a05-bb90-30ab0b6e0060)
+
+
 
 
 
