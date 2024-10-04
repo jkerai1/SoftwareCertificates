@@ -4,8 +4,8 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 >When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.
 
 - [Access Policy](#access-policy)
-  * [Block Anonymous IPs:](#block-anonymous-ips)
-  * [Block user Agents:](#block-user-agents)
+  * [Block Anonymous IPs](#block-anonymous-ips)
+  * [Block user Agents](#block-user-agents)
 - [Session Policy](#session-policy)
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
