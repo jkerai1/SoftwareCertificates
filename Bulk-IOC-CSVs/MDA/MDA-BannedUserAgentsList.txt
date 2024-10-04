@@ -60,6 +60,7 @@ Kinza/
 MQQBrowser/
 go-resty
 CoolNovo/
+OppoBrowser/
  Crazy Browser
 coc_coc_browser
 Browser/Phantom/
@@ -94,7 +95,28 @@ VivoBrowser/
 Kinza/
 Kazehakase/
 luakit/
-
+lolifox/
+Zetakey/
+TouchPad/
+WeTab-Browser
+TansoDL
+VenusBrowser/
+tararia/
+Superbird/
+SogouMobileBrowser/
+Snowshoe/
+Sleipnir/
+Shiira/
+Skyfire/
+ReqwirelessWeb
+RealmeBrowser/
+QwantMobile/
+RakutenBrowser/
+ Crusta/
+Polypane/
+PicoBrowser/
+; Palm-
+chromeframe/
 
 Spaces have been included in some to future proof any overlapping strings
 
