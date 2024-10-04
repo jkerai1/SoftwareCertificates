@@ -76,3 +76,6 @@ DomainName,dpaste.de,,Block,Informational,File Transfer/Paste Like Site,Unsancti
 DomainName,dpaste.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pasted.co,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,controlc.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,ipfs.tech,,Block,Informational,File Transfer (IPFS),Unsanctioned,Unsanctioned,,,,false
+DomainName,ipfs.io,,Block,Informational,File Transfer (IPFS),Unsanctioned,Unsanctioned,,,,false
+DomainName,cf-ipfs.com ,,Block,Informational,File Transfer (IPFS),Unsanctioned,Unsanctioned,,,,false
