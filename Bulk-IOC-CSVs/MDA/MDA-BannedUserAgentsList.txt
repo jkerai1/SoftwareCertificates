@@ -33,6 +33,8 @@ BeakerBrowser/
 NintendoBrowser/
 SamsungBrowser/
 Waterfox/
+Keepsafe Browser
+ Kindle/
 Byffox/
 bloket
 OculusBrowser/
@@ -91,8 +93,7 @@ TenFourFox/
 VivoBrowser/
 Kinza/
 Kazehakase/
-Keepsafe Browser
- Kindle/
+luakit/
 
 
 Spaces have been included in some to future proof any overlapping strings
