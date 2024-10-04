@@ -43,9 +43,11 @@ __Block malware download__
 
 __Copy Paste__
 
-E.g. blocking Copy paste of a Visa Credit Card Number using [regex](https://github.com/bee-san/pyWhat/blob/main/pywhat/Data/regex.json)
+E.g. blocking Copy paste of Credit Card Numbers
 
-![image](https://github.com/user-attachments/assets/f72d63b7-0566-4a3e-8c0c-824681ea2fb6)
+Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ 
+
+![image](https://github.com/user-attachments/assets/35977a49-06ea-4ebf-b776-8474acf92f21)
 
 
 # App Discovery Policy
