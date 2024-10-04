@@ -122,13 +122,28 @@ Be sure to use the "edit and preview results" to check you are not going to bloc
 
 ## Auto ban discovered File Transfer apps
 
-Leveraging domain here may have too much impact, for paste also using domain is safer.
+You can leverage App Name or Domain Name for Auto discovery Policies.
 
 ![image](https://github.com/user-attachments/assets/1ffe7e43-678e-47d3-a431-1f74d53a4d8f)
 
+From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
+
+![image](https://github.com/user-attachments/assets/77b2ce32-eba7-474a-9342-315448f269a8)
+
+
 ## Auto ban discovered Paste apps
 
+Here it is much safer to enable for both apps and domains: 
+
 ![image](https://github.com/user-attachments/assets/8f73a520-ead9-4dc1-9a32-8ea990c0124e)
+
+From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
+
+![image](https://github.com/user-attachments/assets/cab8b03b-d431-478f-b487-6fb7c5202262)
+
+*Note There is only one potential False positive- "Lee Paste" Accounting, risk score 4. You can prematurely mark this as sanctioned/Monitored/Custom Tag if its needed. In the policy you can exclude monitored apps/Custom tags*  
+
+![image](https://github.com/user-attachments/assets/437ffaae-1165-4546-a9d8-f7c91295de81)
 
 See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv
 
