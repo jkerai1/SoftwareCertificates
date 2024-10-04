@@ -37,7 +37,10 @@ __Block Risky apps__
 
 __Auto Unsanction Web Mail__
 
-![image](https://github.com/user-attachments/assets/e2370393-bc68-4a28-a9bb-76f06bd665e0)
+I find 8 to be a good spot for legitimate work email vs personal email. Be sure to use the "edit and preview results" to check you are not going to block actual used business mail.
+
+![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
+
 
 __Auto ban discovered Transfer apps__
 
@@ -50,6 +53,14 @@ __Auto ban discovered Paste apps__
 __Monitor Cloud Storage__
 
 ![image](https://github.com/user-attachments/assets/13b017a8-3c76-4ebc-aeca-c92a3a01e3d6)
+
+
+# Activity Policy
+
+Consider adding a goverance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
+
+__Dark Web Monitoring__
+![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
 
 
 # File Policy
