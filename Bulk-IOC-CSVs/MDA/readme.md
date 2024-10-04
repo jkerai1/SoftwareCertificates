@@ -1,7 +1,7 @@
 # Collection of useful ideas for MDA/ Defender for Cloud Apps / DfCA / MCAS
 
 Not a comprehensive list, just some ideas of the capability of MDA and some of the settings you may have missed. I truly think MDA is underrated and underutilized by E5 Customers.  
->When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.
+>When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.  
 
 - [Access Policy](#access-policy)
   * [Block Anonymous IPs](#block-anonymous-ips)
@@ -15,10 +15,13 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
   * [Auto Unsanction Web Mail](#auto-unsanction-web-mail)
   * [Auto ban discovered File Transfer apps](#auto-ban-discovered-file-transfer-apps)
   * [Auto ban discovered Paste apps](#auto-ban-discovered-paste-apps)
+  * [Auto ban Discovered Risky Generative AI](#auto-ban-discovered-risky-generative-ai)
   * [Monitor Cloud Storage](#monitor-cloud-storage)
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
 - [File Policy](#file-policy)
+  * [Externally shared source code](#externally-shared-source-code)
+  * [File Shared with Personal Email Address](#file-shared-with-personal-email-address)
 - [Malware Detection Policy](#malware-detection-policy)
 - [Block Script Baseline](#block-script-baseline)
 - [App Governance](#app-governance)
@@ -32,6 +35,9 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
   * [User Monitoring](#user-monitoring)
   * [File Monitoring](#file-monitoring)
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
+
+
+Most of the policies below can be built from a policy template. For some reason, access policy does not have a template. Navigate to Cloud Apps > Policies > Policy Management to create a new policy or build a policy by selecting template.
 
 
 # Access Policy
@@ -72,6 +78,10 @@ See More Browser Blocking stuff here:
 # Session Policy  
 
 You can also leverage Purview, file extensions etc. Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequiste here also.  
+
+Policy Templates are available via: 
+![image](https://github.com/user-attachments/assets/79b8a3ed-d6ce-4eba-9195-89ecd401975b)
+
 
 ## Block malware Upload
 ![image](https://github.com/user-attachments/assets/a1bf7a05-fbbc-4e42-a7ff-c4de3adbfec0)
@@ -120,6 +130,11 @@ Leveraging domain here may have too much impact, for paste also using domain is 
 
 See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv
 
+## Auto Ban Discovered Risky Generative AI
+
+![image](https://github.com/user-attachments/assets/a36ef817-3fae-4abd-b58e-12de46ae3c86)
+
+
 ## Monitor Cloud Storage
 
 Monitor if the transfer is above X %
@@ -137,10 +152,17 @@ Consider adding a Governance action after testing to suspend user / confirm comp
 
 # File Policy
 
-Externally shared source code. Should be on by default but don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d06686722d26d176fad46879d41) relevant to your org.
+## Externally shared source code
+
+Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d06686722d26d176fad46879d41) relevant to your org.
 
 ![image](https://github.com/user-attachments/assets/e282a56a-780a-41d7-8fdc-7395b3e5285d)
 
+## File Shared with Personal Email Address
+
+Missing The ability to add extra domains? unsure. The only other domains that appear here are the ones I have set as allowed for B2b External collaboration
+
+![image](https://github.com/user-attachments/assets/d686266f-ed45-4fa1-b5e7-4ab7d891ac78)
 
 # Malware Detection Policy
 
