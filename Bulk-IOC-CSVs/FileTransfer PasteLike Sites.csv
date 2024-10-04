@@ -57,8 +57,8 @@ DomainName,tmpsend.com,,Block,Informational,File Transfer/Paste Like Site,Unsanc
 DomainName,tmpfiles.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,temp-file-share.web.app,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,temp.sh,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,filebin.net,,Block,Informational,File Transfer/Paste Like Site,Cloudflare bucket Unsanctioned,Unsanctioned,,,,false
-DomainName,r2.dev,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,filebin.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,r2.dev,,Block,Informational,File Transfer/Paste Like Site,Cloudflare bucket Unsanctioned,Unsanctioned,,,,false
 DomainName,transferbigfiles.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,sendtodropbox.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,plustransfer.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
