@@ -68,7 +68,7 @@ Monitor if the transfer is above X %
 
 # Activity Policy
 
-Consider adding a goverance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
+Consider adding a Govenrance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
 
 __Dark Web Monitoring__
 ![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
@@ -83,7 +83,7 @@ Externally shared source code. Should be on by default but don't forget to add o
 
 # Malware Detection Policy
 
-May be off by default, remember to enable and add any apprioprate auto goverance action.
+May be off by default, remember to enable and add any apprioprate auto Govenrance action.
 
 ![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
 
@@ -96,11 +96,11 @@ https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-
 After you have unsanctioned/sanctioned apps remember to generate blocklist for additional downstream protection:
 ![image](https://github.com/user-attachments/assets/1c94c17d-f03d-474f-9007-eb4a0d0d3dae)
 
-# App Goverance
+# App Govenrance
 
-The Revoke action is off by default in MDA for App Goverance so you can turn this on if you'd like.  
+The Revoke action is off by default in MDA for App Govenrance so you can turn this on if you'd like.  
 
-This can be done from App Goverance > Policies > Other Policies  
+This can be done from App Govenrance > Policies > Other Policies  
 
 Malicious OAuth app consent / Misleading OAuth app name / Misleading publisher name for an OAuth app  
 
