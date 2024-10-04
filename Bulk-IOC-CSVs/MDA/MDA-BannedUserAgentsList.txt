@@ -1,11 +1,30 @@
  OPR/
 Opera/
+OPRGX/
+ OPX/
 SeaMonkey/
 Vivaldi/
 YaBrowser/
 ; MSIE 
-Trident/7.0
+ Kiwi 
+ Epic/1.
+ DuckDuckGo/
+AlohaBrowser/
+ Brave/
+ArcticFox/
+iceweasel/
+ Midori/
+ Avira/
+ Element Browser 
+ BriskBard/
+PaleMoon/
+Maxthon/
+Puffin/
+Trident/
+BlackBerry Browser/
 NintendoBrowser/
+SamsungBrowser/
+Waterfox/
 360Spider
 adbeat.com
 crawler@grapeshot.co.uk
@@ -21,3 +40,7 @@ QQBrowser/
 Kinza/
 MQQBrowser/
 go-resty
+
+
+
+# Reference https://whatmyuseragent.com/browser
