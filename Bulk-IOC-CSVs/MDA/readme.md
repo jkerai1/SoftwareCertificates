@@ -12,8 +12,6 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
 - [App Governance](#app-govenrance)
 - [Misc](#misc)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 # Access Policy
 
