@@ -2,43 +2,43 @@
 Opera/
 OPRGX/
  OPX/
-SeaMonkey/
-Vivaldi/
-YaBrowser/
+SeaMonkey
+Vivaldi
+YaBrowser
 ; MSIE 
  Kiwi 
  Epic/1.
-DuckDuckGo/
-AlohaBrowser/
-AvantBrowser/
+DuckDuckGo
+AlohaBrowser
+AvantBrowser
 OneBrowser/
 Brave/
-ArcticFox/
-iceweasel/
+ArcticFox
+iceweasel
 Midori/
 Avira/
 Element Browser 
-BriskBard/
-PaleMoon/
+BriskBard
+PaleMoon
 Dragon/
 Maxthon/
 Puffin/
 Trident/
  AVG/
-BlackBerry Browser/
+BlackBerry Browser
  Valve Steam GameOverlay
-Browzar/
-NoxBrowser/
-BeakerBrowser/
-NintendoBrowser/
-SamsungBrowser/
-Waterfox/
+Browzar
+NoxBrowser
+BeakerBrowser
+NintendoBrowser
+SamsungBrowser
+Waterfox
 Keepsafe Browser
  Kindle/
-Byffox/
+Byffox
 bloket
-OculusBrowser/
-SailfishBrowser/
+OculusBrowser
+SailfishBrowser
 MZBrowser/
 AirSearch/
 SurfBrowser/
@@ -60,17 +60,17 @@ Kinza/
 MQQBrowser/
 go-resty
 CoolNovo/
-OppoBrowser/
+OppoBrowser
  Crazy Browser
 coc_coc_browser
 Browser/Phantom/
 chimlac/
 LBBROWSER/
 webissimo3/
-OpenFin/
-OhHaiBrowser/
+OpenFin
+OhHaiBrowser
  Bang/
-baidubrowser/
+baidubrowser
 OceanHero
 Netscape/
 AmigaOS/
@@ -78,45 +78,51 @@ Mobicip/
 NetSurf/
 NTENTBrowser
  catalyst/
-OppoBrowser/
+OppoBrowser
  Orca/1
-PocketBook/
+PocketBook
 conkeror/
 Qazweb/
 Qutebrowser/
 SalamWeb/
-GinxDroidBrowser/
-SputnikBrowser/
+GinxDroidBrowser
+SputnikBrowser
 Galeon/
 FreeU/
 Ghostery
 TenFourFox/
-VivoBrowser/
+VivoBrowser
 Kinza/
-Kazehakase/
+Kazehakase
 luakit/
-lolifox/
-Zetakey/
+lolifox
+Zetakey
 TouchPad/
 WeTab-Browser
 TansoDL
-VenusBrowser/
-tararia/
+VenusBrowser
+tararia
 Superbird/
-SogouMobileBrowser/
+SogouMobileBrowser
 Snowshoe/
 Sleipnir/
 Shiira/
 Skyfire/
 ReqwirelessWeb
-RealmeBrowser/
-QwantMobile/
-RakutenBrowser/
+RealmeBrowser
+QwantMobile
+RakutenBrowser
  Crusta/
 Polypane/
-PicoBrowser/
+PicoBrowser
 ; Palm-
 chromeframe/
+LBBROWSER/
+EA Download Manager Origin/
+Charon; Inferno
+BrowseX
+BanglaBrowser
+
 
 Spaces have been included in some to future proof any overlapping strings
 
