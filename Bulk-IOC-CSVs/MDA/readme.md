@@ -106,7 +106,7 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$
 
 # App Discovery Policy
 
-These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday, this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
+These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday, this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered.  
 
 ## Auto Block Risky apps
 
