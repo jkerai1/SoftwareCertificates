@@ -11,6 +11,7 @@ gehmmocbbkpblljhkekmfhjpfbkclbph| dash lane|  https://microsoftedge.microsoft.co
 bbcinlkgjjkejfdpemiealijmmooekmp| Last Pass | https://microsoftedge.microsoft.com/addons/detail/lastpass-free-password-m/bbcinlkgjjkejfdpemiealijmmooekmp
 aeblfdkhhhdcdjpifhhbdiojplfjncoa| 1password | https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa
 dppgmdbiimibapkepcbdbmkaabgiofem| 1Password – Password Manager | https://microsoftedge.microsoft.com/addons/detail/1password-%E2%80%93-password-mana/dppgmdbiimibapkepcbdbmkaabgiofem?hl=en-US
+lfochlioelphaglamdcakfjemolpichk| Keeper | https://microsoftedge.microsoft.com/addons/detail/keeper%C2%AE-password-manager-/lfochlioelphaglamdcakfjemolpichk
 
 # Microsoft
 | ID | Description | Ref|
