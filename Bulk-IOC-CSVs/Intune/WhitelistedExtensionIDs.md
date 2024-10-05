@@ -28,6 +28,7 @@ bldbcilhcjhoookkgcbmglgjdlbjihgo | Microsoft Priva | https://microsoftedge.micro
 leeakgkdanfdoebeohldonigkalooaej | Microsoft Test & Feedback  | https://microsoftedge.microsoft.com/addons/detail/microsoft-editor-spellin/leeakgkdanfdoebeohldonigkalooaej
 fbhhdpcmomckhopgphnkegobjdggdfhe | Microsoft Translator (Built-in)  | https://microsoftedge.microsoft.com/addons/detail/microsoft-translator-bui/fbhhdpcmomckhopgphnkegobjdggdfhe
 kagpabjoboikccfdghpdlaaopmgpgfdc | Microsoft Power automate  | https://microsoftedge.microsoft.com/addons/detail/microsoft-power-automate/kagpabjoboikccfdghpdlaaopmgpgfdc
+njjljiblognghfjfpcdpdbpbfcmhgafg | Microsoft Power automate (LEGACY)  | https://microsoftedge.microsoft.com/addons/detail/microsoft-power-automate-/njjljiblognghfjfpcdpdbpbfcmhgafg
 oogbnpmeihfgnccdnmmlgicknopghhma | Microsoft OneNoteClipper  | https://microsoftedge.microsoft.com/addons/detail/onenote-web-clipper/oogbnpmeihfgnccdnmmlgicknopghhma
 ocemkolpnamjcacndljdfmhlpcaoipji | Microsoft Page diagnostics for SharePoint  | https://microsoftedge.microsoft.com/addons/detail/page-diagnostics-for-shar/ocemkolpnamjcacndljdfmhlpcaoipji
 
