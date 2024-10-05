@@ -130,6 +130,7 @@ Unticking Smartscreen for edge allows access the custom IOCs because they share 
 
 ![image](https://github.com/user-attachments/assets/3ca1bb3d-c8bc-456a-8733-30d653c196f3)
 
+![image](https://github.com/user-attachments/assets/07d66095-06a7-490c-9b85-8e77d3f5ce07)
 
 Some 3rd party browsers can walk past URL blocks, Seamonkey for example.
 
