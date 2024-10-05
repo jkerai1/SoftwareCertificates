@@ -1,3 +1,5 @@
+Browser Extensions you want to whitelist if you use them  
+
 Chrome reference used if Edge reference not available  
 
 # Password Managers
@@ -20,6 +22,18 @@ echcggldkblhodogklpincgchnpgcdco | Purview  | https://chromewebstore.google.com/
 gaaceiggkkiffbfdpmfapegoiohkiipl | My Apps Secure sign-in  | https://microsoftedge.microsoft.com/addons/detail/my-apps-secure-signin-ex/gaaceiggkkiffbfdpmfapegoiohkiipl
 ggjhpefgjjfobnfoldnjipclpcfbgbhl | My Apps Secure sign-in (Chrome)  |https://chromewebstore.google.com/detail/my-apps-secure-sign-in-ex/ggjhpefgjjfobnfoldnjipclpcfbgbhl
 hokifickgkhplphjiodbggjmoafhignh | Microsoft Editor  | https://microsoftedge.microsoft.com/addons/detail/microsoft-editor-spellin/hokifickgkhplphjiodbggjmoafhignh
+bngpiglbalmenaabohcooocpnljgfemj | Microsoft Clarity Live  | https://microsoftedge.microsoft.com/addons/detail/microsoft-clarity-live/bngpiglbalmenaabohcooocpnljgfemj
+ghbhpcookfemncgoinjblecnilppimih | Microsoft Accessibility Insights for Web  | https://microsoftedge.microsoft.com/addons/detail/accessibility-insights-fo/ghbhpcookfemncgoinjblecnilppimih
+bldbcilhcjhoookkgcbmglgjdlbjihgo | Microsoft Priva | https://microsoftedge.microsoft.com/addons/detail/microsoft-priva-scan-set/bldbcilhcjhoookkgcbmglgjdlbjihgo
+leeakgkdanfdoebeohldonigkalooaej | Microsoft Test & Feedback  | https://microsoftedge.microsoft.com/addons/detail/microsoft-editor-spellin/leeakgkdanfdoebeohldonigkalooaej
+fbhhdpcmomckhopgphnkegobjdggdfhe | Microsoft Translator (Built-in)  | https://microsoftedge.microsoft.com/addons/detail/microsoft-translator-bui/fbhhdpcmomckhopgphnkegobjdggdfhe
+kagpabjoboikccfdghpdlaaopmgpgfdc | Microsoft Power automate  | https://microsoftedge.microsoft.com/addons/detail/microsoft-power-automate/kagpabjoboikccfdghpdlaaopmgpgfdc
+oogbnpmeihfgnccdnmmlgicknopghhma | Microsoft OneNoteClipper  | https://microsoftedge.microsoft.com/addons/detail/onenote-web-clipper/oogbnpmeihfgnccdnmmlgicknopghhma
+
+
+
+
+
 
 
 # Ring Central
