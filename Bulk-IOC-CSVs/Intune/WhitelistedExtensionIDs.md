@@ -1,4 +1,4 @@
-
+Chrome reference used if Edge reference not available  
 
 # Password Managers
 
@@ -42,6 +42,7 @@ ikdddppdhmjcdfgilpnbkdeggoiicjgo |Cisco WebEx  |https://microsoftedge.microsoft.
 kgjfgplpablkjnlkjmjdecgdpfankdle |Zoom  | https://chromewebstore.google.com/detail/zoom-chrome-extension/kgjfgplpablkjnlkjmjdecgdpfankdle
 jklagmeecneibgbmbffefehjhijamhhj |Zoom  |https://microsoftedge.microsoft.com/addons/detail/zoom-edge-extension/jklagmeecneibgbmbffefehjhijamhhj
 jeogkiiogjbmhklcnbgkdcjoioegiknm |Slack  | https://chromewebstore.google.com/detail/slack/jeogkiiogjbmhklcnbgkdcjoioegiknm
+kcijpkomlnpfpjmkbghnnmflfebimpfg| 3CX | https://microsoftedge.microsoft.com/addons/detail/3cx-click2call/kcijpkomlnpfpjmkbghnnmflfebimpfg
 
 # Misc
 | ID | Description | Ref|
