@@ -6,26 +6,28 @@
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
 jbkfoedolllekgbhcbcoahefnbanhhlh| bitwarden |https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh?hl=en-US|    
 gehmmocbbkpblljhkekmfhjpfbkclbph| dash lane|  https://microsoftedge.microsoft.com/addons/detail/dashlane-%E2%80%94-password-manag/gehmmocbbkpblljhkekmfhjpfbkclbph
-bbcinlkgjjkejfdpemiealijmmooekmp| Last Pass | 
-aeblfdkhhhdcdjpifhhbdiojplfjncoa| 1password | 
+bbcinlkgjjkejfdpemiealijmmooekmp| Last Pass | https://microsoftedge.microsoft.com/addons/detail/lastpass-free-password-m/bbcinlkgjjkejfdpemiealijmmooekmp
+aeblfdkhhhdcdjpifhhbdiojplfjncoa| 1password | https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa
+dppgmdbiimibapkepcbdbmkaabgiofem| 1Password – Password Manager | https://microsoftedge.microsoft.com/addons/detail/1password-%E2%80%93-password-mana/dppgmdbiimibapkepcbdbmkaabgiofem?hl=en-US
 
 # Microsoft
 | ID | Description | Ref|
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-ppnbnpeolgkicgegkbkbjmhlideopiji |microsoft SSO  |
-bkbeeeffjjeopflfhgeknacdieedcoml | Microsoft Defender Browser Protection | 
-dhheiegalgcabbcobinipgmhepkkeidk | Teams Screen Sharing  |
-echcggldkblhodogklpincgchnpgcdco | Purview  |
-gaaceiggkkiffbfdpmfapegoiohkiipl | My Apps Secure sign-in  |
-hokifickgkhplphjiodbggjmoafhignh | Microsoft Editor  |
+ppnbnpeolgkicgegkbkbjmhlideopiji |microsoft SSO  | https://chromewebstore.google.com/detail/microsoft-single-sign-on/ppnbnpeolgkicgegkbkbjmhlideopiji
+bkbeeeffjjeopflfhgeknacdieedcoml | Microsoft Defender Browser Protection | https://chromewebstore.google.com/detail/microsoft-defender-browse/bkbeeeffjjeopflfhgeknacdieedcoml
+dhheiegalgcabbcobinipgmhepkkeidk | Teams Screen Sharing  | https://chromewebstore.google.com/detail/microsoft-teams-screen-sh/dhheiegalgcabbcobinipgmhepkkeidk
+echcggldkblhodogklpincgchnpgcdco | Purview  | https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco
+gaaceiggkkiffbfdpmfapegoiohkiipl | My Apps Secure sign-in  | https://microsoftedge.microsoft.com/addons/detail/my-apps-secure-signin-ex/gaaceiggkkiffbfdpmfapegoiohkiipl
+ggjhpefgjjfobnfoldnjipclpcfbgbhl | My Apps Secure sign-in (Chrome)  |https://chromewebstore.google.com/detail/my-apps-secure-sign-in-ex/ggjhpefgjjfobnfoldnjipclpcfbgbhl
+hokifickgkhplphjiodbggjmoafhignh | Microsoft Editor  | https://microsoftedge.microsoft.com/addons/detail/microsoft-editor-spellin/hokifickgkhplphjiodbggjmoafhignh
 
 
 # Ring Central
 | ID | Description | Ref|
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-melamlloomehapkpdgnbbepdiomabacm | RingCentral Contact Center Voice  |
-kkhkjhafgdlihndcbnebljipgkandkhh | RingCentral CRM Extension  |
-fddhonoimfhgiopglkiokmofecgdiedb | RingCentral for Google  |
+melamlloomehapkpdgnbbepdiomabacm | RingCentral Contact Center Voice  | https://chromewebstore.google.com/detail/ringcentral-contact-cente/melamlloomehapkpdgnbbepdiomabacm
+kkhkjhafgdlihndcbnebljipgkandkhh | RingCentral CRM Extension  | https://chromewebstore.google.com/detail/ringcentral-crm-extension/kkhkjhafgdlihndcbnebljipgkandkhh
+fddhonoimfhgiopglkiokmofecgdiedb | RingCentral for Google  | https://chromewebstore.google.com/detail/ringcentral-for-google/fddhonoimfhgiopglkiokmofecgdiedb
 
  # HP Dynamic Audio
 | ID | Description | Ref|
@@ -35,21 +37,23 @@ fkhppjmkbifibialnglmjegmgckmkdco  |
 # Conferencing
 | ID | Description | Ref|
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-jlhmfgmfgeifomenelglieieghnjghma |Cisco WebEx  |
-kgjfgplpablkjnlkjmjdecgdpfankdle |Zoom  |
-jeogkiiogjbmhklcnbgkdcjoioegiknm |Slack  |
+jlhmfgmfgeifomenelglieieghnjghma |Cisco WebEx  | https://chromewebstore.google.com/detail/cisco-webex-extension/jlhmfgmfgeifomenelglieieghnjghma
+ikdddppdhmjcdfgilpnbkdeggoiicjgo |Cisco WebEx  |https://microsoftedge.microsoft.com/addons/detail/cisco-webex-extension/ikdddppdhmjcdfgilpnbkdeggoiicjgo
+kgjfgplpablkjnlkjmjdecgdpfankdle |Zoom  | https://chromewebstore.google.com/detail/zoom-chrome-extension/kgjfgplpablkjnlkjmjdecgdpfankdle
+jklagmeecneibgbmbffefehjhijamhhj |Zoom  |https://microsoftedge.microsoft.com/addons/detail/zoom-edge-extension/jklagmeecneibgbmbffefehjhijamhhj
+jeogkiiogjbmhklcnbgkdcjoioegiknm |Slack  | https://chromewebstore.google.com/detail/slack/jeogkiiogjbmhklcnbgkdcjoioegiknm
 
 # Misc
 | ID | Description | Ref|
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-ohjiccikicdhcdlophelgjppakkdlfmg | Refined Microsoft Learn  |
-jfkgnnmpdnoelcfmojmddglicjlagfjm |Cmd.ms for easier navigation around microsoft portals  |
-oplgganppgjhpihgciiifejplnnpodak |Graph Xray for developers  |
-odfafepnkmbhccpbejgmiehpchacaeak |Ublock Origin, Approved adblock that isn't privacy invading trash  |
-ifoakfbpdcdoeenechcleahebpibofpc | dark mode CSS reader for accessibility users. I would say risk is accepted as risk of abuse is low  |
+ohjiccikicdhcdlophelgjppakkdlfmg | Refined Microsoft Learn  | https://microsoftedge.microsoft.com/addons/detail/refined-microsoft-learn/ohjiccikicdhcdlophelgjppakkdlfmg
+jfkgnnmpdnoelcfmojmddglicjlagfjm |Cmd.ms for easier navigation around microsoft portals  | https://microsoftedge.microsoft.com/addons/detail/cmdms/jfkgnnmpdnoelcfmojmddglicjlagfjm
+oplgganppgjhpihgciiifejplnnpodak |Graph Xray for developers  | https://microsoftedge.microsoft.com/addons/detail/graph-xray/oplgganppgjhpihgciiifejplnnpodak
+odfafepnkmbhccpbejgmiehpchacaeak |Ublock Origin, Approved adblock that isn't privacy invading trash  | https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak?refid=bingshortanswersdownload
+ifoakfbpdcdoeenechcleahebpibofpc | dark mode CSS reader for accessibility users. I would say risk is accepted as risk of abuse is low  | https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc
 
  # Google
 | ID | Description | Ref|
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-aapbdbdomjkkjkaonfhkkikfgjllcleb | Translate  |
-ifbmcpbgkhlpfcodhjhdbllhiaomkdej | Office - Enable Copy and Paste  |
+aapbdbdomjkkjkaonfhkkikfgjllcleb | Translate  | https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
+ifbmcpbgkhlpfcodhjhdbllhiaomkdej | Office - Enable Copy and Paste  | https://chromewebstore.google.com/detail/office-enable-copy-and-pa/ifbmcpbgkhlpfcodhjhdbllhiaomkdej
