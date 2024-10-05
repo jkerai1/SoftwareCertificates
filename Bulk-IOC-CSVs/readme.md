@@ -3,6 +3,8 @@ Bulk CSV lists for blocking IOCs that aren't certificates
 
 Note there is a limit of 500 IOCs at a time in bulk 
 
+I found web content filtering to sometimes mis-categorize so decided to create extra lists on top  
+
 Crowdstrike being looked at via https://urlscan.io/search/#crowdstrike*  
 
 Also Contained in here are some lists for disallowed applications to run
