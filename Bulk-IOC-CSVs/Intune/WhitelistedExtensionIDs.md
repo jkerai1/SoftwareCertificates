@@ -15,7 +15,7 @@ gaaceiggkkiffbfdpmfapegoiohkiipl // My Apps Secure sign-in
 hokifickgkhplphjiodbggjmoafhignh // Microsoft Editor  
 
 
-# Ring Central Stuff
+# Ring Central
 
 melamlloomehapkpdgnbbepdiomabacm // RingCentral Contact Center Voice  
 kkhkjhafgdlihndcbnebljipgkandkhh // RingCentral CRM Extension  
