@@ -123,6 +123,16 @@ Work In Progress
 
 [See also A good article on abusing code signing certs](https://axelarator.github.io/posts/codesigningcerts/)  
 
+# Stop Users Walking past blocks  
+
+Make sure users cannot override SmartScreen setting in windows settings – lives under App and Browser Control.  
+Unticking Smartscreen for edge allows access the custom IOCs because they share the same service (this can be noted in the KQL also)    
+
+![image](https://github.com/user-attachments/assets/3ca1bb3d-c8bc-456a-8733-30d653c196f3)
+
+
+Some 3rd party browsers can walk past URL blocks, Seamonkey for example.
+
 
 # See More From Me on IOC Blocking!  
 
