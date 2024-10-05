@@ -2,7 +2,7 @@
 
 Browser extension whitelisting is MUCH better than blacklisting. However if this is something you are struggling to achieve, this list may give you a good starting point  
 
-I've included:  
+I've included in my blocklist:  
 
 VPNS, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools   
 
