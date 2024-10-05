@@ -29,6 +29,7 @@ leeakgkdanfdoebeohldonigkalooaej | Microsoft Test & Feedback  | https://microsof
 fbhhdpcmomckhopgphnkegobjdggdfhe | Microsoft Translator (Built-in)  | https://microsoftedge.microsoft.com/addons/detail/microsoft-translator-bui/fbhhdpcmomckhopgphnkegobjdggdfhe
 kagpabjoboikccfdghpdlaaopmgpgfdc | Microsoft Power automate  | https://microsoftedge.microsoft.com/addons/detail/microsoft-power-automate/kagpabjoboikccfdghpdlaaopmgpgfdc
 oogbnpmeihfgnccdnmmlgicknopghhma | Microsoft OneNoteClipper  | https://microsoftedge.microsoft.com/addons/detail/onenote-web-clipper/oogbnpmeihfgnccdnmmlgicknopghhma
+ocemkolpnamjcacndljdfmhlpcaoipji | Microsoft Page diagnostics for SharePoint  | https://microsoftedge.microsoft.com/addons/detail/page-diagnostics-for-shar/ocemkolpnamjcacndljdfmhlpcaoipji
 
 
 
