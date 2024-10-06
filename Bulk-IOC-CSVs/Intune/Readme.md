@@ -17,9 +17,6 @@ This Setting can be nice to layer but reality is it can be bypassed easily. The 
 
 https://learn.microsoft.com/en-gb/windows/client-management/mdm/policy-csp-admx-shellcommandpromptregedittools?WT.mc_id=Portal-fx#disallowapps
 
-
-![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
-
 ```
 let DisallowedProcessNames = externaldata (DisallowedProcess: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/DisallowedProcessList.txt'] with (format=txt);
 DeviceProcessEvents
@@ -27,3 +24,6 @@ DeviceProcessEvents
 | summarize count() by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
 
 ```
+
+![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
+
