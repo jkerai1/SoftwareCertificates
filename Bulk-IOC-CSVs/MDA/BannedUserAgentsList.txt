@@ -38,6 +38,7 @@ Keepsafe Browser
  Kindle/
 Byffox
 bloket
+ZmEu
 OculusBrowser
 SailfishBrowser
 MZBrowser/
@@ -192,3 +193,45 @@ Anonymous
 Anonymizied
 Anonymisiert
 BCKLINKS
+waybackarchive
+FCCN Crawler
+arquivo-web-crawler
+heritrix
+Ilse
+INGRID
+ZumBot
+XML Sitemaps Generator
+XML-Sitemaps
+WSR-Agent
+WeSEE:Search
+WebCrawler
+Web Glance
+WBSearchBot
+Wappalyzer
+URLAppendBot
+visionutils
+Tweetmeme
+TweetedTimes Bot
+Tagyu
+SurveyBot
+sReleaseBot
+Spiderlytics
+ShowXML
+SoftListBot
+shelob
+SetLinks bot
+ScreenerBot
+Scrapy
+Proxy Gear
+OpenWebSpider
+Peeplo
+PaperLiBot
+NetSeer
+NetzCheckBot
+NSO_Debugger
+Metaspinner
+Moreover
+meanpathbot
+MetaGeneratorCrawler
+LoadTimeBot
+RocketCrawler
