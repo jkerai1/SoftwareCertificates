@@ -2,7 +2,7 @@
 # KQL
 
 
-[BlockList](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv) 
+[MDE Bulk IOC Domain BlockList](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv) 
 
 ```
 let CryptoDomains = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Crypto.csv"] with (format="csv", ignoreFirstRecord=True);
