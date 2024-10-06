@@ -66,11 +66,20 @@ __Note about user agents:__  Spaces have been included in some user agents to fu
 
 MSIE and Trident refer to IE  
 
-That some of these browsers will not be supported in AZ portal natively such as seamonkey. Everything after the first 30 or so is tending to the more niche categories. If you really need to block ALL user agents just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
+Some of these browsers will not be supported in Azure portal natively such as seamonkey. Everything after the first 30 entries or so is tending to the more niche categories. If you really need to block ALL user agents just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
 
 Reference https://whatmyuseragent.com/browser
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
+
+KQL to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
+```
+let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="csv", ignoreFirstRecord=False);
+AADSignInEventsBeta
+| where UserAgent has_any(UserAgents)
+| summarize count() by UserAgent
+```
+![image](https://github.com/user-attachments/assets/c8957304-521b-4234-a226-8f9880492e24)
 
 
 Edge For Business Enforcement (Preview):
