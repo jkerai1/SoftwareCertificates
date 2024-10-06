@@ -1,6 +1,6 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
 DomainName,fitgirl-repacks.site,,Block,Informational,Unsanctioned: Gaming/Piracy,Unsanctioned: Gaming/Piracy,Unsanctioned,,,,false
-DomainName,gazellegames.net,,Block,Informational,Unsanctioned: Gaming/Piracy,Unsanctioned: Gaming/Piracy,Unsanctioned,,,,false
+DomainName,gazellegames.net,,Block,Informational,Unsanctioned: Gaming/Piracy,Unsanctioned: Gaming,Unsanctioned,,,,false
 DomainName,r2games.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned: Gaming/Piracy,Unsanctioned,,,,false
 DomainName,sharemods.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,kingmods.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
