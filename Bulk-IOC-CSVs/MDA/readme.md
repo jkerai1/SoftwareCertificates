@@ -60,7 +60,7 @@ I'd consider blocking anonymous/abused hosting IPs to be the bare miniuium. When
 
 ## Block user Agents
 
-List of User agents can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
+List of keywords from unusual User agents can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
 
 __Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings.    
 
