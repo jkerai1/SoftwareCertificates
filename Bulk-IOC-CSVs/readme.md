@@ -1,9 +1,9 @@
 Bulk CSV lists for blocking IOCs that aren't certificates  
 
 
-Note there is a limit of 500 IOCs at a time in bulk 
+Note there is a limit of 500 IOCs at a time in bulk, I am thinking about ways I could chop and change this with a script   
 
-I found web content filtering to sometimes mis-categorize so decided to create extra lists on top  
+I found web content filtering to sometimes mis-categorize so decided to create extra lists on top    
 
 Crowdstrike being looked at via https://urlscan.io/search/#crowdstrike*  
 
