@@ -1,6 +1,20 @@
 
 # KQL
 
+
+[BlockList](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv) 
+
+```
+let CryptoDomains = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Crypto.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = CryptoDomains
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl has_any(CryptoDomains)
+
+```
+
+
 # Coin Domains
 ```
 let Crypto = externaldata(type:string)[@"https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/ZeroDot1_CoinBlockerLists/master/domains.list"] with (format="csv", ignoreFirstRecord=True);
@@ -35,17 +49,4 @@ DeviceProcessEvents //Ref https://www.kqlsearch.com/query/Cryptominingdetection&
     "N0cmF0dW0rdWRwOi8v", 
     "zdHJhdHVtK3VkcDovL"
 )
-```
-# See Also 
-
-[BlockList](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv) 
-
-```
-let CryptoDomains = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Crypto.csv"] with (format="csv", ignoreFirstRecord=True);
-let DomainList = CryptoDomains
-| project IndicatorValue;
-DeviceNetworkEvents
-| where TimeGenerated > ago(90d)
-| where RemoteUrl has_any(CryptoDomains)
-
 ```
