@@ -60,10 +60,20 @@ I'd consider blocking anonymous/abused hosting IPs to be the bare miniuium. When
 
 ## Block user Agents
 
-List of User agents can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/MDA-BannedUserAgentsList.txt
+List of User agents can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
+
+__Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings.    
+
+MSIE and Trident refer to IE  
+
+That some of these browsers will not be supported in AZ portal natively such as seamonkey. Everything after the first 30 or so is tending to the more niche categories. If you really need to block ALL user agents just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
+
+Reference https://whatmyuseragent.com/browser
+
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
-Alternatively you can use Edge For Business Enforcement (Preview):
+
+Edge For Business Enforcement (Preview):
 
 Settings > Cloud Apps > Edge For Business Protection
 
