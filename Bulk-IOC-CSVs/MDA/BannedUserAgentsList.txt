@@ -321,7 +321,7 @@ NetID.com
 neTVision
 NextopiaBOT
 nicebot
-niXXieBot?
+niXXieBot
 Nozilla/P.N (Just for IDS woring)
 Nudelsalat
 NV32ts
