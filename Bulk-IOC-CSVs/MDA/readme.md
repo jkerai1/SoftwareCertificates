@@ -64,9 +64,7 @@ List of User agents can be found at: https://github.com/jkerai1/SoftwareCertific
 
 __Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings.    
 
-MSIE and Trident refer to IE  
-
-Some of these browsers will not be supported in Azure portal natively such as seamonkey. Everything after the first 30 entries or so is tending to the more niche categories. If you really need to block ALL user agents just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
+Some of these browsers will not be supported in Azure portal natively such as seamonkey. Everything after the first 30 entries or so is tending to the more niche categories. If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
 
 Reference https://whatmyuseragent.com/browser
 
@@ -77,9 +75,9 @@ KQL to hunt for these user agents - and yes Steam in-game browser does have its 
 let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="csv", ignoreFirstRecord=False);
 AADSignInEventsBeta
 | where UserAgent has_any(UserAgents)
-| summarize count() by UserAgent
+| summarize count() by UserAgent //https://user-agents.net/lookup can be a good reason to lookup strings or https://useragents.io/parse
 ```
-![image](https://github.com/user-attachments/assets/c8957304-521b-4234-a226-8f9880492e24)
+![User Agents Test](https://github.com/user-attachments/assets/23d5a733-074a-43cd-b1d4-8a8e50927a84)
 
 
 Edge For Business Enforcement (Preview):
