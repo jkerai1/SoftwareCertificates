@@ -235,3 +235,172 @@ meanpathbot
 MetaGeneratorCrawler
 LoadTimeBot
 RocketCrawler
+LinkpadBot
+LivelapBot
+KomodiaBot
+IstellaBot
+infohelfer
+ImplisenseBot
+http_requester
+ht://Dig
+GroupHigh
+htdig
+gooblog
+GPTBot
+GG PeekBot
+SqwidgeBot
+altervista.org
+BilgiBot
+Drupal
+DomainsDB.net
+CyberPatrol
+Covario-IDS
+cisco-IOS
+EuripBot
+eventax
+FANGCrawl
+favorstarbot
+FollowSite.com
+Gaisbot
+gosospider
+Dumbot
+Healthbot
+hitcrawler
+hilfe
+ACONTBOT
+yellowpages.com
+yp-crawl
+HuaweiSymantecSpider
+JetBrains
+JS-Kit URL Resolver
+KakleBot
+KBeeBot
+Keyword Density
+Lincoln State Web Browser
+Links4US-Crawler
+Lorkyll
+Lsearch/sondeur
+MapoftheInternet
+metatagsdir
+Microsoft Windows Network Diagnostics
+Miva
+moget
+redditbot
+MyFamilyBot/*)
+N-Stealth)
+Scumbot
+Spider; Linux)
+AdHitz
+aiHitBot
+BuzzRankingBot
+ClixSense
+genevabot
+JadynAveBot
+Kyluka crawl
+LegalAnalysisAgent
+europarchive.org
+scanalert.com
+Nigma.ru
+Plukkie
+SuchbaerBot
+Twingly Recon
+unwrapbot
+Vermut
+Viralheat
+Webbot
+DepSpid
+Vonna.com
+Windows95
+n4p_bot
+nabot*
+NetCarta_WebMapper
+Netchart Adv Crawler
+NetID.com 
+neTVision
+NextopiaBOT
+nicebot
+niXXieBot?
+Nozilla/P.N (Just for IDS woring)
+Nudelsalat
+NV32ts
+Ocelli
+OpenTaggerBot
+Oracle Enterprise Search
+Oracle Ultra Search
+Pajaczek
+panscient.com
+Patwebbot
+PDFBot
+PhpDig
+PlantyNet_WebRobot
+PluckItCrawler
+PMAFind
+Poodle_predictor_1.0
+QuickFinder Crawler
+Radiation Retriever
+RixBot
+roboobot
+SBIder
+ScollSpider
+Search Fst
+searchbot 
+lookseek
+semanticdiscovery
+sitecheck.internetseer.com
+SMBot
+sohu
+SpankBot
+tspyyp
+Sunrise
+Superpages URL Verification Engine
+Surf Knight
+SyncMgr
+Talkro Web-Shot
+Tasap-image-robot
+Tecomi Bot
+TencentTraveler
+TheInformant
+Toata dragostea
+Tutorial Crawler
+TelegramBot
+Twitterbot
+UbiCrawler
+UCmore
+USER_AGENT
+VadixBot
+VengaBot
+Visicom Toolbar
+Visited by http://tools.geek-tools.org
+Webclipping.com
+webcollage
+WebFilter Robot
+WeBoX
+WebTrends
+West Wind Internet Protocols
+WhizBang
+Willow Internet Crawler by Twotrees V
+WIRE/* (Linux*Bot,Robot,Spider,Crawler)
+www.fi crawler
+Xerka 
+XSpider
+YooW
+QuerySeekerSpider
+proximic
+Alcohol Search
+AugustBot
+awesomebot
+Cooby Bot
+CrystalSemanticsBot
+bloggz.se
+cpan@dataminr.com
+ArtfaceBot
+GSLFbot
+Spider-Pig
+netEstate NE Crawler
+securepoint cf
+www.integromedb.org/Crawler
+CheckSite Verification Agent
+Squzer
+
+
+
