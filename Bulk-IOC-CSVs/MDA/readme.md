@@ -77,6 +77,7 @@ let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent
 AADSignInEventsBeta
 | where UserAgent has_any(UserAgents)
 | summarize count() by UserAgent //https://user-agents.net/lookup can be a good reason to lookup strings or https://useragents.io/parse
+//| summarize count() by UserAgent,AccountUpn,Application
 ```
 ![User Agents Test](https://github.com/user-attachments/assets/23d5a733-074a-43cd-b1d4-8a8e50927a84)
 
