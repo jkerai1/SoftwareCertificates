@@ -402,5 +402,93 @@ www.integromedb.org/Crawler
 CheckSite Verification Agent
 Squzer
 Windows XP
+Zookabot
+RamblerMail
+BUbiNG
+JoobleBot
+Jeode
+kraken
+PayPal
+Locubot
+MailChimp.com
+MixBot
+kgbodykulturarw3
+MerchantCentricBot
+MarketwireBot
+PageFreezer
+Screenshoter
+OpenHoseBot
+AskPeterBot
+Apercite
+PiplBot
+Blog Search
+YisouSpider
+hivaBot*
+netEstate
+securepoint cf
+integromedb
+CheckSite Verification Agent
+ADmantX 
+Iframely
+NetLyzer FastProbe
+uipcrawler
+robots
+Digincore
+NoteTextView
+ShortLinkTranslate
+Grammarly
+gettor
+infoX-WISG
+Melvil
+Quora Link Preview
+Quora-Bot
+ROR Sitemap Generator
+XmlSitemapGenerator
+Stratagems Kumo
+Virtuoso
+SPIP-
+webnumbrFetcher
+ARC Reader
+Vinti
+EBSCO EJS
+BlueDragon
+Stewdio Windmaker
+Globel
+HubPages
+Casterly
+AdnormCrawler
+InfuzApp
+VM-Crawler
+Virtuoso RDF
+SRCCN!Spider
+WinWebBot
+TeeRaidBot
+ToutiaoSpider
+Re-Animator
+AdlesseBot
+AndersPinkBot
+Greplerbot
+YesupBot
+LinkisBot
+houzzbot
+Faveeo
+Bumble Bee
+PocketParser
+Ruby, 
+Twurly
+SafeDNSBot
+Web-sniffer
+IAS crawler
+YOTPO
+GermCrawler
+Fyrebot
+istellabot
+Sysomos
+SocialRankIOBot*
+datagnionbot*
+WebHistoryBot
+MailDBBot
+MuckRack
+
 
 
