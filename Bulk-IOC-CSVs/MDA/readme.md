@@ -73,7 +73,7 @@ Reference https://whatmyuseragent.com/browser
 
 Advanced Hunting KQL to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
 ```
-let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="csv", ignoreFirstRecord=False);
+let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="txt", ignoreFirstRecord=False);
 AADSignInEventsBeta
 | where UserAgent has_any(UserAgents)
 | summarize count() by UserAgent //https://user-agents.net/lookup can be a good reason to lookup strings or https://useragents.io/parse
