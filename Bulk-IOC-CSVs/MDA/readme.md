@@ -61,7 +61,6 @@ I want explore the "no tag", dedicated server hosting, Cloud hosting Tags to see
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
 
-[MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv)
 
 My KQL Take on [KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl):
 ```
@@ -77,6 +76,17 @@ SigninLogs
 | extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
 ```
 
+[MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv), Audit with below KQL
+
+```
+let VPNIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = VPNIOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl in~(DomainList)
+| summarize count() by RemoteUrl
+```
 
 ## Block user Agents
 
