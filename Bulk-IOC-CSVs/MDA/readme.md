@@ -187,6 +187,17 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 
 See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv
 
+Accompanying KQL:
+```
+let PasteLikeSitesIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = PasteLikeSitesIOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl in~(DomainList )
+| summarize count() by RemoteUrl
+```
+
 ## Auto Ban Discovered Risky Generative AI
 
 ![image](https://github.com/user-attachments/assets/a36ef817-3fae-4abd-b58e-12de46ae3c86)
