@@ -56,7 +56,8 @@ I'd consider blocking anonymous/abused hosting IPs to be the bare miniuium. When
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
 
-[KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl)
+[KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl)  
+[MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv)
 
 ## Block user Agents
 
