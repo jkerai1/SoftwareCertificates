@@ -5,6 +5,7 @@ OPRGX/
 SeaMonkey
 Vivaldi
 YaBrowser
+Yandex
 ; MSIE 
  Kiwi 
  Epic/1.
@@ -153,11 +154,41 @@ Kuaiso
 AlohaLite
 Maemo
 ACHEETAHI
-
-Spaces have been included in some to future proof any overlapping strings
-
-MSIE and Trident refer to IE
-
-Note: That some of these browsers will not be supported in AZ portal natively such as seamonkey. Everything after the first 27 or so is tending to the more niche categories. If you really need to block ALL user agents just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection)
-
-# Reference https://whatmyuseragent.com/browser
+Teoma
+Ask Jeeves
+AhrefsBot
+AlMiSoft
+GrapeshotCrawler
+niki-bot
+NikiBot
+Browser-Maulkorb
+Anonymisier
+grapeFX
+YaDirectBot/
+MirrorDetector
+FreeSafeIP
+ArchitextSpider
+Goldfire Server
+MonkeyCrawl
+Best of the Web
+BOTW
+ContextAd
+AntiSpamBot
+Interdose
+DotBot
+Speedy Spider
+BlitzBot
+Exabot
+Exalead
+Boitho
+WebCrawler
+ThumbSniper
+Gigabot
+ScreenShotService
+Thumbor
+MusicDownloader
+FancyMusic
+Anonymous
+Anonymizied
+Anonymisiert
+BCKLINKS
