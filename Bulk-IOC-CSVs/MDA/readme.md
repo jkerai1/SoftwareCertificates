@@ -73,11 +73,12 @@ Reference https://whatmyuseragent.com/browser
 
 Advanced Hunting KQL to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
 ```
-let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="txt", ignoreFirstRecord=False);
+let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="txt", ignoreFirstRecord=False); //I switched to txt after some time so ignore the inconsistency with the screenshot
 AADSignInEventsBeta
+//| where ErrorCode == 0 //Uncomment if you only want successes
 | where UserAgent has_any(UserAgents)
 | summarize count() by UserAgent //https://user-agents.net/lookup can be a good reason to lookup strings or https://useragents.io/parse
-//| summarize count() by UserAgent,AccountUpn,Application
+//| summarize count() by UserAgent,AccountUpn,Application //Uncomment to see users and applications
 ```
 ![User Agents Test](https://github.com/user-attachments/assets/23d5a733-074a-43cd-b1d4-8a8e50927a84)
 
