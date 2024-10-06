@@ -15,6 +15,7 @@ If you don't have MDE TVM Bolt on the following KQL may be useful for hunting fo
 
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 DeviceFileEvents
+| where TimeGenerated > ago(90d)
 | where ActionType == "FileCreated"
 | where FileName endswith ".crx"
 //| where InitiatingProcessFileName == "chrome.exe"
@@ -22,7 +23,7 @@ DeviceFileEvents
 | extend ExtensionID = trim_end(@"_\d{2,6}.crx", FileName)
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
 | extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","N/A")
-| summarize count() by ExtensionID,ExtensionURL, RiskyExtension, FileName
+| summarize count() by ExtensionID,ExtensionURL, RiskyExtension
 //| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
 ```
 
