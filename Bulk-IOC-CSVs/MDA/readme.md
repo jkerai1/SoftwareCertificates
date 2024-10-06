@@ -71,7 +71,7 @@ Reference https://whatmyuseragent.com/browser
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
-KQL to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
+Advanced Hunting KQL to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
 ```
 let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="csv", ignoreFirstRecord=False);
 AADSignInEventsBeta
