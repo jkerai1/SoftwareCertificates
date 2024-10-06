@@ -39,3 +39,13 @@ DeviceProcessEvents //Ref https://www.kqlsearch.com/query/Cryptominingdetection&
 # See Also 
 
 [BlockList](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv) 
+
+```
+let CryptoDomains = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Crypto.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = CryptoDomains
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl has_any(CryptoDomains)
+
+```
