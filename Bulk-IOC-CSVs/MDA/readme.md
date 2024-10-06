@@ -259,6 +259,15 @@ Settings > Cloud Apps > Microsoft Information Protection
 
 ![image](https://github.com/user-attachments/assets/1e37ee94-30dd-4b0a-a9b1-8a65c1db47a5)
 
+
+Explict Oauth consent will be required to Inspect Protected files
+
+This logs as:
+
+![image](https://github.com/user-attachments/assets/435a7417-1d66-4fa3-8cc9-c6d43f0fca14)
+
+![image](https://github.com/user-attachments/assets/04463907-e3bb-4713-984c-c342b6d732ee)
+
 ## User Monitoring
 
 I tend to turn this off because it can be annoying:
