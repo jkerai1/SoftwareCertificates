@@ -5,7 +5,7 @@ Browser extension [whitelisting](https://github.com/jkerai1/SoftwareCertificates
 
 I've included in my blocklist:  
 
-VPNS, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools   
+VPNs, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools   
 
 # List of disallowed applications (User)
 
