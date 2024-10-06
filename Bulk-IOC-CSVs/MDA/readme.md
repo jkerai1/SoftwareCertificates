@@ -84,7 +84,8 @@ List of keywords from unusual User agents can be found at: https://github.com/jk
 
 __Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings.    
 
-Some of these browsers will not be supported in Azure portal natively such as seamonkey. Everything after the first 30 entries or so is tending to the more niche categories. If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
+Some of these User Agents will not be supported in Azure portal natively such as seamonkey. Not all are Browser based, some are OS based. 
+Everything after the first 30 entries or so is tending to the more niche categories. If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
 
 Reference https://whatmyuseragent.com/browser
 
