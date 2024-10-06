@@ -42,7 +42,7 @@ Most of the policies below can be built from a policy template. For some reason,
 
 # Access Policy
 
-I'd consider blocking anonymous/hosting IPs to be the bare miniuium. When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA.
+I'd consider blocking anonymous/abused hosting IPs to be the bare miniuium. When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA.
 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 
