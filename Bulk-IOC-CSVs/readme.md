@@ -7,10 +7,14 @@ I found web content filtering to sometimes mis-categorize so decided to create e
 
 Crowdstrike being looked at via https://urlscan.io/search/#crowdstrike*  
 
-Also Contained in here are some lists for disallowed applications to run
+
+# Audit Lists before you upload in a few clicks!
+
+Replace the Externaldata url with the RAW Data URL and run the KQLs, examples below   
+![image](https://github.com/user-attachments/assets/6245b31f-134f-4351-8f23-0eec4aac146b)
 
 
-# DeviceNetworkEvents Example KQL 
+## DeviceNetworkEvents Example KQL 
 
 ```
 let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
@@ -19,7 +23,7 @@ let DomainList = CrowdstrikeIOCs
 DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 ```
-# Email Events Example KQL
+## Email Events Example KQL
 ```
 let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = CrowdstrikeIOCs
@@ -28,7 +32,7 @@ EmailEvents
 | where SenderFromDomain in~(DomainList)
 ```
 
-# Email URL info KQL   
+## Email URL info KQL   
 ```
 let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = CrowdstrikeIOCs
@@ -38,7 +42,7 @@ EmailUrlInfo
 | join EmailEvents on NetworkMessageId
 ```
 
-# All in One KQL 
+## All in One KQL 
 
 ```
 let CrowdstrikeIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/main/Bulk-IOC-CSVs/Crowdstrike%20MDE%20IOC%20-%20Impersonation%20of%20crowdstrike%20over%20global%20outages.csv"] with (format="csv", ignoreFirstRecord=True);
@@ -54,7 +58,7 @@ DeviceNetworkEvents
 | union emailurl, emailevent
 ```
 
-# BlocklistProject
+## BlocklistProject
 ```
 let PornBlockListProj = externaldata(type: string)[@"https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt"] with (format="csv", ignoreFirstRecord=False)
 | where type !startswith "#"
@@ -85,7 +89,7 @@ DeviceNetworkEvents
 | summarize count() by RemoteUrl
 ```
 
-# See More From Me on IOC Blocking!  
+## See More From Me on IOC Blocking!  
 
 [Block TypoSquats in MDE/TABL](https://github.com/jkerai1/DNSTwistToMDEIOC) [![GitHub stars](https://img.shields.io/github/stars/jkerai1/DNSTwistToMDEIOC?style=flat-square)](https://github.com/jkerai1/DNSTwistToMDEIOC/stargazers)  
 [Block Malicious Sites from JoeSandbox in MDE/TABL](https://github.com/jkerai1/JoeSandBoxToMDEBlockList) [![GitHub stars](https://img.shields.io/github/stars/jkerai1/JoeSandBoxToMDEBlockList?style=flat-square)](https://github.com/jkerai1/JoeSandBoxToMDEBlockList/stargazers)  
