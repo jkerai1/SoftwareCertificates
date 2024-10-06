@@ -5,7 +5,9 @@ Browser extension [whitelisting](https://github.com/jkerai1/SoftwareCertificates
 
 I've included in my blocklist:  
 
-VPNs, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools   
+VPNs, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools 
+
+I Created a variant of [OpenIntuneBaseline]([https://github.com/SkipToTheEndpoint/OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/IntuneManagement/SettingsCatalog/Win%20-%20OIB%20-%20Microsoft%20Edge%20-%20U%20-%20Extensions%20-%20v3.1.json)) for Browser extensions for Device as I needed a variant for AVD with my own whitelisting, if its useful feel free to use!
 
 # List of disallowed applications (User)
 
