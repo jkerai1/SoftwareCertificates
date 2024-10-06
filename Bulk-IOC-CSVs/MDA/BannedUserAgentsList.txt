@@ -64,12 +64,14 @@ go-resty
 CoolNovo/
 OppoBrowser
  Crazy Browser
+BlackBerry
 coc_coc_browser
 Browser/Phantom/
 chimlac/
 LBBROWSER/
 webissimo3/
 OpenFin
+OpenVMS
 OhHaiBrowser
  Bang/
 baidubrowser
@@ -286,7 +288,7 @@ Microsoft Windows Network Diagnostics
 Miva
 moget
 redditbot
-MyFamilyBot/*)
+MyFamilyBot
 N-Stealth)
 Scumbot
 Spider; Linux)
@@ -312,7 +314,7 @@ DepSpid
 Vonna.com
 Windows95
 n4p_bot
-nabot*
+nabot
 NetCarta_WebMapper
 Netchart Adv Crawler
 NetID.com 
@@ -379,7 +381,7 @@ WebTrends
 West Wind Internet Protocols
 WhizBang
 Willow Internet Crawler by Twotrees V
-WIRE/* (Linux*Bot,Robot,Spider,Crawler)
+WIRE
 www.fi crawler
 Xerka 
 XSpider
@@ -423,7 +425,7 @@ Apercite
 PiplBot
 Blog Search
 YisouSpider
-hivaBot*
+hivaBot
 netEstate
 securepoint cf
 integromedb
@@ -484,11 +486,70 @@ GermCrawler
 Fyrebot
 istellabot
 Sysomos
-SocialRankIOBot*
-datagnionbot*
+SocialRankIOBot
+datagnionbot
 WebHistoryBot
 MailDBBot
 MuckRack
-
-
-
+fantomas
+cloakBrowser
+shadowMaker
+fantomBrowser
+fantomCrew Browser
+stealthBrowser
+Emacs
+Player FM
+Spotify
+Winamp
+AcadiaUniversityWebCensusClient	
+Amico Alpha 
+annotate_google
+CMS crawler
+e-SocietyRobot
+Forschungsportal
+Gulper Web
+HooWWWer
+inetbot
+JUST-CRAWLER
+Lachesis	
+nextthing
+MTheophrastus
+otc.dyndns.org
+MQbot
+OutfoxBot
+polybot
+Shim?Crawler
+Taiga web spider	
+Theme Spider
+UofTDB_experiment
+USyd-NLP-Spider	
+woriobot	
+zitebot	
+wwwster
+Zao-Crawler	
+Zao
+Amico Alpha
+research@pdrlabs.net	
+Finderlein Research Crawler
+BlueBrowser
+Yahoo
+YHOO
+SearchMonkey
+Y!J-
+Y!OASIS
+Scooter
+yacybot
+freeworld
+Orangebot
+yoozBot
+VoilaBot
+Windows Phone
+iPod
+BingPreview
+MsnBot-Media
+Mail.RU
+Arora
+ChatWork
+Slurp
+Comodo
+naver
