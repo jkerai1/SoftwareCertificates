@@ -42,8 +42,7 @@ Most of the policies below can be built from a policy template. For some reason,
 
 
 # Access Policy
-
-I'd consider blocking anonymous/abused hosting IPs to be the bare miniuium. When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA.
+When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA.
 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 
@@ -53,11 +52,29 @@ I'd consider blocking anonymous/abused hosting IPs to be the bare miniuium. When
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
 
 ## Block Anonymous IPs
+
+I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare miniuium.
+Real shame theres a few abused hosting Providers missing such as hostwinds. Malware C&C/Ten Cent/Sharktech/Alibaba/baCloud/Brute Force Attacker is also not a bad shout here.
+
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
 
-[KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl)  
 [MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv)
+
+My KQL Take on [KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl):
+```
+let VPNRanges = externaldata (IpRange: string) [@'https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt'] with (format=txt);
+SigninLogs
+| where isnotempty(IPAddress)
+| evaluate ipv4_lookup(VPNRanges, IPAddress, IpRange)
+| join kind=leftouter IdentityInfo on $left.UserPrincipalName == $right.AccountObjectId
+| extend Spur = strcat("https://spur.us/context/", IPAddress)
+| summarize by UserPrincipalName, IPAddress, UserAgent, AccountUPN, Spur //User Spur to validate data
+| extend IP_0_Address = IPAddress
+| extend Account_0_Name = UserPrincipalName
+| extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
+```
+
 
 ## Block user Agents
 
