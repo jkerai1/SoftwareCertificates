@@ -20,7 +20,7 @@ DeviceFileEvents
 | where FolderPath contains "Webstore Downloads"
 | extend ExtensionID = trim_end(@"_\d{5}.crx",FileName)
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
-| extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","No")
+| extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","N/A")
 | summarize count() by ExtensionID,ExtensionURL, RiskyExtension
 //| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
 ```
