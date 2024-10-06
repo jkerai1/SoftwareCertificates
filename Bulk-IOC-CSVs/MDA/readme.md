@@ -56,7 +56,7 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum.
 Real shame theres a few abused hosting Providers missing such as hostwinds. Malware C&C/Ten Cent/Sharktech/Alibaba/baCloud/Brute Force Attacker is also not a bad shout here.
 
-I want explore the "no tag", dedicated server hosting, Cloud hosting Tags to see their impact.
+I want explore the "no tag", dedicated server hosting, Cloud hosting Tags to see their impact. These could have their use-cases in the right environments.
 
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
