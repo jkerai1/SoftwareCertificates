@@ -22,6 +22,7 @@ DeviceFileEvents
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
 | extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","No")
 | summarize count() by ExtensionID,ExtensionURL, RiskyExtension
+//| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
 ```
 
 # List of disallowed applications (User)
