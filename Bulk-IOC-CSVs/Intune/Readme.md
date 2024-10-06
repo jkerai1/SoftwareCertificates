@@ -12,16 +12,17 @@ I Created a variant of [OpenIntuneBaseline](https://github.com/SkipToTheEndpoint
 If you don't have MDE TVM Bolt on the following KQL may be useful for hunting for CRX Downloads:
 
 ```
+
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 DeviceFileEvents
 | where ActionType == "FileCreated"
 | where FileName endswith ".crx"
 //| where InitiatingProcessFileName == "chrome.exe"
 | where FolderPath contains "Webstore Downloads"
-| extend ExtensionID = trim_end(@"_\d{5}.crx",FileName)
+| extend ExtensionID = trim_end(@"_\d{2,6}.crx", FileName)
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
 | extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","N/A")
-| summarize count() by ExtensionID,ExtensionURL, RiskyExtension
+| summarize count() by ExtensionID,ExtensionURL, RiskyExtension, FileName
 //| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
 ```
 
