@@ -9,21 +9,23 @@ VPNs, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools
 
 I Created a variant of [OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/IntuneManagement/SettingsCatalog/Win%20-%20OIB%20-%20Microsoft%20Edge%20-%20U%20-%20Extensions%20-%20v3.1.json) for Browser extensions for Device as I needed a variant for AVD with my own whitelisting, if its useful feel free to use!
 
-If you don't have MDE TVM Bolt on the following KQL may be useful for hunting for CRX Downloads:
+If you don't have MDE TVM Bolt on the following KQL may be useful for hunting for CRX Downloads for chromium based browsers:
 
 ```
+
 
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 DeviceFileEvents
 | where TimeGenerated > ago(90d)
 | where ActionType == "FileCreated"
 | where FileName endswith ".crx"
-//| where InitiatingProcessFileName == "chrome.exe"
+//| where InitiatingProcessFileName == "chrome.exe" //if you need to filter down to chrome vs edge
 | where FolderPath contains "Webstore Downloads"
 | extend ExtensionID = trim_end(@"_\d{2,6}.crx", FileName)
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
+| extend EdgeExtensionURL = strcat("https://microsoftedge.microsoft.com/addons/detail/",ExtensionID)
 | extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","N/A")
-| summarize count() by ExtensionID,ExtensionURL, RiskyExtension
+| summarize count() by ExtensionID,ExtensionURL, EdgeExtensionURL, RiskyExtension
 //| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
 ```
 
