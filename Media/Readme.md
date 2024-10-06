@@ -10,7 +10,7 @@ let DomainList = StreamDomains
 | project IndicatorValue;
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
-| where RemoteUrl has_any(StreamDomains)
+| where RemoteUrl in~(DomainList)
 | summarize count() by RemoteUrl
 
 ```
