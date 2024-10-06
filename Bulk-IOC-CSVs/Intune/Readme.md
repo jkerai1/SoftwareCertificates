@@ -9,9 +9,10 @@ VPNs, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools
 
 I Created a variant of [OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/IntuneManagement/SettingsCatalog/Win%20-%20OIB%20-%20Microsoft%20Edge%20-%20U%20-%20Extensions%20-%20v3.1.json) for Browser extensions for Device as I needed a variant for AVD with my own whitelisting, if its useful feel free to use!
 
-If you don't have MDE TVM Bolt on the following KQL may be useful:
+If you don't have MDE TVM Bolt on the following KQL may be useful for hunting for CRX Downloads:
 
 ```
+let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 DeviceFileEvents
 | where ActionType == "FileCreated"
 | where FileName endswith ".crx"
@@ -19,6 +20,8 @@ DeviceFileEvents
 | where FolderPath contains "Webstore Downloads"
 | extend ExtensionID = trim_end(@"_\d{5}.crx",FileName)
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
+| extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","No")
+| summarize count() by ExtensionID,ExtensionURL, RiskyExtension
 ```
 
 # List of disallowed applications (User)
