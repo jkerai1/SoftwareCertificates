@@ -35,6 +35,7 @@ Not a comprehensive list, just some ideas of the capability of MDA and some of t
   * [User Monitoring](#user-monitoring)
   * [File Monitoring](#file-monitoring)
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
+  * [Unified Audit Log](#unified-audit-log)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy does not have a template. Navigate to Cloud Apps > Policies > Policy Management to create a new policy or build a policy by selecting template.
@@ -277,6 +278,13 @@ Always have a back-out plan
 Settings > Cloud Apps > App onboarding/maintenance
 
 ![image](https://github.com/user-attachments/assets/905b1451-3b92-4abd-98a5-4900272406b1)
+
+
+## Unified Audit Log
+
+Settings > Endpoints > Advanced Features 
+
+![image](https://github.com/user-attachments/assets/b2d42023-abd8-4259-b909-53ddba1646d7)
 
 
 
