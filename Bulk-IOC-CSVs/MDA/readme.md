@@ -53,7 +53,7 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 
 ## Block Anonymous IPs
 
-I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare miniuium.
+I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum.
 Real shame theres a few abused hosting Providers missing such as hostwinds. Malware C&C/Ten Cent/Sharktech/Alibaba/baCloud/Brute Force Attacker is also not a bad shout here.
 
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
