@@ -9,6 +9,18 @@ VPNs, crypto, ungoverened AI (including grammarly), Piracy and screen wake tools
 
 I Created a variant of [OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/IntuneManagement/SettingsCatalog/Win%20-%20OIB%20-%20Microsoft%20Edge%20-%20U%20-%20Extensions%20-%20v3.1.json) for Browser extensions for Device as I needed a variant for AVD with my own whitelisting, if its useful feel free to use!
 
+If you don't have MDE TVM Bolt on the following KQL may be useful:
+
+```
+DeviceFileEvents
+| where ActionType == "FileCreated"
+| where FileName endswith ".crx"
+//| where InitiatingProcessFileName == "chrome.exe"
+| where FolderPath contains "Webstore Downloads"
+| extend ExtensionID = trim_end(@"_\d{5}.crx",FileName)
+| extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
+```
+
 # List of disallowed applications (User)
 
 With regards to blocking process names, this is a weak policy and can be bypassed as it runs in user context and only applicable to file explorer however can add an extra layer if WDAC is not an option.
