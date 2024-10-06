@@ -20,6 +20,7 @@ https://learn.microsoft.com/en-gb/windows/client-management/mdm/policy-csp-admx-
 ```
 let DisallowedProcessNames = externaldata (DisallowedProcess: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/DisallowedProcessList.txt'] with (format=txt);
 DeviceProcessEvents
+| where TimeGenerated > ago(90d)
 | where FileName in~(DisallowedProcessNames) or InitiatingProcessFileName has_any(DisallowedProcessNames)// or InitiatingProcessCommandLine has_any(DisallowedProcessNames)
 | summarize count() by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
 
