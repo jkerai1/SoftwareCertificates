@@ -201,3 +201,4 @@ DomainName,romanr.info,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Pira
 DomainName,bitflu.workaround.ch,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,qbittorrent.org,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,yts.contact,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/torrent-scanner/aegnopegbbhjeeiganiajffnalhlkkjb,,Block,Low,Piracy,Piracy: torrent scanner Browser extension,,,,,FALSE
