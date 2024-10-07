@@ -69,6 +69,7 @@ jfkgnnmpdnoelcfmojmddglicjlagfjm |Cmd.ms for easier navigation around microsoft 
 oplgganppgjhpihgciiifejplnnpodak |Graph Xray for developers  | https://microsoftedge.microsoft.com/addons/detail/graph-xray/oplgganppgjhpihgciiifejplnnpodak
 odfafepnkmbhccpbejgmiehpchacaeak |Ublock Origin, Approved adblock that isn't privacy invading trash  | https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak?refid=bingshortanswersdownload
 ifoakfbpdcdoeenechcleahebpibofpc | dark mode CSS reader for accessibility users. I would say risk is accepted as risk of abuse is low  | https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc
+ampgmpmlobbbhjoplcbdfcgplbkbmked | 625 Microsoft 365 shortcuts, spanning 18 different admin centres  | https://microsoftedge.microsoft.com/addons/detail/centro-365/ampgmpmlobbbhjoplcbdfcgplbkbmked
 
  # Google
 | ID | Description | Ref|
