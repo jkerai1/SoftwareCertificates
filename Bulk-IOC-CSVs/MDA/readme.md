@@ -136,8 +136,11 @@ Edge For Business Enforcement (Preview):
 Settings > Cloud Apps > Edge For Business Protection
 
 
-![image](https://github.com/user-attachments/assets/6e81968b-1d9a-4114-a5ec-0441f8110573)
+![image](https://github.com/user-attachments/assets/36db23a5-65f5-45a3-a54c-f3fd4f7b58ba)
 
+
+The default block message isn't super useful so I would consider customizing this
+![image](https://github.com/user-attachments/assets/981b632a-8ce0-4d96-a1b8-be28363beb2d)
 
 See More Browser Blocking stuff here:  
 [Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
