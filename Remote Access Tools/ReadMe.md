@@ -16,7 +16,7 @@ RMMtools
 
 ```
 ```
-let RMMSoftware = externaldata(RMMSoftware: string)[@"https://raw.githubusercontent.com/cyb3rmik3/Hunting-Lists/main/rmm-software.csv"] with (format="csv", ignoreFirstRecord=True);
+let RMMSoftware = externaldata(RMMSoftware: string)[@"https://raw.githubusercontent.com/cyb3rmik3/Hunting-Lists/main/rmm-software.csv"] with (format="csv", ignoreFirstRecord=True); //cyb3rmik3 is author of query
 let ExclDevices = datatable(excludeddev :string)  // Add as many devices you would like to exclude
  ["DeviceName1",
   "DeviceName2",
@@ -28,16 +28,14 @@ DeviceProcessEvents
     | where not(DeviceName in (['ExclDevices']))
     | project Timestamp, DeviceName, ActionType, FileName, FolderPath, ProcessVersionInfoCompanyName, ProcessVersionInfoProductName, ProcessCommandLine, AccountName, InitiatingProcessAccountName, InitiatingProcessFileName, InitiatingProcessCommandLine
     | sort by Timestamp desc
-
 ```
 
 ```
-// First part based on tweet by: @Antonlovesdnb https://x.com/Antonlovesdnb/status/1840823846720385482
 let LOLRMM = externaldata(Name:string,Category:string,Description:string,Author:string,Date:datetime,LastModified:datetime,Website:string,Filename:string,OriginalFileName:string,PEDescription:string,Product:string,Privileges:string,Free:string,Verification:string,SupportedOS:string,Capabilities:string,
 Vulnerabilities:string,InstallationPaths:string,Artifacts:string,Detections:string,References:string,Acknowledgement:string)[@"https://lolrmm.io/api/rmm_tools.csv"] with (format="csv", ignoreFirstRecord=True);
 let ParsedExecutables = LOLRMM
     | distinct InstallationPaths
-    | extend FileNames = extract_all(@"\b([a-zA-Z0-9 _-]+\.exe)", InstallationPaths)
+    | extend FileNames = extract_all(@"\b([a-zA-Z0-9 _-]+\.exe)", InstallationPaths)          //Credit https://github.com/Bert-JanP
     | mv-expand FileNames
     | where isnotempty(FileNames)
     | project FileNames = tolower(FileNames)
