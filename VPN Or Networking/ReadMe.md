@@ -42,8 +42,7 @@ Detect Tor DNS request, Credit: Suraj Kumar
 ```
 DeviceNetworkEvents 
 | where TimeGenerated > ago(90d)
-| extend AdditionalFields_query = parse_json(AdditionalFields)["query"] 
-| extend AdditionalFields_query = tostring(AdditionalFields_query) // Explicitly cast to string 
+| extend AdditionalFields_query = tostring(parse_json(AdditionalFields)["query"]) 
 | where AdditionalFields_query endswith ".onion"
 | summarize count() by AdditionalFields_query, DeviceName
 ```
