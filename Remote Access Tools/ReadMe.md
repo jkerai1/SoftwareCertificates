@@ -5,20 +5,6 @@ Block list URLs coming soon!
 
 # KQL
 
-```
-let VPNRanges = externaldata (IpRange: string) [@'https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt'] with (format=txt); 
-SigninLogs
-| where isnotempty(IPAddress)
-| evaluate ipv4_lookup(VPNRanges, IPAddress, IpRange)
-| join kind=leftouter IdentityInfo on $left.UserPrincipalName == $right.AccountObjectId
-| extend Spur = strcat("https://spur.us/context/", IPAddress)
-| summarize by UserPrincipalName, IPAddress, UserAgent, AccountUPN, Spur
-| extend IP_0_Address = IPAddress
-| extend Account_0_Name = UserPrincipalName
-```
-
-
-
 
 ```
 let RMMtools = externaldata (description: string, remote_domain: string, remote_utility: string, remote_utility_fileinfo: string) 
@@ -29,7 +15,39 @@ RMMtools
 | summarize by DeviceName, AccountName, InitiatingProcessFileName, InitiatingProcessCommandLine, InitiatingProcessParentFileName, ProcessVersionInfoCompanyName, ProcessVersionInfoFileDescription, description
 
 ```
+```
+let RMMSoftware = externaldata(RMMSoftware: string)[@"https://raw.githubusercontent.com/cyb3rmik3/Hunting-Lists/main/rmm-software.csv"] with (format="csv", ignoreFirstRecord=True);
+let ExclDevices = datatable(excludeddev :string)  // Add as many devices you would like to exclude
+ ["DeviceName1",
+  "DeviceName2",
+  "DeviceName3"];
+let Timeframe = 7d; // Choose the best timeframe for your investigation
+DeviceProcessEvents
+    | where Timestamp > ago(Timeframe)
+    | where ProcessVersionInfoCompanyName has_any (RMMSoftware)
+    | where not(DeviceName in (['ExclDevices']))
+    | project Timestamp, DeviceName, ActionType, FileName, FolderPath, ProcessVersionInfoCompanyName, ProcessVersionInfoProductName, ProcessCommandLine, AccountName, InitiatingProcessAccountName, InitiatingProcessFileName, InitiatingProcessCommandLine
+    | sort by Timestamp desc
 
+```
+
+```
+// First part based on tweet by: @Antonlovesdnb https://x.com/Antonlovesdnb/status/1840823846720385482
+let LOLRMM = externaldata(Name:string,Category:string,Description:string,Author:string,Date:datetime,LastModified:datetime,Website:string,Filename:string,OriginalFileName:string,PEDescription:string,Product:string,Privileges:string,Free:string,Verification:string,SupportedOS:string,Capabilities:string,
+Vulnerabilities:string,InstallationPaths:string,Artifacts:string,Detections:string,References:string,Acknowledgement:string)[@"https://lolrmm.io/api/rmm_tools.csv"] with (format="csv", ignoreFirstRecord=True);
+let ParsedExecutables = LOLRMM
+    | distinct InstallationPaths
+    | extend FileNames = extract_all(@"\b([a-zA-Z0-9 _-]+\.exe)", InstallationPaths)
+    | mv-expand FileNames
+    | where isnotempty(FileNames)
+    | project FileNames = tolower(FileNames)
+    | distinct FileNames;
+DeviceNetworkEvents
+| where tolower(InitiatingProcessFileName) in (ParsedExecutables)
+| where ActionType == "ConnectionSuccess"
+| summarize TotalEvents = count(), ExecutableCount = dcount(InitiatingProcessFileName), Executables = make_set(InitiatingProcessFileName) by DeviceName, DeviceId
+
+```
 
 Below is from https://www.kqlsearch.com/query/Find%20Rmm%20Processes&clmnyai1o00005ip4gm8dlvyr
 ```
