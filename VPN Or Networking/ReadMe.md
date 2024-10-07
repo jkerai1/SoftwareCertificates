@@ -38,12 +38,12 @@ SigninLogs
 | extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
 ```
 
-detect Tor DNS request, Credit: Suraj Kumar
+Detect Tor DNS request, Credit: Suraj Kumar
 ```
 DeviceNetworkEvents 
 | where TimeGenerated > ago(90d)
 | extend AdditionalFields_query = parse_json(AdditionalFields)["query"] 
-| project AdditionalFields_query = tostring(AdditionalFields_query) // Explicitly cast to string 
+| extend AdditionalFields_query = tostring(AdditionalFields_query) // Explicitly cast to string 
 | where AdditionalFields_query endswith ".onion"
-| distinct AdditionalFields_query
+| summarize count() by AdditionalFields_query, DeviceName
 ```
