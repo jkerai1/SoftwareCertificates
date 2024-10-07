@@ -30,6 +30,14 @@ DeviceFileEvents
 //| where RiskyExtension == "Yes"
 ```
 
+If you have the TVM bolt-on then Browser Extension hunting is trivial in Advanced Hunting (no native Sentinel Connector yet)
+
+```
+DeviceTvmBrowserExtensions
+| distinct ExtensionId, BrowserName, ExtensionName,ExtensionDescription
+
+```
+
 # List of disallowed applications (User)
 
 With regards to blocking process names, this is a weak policy and can be bypassed as it runs in user context and only applicable to file explorer however can add an extra layer if WDAC is not an option.
