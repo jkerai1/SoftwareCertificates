@@ -11,6 +11,7 @@ See [MDE Domain Block List](https://github.com/jkerai1/SoftwareCertificates/blob
 
 # KQL
 
+Consumer VPN download Pages
 ```
 let VPNIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = VPNIOCs
@@ -35,4 +36,14 @@ SigninLogs
 | extend IP_0_Address = IPAddress
 | extend Account_0_Name = UserPrincipalName
 | extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
+```
+
+detect Tor DNS request, Credit: Suraj Kumar
+```
+DeviceNetworkEvents 
+| where TimeGenerated > ago(90d)
+| extend AdditionalFields_query = parse_json(AdditionalFields)["query"] 
+| project AdditionalFields_query = tostring(AdditionalFields_query) // Explicitly cast to string 
+| where AdditionalFields_query endswith ".onion"
+| distinct AdditionalFields_query
 ```
