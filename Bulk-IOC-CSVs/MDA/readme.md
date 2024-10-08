@@ -42,7 +42,7 @@ Most of the policies below can be built from a policy template. For some reason,
 
 
 # Access Policy
-When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA.
+When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA. You will also need this for [Session Policy](#session-policy)
 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 
@@ -92,8 +92,10 @@ Page 1             |  Page 2
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/b7b884e4-3a05-43f4-9ca5-ed3d60f353bd)|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
 
+All other 3rd party apps will need to be onboarded with SAML from Settings > Cloud Apps > Conditional Access App Control Apps:
+![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
 
-Note that just because many didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
+Note that just because many microsoft apps didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
 
 ## Block Anonymous IPs
 
