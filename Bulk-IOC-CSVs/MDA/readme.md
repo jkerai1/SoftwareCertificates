@@ -57,8 +57,13 @@ CloudAppEvents
 //| where ObjectName contiains @"kerai" //filter for username here
 | where AuditSource == @"Defender for Cloud Apps access control"
 | where ActivityType == @"Login"
-//| extend SessionId = tostring(SessionData.InLineSessionId)
-| summarize count() by tostring(LastSeenForUser), ObjectName, tostring(IPTags), ActionType, Application, IsAdminOperation, tostring(UserAgentTags), CountryCode
+//if you want to explore negative values in the LastSeenForUser, Uncomment the below
+//| extend SessionId = tostring(SessionData.InLineSessionId)//
+//| extend parsedJson = parse_json(LastSeenForUser)  // Parse the JSON column
+//| mv-expand dynamic_fields = bag_keys(parsedJson)  // Get all keys dynamically
+//| extend value = parsedJson[tostring(dynamic_fields)]  // Extract values for each key
+//| where (value) < 0  // Filter out values that are negative
+| summarize count() by tostring(LastSeenForUser), ObjectName, tostring(IPTags), ActionType, Application, IsAdminOperation, tostring(UserAgentTags), CountryCode//, SessionId, UserAgent
 ```
 
 Also note that not all apps are natively supported for MDA Onboarding - e.g. some of  AI/data related portals such 
