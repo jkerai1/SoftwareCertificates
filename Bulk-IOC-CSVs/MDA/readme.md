@@ -84,11 +84,14 @@ Some apps for some reason do not even prompt me for onboarding despite having a 
 
 For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far.
 
-The Finished List - 37 Items - It's possible I missed a few or some more have become available post writing this:
+The finished List - 38 Items - It's possible I missed a few or some more have become available post writing this. You will not need all of these as some are legacy portals.  
+
+This list can be found under Settings > Cloud Apps > Conditional Access App Control Apps:
 
 Page 1             |  Page 2
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/2a3bfd6c-738d-437b-9374-e4468f7c421c) |  ![image](https://github.com/user-attachments/assets/4c88d73c-d6f3-46d3-8d51-d5594df5a5ce)
+![image](https://github.com/user-attachments/assets/b7b884e4-3a05-43f4-9ca5-ed3d60f353bd)|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
+
 
 Note that just because many didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
 
