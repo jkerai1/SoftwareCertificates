@@ -258,7 +258,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/working-with-the-regex-eng
 If I hit "Close" I just end up in a prompt loop until I hit "Ok Proceed"
 ![image](https://github.com/user-attachments/assets/0682cb55-549a-4d53-ac4b-e4778b6a45af)
 
-I actually wasn't allowed back in, might be an issue with the preview. However the point is that someone sending wallet addresses is very suspicious and could be a compromised account so we definitely want to kick them out,note that even though I passed the challenge here the message wasn't actually sent.  
+I actually wasn't allowed back in, might be an issue with the preview. However the point is that someone sending wallet addresses is very suspicious and could be a compromised account so we definitely want to kick them out,note that even though I passed the challenge here the teams message wasn't actually sent.  
 
 ![image](https://github.com/user-attachments/assets/9e896a42-6a9e-457a-bc43-32f3fb058767)
 
