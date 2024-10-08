@@ -51,6 +51,47 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
 
+Also note that not all apps are natively supported for MDA Onboarding - e.g. some of  AI/data related portals such 
+- ml.azure.com
+- customvision.ai
+- videoindexer.ai
+- web.azuresynapse.net
+- speech.microsoft.com
+- adf.azure.com
+- language.cognitive.azure.com
+- cosmos.azure.com
+
+and legacy portals such as 
+- oai.azure.com
+- admin.cloud.microsoft
+
+Some others include 
+- lighthouse.microsoft.com
+- mystaff.microsoft.com  (Does anyone actually use this?)
+- Viva / Viva Insights (but Viva Engage does work)
+- loop.cloud.microsoft
+
+My conclusion is that MDA handover is NOT fit for AI developers and I'd probably go with WVD/AVD instead especially given the data access they may have. Though many of the AI portals are unifying now. A fast way to onboard apps quickly into MDA is to open them all using something like [MSPortals-io](https://msportals.io) after creating a conditional access policy with a session control of "monitor only" scoped to the user doing the onboarding. Add the onboarding user under [App Onboarding and Maintenance](#app-onboarding-and-maintenance) to reduce any potential impact which provides them with the option to bypass if they need to continue doing work. After you have finished onboarding all the apps and created your policies you can go back to the conditional access policy and scope the Session control to custom. Once testing of that is finished you can go back and scope users/apps and exclude any Corporate owned and/or compliant devices. Then clear down any users who can bypass and switch these to an emergency account.
+
+![image](https://github.com/user-attachments/assets/b6b61e28-98b2-4f61-bf21-7cf9e1924f94)
+
+Some apps for some reason do not even prompt me for onboarding despite having a Conditional access policy scoped to all apps such as 
+- azure devops (aex.dev.azure.com) - but does show up under Conditional access app control?
+- ADX (dataexplorer.azure.com)
+- azureiotcentral.com
+- ea.azure.com
+
+
+For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far.
+
+The Finished List - 37 Items - It's possible I missed a few or some more have become available post writing this:
+
+Page 1             |  Page 2
+:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/2a3bfd6c-738d-437b-9374-e4468f7c421c) |  ![image](https://github.com/user-attachments/assets/4c88d73c-d6f3-46d3-8d51-d5594df5a5ce)
+
+Note that just because many didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
+
 ## Block Anonymous IPs
 
 I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum (if it makes sense in your environment of course!!!)
