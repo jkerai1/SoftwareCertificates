@@ -142,7 +142,7 @@ Settings > Cloud Apps > Edge For Business Protection
 The default block message isn't super useful so I would consider customizing this
 ![image](https://github.com/user-attachments/assets/981b632a-8ce0-4d96-a1b8-be28363beb2d)  
 
-Also note when you use Edge for business, browser tools will not be available which makes perfect sense as that provides a bypass path to the proxy. This also means Device Emulation/native User Agent switching will not be possible which is a nice bonus.
+Also note when you use Edge for business, browser tools (i.e. when you hit F12) will not be available which makes perfect sense as that provides a bypass path to the proxy. This also means Device Emulation/native User Agent switching will not be possible which is a nice bonus.
 
 See More Browser Blocking stuff here:  
 [Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
