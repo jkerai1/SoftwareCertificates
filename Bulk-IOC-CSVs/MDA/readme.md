@@ -10,6 +10,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
+  * [Require Step-up if Sending ethereum Address](require-step-up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
   * [Auto Block Risky apps](#auto-block-risky-apps)
   * [Auto Unsanction Web Mail](#auto-unsanction-web-mail)
@@ -17,6 +18,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Auto ban Discovered Paste apps](#auto-ban-discovered-paste-apps)
   * [Auto ban Discovered Risky Generative AI](#auto-ban-discovered-risky-generative-ai)
   * [Monitor Cloud Storage](#monitor-cloud-storage)
+- [Anomaly Detection Policy](#anomaly-detection-policy)
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
 - [File Policy](#file-policy)
@@ -36,9 +38,11 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [File Monitoring](#file-monitoring)
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
+  * [Import Entra Groups](#import-entra-groups)
 
 
-Most of the policies below can be built from a policy template. For some reason, access policy does not have a template. Navigate to Cloud Apps > Policies > Policy Management to create a new policy or build a policy by selecting template.
+Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
+Navigate to Cloud Apps > Policies > Policy Management to create a new policy or build a policy by selecting template. 
 
 
 # Access Policy
@@ -107,7 +111,7 @@ Page 1             |  Page 2
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/b7b884e4-3a05-43f4-9ca5-ed3d60f353bd)|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
 
-All other 3rd party apps will need to be onboarded with SAML from Settings > Cloud Apps > Conditional Access App Control Apps:
+All other [3rd party apps will need to be onboarded with SAML](https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-deployment-featured-idp) from Settings > Cloud Apps > Conditional Access App Control Apps:
 ![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
 
 Note that just because many microsoft apps didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
@@ -117,7 +121,7 @@ Note that just because many microsoft apps didn't work, this is still coverage t
 I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum (if it makes sense in your environment of course!!!)
 Real shame theres a few abused hosting Providers missing such as hostwinds. Malware C&C/Ten Cent/Sharktech/Alibaba/baCloud/Brute Force Attacker is also not a bad shout here.
 
-I want explore the "no tag", dedicated server hosting, Cloud hosting Tags to see their impact. These could have their use-cases in the right environments.
+I want explore the "no tag", dedicated server hosting, Cloud hosting Tags to see their impact. These could have their use-cases in the right environments especially when leveraged when scoping to [Entra Groups](#import-entra-groups)
 
 ![image](https://github.com/user-attachments/assets/f7623cac-9790-48fa-9060-18b3fa708175)
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
@@ -233,11 +237,31 @@ Policy Templates are available via:
 
 E.g. blocking Copy paste of Credit Card Numbers
 
-Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ 
+Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if you need it for testing  
 
 ![image](https://github.com/user-attachments/assets/35977a49-06ea-4ebf-b776-8474acf92f21)
 
 ![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)
+
+# Require Step-up if Sending Ethereum Address
+
+__Note__ Step-up in Session Policy is in preview  
+
+Force the user into an [authentication context](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps#authentication-context) if they send a [ethereum address](blockchain.com), in this case the context is Sign-in Frequency of everytime with passwordless authentication. Leverage with a custom authentication strengths for bonus points. Don't forget to exclude breakglass from Conditional Access when tagging the authentication context.  
+
+ETH Regex Pattern: 0x[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{4}  
+
+https://learn.microsoft.com/en-us/defender-cloud-apps/working-with-the-regex-engine, the regex engine seems quite limited, I tried to do ethereum address but hit failure of Quantifiers of type {n,m} n,m must be less than 10 and so yep I tried splitting into blocks of 10  
+
+![image](https://github.com/user-attachments/assets/78e7e3d0-f2c4-48e9-8aee-081aac8d3c5a)
+
+If I hit "Close" I just end up in a prompt loop until I hit "Ok Proceed"
+![image](https://github.com/user-attachments/assets/0682cb55-549a-4d53-ac4b-e4778b6a45af)
+
+I actually wasn't allowed back in, might be an issue with the preview. However the point is that someone sending wallet addresses is very suspicious and could be a compromised account so we definitely want to kick them out,note that even though I passed the challenge here the message wasn't actually sent.  
+
+![image](https://github.com/user-attachments/assets/9e896a42-6a9e-457a-bc43-32f3fb058767)
+
 
 # App Discovery Policy
 
@@ -307,6 +331,32 @@ Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or
 
 See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backup%20or%20Exfil%20Tools
 
+# Anomaly Detection Policy
+
+These cannot be manually created, there are some potentially useful ones here that may be disabled by default, ensure to check these out from Cloud Apps > Policy Management (Type: Anomaly Detection Policy).
+Also check the MS learn reference: https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy  
+
+Some notes are: 	
+- Activity from suspicious IP addresses - can catch when Identity protection alert auto-resolves say MFA from AiTM, but this should not be relied on as residential proxy can bypass)
+- Unusual addition of credentials to an OAuth app - if you aren't monitoring this via Sentinel, worth alerting on as it can serve as a backdoor to a service principal)  
+- Activity from infrequent country  - if you don't do any location blocking, but I recommend you do some level of location based blocking for some defense in depth using named location in Conditional access, do you really need users signing in from North Korea for instance  
+- Suspicious inbox forwarding - if not alerting via Defender For Office/Sentinel, though I would outright [block autoforwarding domains and whitelist](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-external-email-forwarding)
+- Ransomware activity - From experience the ransomware alerts have always been false positives usually from backup file extensions .encrypted etc.
+- Multiple VM creation activities /Multiple delete VM activities - if you realy need to prevent deletions of VMs [Azure Policy Deny Delete](https://www.linkedin.com/pulse/restricting-deletions-incidents-sentinel-jay-kerai-da9te/) is your friend, can be layered with resource locks
+- Suspicious creation activity for cloud region - if you don't use Azure policy "allowed locations" and if you don't you probably should
+- Impossible travel is OK but ensure to [include any IP ranges as Tags](#add-ip-range-for-usage-in-policies) as Corporate if you have users travelling between two office locations in 2 different geolocations. I'd also suggest increasing the sensitivity as this is usually a false positive and Identity protection / good conditional access can take over the role especially [Continuous Access Elevation with Strict Location Enforcement](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-continuous-access-evaluation-strict-enforcement)
+- Unusual ISP for an OAuth App - Never seen a true positive from this, ensuring good Identity protection conditional access and IP Tags in MDA [Access Policy](#access-policy) is likely to be more useful
+- Unusual file share activity - Could be useful if purview piece is not quite there
+- Unusual file deletion activity - same as above, though some of this can be done via Sentinel/Advanced hunting instead with OfficeActivity | where Operation in ("FileDeleted","FileRecycled")
+- Multiple storage deletion activities - For the azure insider risk piece
+- Activity performed by terminated user - can be nice if you don't have perfect onboarding processes, I haven't seen this trigger thus so far
+
+![image](https://github.com/user-attachments/assets/20a3cf9b-4fae-4be8-9b8f-ad9aece2e812)
+
+Also note you can add goverance actions to anomaly policies for auto-response, annoyingly there is no revoke refresh token ("Require User To Sign-in Again"):
+![image](https://github.com/user-attachments/assets/0288fd0d-8380-4f28-a33e-6842ab6a550b)
+
+
 # Activity Policy
 
 Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
@@ -344,6 +394,10 @@ https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-
 After you have unsanctioned/sanctioned apps remember to generate blocklist for additional downstream protection:
 ![image](https://github.com/user-attachments/assets/1c94c17d-f03d-474f-9007-eb4a0d0d3dae)
 
+# Shared digital certificates (file extensions)
+Hunting for externally shared PEMs and PFXs could be useful:
+![image](https://github.com/user-attachments/assets/131ca9fb-afd3-454b-b949-8be0a09d7cf4)
+
 # App Governance
 
 ## Disable Overprivileged App
@@ -375,7 +429,7 @@ Policies in this category:
 
 ## Add IP Range for Usage in policies
 
-Add Corporate IP Range for Usage in policies/Override False positives.
+Add Corporate IP Range for Usage in policies/Override False positives. If using "Impossible travel" anomaly detection [both sides of the travel need to be in the corporate range to suppress the alert](https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy#impossible-travel).
 
 Settings > Cloud Apps > IP Address ranges  
 
@@ -440,5 +494,12 @@ Settings > Endpoints > Advanced Features
 
 ![image](https://github.com/user-attachments/assets/b2d42023-abd8-4259-b909-53ddba1646d7)
 
+# Import Entra Groups
+
+You may need to scope these policies granularly to user groups to maximize value on these policies, you can import User Groups from Entra by going to Settings > Cloud Apps > User Groups > Import User Group > Office365.  
+
+For example you may want to apply different access policy to different users, maybe a particularly group should only be signing in from a Zscaler IP then you can select the User group in the access policy and do a IP Tag Does not equal ZScalar with action of block.
+
+![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
