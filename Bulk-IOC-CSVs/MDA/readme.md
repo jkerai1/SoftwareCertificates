@@ -10,7 +10,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
-  * [Require step up if Sending ethereum Address](#require-step up-if-sending-ethereum-address)
+  * [Require step up if Sending ethereum Address](#require-step-up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
   * [Auto Block Risky apps](#auto-block-risky-apps)
   * [Auto Unsanction Web Mail](#auto-unsanction-web-mail)
