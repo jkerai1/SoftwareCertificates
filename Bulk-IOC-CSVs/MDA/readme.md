@@ -47,9 +47,19 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 
 
-*Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App Activity Log  in these scenarios.
+*Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App > Activity Log from Defender Portal in these scenarios.The Activity Type will be "Log On"
 
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
+
+Alternatively KQL Query for monitoring Sign-ins to Session Control:
+```
+CloudAppEvents
+//| where ObjectName contiains @"kerai" //filter for username here
+| where AuditSource == @"Defender for Cloud Apps access control"
+| where ActivityType == @"Login"
+//| extend SessionId = tostring(SessionData.InLineSessionId)
+| summarize count() by tostring(LastSeenForUser), ObjectName, tostring(IPTags), ActionType, Application, IsAdminOperation, tostring(UserAgentTags), CountryCode
+```
 
 Also note that not all apps are natively supported for MDA Onboarding - e.g. some of  AI/data related portals such 
 - ml.azure.com
