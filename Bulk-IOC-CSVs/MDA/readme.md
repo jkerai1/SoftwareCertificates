@@ -10,7 +10,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
-  * [Require Step-up if Sending ethereum Address](require-step-up-if-sending-ethereum-address)
+  * [Require step up if Sending ethereum Address](require-step up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
   * [Auto Block Risky apps](#auto-block-risky-apps)
   * [Auto Unsanction Web Mail](#auto-unsanction-web-mail)
@@ -243,9 +243,9 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if yo
 
 ![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)
 
-# Require Step-up if Sending Ethereum Address
+# Require step up if Sending Ethereum Address
 
-__Note__ Step-up in Session Policy is in preview  
+__Note__ step up in Session Policy is in preview  
 
 Force the user into an [authentication context](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps#authentication-context) if they send a [ethereum address](blockchain.com), in this case the context is Sign-in Frequency of everytime with passwordless authentication. Leverage with a custom authentication strengths for bonus points. Don't forget to exclude breakglass from Conditional Access when tagging the authentication context.  
 
