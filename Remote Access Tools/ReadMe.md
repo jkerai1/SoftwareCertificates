@@ -1,7 +1,7 @@
 I would outright Block any unmanaged Remote access Tool in corporate environment to reduce risk of a user being tricked into letting unauthorized party on device
 Threat Actors themselves like using RMM to disguse their persistence  
 
-:warning: Block list URLs : https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/RMM.csv __WARNING_ Run as KQL below before attempting to block as you may use some of these!! :warning:
+:warning: Block list URLs : https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/RMM.csv __WARNING__ Run as KQL below before attempting to block as you may use some of these!! :warning:
 
 # KQL
 ```
