@@ -1,4 +1,4 @@
-# Collection of useful ideas for MDA/ Defender for Cloud Apps / DfCA / MCAS
+# Collection of useful resources for MDA/ Defender for Cloud Apps / DfCA / MCAS
 
 Not a comprehensive list, just some ideas of the capability of MDA and some of the settings you may have missed. I truly think MDA is underrated and underutilized by E5 Customers.  
 >When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.  
