@@ -4,7 +4,17 @@ Threat Actors themselves like using RMM to disguse their persistence
 Block list URLs coming soon!  
 
 # KQL
+```
+let RMM_IOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/RMM.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = RMM_IOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl in~(DomainList)
+| summarize count() by RemoteUrl
 
+
+```
 
 ```
 let RMMtools = externaldata (description: string, remote_domain: string, remote_utility: string, remote_utility_fileinfo: string) 
