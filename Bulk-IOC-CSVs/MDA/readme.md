@@ -39,9 +39,9 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
   * [Import Entra Groups](#import-entra-groups)
-  * [integrate with 3rd party Secure Web Gateways For Discovery](#integrate-with-third-party-secure-web-gateways-for-discovery)
-  * [integrate with SaaS Security Posture](#integrate-with-saas-security-posture)
-  * [integrate with Power Automate for alerting](#integrate-with-power-atomate-for-alerting)
+  * [Integrate with 3rd party Secure Web Gateways For Discovery](#integrate-with-third-party-secure-web-gateways-for-discovery)
+  * [Integrate with SaaS Security Posture](#integrate-with-saas-security-posture)
+  * [Integrate with Power Automate for alerting](#integrate-with-power-atomate-for-alerting)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -616,7 +616,7 @@ If you leverage the discovery with 3rd party web gateways you do not need to gen
 
 ![image](https://github.com/user-attachments/assets/c6168762-5188-4a8d-a947-bf6ee69742bb)
 
-## integrate with SaaS Security Posture
+## Integrate with SaaS Security Posture
 
 ↩️ I do not have experience with the below but I have included this for awareness 
 
@@ -624,7 +624,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/security-saas
 
 ![security-saas-choose-secure-score-main-instance](https://github.com/user-attachments/assets/606226ed-de53-4214-8655-f657ea8b887f)
 
-## integrate with Power Automate for alerting
+## Integrate with Power Automate for alerting
 
 ↩️ I leverage Sentinel 🛡️ + Logic apps over power automate but the option is there within Policies to add action to trigger power automate 
 
