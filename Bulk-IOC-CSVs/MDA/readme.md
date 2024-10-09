@@ -95,7 +95,6 @@ My conclusion is that MDA handover is NOT fit for AI developers and I'd probably
 ![image](https://github.com/user-attachments/assets/b6b61e28-98b2-4f61-bf21-7cf9e1924f94)
 
 Some apps for some reason do not even prompt me for onboarding despite having a Conditional access policy scoped to all apps such as 
-- azure devops (aex.dev.azure.com) - but does show up under Conditional access app control?
 - ADX (dataexplorer.azure.com)
 - azureiotcentral.com
 - ea.azure.com
@@ -109,7 +108,8 @@ This list can be found under Settings > Cloud Apps > Conditional Access App Cont
 
 Page 1             |  Page 2
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/b7b884e4-3a05-43f4-9ca5-ed3d60f353bd)|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
+![image](https://github.com/user-attachments/assets/47f88840-a030-4728-bcf7-bedb54e317ea)
+|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
 
 All other [3rd party apps will need to be onboarded with SAML](https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-deployment-featured-idp) from Settings > Cloud Apps > Conditional Access App Control Apps:
 ![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
@@ -267,7 +267,8 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 
 # App Discovery Policy
 
-These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday, this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered.  
+These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday, this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
+That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
 
 ## Auto Block Risky apps
 
