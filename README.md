@@ -101,7 +101,7 @@ As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, 
 
 Find the CSV of interest (after checking for business impact by checking it with a KQL query) and click on download 
 
-![image](https://github.com/user-attachments/assets/1aa03547-c4bd-4a3d-969b-1c8cb5fadf3a)
+![aaadsa](https://github.com/user-attachments/assets/465eec64-19db-486d-b491-26cc50d610f1)
 
 
 From Defender, Go To Settings on bottom left:  
