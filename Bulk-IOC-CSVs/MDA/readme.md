@@ -110,8 +110,7 @@ This list can be found under Settings > Cloud Apps > Conditional Access App Cont
 
 Page 1             |  Page 2
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/47f88840-a030-4728-bcf7-bedb54e317ea)
-|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
+![image](https://github.com/user-attachments/assets/8f85c792-81a0-4f6a-ad38-47897cc82f8c)|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
 
 All other [3rd party apps will need to be onboarded with SAML](https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-deployment-featured-idp) from Settings > Cloud Apps > Conditional Access App Control Apps:
 ![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
