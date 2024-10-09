@@ -506,7 +506,7 @@ Settings > Endpoints > Advanced Features
 
 You may need to scope these policies granularly to user groups to maximize value on these policies, you can import User Groups from Entra by going to Settings > Cloud Apps > User Groups > Import User Group > Office365.  
 
-For example you may want to apply different access policy to different users, maybe a particularly group should only be signing in from a Zscaler IP then you can select the User group in the access policy and do a IP Tag Does not equal ZScalar with action of block.
+For example, you may want to apply different access policy to different users, maybe a particularly group should only be signing in from a Zscaler IP then you can select the User group in the access policy and do a IP Tag Does not equal ZScalar with action of block.
 
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
