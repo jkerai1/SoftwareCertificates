@@ -458,6 +458,13 @@ Hunting for externally shared PEMs and PFXs could be useful:
 
 # App Governance
 
+App Goverance is the new umbrella for Oauth apps, these are designed to govern oauth apps (in Entra terms an Enterprise Application) registered to Entra (and google/salesforce if you enable these) including visibility, usage and permissions. If a user fell for an illict consent attack and an attacker gained access to corporate data via an Enterprise application this is where you could auto-remediate and revoke permissions for these applications. Noted that illict consent attacks have very much decreased with most "fun" permissions requiring an admin to consent.
+
+If you haven't already I'd strongly recommend changing user consent settings away from "allow consent for apps". By default this is set to "Allow user consent for apps". This setting can be found from Enterprise applications > Consent and Permissions > User Consent Settings
+
+![image](https://github.com/user-attachments/assets/26649403-acb8-4672-b4ab-19610528f918)
+
+
 ## Disable Overprivileged App
 
 ![image](https://github.com/user-attachments/assets/9daa039e-5108-476b-84db-5e3db9223507)
@@ -468,9 +475,9 @@ Hunting for externally shared PEMs and PFXs could be useful:
 
 ## Other policies
 
-This is the legacy experience  
+This is the legacy experience but the policies are still available for use in the App Goverance blade, unsure if this is to be depreciated    
 
-The Revoke action is off by default in MDA for App Govenrance so you can turn this on if you'd like.  
+The Revoke action is off by default for these policies in MDA so you can turn this on if you'd like.  
 
 This can be done from App Govenrance > Policies > Other Policies  
 
