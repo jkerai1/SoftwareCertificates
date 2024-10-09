@@ -99,6 +99,11 @@ DeviceFileCertificateInfo
 
 As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
 
+Find the CSV of interest (after checking for business impact by checking it with a KQL query) and click on download 
+
+![image](https://github.com/user-attachments/assets/1aa03547-c4bd-4a3d-969b-1c8cb5fadf3a)
+
+
 From Defender, Go To Settings on bottom left:  
 ![image](https://user-images.githubusercontent.com/55988027/224496554-e26e2672-6216-4694-ab8a-015d0c08451a.png)
 
@@ -109,7 +114,7 @@ Indicators then Import - note it it doesn't matter whether you are in File Hash,
 
 ![image](https://user-images.githubusercontent.com/55988027/224496619-136fbd3f-7b3a-405f-9b85-edb993c42e94.png)  
 
-Choose File, then hit Import then Hit Done - note that duplicates are skipped so you can keep adding to the existing CSV:    
+Choose the File you downloaded in the first step, then hit Import then Hit Done - note that duplicates are skipped so you can keep adding to the existing CSV:    
 
 ![image](https://user-images.githubusercontent.com/55988027/224496768-7ff90df4-66b2-4398-8307-f424a9ac0303.png)  
 
