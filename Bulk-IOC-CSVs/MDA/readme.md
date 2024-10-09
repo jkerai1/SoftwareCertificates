@@ -589,12 +589,13 @@ For example, you may want to apply different access policy to different users, m
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
- 
-
 # Intergrate with 3rd party Secure Web Gateways For Discovery
-↩️ I do not have experience with the below but I have included this for awareness 
+
+This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler.  
 
 If you leverage the discovery with 3rd party web gateways you do not need to generate the block scripts as it is done automatically.  
+
+↩️ I do not have experience with the below but I have included this for awareness 
 
 - Zscaler - https://learn.microsoft.com/en-us/defender-cloud-apps/zscaler-integration
 - iboss - https://learn.microsoft.com/en-us/defender-cloud-apps/iboss-integration
