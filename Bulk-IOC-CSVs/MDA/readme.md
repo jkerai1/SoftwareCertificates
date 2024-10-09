@@ -9,6 +9,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
 - [Session Policy](#session-policy)
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
+  * [Block Suspicious File Extension Upload](block-suspicious-file-extension-upload)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
   * [Require step up if Sending ethereum Address](#require-step-up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
@@ -233,7 +234,7 @@ See More Browser Blocking stuff here:
 
 # Session Policy  
 
-You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), file extensions etc. Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequisite here also.  
+You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.). Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequisite here also.  
 
 Policy Templates are available via:  
 
@@ -249,6 +250,32 @@ Policy Templates are available via:
 ![image](https://github.com/user-attachments/assets/a535b0d3-943b-4d16-a48d-172a51ec46ac)
 
 ![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
+
+[A suspicious files extension if you need it](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/SuspiciousFileExtensions.txt)
+
+## Block Suspicious File Extension Upload
+
+Start building the policy with "Block upload based on real-time content inspection" template. I then remove Data Classification Inspection method as we don't need that. Then from "Filers", select "extension" and start adding in the extensions.  
+
+[A suspicious files extension if you need it](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/SuspiciousFileExtensions.txt)
+
+Office 🏢 Activity Suspicious File Extension Upload/Download KQL 🚔
+
+```
+let SusFileExtensions = externaldata(Extension: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/SuspiciousFileExtensions.txt"] with (format="txt", ignoreFirstRecord=False); 
+OfficeActivity
+| where TimeGenerated > ago(90d)
+| where Operation == "FileUploaded" or Operation == "FileDownloaded"
+| where SourceFileExtension has_any(SusFileExtensions)
+| summarize count() by SourceFileExtension, SourceFileName
+```
+
+![image](https://github.com/user-attachments/assets/12f47161-0060-4585-b7ae-e9166bb8e1d9)
+
+![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)
+
+
+
 
 ## Copy Paste Credit Card Numbers
 
