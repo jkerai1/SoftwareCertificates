@@ -412,7 +412,13 @@ Consider adding a Governance action after testing to suspend user / confirm comp
 # File Policy
 
 File Policies allow you to enforce a wide range of automated processes using the cloud provider's APIs. Examples include: Put in Admin Quarantine, Notify Users, Apply Sensitivity Label, Make Private, remove external users  
-https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies
+
+The best practice guide for File Policy can be found at: https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies#file-policy-best-practices
+
+File Policy Results can be viewed from Cloud Apps > Policies > Policy management, and then select the Information protection tab
+
+![content-matches-ccn](https://github.com/user-attachments/assets/591c11c4-291d-4cad-b371-ff9d5adc7a76)
+
 
 ## Externally shared source code
 
