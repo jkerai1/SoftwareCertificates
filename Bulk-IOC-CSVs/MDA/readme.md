@@ -580,7 +580,7 @@ Settings > Endpoints > Advanced Features
 ![image](https://github.com/user-attachments/assets/c01066fb-cd5e-4b81-a1f5-d8efbf475970)
 
 
-# Import Entra Groups
+## Import Entra Groups
 
 You may need to scope these policies granularly to user groups to maximize value on these policies, you can import User Groups from Entra by going to Settings > Cloud Apps > User Groups > Import User Group > Office365.  
 
@@ -589,7 +589,7 @@ For example, you may want to apply different access policy to different users, m
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
-# Intergrate with third party Secure Web Gateways For Discovery
+## Intergrate with third party Secure Web Gateways For Discovery
 
 This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler. This means you can use both with no extra configuration and get that double layer of protection but bear in mind that the Zscalar logs will not reflect 1:1 with MDE logs.  
 
@@ -605,7 +605,7 @@ If you leverage the discovery with 3rd party web gateways you do not need to gen
 
 ![image](https://github.com/user-attachments/assets/c6168762-5188-4a8d-a947-bf6ee69742bb)
 
-# Intergrate with SaaS Security Posture
+## Intergrate with SaaS Security Posture
 
 ↩️ I do not have experience with the below but I have included this for awareness 
 
@@ -613,7 +613,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/security-saas
 
 ![security-saas-choose-secure-score-main-instance](https://github.com/user-attachments/assets/606226ed-de53-4214-8655-f657ea8b887f)
 
-# Intergrate with Power Automate for alerting
+## Intergrate with Power Automate for alerting
 
 ↩️ I leverage Sentinel 🛡️ + Logic apps over power automate but the option is there within Policies to add action to trigger power automate 
 
