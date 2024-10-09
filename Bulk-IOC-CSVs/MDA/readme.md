@@ -455,7 +455,7 @@ Some Notes 🗒️ on the Templates:
 - Potential Ransomware activity - From experience the ransomware alerts have always been false positives usually from backup file extensions .encrypted etc. Leveraging File Extensions is not the highest of fidelity here and will likely cause panic if you do intend on using this I would lower the priority and rename it to avoid scaring 👻 the security team.
 - Mass Download by a single user - Can trigger for OneDrive Syncs 🔄, you could leverage "User Agent string does not contain" ODMTA or  OneDrive but bear in mind that user agent strings are spoofable
 - Administrative activity from a non-corporate IP address - Ensure to [Add IP Range as a Corporate tag](#add-ip-range-for-usage-in-policies) before you deploy this
-- Activities from suspicious user agents - The list of user agents is quite limited here so if you want to use this be sure to checkout my [user agent list](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt) and add any apprioprate strings. You will NOT want to add all of these are this will definitely result in false positives e.g. go-resty which is sometimes used by some Azure Tools. Am example of one to add here is ZmEu or gobuster, a better list can be found from: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv#L6 rather than leveraging my list. As stated above user agent is a spoofable string so this should not be relied on.    
+- Activities from suspicious user agents - The list of user agents is quite limited here so if you want to use this be sure to checkout my [user agent list](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt) and add any appropriate strings. You will NOT want to add all of these are this will definitely result in false positives e.g. go-resty which is sometimes used by some Azure Tools. Am example of one to add here is ZmEu or gobuster, a better list can be found from: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv#L6 rather than leveraging my list. As stated above user agent is a spoofable string so this should not be relied on.    
 
 ## Dark Web Monitoring
 ![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
@@ -486,7 +486,7 @@ Missing The ability to add extra domains? unsure. The only other domains that ap
 
 # Malware Detection Policy
 
-[Off by default](https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy#malware-detection), remember to enable and add any apprioprate auto Governance action.
+[Off by default](https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy#malware-detection), remember to enable and add any appropriate auto Governance action.
 
 ![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
 
@@ -599,7 +599,7 @@ Settings > Cloud Apps > Files
 ## App Onboarding and Maintenance
 
 Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂.  
-You need to do add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the apprioprate apps.
+You need to do add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the appropriate apps.
 
 Settings > Cloud Apps > App onboarding/maintenance
 
