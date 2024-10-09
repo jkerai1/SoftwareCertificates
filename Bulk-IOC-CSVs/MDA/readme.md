@@ -39,7 +39,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
   * [Import Entra Groups](#import-entra-groups)
-  * [Intergrate with 3rd party Secure Web Gateways For Discovery](intergrate-with-3rd-party-secure-web-gateways-for-discovery)
+  * [Intergrate with 3rd party Secure Web Gateways For Discovery](intergrate-with-third-party-secure-web-gateways-for-discovery)
   * [Intergrate with SaaS Security Posture](intergrate-with-saas-security-posture)
   * [Intergrate with Power Automate for alerting](intergrate-with-power-atomate-for-alerting)
 
@@ -589,7 +589,7 @@ For example, you may want to apply different access policy to different users, m
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
-# Intergrate with 3rd party Secure Web Gateways For Discovery
+# Intergrate with third party Secure Web Gateways For Discovery
 
 This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler. This means you can use both with no extra configuration and get that double layer of protection but bear in mind that the Zscalar logs will not reflect 1:1 with MDE logs.  
 
