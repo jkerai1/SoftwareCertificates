@@ -39,9 +39,9 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
   * [Import Entra Groups](#import-entra-groups)
-  * [Intergrate with 3rd party Secure Web Gateways For Discovery](intergrate-with-third-party-secure-web-gateways-for-discovery)
-  * [Intergrate with SaaS Security Posture](intergrate-with-saas-security-posture)
-  * [Intergrate with Power Automate for alerting](intergrate-with-power-atomate-for-alerting)
+  * [integrate with 3rd party Secure Web Gateways For Discovery](integrate-with-third-party-secure-web-gateways-for-discovery)
+  * [integrate with SaaS Security Posture](integrate-with-saas-security-posture)
+  * [integrate with Power Automate for alerting](integrate-with-power-atomate-for-alerting)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -414,7 +414,7 @@ Templates available:
 
 Some Notes 🗒️ on the Templates:
 
-- Logon From Risky IP address - Basically an Identity protection clone but suppose this can be useful if you need the extra goverance actions or to [Intergrate with Power Automate for alerting](intergrate-with-power-atomate-for-alerting) without the need for Sentinel 🛡️
+- Logon From Risky IP address - Basically an Identity protection clone but suppose this can be useful if you need the extra goverance actions or to [integrate with Power Automate for alerting](integrate-with-power-atomate-for-alerting) without the need for Sentinel 🛡️
 - Potential Ransomware activity - From experience the ransomware alerts have always been false positives usually from backup file extensions .encrypted etc. Leveraging File Extensions is not the highest of fidelity here and will likely cause panic if you do intend on using this I would lower the priority and rename it to avoid scaring 👻 the security team.
 - Mass Download by a single user - Can trigger for OneDrive Syncs 🔄, you could leverage "User Agent string does not contain" ODMTA or  OneDrive but bear in mind that user agent strings are spoofable
 - Administrative activity from a non-corporate IP address - Ensure to [Add IP Range as a Corporate tag](#add-ip-range-for-usage-in-policies) before you deploy this
@@ -589,7 +589,7 @@ For example, you may want to apply different access policy to different users, m
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
-## Intergrate with third party Secure Web Gateways For Discovery
+## integrate with third party Secure Web Gateways For Discovery
 
 This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler. This means you can use both with no extra configuration and get that double layer of protection but bear in mind that the Zscalar logs will not reflect 1:1 with MDE logs.  
 
@@ -605,7 +605,7 @@ If you leverage the discovery with 3rd party web gateways you do not need to gen
 
 ![image](https://github.com/user-attachments/assets/c6168762-5188-4a8d-a947-bf6ee69742bb)
 
-## Intergrate with SaaS Security Posture
+## integrate with SaaS Security Posture
 
 ↩️ I do not have experience with the below but I have included this for awareness 
 
@@ -613,7 +613,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/security-saas
 
 ![security-saas-choose-secure-score-main-instance](https://github.com/user-attachments/assets/606226ed-de53-4214-8655-f657ea8b887f)
 
-## Intergrate with Power Automate for alerting
+## integrate with Power Automate for alerting
 
 ↩️ I leverage Sentinel 🛡️ + Logic apps over power automate but the option is there within Policies to add action to trigger power automate 
 
