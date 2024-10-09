@@ -443,7 +443,7 @@ Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d
 
 ## File Shared with Personal Email Address
 
-Missing The ability to add extra domains? unsure. The only other domains that appear here are the ones I have set as allowed for B2b External collaboration
+Missing The ability to add extra domains? unsure. The only other domains that appear here are the ones I have set as allowed for B2b External collaboration and the default personal emails pictured. Note that there are plenty of other personal email addresses missing here such as proton, gmx, fedora, yandex. Good news is you can do [Auto Unsanction Web Mail](#auto-unsanction-web-mail) to at least stop half of the bleed. After you have discovered what users are personally using you can block them with Exchange transport rule or better yet [TenantAllowBlockList](https://learn.microsoft.com/en-us/defender-office-365/tenant-allow-block-list-email-spoof-configure) which has a higher priority than Exchange Transport Rule. This will cover you also for that Auto-forwarding scenario too.
 
 ![image](https://github.com/user-attachments/assets/d686266f-ed45-4fa1-b5e7-4ab7d891ac78)
 
