@@ -288,6 +288,17 @@ That is to say you don't need to wait for apps to be discovered you can manually
 *️⃣ Note that in MDA a ⬆️ higher score means less risky. 10 would be a perfect score. The scores are based of General categories (such as diaster recovery, popularity and domain age), security, compliance and legal. You can actually override these if you need to weight more towards one value (lets say you have strict requirement for data at rest being encrypted). This can be done from Settings > Cloud Apps > Score Metrics. Don't forget to hit Save all the way at the bottom after you are done.  
 ![image](https://github.com/user-attachments/assets/3e701239-65fd-4f40-acf0-6b223b228f63)
 
+Audit your Blocks with the below KQL :. Smartscreen is used for Edge and Exploit Guard is for 3rd party browsers. In the back-end the blocks are MDE, assuming of course you have remembered to [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde). ❗ Please remember to turn this on or the blocks will not do diddly squat!    
+
+```
+DeviceEvents
+| where TimeGenerated > ago(90d)
+| where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ResponseCategory == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
+| where tostring(AdditionalFields.DisplayName) has "appName" or isnotempty(tostring(AdditionalFields.ApplicationName))
+| extend Application = iff(tostring(AdditionalFields.DisplayName) has "appName",replace_string((tostring(AdditionalFields.DisplayName)),@"appName=",""), (AdditionalFields.ApplicationName))
+| extend Application= replace('"', '', Application)
+| summarize BlockedURls = make_list(RemoteUrl) by Application
+```
 
 ## Auto Block Risky apps
 
