@@ -102,5 +102,5 @@ DomainName,cloudwaysapps.com,,Block,Informational,File Transfer,Unsanctioned,Uns
 DomainName,clbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,wtools.io,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,paste.ee,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned ,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
-DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned ,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
