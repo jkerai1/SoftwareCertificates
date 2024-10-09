@@ -345,7 +345,7 @@ DeviceNetworkEvents
 
 ## Auto Ban Discovered Risky Generative AI
 
-OpenAI scores 8/9 and Copilot scores around 10. If you need to block Chatgpt etc I'd block it manually as 9 may be too high for app discovery policy. Bear in mind theres currently 3 OpenAI catergories available  
+OpenAI scores 8️⃣ or 9️⃣ and Copilot scores around 🔟. If you need to block Chatgpt etc I'd block it manually as 9 may be too high for app discovery policy. Bear in mind theres currently 3 OpenAI catergories available  
 ![image](https://github.com/user-attachments/assets/d7e92b57-1823-45fc-96c8-3638eccadb82)
 
 Also bear in mind savy users might find websites that have chatbots with no content filter so this by no means a substitute for good DLP.  
@@ -380,14 +380,14 @@ These cannot be manually created, there are some potentially useful ones here th
 
 Also check the MS learn reference: https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy  
 
-Some notes are: 	
+Some notes 📓 are: 	
+
 - Activity from suspicious IP addresses - can catch when Identity protection alert auto-resolves say MFA from AiTM, but this should not be relied on as residential proxy can bypass)
 - Unusual addition of credentials to an OAuth app - if you aren't monitoring this via Sentinel, worth alerting on as it can serve as a backdoor to a service principal)  
 - Activity from infrequent country  - can be useful if you don't do any location blocking (or very early days on it), but I recommend you do some level of location based blocking for some defense in depth using named location in Conditional access, do you really need users signing in from North Korea for instance  
 - Suspicious inbox forwarding - if not alerting via Defender For Office/Sentinel, though I would outright [block autoforwarding domains and whitelist](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-external-email-forwarding)
-- Ransomware activity - From experience the ransomware alerts have always been false positives usually from backup file extensions .encrypted etc.
-- Multiple VM creation activities /Multiple delete VM activities - if you realy need to prevent deletions of VMs [Azure Policy Deny Delete](https://www.linkedin.com/pulse/restricting-deletions-incidents-sentinel-jay-kerai-da9te/) is your friend, can be layered with resource locks
-- Suspicious creation activity for cloud region - if you don't use Azure policy "allowed locations" and if you don't you probably should
+- Multiple VM creation activities /Multiple delete VM activities - if you realy need to prevent deletions of VMs [Azure Policy Deny Delete](https://www.linkedin.com/pulse/restricting-deletions-incidents-sentinel-jay-kerai-da9te/) is your friend and can be layered with resource locks 🔐
+- Suspicious creation activity for cloud region - if you don't use Azure policy "allowed locations" 🌐 and if you don't you probably should
 - Impossible travel is OK but ensure to [include any IP ranges as Tags](#add-ip-range-for-usage-in-policies) as Corporate if you have users travelling between two office locations in 2 different geolocations. I'd also suggest increasing the sensitivity as this is usually a false positive and Identity protection / good conditional access can take over the role especially [Continuous Access Elevation with Strict Location Enforcement](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-continuous-access-evaluation-strict-enforcement)
 - Unusual ISP for an OAuth App - Never seen a true positive from this, ensuring good Identity protection conditional access and IP Tags in MDA [Access Policy](#access-policy) is likely to be more useful
 - Unusual file share activity - Could be useful if purview piece is not quite there
@@ -403,7 +403,22 @@ Also note you can add goverance actions to anomaly policies for auto-response, a
 
 # Activity Policy
 
-Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.
+These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity, for example a large download of files.
+
+Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.  
+
+https://learn.microsoft.com/en-us/defender-cloud-apps/user-activity-policies
+
+Templates available:
+![image](https://github.com/user-attachments/assets/80e7a001-3051-4ac8-ac0d-41c73a44c3c5)
+
+Some Notes 🗒️ on the Templates:
+
+- Logon From Risky IP address - Basically an Identity protection clone but suppose this can be useful if you need the extra goverance actions or to [Intergrate with Power Automate for alerting](intergrate-with-power-atomate-for-alerting) without the need for Sentinel 🛡️
+- Potential Ransomware activity - From experience the ransomware alerts have always been false positives usually from backup file extensions .encrypted etc. Leveraging File Extensions is not the highest of fidelity here and will likely cause panic if you do intend on using this I would lower the priority and rename it to avoid scaring 👻 the security team.
+- Mass Download by a single user - Can trigger for OneDrive Syncs 🔄, you could leverage "User Agent string does not contain" ODMTA or  OneDrive but bear in mind that user agent strings are spoofable
+- Administrative activity from a non-corporate IP address - Ensure to [Add IP Range as a Corporate tag](#add-ip-range-for-usage-in-policies) before you deploy this
+- Activities from suspicious user agents - The list of user agents is quite limited here so if you want to use this be sure to checkout my [user agent list](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt) and add any apprioprate strings. You will NOT want to add all of these are this will definitely result in false positives e.g. go-resty which is sometimes used by some Azure Tools. Am example of one to add here is ZmEu or gobuster, a better list can be found from: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv#L6 rather than leveraging my list. As stated above user agent is a spoofable string so this should not be relied on.    
 
 ## Dark Web Monitoring
 ![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
@@ -411,7 +426,7 @@ Consider adding a Governance action after testing to suspend user / confirm comp
 
 # File Policy
 
-File Policies allow you to enforce a wide range of automated processes using the cloud provider's APIs. Examples include: Put in Admin Quarantine, Notify Users, Apply Sensitivity Label, Make Private, remove external users  
+File Policies allow you to enforce a wide range of automated 🤖 processes using the cloud provider's APIs. Examples include: Put in Admin Quarantine, Notify Users, Apply Sensitivity Label, Make Private, remove external users  
 
 The best practice guide for File Policy can be found at: https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies#file-policy-best-practices
 
@@ -546,7 +561,8 @@ Settings > Cloud Apps > Files
 
 ## App Onboarding and Maintenance
 
-Always have a back-out plan
+Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂.  
+You need to do add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the apprioprate apps.
 
 Settings > Cloud Apps > App onboarding/maintenance
 
