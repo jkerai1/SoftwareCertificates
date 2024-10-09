@@ -306,8 +306,11 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 
 ![image](https://github.com/user-attachments/assets/77b2ce32-eba7-474a-9342-315448f269a8)
 
+This policy will miss a few such as sendnow, sendthisfile, dropsend but these can be done manually or you can create a different policy. You'll want to hit Content Sharing and Cloud Storage categories there.  
 
 ## Auto ban discovered Paste apps
+
+❗ I'd HIGHLY HIGHLY recommend blocking at least pastebin as this is often used for exfiltration of data / staging malware payloads (maybe malware payload #1 reaches out to pastebin to get URL for malware payload #2)  
 
 Here it is much safer to enable for both apps and domains: 
 
