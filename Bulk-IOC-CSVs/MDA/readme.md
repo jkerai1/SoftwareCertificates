@@ -220,7 +220,7 @@ See More Browser Blocking stuff here:
 
 # Session Policy  
 
-You can also leverage Purview, file extensions etc. Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequisite here also.  
+You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), file extensions etc. Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequisite here also.  
 
 Policy Templates are available via:  
 
@@ -373,6 +373,8 @@ Consider adding a Governance action after testing to suspend user / confirm comp
 
 # File Policy
 
+https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies
+
 ## Externally shared source code
 
 Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d06686722d26d176fad46879d41) relevant to your org.
@@ -514,9 +516,11 @@ For example, you may want to apply different access policy to different users, m
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
-↩️ I do not have experience with the below but I have included this for awareness  
+ 
 
 # Intergrate with 3rd party Secure Web Gateways For Discovery
+↩️ I do not have experience with the below but I have included this for awareness 
+
 If you leverage the discovery with 3rd party web gateways you do not need to generate the block scripts as it is done automatically.  
 
 - Zscaler - https://learn.microsoft.com/en-us/defender-cloud-apps/zscaler-integration
@@ -528,6 +532,8 @@ If you leverage the discovery with 3rd party web gateways you do not need to gen
 ![image](https://github.com/user-attachments/assets/c6168762-5188-4a8d-a947-bf6ee69742bb)
 
 # Intergrate with SaaS Security Posture
+
+↩️ I do not have experience with the below but I have included this for awareness 
 
 https://learn.microsoft.com/en-us/defender-cloud-apps/security-saas
 
