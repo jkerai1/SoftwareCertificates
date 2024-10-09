@@ -58,7 +58,7 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
 
-Alternatively KQL Query for monitoring Sign-ins to Session Control:
+Alternatively KQL :oncoming_police_car: Query :oncoming_police_car: for monitoring Sign-ins to Session Control:
 ```
 CloudAppEvents
 //| where ObjectName contiains @"kerai" //filter for username here
@@ -127,7 +127,7 @@ Real shame theres a few abused hosting Providers missing such as hostwinds. Malw
 
 🛑 I would not recommend trying to do country Locations in MDA Access Policy, this is better suited to Conditional access as then you can hit all users and all apps.  
 
-Country sign-in Conditional access:
+Country sign-in Conditional access KQL :oncoming_police_car::
 ```
 let CountryCodes = externaldata (country: string,countryOrRegion:string) [@'https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/refs/heads/master/all/all.csv'] with (format=csv, ignoreFirstRecord=True);
 SigninLogs
@@ -144,7 +144,7 @@ SigninLogs
 ![image](https://github.com/user-attachments/assets/772da56c-7d87-473b-a15f-42c6663bdd5b)
 
 
-My KQL Take on [KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl):
+My KQL :oncoming_police_car: Take on [KQL Consumer VPN Hunting Reference](https://www.kqlsearch.com/query/Consumer%20Vpn%20Logins&clx4u4q3800065iio1udg95wl):
 ```
 let VPNRanges = externaldata (IpRange: string) [@'https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt'] with (format=txt);
 SigninLogs
@@ -158,7 +158,7 @@ SigninLogs
 | extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
 ```
 
-[MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv), Audit with below KQL, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
+[MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv), Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
 ```
 let VPNIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv"] with (format="csv", ignoreFirstRecord=True);
@@ -169,7 +169,7 @@ DeviceNetworkEvents
 | where RemoteUrl in~(DomainList)
 | summarize count() by RemoteUrl
 ```
-Also consider Browser Extension VPNs, if you don't have MDE DeviceTVM bolt on you can leverage something like the following which is from the [intune](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune) portion of this repo:
+Also consider Browser Extension VPNs, if you don't have MDE DeviceTVM bolt on you can leverage KQL :oncoming_police_car: like the following which is from the [intune](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune) portion of this repo:
 
 ```
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
@@ -201,7 +201,7 @@ Reference https://whatmyuseragent.com/browser
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
-Advanced Hunting KQL to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
+Advanced Hunting KQL :oncoming_police_car: to hunt for these user agents - and yes Steam in-game browser does have its own unique user agent:
 ```
 let UserAgents = externaldata(UserAgent: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt"] with (format="txt", ignoreFirstRecord=False); //I switched to txt after some time so ignore the inconsistency with the screenshot
 AADSignInEventsBeta
@@ -229,7 +229,7 @@ Also note when you use Edge for business, browser tools (i.e. when you hit F12) 
 See More Browser Blocking stuff here:  
 [Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
 [Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Browser%20IOCs.csv)  
-[User Agent KQL Parser](https://www.kqlsearch.com/query/Identity-parseuseragent&clmoxrwnu002tmc0k2lnnqbnz)
+[User Agent KQL :oncoming_police_car: Parser](https://www.kqlsearch.com/query/Identity-parseuseragent&clmoxrwnu002tmc0k2lnnqbnz)
 
 # Session Policy  
 
@@ -288,7 +288,7 @@ That is to say you don't need to wait for apps to be discovered you can manually
 *️⃣ Note that in MDA a ⬆️ higher score means less risky. 10 would be a perfect score. The scores are based of General categories (such as diaster recovery, popularity and domain age), security, compliance and legal. You can actually override these if you need to weight more towards one value (lets say you have strict requirement for data at rest being encrypted). This can be done from Settings > Cloud Apps > Score Metrics. Don't forget to hit Save all the way at the bottom after you are done.  
 ![image](https://github.com/user-attachments/assets/3e701239-65fd-4f40-acf0-6b223b228f63)
 
-Audit your Blocks with the below KQL :. Smartscreen is used for Edge and Exploit Guard is for 3rd party browsers. In the back-end the blocks are MDE, assuming of course you have remembered to [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde). ❗ Please remember to turn this on or the blocks will not do diddly squat!    
+Audit your Blocks with the below KQL :oncoming_police_car: :. Smartscreen is used for Edge and Exploit Guard is for 3rd party browsers. In the back-end the blocks are MDE, assuming of course you have remembered to [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde). ❗ Please remember to turn this on or the blocks will not do diddly squat!    
 
 ```
 DeviceEvents
@@ -340,10 +340,10 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 
 ![image](https://github.com/user-attachments/assets/437ffaae-1165-4546-a9d8-f7c91295de81)
 
-See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv. Audit with below KQL, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
+See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv. Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
 
-Accompanying KQL:
+Accompanying KQL :oncoming_police_car::
 ```
 let PasteLikeSitesIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = PasteLikeSitesIOCs
@@ -363,8 +363,8 @@ Also bear in mind savy users might find websites that have chatbots with no cont
 
 ![image](https://github.com/user-attachments/assets/a36ef817-3fae-4abd-b58e-12de46ae3c86)
 
-A dirty KQL to search for these - this is by no means a complete list there are just far too many tools (477 GenAI tools currently sitting in MDA catalog)  
-As per usual the [MDE Bulk IOC Blocklist](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/PotentiallyUngovernedAITools.csv) is downloadable if you need to import the CSVs for whatever reason. Audit with below KQL, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
+A dirty KQL :oncoming_police_car: to search for these - this is by no means a complete list there are just far too many tools (477 GenAI tools currently sitting in MDA catalog)  
+As per usual the [MDE Bulk IOC Blocklist](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/PotentiallyUngovernedAITools.csv) is downloadable if you need to import the CSVs for whatever reason. Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
 
 ```
