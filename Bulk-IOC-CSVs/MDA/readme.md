@@ -268,7 +268,7 @@ Force the user into an [authentication context](https://learn.microsoft.com/en-u
 
 ETH Regex Pattern: 0x[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{4}  
 
-https://learn.microsoft.com/en-us/defender-cloud-apps/working-with-the-regex-engine, the regex engine seems quite limited, I tried to do ethereum address but hit failure of Quantifiers of type {n,m} n,m must be less than 10 and so yep I tried splitting into blocks of 10  
+https://learn.microsoft.com/en-us/defender-cloud-apps/working-with-the-regex-engine, the regex engine seems quite limited, I tried to do ethereum address but hit failure of Quantifiers of type {n,m} n,m must be less than 10 and so yep I tried splitting into blocks of 9️⃣
 
 ![image](https://github.com/user-attachments/assets/78e7e3d0-f2c4-48e9-8aee-081aac8d3c5a)
 
