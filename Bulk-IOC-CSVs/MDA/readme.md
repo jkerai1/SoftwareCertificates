@@ -132,6 +132,7 @@ let CountryCodes = externaldata (country: string,countryOrRegion:string) [@'http
 SigninLogs
 | where TimeGenerated > ago(90d)
 | where ResultType == 0
+| where isnotempty(countryOrRegion)
 | extend countryOrRegion = tostring(LocationDetails.countryOrRegion)
 | join kind = leftouter CountryCodes on countryOrRegion
 | summarize count() by country, UserPrincipalName
