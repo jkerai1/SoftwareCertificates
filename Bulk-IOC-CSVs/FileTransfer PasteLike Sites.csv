@@ -105,7 +105,7 @@ DomainName,paste.ee,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned
 DomainName,siasky.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,backblazeb2.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,sendspace.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,sendspace.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,plesk.page,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,wasabisys.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,inmotionhosting.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
