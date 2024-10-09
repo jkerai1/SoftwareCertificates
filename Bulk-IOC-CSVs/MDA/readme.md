@@ -58,7 +58,7 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
 
-Alternatively KQL :oncoming_police_car: Query :oncoming_police_car: for monitoring Sign-ins to Session Control:
+Alternatively KQL :oncoming_police_car: Query for monitoring Sign-ins to Session Control:
 ```
 CloudAppEvents
 //| where ObjectName contiains @"kerai" //filter for username here
