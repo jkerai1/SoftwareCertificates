@@ -583,3 +583,13 @@ uTorrent
 ccminer
 rclone
 TeslaBrowser
+Yandesk
+antispyprogram
+crazyk
+SpyLocked
+SpyHealer
+QQGame
+ProxyDown
+T0PHackTeam
+MolokaiBot
+gobuster
