@@ -55,3 +55,9 @@
 .theme
 .themepack
 .msstyles
+.zip
+.7z
+.gzip
+.7zip
+.bzip2
+.rar
