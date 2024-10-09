@@ -41,6 +41,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Import Entra Groups](#import-entra-groups)
   * [Intergrate with 3rd party Secure Web Gateways For Discovery](Intergrate-with-3rd-party-secure-web-gateways-for-discovery)
   * [Intergrate with SaaS Security Posture](intergrate-with-saas-security-posture)
+  * [Intergrate with Power Automate for alerting](intergrate-with-power-atomate-for-alerting)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -119,12 +120,12 @@ Note that just because many microsoft apps didn't work, this is still coverage t
 
 ## Block Anonymous IPs
 
-I'd consider blocking anonymous proxy ,abused hosting (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum (if it makes sense in your environment of course!!!)
+I'd consider blocking anonymous proxy ,abused hosting 🌩️ (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum (if it makes sense in your environment of course!!!)
 Real shame theres a few abused hosting Providers missing such as hostwinds. Malware C&C/Ten Cent/Sharktech/Alibaba/baCloud/Brute Force Attacker is also not a bad shout here.  
 
-I want explore the "no tag", dedicated server hosting, Cloud hosting Tags to see their impact. These could have their use-cases in the right environments especially when leveraged when scoping to [Entra Groups](#import-entra-groups)  
+🤔 I want explore the "no tag", dedicated server hosting, Cloud hosting Tags ☁️ to see their impact. These could have their use-cases in the right environments especially when leveraged when scoping to [Entra Groups](#import-entra-groups)  
 
-I would not recommend trying to do country Locations in MDA Access Policy, this is better suited to Conditional access as then you can hit all users and all apps.  
+🛑 I would not recommend trying to do country Locations in MDA Access Policy, this is better suited to Conditional access as then you can hit all users and all apps.  
 
 Country sign-in Conditional access:
 ```
@@ -189,7 +190,7 @@ DeviceFileEvents
 
 ## Block user Agents
 
-List of keywords from unusual User agents can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
+List of keywords from unusual User agents :suspect: can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
 
 __Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings.    
 
@@ -282,7 +283,11 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 # App Discovery Policy
 
 These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday (33,384 apps currently), this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
-That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
+That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want more ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
+
+*️⃣ Note that in MDA a ⬆️ higher score means less risky. 10 would be a perfect score. The scores are based of General categories (such as diaster recovery, popularity and domain age), security, compliance and legal. You can actually override these if you need to weight more towards one value (lets say you have strict requirement for data at rest being encrypted). This can be done from Settings > Cloud Apps > Score Metrics. Don't forget to hit Save all the way at the bottom after you are done.  
+![image](https://github.com/user-attachments/assets/3e701239-65fd-4f40-acf0-6b223b228f63)
+
 
 ## Auto Block Risky apps
 
@@ -406,6 +411,7 @@ Consider adding a Governance action after testing to suspend user / confirm comp
 
 # File Policy
 
+File Policies allow you to enforce a wide range of automated processes using the cloud provider's APIs. Examples include: Put in Admin Quarantine, Notify Users, Apply Sensitivity Label, Make Private, remove external users  
 https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies
 
 ## Externally shared source code
@@ -571,4 +577,20 @@ If you leverage the discovery with 3rd party web gateways you do not need to gen
 https://learn.microsoft.com/en-us/defender-cloud-apps/security-saas
 
 ![security-saas-choose-secure-score-main-instance](https://github.com/user-attachments/assets/606226ed-de53-4214-8655-f657ea8b887f)
+
+# Intergrate with Power Automate for alerting
+
+↩️ I leverage Sentinel 🛡️ + Logic apps over power automate but the option is there within Policies to add action to trigger power automate 
+
+The power automate playbooks can be managed from Settings > Cloud Apps > Playbooks  
+
+https://learn.microsoft.com/en-us/defender-cloud-apps/flow-integration
+
+![flow-when-alert](https://github.com/user-attachments/assets/8763b893-a2f4-4b1f-96a4-c92f8e1c0530)  
+
+![flow-alerts-config](https://github.com/user-attachments/assets/7cda0d8d-3a0e-4816-af43-0848097b1a6c)
+
+The power automate playbooks can be managed from Settings > Cloud Apps > Playbooks
+![flow-extensions](https://github.com/user-attachments/assets/aed997b2-80e1-46a9-b41c-82307317b094)
+
 
