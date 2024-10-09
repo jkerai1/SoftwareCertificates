@@ -39,7 +39,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
   * [Import Entra Groups](#import-entra-groups)
-  * [Intergrate with 3rd party Secure Web Gateways For Discovery](Intergrate-with-3rd-party-secure-web-gateways-for-discovery)
+  * [Intergrate with 3rd party Secure Web Gateways For Discovery](intergrate-with-3rd-party-secure-web-gateways-for-discovery)
   * [Intergrate with SaaS Security Posture](intergrate-with-saas-security-posture)
   * [Intergrate with Power Automate for alerting](intergrate-with-power-atomate-for-alerting)
 
