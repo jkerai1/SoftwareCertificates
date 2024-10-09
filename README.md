@@ -97,12 +97,15 @@ DeviceFileCertificateInfo
 
 # How to Upload the Bulk IOC CSV to MDE (Bulk-IOC-CSVs Folder)  
 
-As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes:  
+⚠️ Potential Business Impact if you upload without running a KQL against the CSV first
+
+As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes and note there is a limit of 500 for bulk upload, the current typosquat lists will not work as they are too large:  
 
 Find the CSV of interest (after checking for business impact by checking it with a KQL query) and click on download 
 
 ![aaadsa](https://github.com/user-attachments/assets/465eec64-19db-486d-b491-26cc50d610f1)
 
+> Note that the raw button will take you to the raw table, it is the URL of this that you need to ingest as KQL, see [example](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs#devicenetworkevents-example-kql)
 
 From Defender, Go To Settings on bottom left:  
 ![image](https://user-images.githubusercontent.com/55988027/224496554-e26e2672-6216-4694-ab8a-015d0c08451a.png)
