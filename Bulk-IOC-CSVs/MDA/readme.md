@@ -9,7 +9,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
 - [Session Policy](#session-policy)
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
-  * [Block Suspicious File Extension Upload](block-suspicious-file-extension-upload)
+  * [Block Suspicious File Extension Upload](#block-suspicious-file-extension-upload)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
   * [Require step up if Sending ethereum Address](#require-step-up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
