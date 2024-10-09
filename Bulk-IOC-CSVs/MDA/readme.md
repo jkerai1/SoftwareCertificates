@@ -287,7 +287,7 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if yo
 
 ![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)  
 
-You can also extend this to Send Item if you want to, example of this below 
+You can also extend this to "Send Item" if you want to, example of this below 
 
 # Require step up if Sending Ethereum Address
 
