@@ -571,9 +571,14 @@ Settings > Cloud Apps > App onboarding/maintenance
 
 ## Unified Audit Log
 
+Unified audit log is very nice 🤩 to have, while not MDA focused call-out I'd like to call out that enabling the MDE Unified Audit Log (UAL) can make a life a lot easier for investigators.
+
 Settings > Endpoints > Advanced Features 
 
 ![image](https://github.com/user-attachments/assets/b2d42023-abd8-4259-b909-53ddba1646d7)
+
+![image](https://github.com/user-attachments/assets/c01066fb-cd5e-4b81-a1f5-d8efbf475970)
+
 
 # Import Entra Groups
 
