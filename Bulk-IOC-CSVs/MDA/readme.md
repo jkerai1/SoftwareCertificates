@@ -387,6 +387,11 @@ May be off by default, remember to enable and add any apprioprate auto Governanc
 
 ![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
 
+Note that the File Sandboxing is an optional tickbox, if you don't want your files potentially entering a sandbox i.e. sensitive code scripts you want to leave this off.
+
+![image](https://github.com/user-attachments/assets/0de57b5b-531d-41ad-9c74-29f70022a7c5)
+
+
 # Block Script Baseline
 
 Contains export scripts for apps you should probably be blocking in MDA and can apply to various products such as zscaler, cisco, fortigate. This should show the example output from MDA. 
