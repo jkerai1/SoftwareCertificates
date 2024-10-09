@@ -449,6 +449,7 @@ Consider adding a Governance action after testing to suspend user / confirm comp
 https://learn.microsoft.com/en-us/defender-cloud-apps/user-activity-policies
 
 Templates available:
+
 ![image](https://github.com/user-attachments/assets/80e7a001-3051-4ac8-ac0d-41c73a44c3c5)
 
 Some Notes 🗒️ on the Templates:
