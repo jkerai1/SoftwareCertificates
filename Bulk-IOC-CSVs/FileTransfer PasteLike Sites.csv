@@ -81,3 +81,26 @@ DomainName,freefilesync.org,,Block,Informational,File Transfer,Unsanctioned,Unsa
 DomainName,onionshare.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,filezilla-project.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,syncthing.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,ix.io,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,localhost.run,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,requestbin.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,anonfiles.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,sprunge.us,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,termbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,filecloudonline.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,termbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,pastebin.pl,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,4sync.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,clbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,pastie.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,ideone.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,textbin.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,zerobin.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,codesandbox.io,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,bitbucket.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,cloudwaysapps.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,clbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,wtools.io,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,paste.ee,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned,Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned ,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
