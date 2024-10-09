@@ -281,7 +281,7 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 
 # App Discovery Policy
 
-These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday, this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
+These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday (33,384 apps currently), this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
 That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
 
 ## Auto Block Risky apps
