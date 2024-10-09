@@ -153,6 +153,6 @@ DomainName,vyprvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctio
 DomainName,spotflux.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,airvpn.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,fastvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
-DomainName,strongvpn.com,,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
-DomainName,clearvpn.com,,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,strongvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,clearvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,mega.nz,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
