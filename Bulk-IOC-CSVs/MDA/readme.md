@@ -39,9 +39,9 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
   * [Import Entra Groups](#import-entra-groups)
-  * [integrate with 3rd party Secure Web Gateways For Discovery](integrate-with-third-party-secure-web-gateways-for-discovery)
-  * [integrate with SaaS Security Posture](integrate-with-saas-security-posture)
-  * [integrate with Power Automate for alerting](integrate-with-power-atomate-for-alerting)
+  * [integrate with 3rd party Secure Web Gateways For Discovery](#integrate-with-third-party-secure-web-gateways-for-discovery)
+  * [integrate with SaaS Security Posture](#integrate-with-saas-security-posture)
+  * [integrate with Power Automate for alerting](#integrate-with-power-atomate-for-alerting)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -589,7 +589,7 @@ For example, you may want to apply different access policy to different users, m
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
 
-## integrate with third party Secure Web Gateways For Discovery
+## Integrate with third party Secure Web Gateways For Discovery
 
 This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler. This means you can use both with no extra configuration and get that double layer of protection but bear in mind that the Zscalar logs will not reflect 1:1 with MDE logs.  
 
