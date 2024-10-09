@@ -234,6 +234,8 @@ See More Browser Blocking stuff here:
 
 # Session Policy  
 
+The huge benefit to using Session Policy is that the receiving device does not need to be Intune enrolled/MDE enrolled/Entra joined/registered in any way shape or form. This allows us to essentially protect business data from BYOD devices, I wouldn't really bother using session control on Intune and Endpoint enrolled devices as we can control the configurations on those devices, with BYOD we cannot. I put an exclude filter compliant and corporate owned devices from my conditional access policy for Conditional Access App Control. You can also filter out Intune Compliant devices in Session Control if you do want that granularity but as I do that in conditional access I will not do this in this section. Note that the default policy templates will try to include this tag so I manually delete it.   
+
 You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.). Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequisite here also.  
 
 Policy Templates are available via:  
@@ -611,7 +613,7 @@ Settings > Cloud Apps > App onboarding/maintenance
 
 ## Unified Audit Log
 
-Unified audit log is very nice 🤩 to have, while not MDA focused call-out I'd like to call out that enabling the MDE Unified Audit Log (UAL) can make a life a lot easier for investigators.
+Unified audit log is very nice 🤩 to have, while not MDA focused call-out I'd like to call out that enabling the MDE Unified Audit Log (UAL) can make a life a lot easier for investigators 🔎.
 
 Settings > Endpoints > Advanced Features 
 
