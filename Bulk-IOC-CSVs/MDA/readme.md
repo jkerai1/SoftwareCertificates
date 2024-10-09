@@ -591,7 +591,7 @@ For example, you may want to apply different access policy to different users, m
 
 # Intergrate with 3rd party Secure Web Gateways For Discovery
 
-This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler.  
+This will enable your Web gateway to hook into the MDA Cloud app Broker getting you the visibility from the web gateway, note if you leverage web proxy on the MDE device already it will hit MDE/MDA before it hits web gateway anyway from what I have experienced with Zscaler. This means you can use both with no extra configuration and get that double layer of protection but bear in mind that the Zscalar logs will not reflect 1:1 with MDE logs.  
 
 If you leverage the discovery with 3rd party web gateways you do not need to generate the block scripts as it is done automatically.  
 
