@@ -78,6 +78,7 @@ DomainName,ipfs.tech,,Block,Informational,File Transfer (IPFS),Unsanctioned,Unsa
 DomainName,ipfs.io,,Block,Informational,File Transfer (IPFS),Unsanctioned,Unsanctioned,,,,false
 DomainName,cf-ipfs.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,freefilesync.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,dropsend.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,onionshare.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,filezilla-project.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,syncthing.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
