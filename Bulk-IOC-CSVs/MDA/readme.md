@@ -285,7 +285,7 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday (33,384 apps currently - even if you tried to block half of these you'd run out of space on MDE IOC as the limit there is 15,000), this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review. 
 That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want more ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
 
-*️⃣ Note that in MDA a ⬆️ higher score means less risky. 10 would be a perfect score. The scores are based of General categories (such as diaster recovery, popularity and domain age), security, compliance and legal. You can actually override these if you need to weight more towards one value (lets say you have strict requirement for data at rest being encrypted). This can be done from Settings > Cloud Apps > Score Metrics. Don't forget to hit Save all the way at the bottom after you are done.  
+⭐ Note that in MDA a ⬆️ higher score means less risky. 🔟 would be a perfect score. The scores are based of General categories (such as diaster recovery, popularity and domain age), security, compliance and legal. You can actually override these if you need to weight more towards one value (lets say you have strict requirement for data at rest being encrypted). This can be done from Settings > Cloud Apps > Score Metrics. Don't forget to hit Save all the way at the bottom after you are done.  
 ![image](https://github.com/user-attachments/assets/3e701239-65fd-4f40-acf0-6b223b228f63)
 
 Audit your Blocks with the below KQL :oncoming_police_car: :. Smartscreen is used for Edge and Exploit Guard is for 3rd party browsers. In the back-end the blocks are MDE, assuming of course you have remembered to [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde). ❗ Please remember to turn this on or the blocks will not do diddly squat!    
@@ -343,7 +343,6 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv. Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
 
-Accompanying KQL :oncoming_police_car::
 ```
 let PasteLikeSitesIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = PasteLikeSitesIOCs
