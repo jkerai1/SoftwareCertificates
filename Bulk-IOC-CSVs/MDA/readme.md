@@ -337,6 +337,11 @@ DeviceNetworkEvents
 
 ## Auto Ban Discovered Risky Generative AI
 
+OpenAI scores 8/9 and Copilot scores around 10. If you need to block Chatgpt etc I'd block it manually as 9 may be too high for app discovery policy. Bear in mind theres currently 3 OpenAI catergories available  
+![image](https://github.com/user-attachments/assets/d7e92b57-1823-45fc-96c8-3638eccadb82)
+
+Also bear in mind savy users might find websites that have chatbots with no content filter so this by no means a substitute for good DLP.  
+
 ![image](https://github.com/user-attachments/assets/a36ef817-3fae-4abd-b58e-12de46ae3c86)
 
 A dirty KQL to search for these - this is by no means a complete list there are just far too many tools (477 GenAI tools currently sitting in MDA catalog)  
