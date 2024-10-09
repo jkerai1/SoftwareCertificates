@@ -336,7 +336,8 @@ See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backu
 
 # Anomaly Detection Policy
 
-These cannot be manually created, there are some potentially useful ones here that may be disabled by default, ensure to check these out from Cloud Apps > Policy Management (Type: Anomaly Detection Policy).
+These cannot be manually created, there are some potentially useful ones here that may be disabled by default, ensure to check these out from Cloud Apps > Policy Management (Type: Anomaly Detection Policy). These will have a learning period (typically 7 days), it is best to delay enabling these policies if you are in a holiday season/change freeze/brand new tenant for a higher fidelity.  
+
 Also check the MS learn reference: https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy  
 
 Some notes are: 	
