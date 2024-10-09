@@ -279,13 +279,17 @@ OfficeActivity
 
 ## Copy Paste Credit Card Numbers
 
-E.g. blocking Copy paste of Credit Card Numbers
+E.g. blocking Copy paste of Credit Card Numbers.  
+
+Leverage the in-built preset for Finance: Credit card number    
 
 Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if you need it for testing  
 
 ![image](https://github.com/user-attachments/assets/35977a49-06ea-4ebf-b776-8474acf92f21)
 
-![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)
+![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)  
+
+You can also extend this to Send Item if you want to, example of this below 
 
 # Require step up if Sending Ethereum Address
 
