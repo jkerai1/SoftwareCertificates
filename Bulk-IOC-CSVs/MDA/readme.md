@@ -234,9 +234,12 @@ See More Browser Blocking stuff here:
 
 # Session Policy  
 
+> See note about conditional access to handover session in [Access Policy](#access-policy), that is prerequisite here also.  
+
 The huge benefit to using Session Policy is that the receiving device does not need to be Intune enrolled/MDE enrolled/Entra joined/registered in any way shape or form. This allows us to essentially protect business data from BYOD devices, I wouldn't really bother using session control on Intune and Endpoint enrolled devices as we can control the configurations on those devices, with BYOD we cannot. I put an exclude filter compliant and corporate owned devices from my conditional access policy for Conditional Access App Control. You can also filter out Intune Compliant devices in Session Control if you do want that granularity but as I do that in conditional access I will not do this in this section. Note that the default policy templates will try to include this tag so I manually delete it.   
 
-You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.). Malware Upload/Download should be bare minimium. See note above about conditional access to handover session, that is prerequisite here also.  
+You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
+
 
 Policy Templates are available via:  
 
@@ -252,8 +255,6 @@ Policy Templates are available via:
 ![image](https://github.com/user-attachments/assets/a535b0d3-943b-4d16-a48d-172a51ec46ac)
 
 ![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
-
-[A suspicious files extension list if you need it](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/SuspiciousFileExtensions.txt)
 
 ## Block Suspicious File Extension Upload
 
@@ -275,7 +276,6 @@ OfficeActivity
 ![image](https://github.com/user-attachments/assets/12f47161-0060-4585-b7ae-e9166bb8e1d9)
 
 ![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)
-
 
 
 
