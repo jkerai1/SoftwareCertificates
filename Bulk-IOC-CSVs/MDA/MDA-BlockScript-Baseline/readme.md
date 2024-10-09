@@ -11,7 +11,9 @@ I'd take this further by also doing some of the following:
 
 If we want to be really restrictive here are some more ideas - this is my view from Cloud apps > Settings > catalog and filtering for unsanctioned/monitored
 
-![image](https://github.com/user-attachments/assets/1a729d2b-6114-4cc2-ba0b-6d020a02d797) ![image](https://github.com/user-attachments/assets/73b3a1cc-1972-476b-bf12-327631ec54b1) ![image](https://github.com/user-attachments/assets/4b541394-5383-48ea-a0d0-5f9979c4e559)  ![image](https://github.com/user-attachments/assets/7446f0ce-45fd-4542-a75d-e1420773f94a) ![image](https://github.com/user-attachments/assets/15bb8478-114a-4681-87fa-d5e9deee160b)
+![image](https://github.com/user-attachments/assets/1dc3a1b5-d462-4aaf-9b51-ba4e0ee28358) ![image](https://github.com/user-attachments/assets/90025cd0-4cb7-4a67-8eb0-dc925dabca24) ![image](https://github.com/user-attachments/assets/a35a573a-4712-47d8-ab8e-e765dd4b52c3) ![image](https://github.com/user-attachments/assets/246fbdc7-1c17-4de9-a0dc-c790ea23ac44) ![image](https://github.com/user-attachments/assets/92c689b5-d8af-479f-876d-e995e8a1f388) ![image](https://github.com/user-attachments/assets/17d991ec-9292-4966-8aff-d5af26bb2623)
+
+
 
 
 
