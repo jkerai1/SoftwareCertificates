@@ -39,6 +39,8 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [App Onboarding and Maintenance](#app-onboarding-and-maintenance)
   * [Unified Audit Log](#unified-audit-log)
   * [Import Entra Groups](#import-entra-groups)
+  * [Intergrate with 3rd party Secure Web Gateways For Discovery](Intergrate-with-3rd-party-secure-web-gateways-for-discovery)
+  * [Intergrate with SaaS Security Posture](intergrate-with-saas-security-posture)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -385,7 +387,7 @@ Missing The ability to add extra domains? unsure. The only other domains that ap
 
 # Malware Detection Policy
 
-May be off by default, remember to enable and add any apprioprate auto Governance action.
+[Off by default](https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy#malware-detection), remember to enable and add any apprioprate auto Governance action.
 
 ![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
 
@@ -511,4 +513,23 @@ For example, you may want to apply different access policy to different users, m
 
 ![image](https://github.com/user-attachments/assets/820e6f04-95d7-41f9-b798-bdea80661e7a)
 
+
+↩️ I do not have experience with the below but I have included this for awareness  
+
+# Intergrate with 3rd party Secure Web Gateways For Discovery
+If you leverage the discovery with 3rd party web gateways you do not need to generate the block scripts as it is done automatically.  
+
+- Zscaler - https://learn.microsoft.com/en-us/defender-cloud-apps/zscaler-integration
+- iboss - https://learn.microsoft.com/en-us/defender-cloud-apps/iboss-integration
+- Corrata - https://learn.microsoft.com/en-us/defender-cloud-apps/corrata-integration
+- Menlo - https://learn.microsoft.com/en-us/defender-cloud-apps/menlo-integration
+- Open Systems - https://learn.microsoft.com/en-us/defender-cloud-apps/open-systems-integration
+
+![image](https://github.com/user-attachments/assets/c6168762-5188-4a8d-a947-bf6ee69742bb)
+
+# Intergrate with SaaS Security Posture
+
+https://learn.microsoft.com/en-us/defender-cloud-apps/security-saas
+
+![security-saas-choose-secure-score-main-instance](https://github.com/user-attachments/assets/606226ed-de53-4214-8655-f657ea8b887f)
 
