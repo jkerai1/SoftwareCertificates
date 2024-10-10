@@ -599,6 +599,7 @@ Policy result:
 
 ![image](https://github.com/user-attachments/assets/bbca1c5b-1b6c-4cd2-b788-17dc8a1b44e9)
 
+> Need to sync Entra Trusted Named Locations to MDA? Check out https://365bythijs.be/2020/03/31/sync-named-locations-to-mcas-ip-ranges-using-azure-automation/
 
 ## Enforce MDA Blocks to MDE
 
