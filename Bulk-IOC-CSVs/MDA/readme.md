@@ -1,7 +1,7 @@
 # Collection of useful resources for MDA/ Defender for Cloud Apps / DfCA / MCAS
 
 Not a comprehensive list, just some ideas of the capability of Defender for Cloud Apps (MDA) and some of the settings you may have missed. I truly think MDA is underrated and underutilized by E5 Customers.  
->When creating policies leverage "edit and preview results" and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.  
+>When creating policies leverage "edit and preview results" (this will only work with the activies match tab - ensure to have activties selected or you'll pull the whole log) and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.  
 
 - [Access Policy](#access-policy)
   * [Block Anonymous IPs](#block-anonymous-ips)
