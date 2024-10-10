@@ -531,7 +531,7 @@ Alert on any activity from Dark Web or bad IPs and mark user compromised & Revok
 
 # Logon on From Outdated Browser
 
-Some UI elements failed to load on out of date browsers, you can actually use an activity policy to alert users for outdated browser/operating system, so they can self remediate without raising a ticket to helpdesk. Its under the template "Log on from an outdated browser". You could actually use an access policy instead to block them outright but I would not recommend using Access Policy in block for Outdated Operating System just yet as that could have impact to Windows 10 users in the future.
+Some UI elements failed to load on out of date browsers, you can actually use an activity policy to alert users for outdated browser/operating system, so they can self remediate without raising a ticket to helpdesk (I'm not sure average user will self-remediate out of date OS but mentioning it anyway). This policy is under the template "Log on from an outdated browser". You could actually use an access policy instead to block them outright but I would not recommend using Access Policy in block for Outdated Operating System just yet as that could have impact to Windows 10 users in the future.
 
 ![image](https://github.com/user-attachments/assets/00e82e46-1e3a-4f2f-b9f5-a4eb121eae01)
 
