@@ -22,7 +22,9 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Auto Ban Discovered Torrent Sites](#auto-ban-discovered-Torrent-Sites)
   * [Auto Ban Discovered Risky Generative AI](#auto-ban-discovered-risky-generative-ai)
   * [Auto Ban Discovered Personal Messaging Apps](#Auto-Ban-Discovered-Personal-Messaging-Apps)
+  * [Auto Ban Discovered Social Networking](#auto-ban-discovered-social-networking)
   * [Monitor Cloud Storage](#monitor-cloud-storage)
+  * [Monitor Newly Created Apps](#monitor-new-created-apps)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
@@ -370,6 +372,10 @@ These will scale as apps are added to MDA and users navigate to them. The MDA ca
 
 That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want more ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
 
+Ensure MDA Discovery is enabled for MDE. This can be found from Settings > Endpoints > Advanced Features > Microsoft Defender For Cloud Apps  
+
+![image](https://github.com/user-attachments/assets/607e6363-5b14-4745-b821-4dcae7052295)
+
 > The blocks in the back-end are propogated to MDE. The benefit of Unsanctioning via MDA rather than standard MDE IOC is that you will get all MDA associated domains to the app, the blocks will also persist if someone was to delete them via Indicators. If you need to remove an MDA Indicator do it via MDA first then delete in MDE as it can take up to 2 hours to propagate. You can then also [Integrate with 3rd party Secure Web Gateways For Discovery](#integrate-with-third-party-secure-web-gateways-for-discovery) for automatic blocking in these also. Where possible use MDA over MDE. If you import an MDE IOC list that overlaps with MDA, the block will not duplicate which is a nice bonus, the name and description will overwrite though with the name/description from the CSV which is a non-issue and potentially desirable. The application tag will remain.
 
 ![image](https://github.com/user-attachments/assets/bf7abd0e-3468-420b-b0ff-08d7367ad78f)
@@ -500,15 +506,44 @@ DeviceNetworkEvents
 
 ## Auto Ban Discovered Personal Messaging Apps
 
-This serves as not only an exfil path but a malware delivery path. Imagine a user receives a phish via a personal email app, this would bypass protections of Defender for Office and the such, so we definitely want to be monitoring or blocking this.  
+This serves as not only an exfil path but a malware delivery path. Imagine a user receives a phish via a personal messaging app, this would bypass protections of Defender for Office and the such, so we definitely want to be monitoring or blocking this. 
+
 
 ☎️ I strongly recommend to unsanction Discord and telegram manually. These have a lot of problems in a business environment (data exfilitration - discord webhooks/manual, illegal activities, NSFW, Discord's CDN being abused to host malware). Don't get me wrong I am in a lot of genuinely good tech discords (like [Microsoft EMS](https://discord.com/invite/msems)) and they are super useful but I can use a personal device away from the company to access these at my own leisure.    
 
-![image](https://github.com/user-attachments/assets/ff680848-4699-4cfb-8028-44cc4e97387f)
+![image](https://github.com/user-attachments/assets/ff680848-4699-4cfb-8028-44cc4e97387f)  
 
 Examining the catalog we don't see too much of an impact, however ⚠️ remember to manually sanction any of these applications you may want to use for diaster recovery!  
 
 ![image](https://github.com/user-attachments/assets/b33c407c-e065-47d0-8a06-86857ab8ea13)
+
+> See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Messaging%20or%20Conferencing Software Certificate IOCs
+
+
+## Auto Ban Discovered Social Networking
+
+![image](https://github.com/user-attachments/assets/393e2ef6-d22b-4bea-ae04-06f460a5a6c2)
+
+
+Same as the above really in terms but bear in mind there are some expected Social networks here such as LinkedIn, Viva Engage. Also keep in mind or Facebook/Twitter if your org has prescence and marketing on these platforms. You may want to hit this with Device groups instead to allow certain users to access - this leverages MDE Device Groups in the back-end but there is a pre-requiste:
+
+You'll need to create a scope profile first which can be done from Settings > Cloud Apps > App Tags
+
+![image](https://github.com/user-attachments/assets/9209c5e8-3021-4419-8dd0-873e2165f0ca)
+
+Then to unsanction you'll want to hit the 3 dots and unsantion rather than leveraging the normal 🚫 icon:
+
+![image](https://github.com/user-attachments/assets/c1930f97-a48b-4ea2-8442-309ab8e6729c)
+
+Then we can select the scope profile we just made: 
+
+![image](https://github.com/user-attachments/assets/e610c9da-7414-4283-85f8-23e7722c72e4)
+
+> Its quite annoying you can't see if your scope profile is an include or exclude here. I would recommend choosing a naming convention that includes what you are doing so you don't accidentally deploy the inverse of what you intended to do. Don't forget also you can add Notes to each app in MDA from the same 3 dots. Its the last option.
+
+![image](https://github.com/user-attachments/assets/fd851acd-6c48-4473-a72f-2dc63ac8107a)
+
+![image](https://github.com/user-attachments/assets/56034a53-5c13-4154-92c2-e7a5f55e6899)
 
 
 ## Monitor Cloud Storage
@@ -520,6 +555,23 @@ Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or
 See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backup%20or%20Exfil%20Tools for Software Certificate IOCs
 
 > Also check out the [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/) and searching for +exfiltration
+
+
+## Monitor Newly Created Apps
+
+You may want to keep an eye on newly founded apps. Annoyingly you can't do a dynamic year here so eventually you'll need to move this forward at some point in time.  
+
+![image](https://github.com/user-attachments/assets/b8924ff1-d7e5-4ba0-a93b-3609c28c352e)
+
+Also I strongly recommend enabling [Web Content filtering for newly registered domains in MDE](https://learn.microsoft.com/en-us/defender-endpoint/web-content-filtering#turn-on-web-content-filtering).To block sites that are newly registered in the past 30 days and haven't yet been moved to another category. If you want to audit before you whack this in, create a web content filtering with no categories. Then reports will be available from Reports > Web Protection
+
+![image](https://github.com/user-attachments/assets/2b25b9d2-7cb8-41b6-b115-41661a1a47a8)
+
+Then reports will be available from Reports > Web Protection, we ensure to expand the time range if you have been in audit mode for a while, by default its 30 days.
+
+![image](https://github.com/user-attachments/assets/c6cc2ee5-f652-4ab0-a7c0-ad41d9331b4b)
+
+
 # Anomaly Detection Policy
 
 These cannot be manually created, there are some potentially useful ones here that may be disabled by default, ensure to check these out from Cloud Apps > Policy Management (Type: Anomaly Detection Policy). Some of these policies such as Impossible Travel will have a learning period (typically 7 days), it is best to delay enabling these policies if you are in a holiday season/change freeze/brand new tenant for a higher fidelity.  
@@ -715,11 +767,19 @@ Policy result:
 
 ## Enforce MDA Blocks to MDE
 
+To make any advantage of Unsanctioned 🚫 Apps you'll need to enable this from
+
 Settings > Cloud Apps > Microsoft Defender For Endpoint 
 
 ![image](https://github.com/user-attachments/assets/cbf669a5-d6ca-4dbe-b232-f4b5d4ddaf8b)  
 
+Also ensure that Network protection is in block mode and that Custom Indicators is also turned on:
+
+![image](https://github.com/user-attachments/assets/9fa81c57-eed8-4c5b-9d0d-7a575a2e1b96)
+
+
 https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern
+
 ## Information Protection
 
 This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content, however is you plan on using File Policies you will at least need to tick the first box.  
