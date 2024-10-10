@@ -507,7 +507,7 @@ Also note you can add goverance actions to anomaly policies for auto-response, a
 
 These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity, for example a large download of files.
 
-Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.  
+Consider adding a Governance action after testing to suspend user / confirm compromised / Require User to Sign-in again (revoke refresh token). Require user to sign-in again is just a revoke refresh token in back-end.  
 
 Audit for Governance actions can be found under Settings > Cloud Apps > Goverance Log
 
@@ -526,6 +526,8 @@ Some Notes 🗒️ on the Templates:
 - Mass Download by a single user - Can trigger for OneDrive Syncs 🔄, you could leverage "User Agent string does not contain" ODMTA or  OneDrive but bear in mind that user agent strings are spoofable
 - Administrative activity from a non-corporate IP address - Ensure to [Add IP Range as a Corporate tag](#add-ip-range-for-usage-in-policies) before you deploy this
 - Activities from suspicious user agents - The list of user agents is quite limited here so if you want to use this be sure to checkout my [user agent list](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt) and add any appropriate strings. You will NOT want to add all of these are this will definitely result in false positives e.g. go-resty which is sometimes used by some Azure Tools. Am example of one to add here is ZmEu or gobuster, a better list can be found from: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv#L6 rather than leveraging my list. As stated above user agent is a spoofable string so this should not be relied on. If you are too lazy to add User Agents manually just use the User Agent tag of Robot instead and delete the existing "User Agent String contains".        
+
+> Ensure M365 is connected via App Connectors and has visibility for Activity Monitoring and apprioprate governance actions
 
 ## Dark Web Monitoring
 Alert on any activity from Dark Web or bad IPs and mark user compromised & Revoke token via Require user to sign-in again, ensure to not include failed logons as we don't want to cause impact for unsuccesful sign-ins. Once the user is marked compromised this will set their User Risk to high in Entra which will then apply the [User Risk policy](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies#user-risk-based-conditional-access-policy) if you have one (if you don't I recommend one - ensure to not mix User Risk and Sign-in Risk in the same policy as this acts as an "AND" not an "OR"). Remember that true passwordless users will not have their password so will be unable to perform a password reset, so you may want to exclude a group of Passwordless users from the conditional access policy (it should not be done in MDA). You may also want to exclude breakglass from the Dark Web Policy depending on your risk appetite 🍰 (You can also create a seperate Activity Policy to alert + email on Breakglass sign-ins from any IP too but I'd recommend to do Sentinel/Azure Monitor instead if these are available to you). Ensure to preview the results before applying.  
