@@ -289,7 +289,7 @@ I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/
 
 Alert             |                   Timeline         | Action Center
 :-------------------------:|:-------------------------:|:---------------------------------------:
-![image](https://github.com/user-attachments/assets/f04c42fa-dd05-481e-a884-9a8b19437828)| ![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)|![image](https://github.com/user-attachments/assets/e1c214ab-1ac2-4872-95d8-016d002ac674)  
+![Attack Disruption](https://github.com/user-attachments/assets/b6b59f20-37b9-46ac-9799-bc1a9acc495a)| ![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)|![image](https://github.com/user-attachments/assets/e1c214ab-1ac2-4872-95d8-016d002ac674)  
 
 Anyway after releasing myself from containment (reminder to always have a backup plan), I carry on:  
 
