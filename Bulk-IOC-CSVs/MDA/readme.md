@@ -740,5 +740,7 @@ The power automate playbooks can be managed from Settings > Cloud Apps > Playboo
 
 # Fin  
 
+Hopefully I have demonstrated that MDA is much more powerful than you think and you have a better understanding on how it works!  
+
 I'd also recommend checking out [samilamppu.com](https://samilamppu.com) who has some excellent content on MDA.  
 
