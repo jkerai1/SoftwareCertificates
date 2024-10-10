@@ -581,7 +581,8 @@ Policies in this category:
  - Misleading OAuth app name 
  - Misleading publisher name for an OAuth app  
 
-![image](https://github.com/user-attachments/assets/72bfeda8-fca3-4a05-bb90-30ab0b6e0060)
+![Revoke Office Oauth App](https://github.com/user-attachments/assets/66973a0d-919c-49b9-9168-64378b00ea95)
+
 
 
 # Misc
