@@ -103,6 +103,7 @@ Some apps for some reason do not even prompt me for onboarding despite having a 
 - azureiotcentral.com
 - ea.azure.com
 
+> Note that when you enter the MDA Proxy all URLs will be written with .mcas.ms at the end in non-[Edge for Business browsers](https://learn.microsoft.com/en-us/defender-cloud-apps/in-browser-protection). Functionally this has no difference, however note when copying URLs that you may need to remove .mcas.ms. For example if giving a sharepoint link to Copilot, while Copilot is on behalf on flow the bot may not be able to authenticate past the proxy.
 
 For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far.
 
@@ -260,6 +261,8 @@ Policy Templates are available via:
 
 Start building the policy with "Block upload based on real-time content inspection" template. I then remove Data Classification Inspection method as we don't need that. Then from "Filers", select "extension" and start adding in the extensions.  
 
+Note that I deliberately don't give a custom block message here, I don't want to give the user any information about what happened. If the user is aware of what file extensions are allowed they may look for an alternative binary. Furthermore this allows users to spoof file extensions, there is no header/metadata inspection happening here. Attacker could also container their binary in another format like an .iso or .zip, use [double file extensions - T1036.007](https://attack.mitre.org/techniques/T1036/007/).
+
 [A suspicious files extension if you need it](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/SuspiciousFileExtensions.txt)
 
 Office 🏢 Activity Suspicious File Extension Upload/Download KQL 🚔
@@ -277,7 +280,14 @@ OfficeActivity
 
 ![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)
 
+Renaming extension bypasses - no header inspection taking place:
+![image](https://github.com/user-attachments/assets/db683daf-6919-4870-9293-132e24c5101b)
 
+I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/T1036/002/) with a few lines of python and actually managed to lock myself out by hitting attack disruption 😆:
+
+![image](https://github.com/user-attachments/assets/f04c42fa-dd05-481e-a884-9a8b19437828)
+
+![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)
 
 ## Copy Paste Credit Card Numbers
 
