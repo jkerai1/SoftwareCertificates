@@ -395,7 +395,7 @@ The MDA Apps can be found in MDE IOC by filtering on "Application", this is avai
 ## Auto Unsanction Web Mail
 
 I find 8️⃣ to be a good spot for legitimate work email vs personal email. Feel Free to edit this threshold.
-Be sure to use the "edit and preview results" to check you are not going to block actual used business mail. Note that Gmail is a 10 so you'll need to unsanction Gmail manually.
+Be sure to use the "edit and preview results" to check you are not going to block actual used business mail. Note that Gmail is a 10 so you'll need to unsanction Gmail manually. Also note this will not block email delivery just users signing into personal email from an MDE Enrolled device (assuming you enforce MDA to MDE).  
 
 ![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
 
