@@ -56,7 +56,7 @@ Navigate to Cloud Apps > Policies > Policy Management to create a new policy or 
 When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA. You will also need this conditional access policy for [Session Policy](#session-policy)
 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
-
+> Note you only need to configure this in 1 Conditional access policy to apply to the user
 
 *Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App > Activity Log from Defender Portal in these scenarios.The Activity Type will be "Log On"
 
@@ -312,7 +312,7 @@ I am prevented but note the error message is backwards 🐛!
 
 # Block Download of Highly Sensitive Files
 
-You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your Purview Trainable Classifiers here also if you wish instead which is a big bonus if you have already built a custom classifier.
+You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels/Trainable Classifiers/Sensitivite Info Types to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your custom Purview Trainable Classifiers/Sensitive Info Types here also if you wish instead which is a big bonus if you have already built a custom classifier/info types.
 
    
 Sensitive Info Type Examples           |  Trainable Classifier Examples | Sensitivity Label 
@@ -767,3 +767,4 @@ Hopefully I have demonstrated that MDA is much more powerful than you think and 
 
 I'd also recommend checking out [samilamppu.com](https://samilamppu.com) who has some excellent content on MDA.  
 
+![image](https://github.com/user-attachments/assets/f1541d26-e285-4d35-ac03-92dbf9b27685)
