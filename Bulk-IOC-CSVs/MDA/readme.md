@@ -273,7 +273,7 @@ Template: Block download of potential malware (based on Microsoft Threat Intelli
 
 ## Block Suspicious File Extension Upload
 
-Start building the policy with "Block upload based on real-time content inspection" template. I then remove Data Classification Inspection method as we don't need that. Then from "Filers", select "extension" and start adding in the extensions.  
+Start building the policy with "Block upload based on real-time content inspection" template. I then remove Data Classification Inspection method as we don't need that. Then from "Filters", select "extension" and start adding in the extensions.  
 
 Note that I deliberately don't give a custom block message here, I don't want to give the user any information about what happened. If the user is aware of what file extensions are allowed they may look for an alternative binary. Furthermore this allows makes it easier to bypass by spoofing file extensions, there is no header/metadata inspection happening here. Attacker could also container their binary in another format like an .iso or .zip, use [double file extensions - T1036.007](https://attack.mitre.org/techniques/T1036/007/). You should definitely be leveraging an exectuable file extension upload policy option with the above [malware Upload](#block-malware-upload)/download session policies for extra coverage.  
 
