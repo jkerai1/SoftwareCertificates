@@ -144,6 +144,13 @@ Unticking Smartscreen for edge allows access the custom IOCs because they share 
 
 Some 3rd party browsers can walk past URL blocks, Seamonkey for example.
 
+# MDA  
+
+https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA  
+
+# Intune  
+
+https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune  
 
 # See More From Me on IOC Blocking!  
 
