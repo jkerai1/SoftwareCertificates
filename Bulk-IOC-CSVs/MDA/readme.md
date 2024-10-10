@@ -609,6 +609,7 @@ If you haven't already I'd strongly recommend changing user consent settings awa
 
 ![image](https://github.com/user-attachments/assets/26649403-acb8-4672-b4ab-19610528f918)
 
+> Ensure M365 apps are connected to app governance from Settings > Cloud Apps > App Connectors > Microsoft 365 > Edit Connector  
 
 ## Disable Overprivileged App
 
@@ -697,7 +698,7 @@ For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Conn
 
 ![image](https://github.com/user-attachments/assets/ce5a7ae9-1650-4033-80fc-5cfeff0d575a)
 
-> Note that App Connectors is for APIs and not for Conditional Access Session Control, these are 2 seperate things. Also note for malware policy to work with M365 you need to enable the above for M365
+> Note that App Connectors is for APIs and not for Conditional Access Session Control, these are 2 seperate things. Also note for malware policy to work with M365 you need to enable the above for M365, for app governance actions you will need M365 Apps.
 
 ## App Onboarding and Maintenance
 
