@@ -25,6 +25,7 @@ I'd also recommend checking out [samilamppu.com](https://samilamppu.com) who has
 - [Anomaly Detection Policy](#anomaly-detection-policy)
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
+  * [Logon on From Outdated Browser](#logon-on-from-outdated-browser)
 - [File Policy](#file-policy)
   * [Externally shared source code](#externally-shared-source-code)
   * [File Shared with Personal Email Address](#file-shared-with-personal-email-address)
@@ -123,11 +124,7 @@ All other [3rd party apps will need to be onboarded with SAML](https://learn.mic
 
 Note that just because many microsoft apps didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
 
-> I tested Windows, MacOS, Linux and Android and they all behaved fine with the MDA Proxy. However noted that Android/iOS should really be going via MAM/MDM instead. Some UI elements failed to load on out of date browsers, you can actually use an activity policy to alert users for outdated browser/operating system, so they can self remediate without raising a ticket to helpdesk. Its under the template "Log on from an outdated browser". I would not recommend Outdated Operating System just yet as that could have impact to Windows 10 users in the future.
-
-![image](https://github.com/user-attachments/assets/00e82e46-1e3a-4f2f-b9f5-a4eb121eae01)
-
-![image](https://github.com/user-attachments/assets/5b72b0bd-c6a1-486a-af54-75b2099edfcd)
+> I tested Windows, MacOS, Linux and Android and they all behaved fine with the MDA Proxy. However noted that Android/iOS should really be going via MAM/MDM instead. 
 
 ## Block Anonymous IPs
 
@@ -203,10 +200,10 @@ DeviceFileEvents
 
 List of keywords from unusual User agents :suspect: can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
 
-__Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings. Also note that some browsers do not fingerprint differently, for example, Brave desktop will just fingerprint as Chrome     
+__Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings. Also note that some browsers do not fingerprint differently, for example, Brave desktop will just fingerprint as Chrome.     
 
 Some of these User Agents will not be supported in Azure portal natively such as seamonkey. Not all are Browser based, some are OS based and some are just bots/scrappers (I've left all in for hunting purposes)
-Everything after the first 30 entries or so is tending to the more niche categories. If you just want to block robots then use user agent tag of "robot" in a seperate Access Policy. If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
+Everything after the first 30 entries or so is tending to the more niche categories. If you just want to block robots then use [user agent tag of "robot"](#logon-on-from-outdated-browser) in a seperate Access Policy. If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
 
 Reference https://whatmyuseragent.com/browser
 
@@ -510,6 +507,14 @@ Some Notes 🗒️ on the Templates:
 
 ## Dark Web Monitoring
 ![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
+
+# Logon on From Outdated Browser
+
+Some UI elements failed to load on out of date browsers, you can actually use an activity policy to alert users for outdated browser/operating system, so they can self remediate without raising a ticket to helpdesk. Its under the template "Log on from an outdated browser". You could actually use an access policy instead to block them outright but I would not recommend using Access Policy in block for Outdated Operating System just yet as that could have impact to Windows 10 users in the future.
+
+![image](https://github.com/user-attachments/assets/00e82e46-1e3a-4f2f-b9f5-a4eb121eae01)
+
+![image](https://github.com/user-attachments/assets/5b72b0bd-c6a1-486a-af54-75b2099edfcd)
 
 
 # File Policy
