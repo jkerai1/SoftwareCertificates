@@ -443,6 +443,10 @@ In my case I only have 2 hits neither of which is LOB and both with very low amo
 
 ![image](https://github.com/user-attachments/assets/ed8394de-a787-4936-b636-5458cccdced8)
 
+Example of Custom Tag - Create one from Settings > Cloud Apps > App Tags > Add app Tag:
+![image](https://github.com/user-attachments/assets/999b5d8f-674e-483f-9ed7-ea82bcad655d)
+
+
 ## Auto Ban Discovered Paste apps
 
 ❗ I'd HIGHLY recommend blocking at least Pastebin as this is often used for exfiltration of data / staging malware payloads (maybe malware payload #1 reaches out to pastebin to get URL for malware payload #2)    
