@@ -735,15 +735,10 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/flow-integration
 
 The power automate playbooks can be managed from Settings > Cloud Apps > Playbooks
 
-
-
-
-
+![flow-extensions](https://github.com/user-attachments/assets/aed997b2-80e1-46a9-b41c-82307317b094)
 
 
 # Fin  
 
 I'd also recommend checking out [samilamppu.com](https://samilamppu.com) who has some excellent content on MDA.  
-![flow-extensions](https://github.com/user-attachments/assets/aed997b2-80e1-46a9-b41c-82307317b094)
-
 
