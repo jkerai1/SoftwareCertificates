@@ -435,7 +435,7 @@ However note there are a LOT of results, and even almost 5,000 when we bump the 
 
 ![image](https://github.com/user-attachments/assets/abcaba27-8b2d-4220-b041-2409df07935b)
 
-In my case I only have 2 hits neither of which is LOB so I am happy to proceed and block with a risk score of 5:  
+In my case I only have 2 hits neither of which is LOB and both with very low amount of traffic (little point in sanctioning these 2) so I am happy to proceed and block with a risk score of 5:  
 
 ![image](https://github.com/user-attachments/assets/6a0424da-562d-4ed2-9ca3-472f0036408f)
 
