@@ -246,7 +246,7 @@ See More Browser Blocking stuff here:
 
 The huge benefit to using Session Policy is that the receiving device does not need to be Intune enrolled/MDE enrolled/Entra joined/registered in any way shape or form. This allows us to essentially protect business data from BYOD devices, I wouldn't really bother using session control on Intune and Endpoint enrolled devices as we can control the configurations on those devices, with BYOD we cannot. I put an exclude filter compliant and corporate owned devices from my conditional access policy for Conditional Access App Control. You can also filter out Intune Compliant devices in Session Control if you do want that granularity but as I do that in conditional access I will not do this in this section. Note that the default policy templates will try to include this tag so I manually delete it.   
 
-⚠️ Session Policy ONLY works for browser-based applications so you'll need to block Mobile and desktop apps in Conditional access policy.I actually recommend creating 1 Conditional access policy to target browser and 1 to target Mobile & Desktop Clients and blocking in the later if you don't have strict device filter/ require Hybrid join grant policy     
+⚠️ Session Policy ONLY works for browser-based applications so you'll need to block Mobile and desktop apps in Conditional access policy.I actually recommend creating 1 Conditional access policy to target browser and 1 to target Mobile & Desktop Clients and blocking in the later if you don't have strict device filter/ require Hybrid join grant in Conditional Access policy already       
 
 You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
 
@@ -413,7 +413,7 @@ This policy will miss a few such as sendnow, sendthisfile, dropsend but these ca
 
 ## Auto ban discovered Paste apps
 
-❗❗❗❗❗❗❗ I'd HIGHLY recommend blocking at least pastebin as this is often used for exfiltration of data / staging malware payloads (maybe malware payload #1 reaches out to pastebin to get URL for malware payload #2)  
+❗ I'd HIGHLY recommend blocking at least Pastebin as this is often used for exfiltration of data / staging malware payloads (maybe malware payload #1 reaches out to pastebin to get URL for malware payload #2)    
 
 Here it is much safer to enable for both apps and domains: 
 
