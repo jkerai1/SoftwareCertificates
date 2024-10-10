@@ -404,7 +404,7 @@ Be sure to use the "edit and preview results" to check you are not going to bloc
 ![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
 
 
-## Auto Ban discovered File Transfer apps
+## Auto Ban Discovered File Transfer apps
 
 You can leverage App Name or Domain Name for Auto discovery Policies.
 
@@ -416,7 +416,7 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 
 This policy will miss a few such as sendnow, sendthisfile, dropsend but these can be done manually or you can create a different policy. You'll want to hit Content Sharing and Cloud Storage categories there.  
 
-## Auto Ban discovered Paste apps
+## Auto Ban Discovered Paste apps
 
 ❗ I'd HIGHLY recommend blocking at least Pastebin as this is often used for exfiltration of data / staging malware payloads (maybe malware payload #1 reaches out to pastebin to get URL for malware payload #2)    
 
@@ -531,7 +531,6 @@ Some Notes 🗒️ on the Templates:
 Alert on any activity from Dark Web or bad IPs and mark user compromised & Revoke token via Require user to sign-in again, ensure to not include failed logons as we don't want to cause impact for unsuccesful sign-ins. Once the user is marked compromised this will set their User Risk to high in Entra which will then apply the [User Risk policy](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies#user-risk-based-conditional-access-policy) if you have one (if you don't I recommend one - ensure to not mix User Risk and Sign-in Risk in the same policy as this acts as an "AND" not an "OR"). Remember that true passwordless users will not have their password so will be unable to perform a password reset, so you may want to exclude a group of Passwordless users from the conditional access policy (it should not be done in MDA). You may also want to exclude breakglass from the Dark Web Policy depending on your risk appetite 🍰 (You can also create a seperate Activity Policy to alert + email on Breakglass sign-ins from any IP too but I'd recommend to do Sentinel/Azure Monitor instead if these are available to you). Ensure to preview the results before applying.  
 
 ![image](https://github.com/user-attachments/assets/19db6887-3e35-465d-9dba-9cc1c5970609)
-
 
 
 # Logon on From Outdated Browser
