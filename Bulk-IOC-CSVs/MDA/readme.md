@@ -313,8 +313,9 @@ I am prevented but note the error message is backwards 🐛!
 
 # Block Download of Highly Sensitive Files
 
-You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels/Trainable Classifiers/Sensitivite Info Types to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your custom Purview Trainable Classifiers/Sensitive Info Types here also if you wish instead which is a big bonus if you have already built a custom classifier/info types.
+You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels/Trainable Classifiers/Sensitivite Info Types to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your custom Purview Trainable Classifiers/Sensitive Info Types here also if you wish instead which is a big bonus if you have already built a custom classifier/info types.  
 
+Users may try to bypass file downloading by copy/pasting so ensure you cover yourself there, see below example for Credit card numbers.    
    
 Sensitive Info Type Examples           |  Trainable Classifier Examples | Sensitivity Label 
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -325,6 +326,8 @@ Sensitive Info Type Examples           |  Trainable Classifier Examples | Sensit
 
 ## Copy Paste Credit Card Numbers
 
+Block users from copy pasting content potentially sensitive content, you can't use sensitivity labels/SIT/Trainable classifiers here.    
+
 Leverage the in-built preset for Finance: Credit card number    
 
 Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if you need it for testing  
@@ -333,11 +336,11 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if yo
 
 ![image](https://github.com/user-attachments/assets/45aa450d-6057-4f87-a8b9-491193954b69)  
 
-You can also extend this to "Send Item" if you want to, example of this below 
+> You can also extend this to "Send Item" if you want to, example of this below 
 
 # Require step up if Sending Ethereum Address
 
-__Note__ step up in Session Policy is in preview  
+> __Note__ step up in Session Policy is in preview  
 
 Force the user into an [authentication context](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps#authentication-context) if they send a [ethereum address](blockchain.com), in this case the context is Sign-in Frequency of everytime with passwordless authentication. Leverage with a custom authentication strengths for bonus points. Don't forget to exclude breakglass from Conditional Access when tagging the authentication context.  
 
@@ -354,6 +357,7 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 
 ![image](https://github.com/user-attachments/assets/9e896a42-6a9e-457a-bc43-32f3fb058767)
 
+> I haven't tested it but Slack is also supported for "Send Item" if Slack is connected to MDA
 
 # App Discovery Policy
 
