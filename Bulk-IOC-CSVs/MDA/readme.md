@@ -504,6 +504,7 @@ Some notes 📓 are:
 Also note you can add goverance actions to anomaly policies for auto-response, annoyingly there is no revoke refresh token ("Require User To Sign-in Again"):
 ![image](https://github.com/user-attachments/assets/0288fd0d-8380-4f28-a33e-6842ab6a550b)
 
+> For Policies to work correctly ensure M365 AND Azure are configured in App Connectors. Be sure to include 3rd party clouds such as AWS/GCP for greater coverage on Cloud based alerting.  
 
 # Activity Policy
 
