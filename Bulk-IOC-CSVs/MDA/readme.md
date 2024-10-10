@@ -289,6 +289,15 @@ I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/
 
 ![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)
 
+Anyway after releasing myself from containment, I carry on:  
+
+![image](https://github.com/user-attachments/assets/c4d5592e-7b41-4898-a7e6-449a89a7b55c) || ![image](https://github.com/user-attachments/assets/e1c214ab-1ac2-4872-95d8-016d002ac674)
+
+I am prevented but note the error message is backwards!  
+
+![image](https://github.com/user-attachments/assets/2217750f-3a00-4c32-a052-9311a29c0299)
+
+
 ## Copy Paste Credit Card Numbers
 
 Leverage the in-built preset for Finance: Credit card number    
