@@ -598,6 +598,12 @@ Note that the File Sandboxing is an optional tickbox, if you don't want your fil
 
 ![image](https://github.com/user-attachments/assets/c9c7118d-bd52-417c-a035-9ec71707a3dc)
 
+
+I decided to see if this policy could up some of my favourite cloud hacking tools🧰 for a 😆 - results below 3️⃣:/9️⃣:
+![image](https://github.com/user-attachments/assets/17a7eebe-b0f5-4676-8012-a3d50f261e5b)
+
+Not malware per se as they are tools but interesting to see the results. I'd say if we actually look at the code of some of these like o365 creeper and fireprox they aren't inheritently  malicious and do fairly normal things for python scripts. I may have edited the code to change the hash 😉. Can you spot the odd tool out? 🧩        
+
 # Block Script Baseline
 
 Contains export scripts for apps you should probably be blocking in MDA and can apply to various products such as zscaler, cisco, fortigate. This should show the example output from MDA. 
