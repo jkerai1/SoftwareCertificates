@@ -770,9 +770,9 @@ The power automate playbooks can be managed from Settings > Cloud Apps > Playboo
 
 Cloud discovery data can now be enriched with Microsoft Entra username data. When you enable this feature, the username, received in discovery traffic logs, is matched and replaced by the Microsoft Entra username. Cloud discovery enrichment enables the following features:
 
-> You can investigate Shadow IT usage by Microsoft Entra user. The user will be shown with its UPN.
-> You can correlate the Discovered cloud app use with the API collected activities.
-> You can then create custom reports based on Microsoft Entra user groups. For example, a Shadow IT report for a specific Marketing department.
+> You can investigate Shadow IT usage by Microsoft Entra user. The user will be shown with its UPN.  
+> You can correlate the Discovered cloud app use with the API collected activities.  
+> You can then create custom reports based on Microsoft Entra user groups. For example, a Shadow IT report for a specific Marketing department.  
 
 Settings > Cloud Apps > User Enrichment 
 
