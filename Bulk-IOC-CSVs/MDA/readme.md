@@ -487,7 +487,7 @@ These policies enable you to monitor specific activities carried out by various 
 
 Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.  
 
-Audit for Governane actions can be found under Settings > Cloud Apps > Goverance Log
+Audit for Governance actions can be found under Settings > Cloud Apps > Goverance Log
 
 ![image](https://github.com/user-attachments/assets/fe23d419-c533-4401-a0a1-f59cc53af9a5)
 
