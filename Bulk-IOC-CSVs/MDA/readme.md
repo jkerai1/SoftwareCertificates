@@ -611,8 +611,9 @@ Policy result:
 
 Settings > Cloud Apps > Microsoft Defender For Endpoint 
 
-![image](https://github.com/user-attachments/assets/cbf669a5-d6ca-4dbe-b232-f4b5d4ddaf8b)
+![image](https://github.com/user-attachments/assets/cbf669a5-d6ca-4dbe-b232-f4b5d4ddaf8b)  
 
+https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern
 ## Information Protection
 
 This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content
