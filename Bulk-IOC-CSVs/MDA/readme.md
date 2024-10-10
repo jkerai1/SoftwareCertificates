@@ -709,7 +709,7 @@ For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Conn
 
 ![image](https://github.com/user-attachments/assets/ce5a7ae9-1650-4033-80fc-5cfeff0d575a)
 
-🛑 A lot of the policies and ideas discussed in this write-up depending on the above being enabled for M365 so ensure to check that all these boxes are ticked!  
+🛑 A lot of the policies and ideas discussed in this write-up depend on the above being enabled for M365 so ensure to check that all these boxes are ticked!  
 
 > Note that App Connectors is for APIs and not for Conditional Access Session Control, these are 2 seperate things. Also note for malware policy to work with M365 you need to enable the above for M365, for app governance actions you will need M365 Apps.
 
