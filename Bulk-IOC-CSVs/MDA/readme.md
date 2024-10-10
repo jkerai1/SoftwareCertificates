@@ -11,6 +11,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block malware Upload](#block-malware-upload)
   * [Block malware download](#block-malware-download)
   * [Block Suspicious File Extension Upload](#block-suspicious-file-extension-upload)
+  * [Block Download of Highly Sensitive Files](block-download-of-highly-sensitive-Files)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
   * [Require step up if Sending ethereum Address](#require-step-up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
@@ -247,19 +248,22 @@ The huge benefit to using Session Policy is that the receiving device does not n
 
 You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
 
-> I'm no purview expert but from my understanding Purview will perform better than the Data Classification Service
-
 Policy Templates are available via:  
 
 ![image](https://github.com/user-attachments/assets/79b8a3ed-d6ce-4eba-9195-89ecd401975b)
 
 
-## Block malware Upload
+## Block malware Upload  
+Template: Block upload of potential malware (based on Microsoft Threat Intelligence  
+
 ![image](https://github.com/user-attachments/assets/a1bf7a05-fbbc-4e42-a7ff-c4de3adbfec0)
 ![image](https://github.com/user-attachments/assets/f8d33b1a-05a1-4ee7-88b5-4c7997ab37e9)
 
 
-## Block malware download
+## Block malware download  
+
+Template: Block download of potential malware (based on Microsoft Threat Intelligence)
+
 ![image](https://github.com/user-attachments/assets/a535b0d3-943b-4d16-a48d-172a51ec46ac)
 
 ![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
@@ -303,6 +307,17 @@ Anyway after releasing myself from containment (reminder to always have a backup
 I am prevented but note the error message is backwards 🐛!  
 
 ![image](https://github.com/user-attachments/assets/2217750f-3a00-4c32-a052-9311a29c0299)
+
+# Block Download of Highly Sensitive Files
+
+You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your Purivew Trainable Classifiers here also if you wish instead which is a big bonus if you have already built a custom classifier.
+
+   
+Sensitive Info Type           |  Trainable Classifier
+:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/b011f18e-fef7-477b-be7e-a7b90494ffad)| ![image](https://github.com/user-attachments/assets/8bf85c26-1afd-4d0f-8e8b-a01d479a381a)
+
+> I'm no DLP expert but from my understanding Data Classification Service will perform better than the Built-in DLP Service. Be sure to use Data Classification Service and not the built-in DLP legacy service. It should choose Data Classification Service by default.  
 
 ## Copy Paste Credit Card Numbers
 
