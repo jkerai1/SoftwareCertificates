@@ -363,6 +363,9 @@ DeviceEvents
 | extend Application= replace('"', '', Application)
 | summarize BlockedURls = make_list(RemoteUrl) by Application
 ```
+The MDA Apps can be found in MDE IOC by filtering on "Application", this is available from Settings > Endpoints > Indicators  
+
+![image](https://github.com/user-attachments/assets/aad7f79c-b51f-421d-b182-aa7bcb7fc1e9)
 
 ## Auto Block Risky apps
 
