@@ -689,7 +689,7 @@ I tend to turn this off because it can be annoying - at least when I was testing
 
 ## File Monitoring
 
-Settings > Cloud Apps > Files
+For Purview to see files in SaaS Apps - Settings > Cloud Apps > Files  
 
 ![image](https://github.com/user-attachments/assets/0b1c9b52-a74d-4afd-bdb3-e8c094c17391)  
 
@@ -697,6 +697,7 @@ For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Conn
 
 ![image](https://github.com/user-attachments/assets/ce5a7ae9-1650-4033-80fc-5cfeff0d575a)
 
+> Note that App Connectors is for APIs and not for Conditional Access Session Control, these are 2 seperate things. Also note for malware policy to work with M365 you need to enable the above for M365
 
 ## App Onboarding and Maintenance
 
