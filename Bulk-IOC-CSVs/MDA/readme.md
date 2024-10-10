@@ -487,7 +487,7 @@ Also check the MS learn reference: https://learn.microsoft.com/en-us/defender-cl
 Some notes 📓 are: 	
 
 - Activity from suspicious IP addresses - can catch when Identity protection alert auto-resolves say MFA from [AiTM](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra), but this should not be relied on as residential proxy can bypass)
-- Unusual addition of credentials to an OAuth app - if you aren't monitoring this via Sentinel, worth alerting on as it can serve as a backdoor to a service principal)  
+- Unusual addition of credentials to an OAuth app - if you aren't monitoring this via Sentinel, worth alerting on as it can serve as a backdoor to a service principal  
 - Activity from infrequent country  - can be useful if you don't do any location blocking (or very early days on it), but I recommend you do some level of location based blocking for some defense in depth using named location in Conditional access, do you really need users signing in from North Korea for instance  
 - Suspicious inbox forwarding - if not alerting via Defender For Office/Sentinel, though I would outright [block autoforwarding domains and whitelist](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-external-email-forwarding)
 - Multiple VM creation activities /Multiple delete VM activities - if you realy need to prevent deletions of VMs [Azure Policy Deny Delete](https://www.linkedin.com/pulse/restricting-deletions-incidents-sentinel-jay-kerai-da9te/) is your friend and can be layered with resource locks 🔐
