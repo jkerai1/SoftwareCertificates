@@ -12,7 +12,8 @@ You can also use monitor to monitor for risky apps:
 If we want to be really restrictive here are some more ideas - this is my view from Cloud apps > Settings > catalog and filtering for unsanctioned/monitored
 ⚠️⚠️Possible Chance of Business Impact - Use the cloud app discovery reports can quickly filter what is business use case and what is unwanted⚠️⚠️
 
-![image](https://github.com/user-attachments/assets/1dc3a1b5-d462-4aaf-9b51-ba4e0ee28358) ![image](https://github.com/user-attachments/assets/90025cd0-4cb7-4a67-8eb0-dc925dabca24) ![image](https://github.com/user-attachments/assets/a35a573a-4712-47d8-ab8e-e765dd4b52c3) ![image](https://github.com/user-attachments/assets/246fbdc7-1c17-4de9-a0dc-c790ea23ac44) ![image](https://github.com/user-attachments/assets/92c689b5-d8af-479f-876d-e995e8a1f388) ![image](https://github.com/user-attachments/assets/17d991ec-9292-4966-8aff-d5af26bb2623)| ![image](https://github.com/user-attachments/assets/655f9283-c9ce-40fc-90cc-e2d24aac5f74)|![image](https://github.com/user-attachments/assets/cf135bc1-3032-45db-9dd9-110b21406fb4)  
+![image](https://github.com/user-attachments/assets/1dc3a1b5-d462-4aaf-9b51-ba4e0ee28358) ![image](https://github.com/user-attachments/assets/90025cd0-4cb7-4a67-8eb0-dc925dabca24) ![image](https://github.com/user-attachments/assets/a35a573a-4712-47d8-ab8e-e765dd4b52c3) ![image](https://github.com/user-attachments/assets/246fbdc7-1c17-4de9-a0dc-c790ea23ac44) ![image](https://github.com/user-attachments/assets/92c689b5-d8af-479f-876d-e995e8a1f388) ![image](https://github.com/user-attachments/assets/17d991ec-9292-4966-8aff-d5af26bb2623)| ![image](https://github.com/user-attachments/assets/655f9283-c9ce-40fc-90cc-e2d24aac5f74)|![image](https://github.com/user-attachments/assets/fe828308-ee2e-47a3-ba43-69bedc54b6d8)
+  
 
   
 
