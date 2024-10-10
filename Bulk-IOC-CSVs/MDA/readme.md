@@ -21,6 +21,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Auto Ban Discovered Paste apps](#auto-ban-discovered-paste-apps)
   * [Auto Ban Discovered Torrent Sites](#auto-ban-discovered-Torrent-Sites)
   * [Auto Ban Discovered Risky Generative AI](#auto-ban-discovered-risky-generative-ai)
+  * [Auto Ban Discovered Personal Messaging Apps](#Auto-Ban-Discovered-Personal-Messaging-Apps)
   * [Monitor Cloud Storage](#monitor-cloud-storage)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
 - [Activity Policy](#activity-policy)
@@ -496,6 +497,18 @@ DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | summarize count() by RemoteUrl
 ```
+
+## Auto Ban Discovered Personal Messaging Apps
+
+This serves as not only an exfil path but a malware delivery path. Imagine a user receives a phish via a personal email app, this would bypass protections of Defender for Office and the such, so we definitely want to be monitoring or blocking this.  
+
+☎️ I strongly recommend to unsanction Discord and telegram manually. These have a lot of problems in a business environment (data exfilitration - discord webhooks/manual, illegal activities, NSFW, Discord's CDN being abused to host malware). Don't get me wrong I am in a lot of genuinely good tech discords (like [Microsoft EMS](https://discord.com/invite/msems)) and they are super useful but I can use a personal device away from the company to access these at my own leisure.    
+
+![image](https://github.com/user-attachments/assets/ff680848-4699-4cfb-8028-44cc4e97387f)
+
+Examining the catalog we don't see too much of an impact, however ⚠️ remember to manually sanction any of these applications you may want to use for diaster recovery!  
+
+![image](https://github.com/user-attachments/assets/b33c407c-e065-47d0-8a06-86857ab8ea13)
 
 
 ## Monitor Cloud Storage
