@@ -427,7 +427,18 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 
 ![image](https://github.com/user-attachments/assets/77b2ce32-eba7-474a-9342-315448f269a8)
 
-This policy will miss a few such as sendnow, sendthisfile, dropsend but these can be done manually or you can create a different policy. You'll want to hit Content Sharing and Cloud Storage categories there.  
+This policy will miss a few such as sendnow, sendthisfile, dropsend but these can be done manually or you can create a different policy. You'll want to hit Content Sharing and Cloud Storage categories there.
+
+Alternatively you can create another discovery policy with the following filters:
+
+However note there are a LOT of results, and even almost 5,000 when we bump the risk score to 6, ensure to sanction all legitmate business apps first from cloud app discovery as you won't want to scroll through pages and pages of apps.  
+
+![image](https://github.com/user-attachments/assets/abcaba27-8b2d-4220-b041-2409df07935b)
+
+In my case I only have 2 hits neither of which is LOB so I am happy to proceed and block with a risk score of 5:  
+
+![image](https://github.com/user-attachments/assets/6a0424da-562d-4ed2-9ca3-472f0036408f)
+
 
 ## Auto Ban Discovered Paste apps
 
@@ -484,6 +495,7 @@ DeviceNetworkEvents
 ## Auto Ban Discovered Risky Generative AI
 
 OpenAI scores 8️⃣ or 9️⃣ and Copilot scores around 🔟. If you need to block Chatgpt etc I'd block it manually as 9 may be too high for app discovery policy. Bear in mind theres currently 3 OpenAI catergories available  
+
 ![image](https://github.com/user-attachments/assets/d7e92b57-1823-45fc-96c8-3638eccadb82)
 
 Also bear in mind savy users might find websites that have chatbots with no content filter so this by no means a substitute for good DLP.  
@@ -507,7 +519,6 @@ DeviceNetworkEvents
 ## Auto Ban Discovered Personal Messaging Apps
 
 This serves as not only an exfil path but a malware delivery path. Imagine a user receives a phish via a personal messaging app, this would bypass protections of Defender for Office and the such, so we definitely want to be monitoring or blocking this. 
-
 
 ☎️ I strongly recommend to unsanction Discord and telegram manually. These have a lot of problems in a business environment (data exfilitration - discord webhooks/manual, illegal activities, NSFW, Discord's CDN being abused to host malware). Don't get me wrong I am in a lot of genuinely good tech discords (like [Microsoft EMS](https://discord.com/invite/msems)) and they are super useful but I can use a personal device away from the company to access these at my own leisure.    
 
@@ -563,14 +574,15 @@ You may want to keep an eye on newly founded apps. Annoyingly you can't do a dyn
 
 ![image](https://github.com/user-attachments/assets/b8924ff1-d7e5-4ba0-a93b-3609c28c352e)
 
-Also I strongly recommend enabling [Web Content filtering for newly registered domains in MDE](https://learn.microsoft.com/en-us/defender-endpoint/web-content-filtering#turn-on-web-content-filtering).To block sites that are newly registered in the past 30 days and haven't yet been moved to another category. If you want to audit before you whack this in, create a web content filtering with no categories. Then reports will be available from Reports > Web Protection
+Also I strongly recommend enabling [Web Content filtering for newly registered domains in MDE](https://learn.microsoft.com/en-us/defender-endpoint/web-content-filtering#turn-on-web-content-filtering). To block sites that are newly registered in the past 30 days and haven't yet been moved to another category. If you want to audit before you whack this in, create a web content filtering Policy with no categories (Settings > Endpoints > Web Content Filtering). 
 
 ![image](https://github.com/user-attachments/assets/2b25b9d2-7cb8-41b6-b115-41661a1a47a8)
 
-Then reports will be available from Reports > Web Protection, we ensure to expand the time range if you have been in audit mode for a while, by default its 30 days.
+Then reports will be available from Reports > Web Protection, we ensure to expand the time range if you have been in audit mode for a while, by default its 30 days.  
 
 ![image](https://github.com/user-attachments/assets/c6cc2ee5-f652-4ab0-a7c0-ad41d9331b4b)
 
+> You'll also want to make sure Web Content Filtering is also turned on from Settings > Endpoints > Advanced Features
 
 # Anomaly Detection Policy
 
@@ -772,13 +784,14 @@ To make any advantage of Unsanctioned 🚫 Apps you'll need to enable this from
 Settings > Cloud Apps > Microsoft Defender For Endpoint 
 
 ![image](https://github.com/user-attachments/assets/cbf669a5-d6ca-4dbe-b232-f4b5d4ddaf8b)  
+> You may want to include a custom message in the blocks to guide users where they should go to raise tickets to get apps unsanctioned if you want to do that kind of thing
 
 Also ensure that Network protection is in block mode and that Custom Indicators is also turned on:
 
 ![image](https://github.com/user-attachments/assets/9fa81c57-eed8-4c5b-9d0d-7a575a2e1b96)
 
-
 https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern
+> While you are here Ensure Defender for Cloud apps is turned on from Settings > Endpoints > Advanced Features
 
 ## Information Protection
 
