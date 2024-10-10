@@ -46,6 +46,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Integrate with 3rd party Secure Web Gateways For Discovery](#integrate-with-third-party-secure-web-gateways-for-discovery)
   * [Integrate with SaaS Security Posture](#integrate-with-saas-security-posture)
   * [Integrate with Power Automate for alerting](#integrate-with-power-atomate-for-alerting)
+  * [Enrich cloud discovery data with Microsoft Entra usernames](#enrich-cloud-discovery-data-with-microsoft-entra-usernames)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -684,7 +685,12 @@ I tend to turn this off because it can be annoying:
 
 Settings > Cloud Apps > Files
 
-![image](https://github.com/user-attachments/assets/0b1c9b52-a74d-4afd-bdb3-e8c094c17391)
+![image](https://github.com/user-attachments/assets/0b1c9b52-a74d-4afd-bdb3-e8c094c17391)  
+
+For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Connectors > Microsoft 365 > Edit Connector  
+
+![image](https://github.com/user-attachments/assets/ce5a7ae9-1650-4033-80fc-5cfeff0d575a)
+
 
 ## App Onboarding and Maintenance
 
@@ -759,6 +765,18 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/flow-integration
 The power automate playbooks can be managed from Settings > Cloud Apps > Playbooks
 
 ![flow-extensions](https://github.com/user-attachments/assets/aed997b2-80e1-46a9-b41c-82307317b094)
+
+## Enrich cloud discovery data with Microsoft Entra usernames
+
+Cloud discovery data can now be enriched with Microsoft Entra username data. When you enable this feature, the username, received in discovery traffic logs, is matched and replaced by the Microsoft Entra username. Cloud discovery enrichment enables the following features:
+
+    You can investigate Shadow IT usage by Microsoft Entra user. The user will be shown with its UPN.
+    You can correlate the Discovered cloud app use with the API collected activities.
+    You can then create custom reports based on Microsoft Entra user groups. For example, a Shadow IT report for a specific Marketing department.
+
+Settings > Cloud Apps > User Enrichment 
+
+![image](https://github.com/user-attachments/assets/12e414c9-6c02-430a-b945-6dec9ae36b66)
 
 
 # Fin  
