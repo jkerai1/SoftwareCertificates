@@ -2,8 +2,6 @@
 
 Not a comprehensive list, just some ideas of the capability of Defender for Cloud Apps (MDA) and some of the settings you may have missed. I truly think MDA is underrated and underutilized by E5 Customers.  
 
-I'd also recommend checking out [samilamppu.com](https://samilamppu.com) who has some excellent content on MDA.  
-
 >When creating policies leverage "edit and preview results" (this will only work with the activies match tab - ensure to have activties selected or you'll pull the whole log) and "view policy matches" prior to deploying or deploy in alert/monitor only to reduce potential business impact.  
 
 - [Access Policy](#access-policy)
@@ -736,6 +734,16 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/flow-integration
 ![flow-alerts-config](https://github.com/user-attachments/assets/7cda0d8d-3a0e-4816-af43-0848097b1a6c)
 
 The power automate playbooks can be managed from Settings > Cloud Apps > Playbooks
+
+
+
+
+
+
+
+# Fin  
+
+I'd also recommend checking out [samilamppu.com](https://samilamppu.com) who has some excellent content on MDA.  
 ![flow-extensions](https://github.com/user-attachments/assets/aed997b2-80e1-46a9-b41c-82307317b094)
 
 
