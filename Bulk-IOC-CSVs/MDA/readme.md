@@ -352,7 +352,7 @@ The Governance Actions for discovery can be found under Settings > Cloud Apps > 
 
 ![image](https://github.com/user-attachments/assets/b177ff19-e98f-4306-8d4e-1a8172bd12d9)
 
-Audit your Blocks across to MDE with the below KQL :oncoming_police_car: :. Smartscreen is used for Edge and Exploit Guard is for 3rd party browsers. In the back-end the blocks are MDE, assuming of course you have remembered to [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde). ❗ Please remember to turn this on or the blocks will not do diddly squat from an MDE Point of view!    
+Audit your Blocks across to MDE with the below KQL :oncoming_police_car:. Smartscreen is used for Edge and Exploit Guard is for 3rd party browsers. In the back-end the blocks are MDE, assuming of course you have remembered to [Enforce MDA Blocks to MDE](#enforce-mda-blocks-to-mde). ❗ Please remember to turn this on or the blocks will not do diddly squat from an MDE Point of view!    
 
 ```
 DeviceEvents
