@@ -315,9 +315,10 @@ I am prevented but note the error message is backwards 🐛!
 You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your Purview Trainable Classifiers here also if you wish instead which is a big bonus if you have already built a custom classifier.
 
    
-Sensitive Info Type           |  Trainable Classifier
-:-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/b011f18e-fef7-477b-be7e-a7b90494ffad)| ![image](https://github.com/user-attachments/assets/8bf85c26-1afd-4d0f-8e8b-a01d479a381a)
+Sensitive Info Type Examples           |  Trainable Classifier Examples | Sensitivity Label 
+:-------------------------:|:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/6e03eeae-83a7-48d5-a6d6-514d3853a603)| ![image](https://github.com/user-attachments/assets/42c4d375-c143-488e-9d22-71d56617bbe3) |![image](https://github.com/user-attachments/assets/82456396-56fd-4565-9e64-ac61ec78c168)
+
 
 > I'm no DLP expert but from my understanding Data Classification Service will perform better than the Built-in DLP Service. Be sure to use Data Classification Service and not the built-in DLP legacy service. It should choose Data Classification Service by default.  
 
