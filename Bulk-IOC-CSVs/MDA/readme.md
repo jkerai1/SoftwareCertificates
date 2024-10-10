@@ -247,6 +247,7 @@ The huge benefit to using Session Policy is that the receiving device does not n
 
 You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
 
+> I'm no purview expert but from my understanding Purview will perform better than the Data Classification Service
 
 Policy Templates are available via:  
 
