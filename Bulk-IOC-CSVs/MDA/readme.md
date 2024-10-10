@@ -849,7 +849,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/discovery-docker
 After you have configured the log collector (or [Secure Web Gateway](#Integrate-with-third-party-Secure-Web-Gateways-For-Discovery) you can create a snapshot report:
 
 ![snapshot-report-management](https://github.com/user-attachments/assets/8c002286-41f6-471c-87be-3dfd3daa81cc)
-> Microsoft suggests doing a manual upload of a sample log first so you can ensure MDA can parse the logs before you deploy the log collector. There is support for a wide range for appliances but if yours is not supported there is the option to create a custom parser.#
+> Microsoft suggests doing a manual upload of a sample log first so you can ensure MDA can parse the logs before you deploy the log collector. There is support for a wide range for appliances but if yours is not supported there is the option to create a custom parser.
 
 ![cloud-discovery-snapshot-verify](https://github.com/user-attachments/assets/fe2f0d49-1f55-4e56-8f59-c38dcddef513)
 
