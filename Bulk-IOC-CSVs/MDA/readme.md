@@ -278,7 +278,7 @@ OfficeActivity
 
 ![image](https://github.com/user-attachments/assets/12f47161-0060-4585-b7ae-e9166bb8e1d9)
 
-![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)
+![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)  
 
 Renaming extension bypasses - no header inspection taking place:
 ![image](https://github.com/user-attachments/assets/db683daf-6919-4870-9293-132e24c5101b)
