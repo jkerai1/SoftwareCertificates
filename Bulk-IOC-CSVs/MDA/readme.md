@@ -556,6 +556,8 @@ Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d
 
 ![image](https://github.com/user-attachments/assets/e282a56a-780a-41d7-8fdc-7395b3e5285d)
 
+>Be sure to do [Information Protection](#information-protection) to intergrate [Purview with Defender for cloud apps](https://learn.microsoft.com/en-us/defender-cloud-apps/azip-integration) 
+
 ## File Shared with Personal Email Address
 
 Missing The ability to add extra domains? unsure. The only other domains that appear here are the ones I have set as allowed for B2b External collaboration and the default personal emails pictured. Note that there are plenty of other personal email addresses missing here such as proton, gmx, fedora, yandex. Good news is you can do [Auto Unsanction Web Mail](#auto-unsanction-web-mail) to at least stop half of the bleed. After you have discovered what users are personally using you can block them with Exchange transport rule or better yet [TenantAllowBlockList](https://learn.microsoft.com/en-us/defender-office-365/tenant-allow-block-list-email-spoof-configure) which has a higher priority than Exchange Transport Rule. This will cover you also for that Auto-forwarding scenario too.
@@ -648,7 +650,7 @@ Settings > Cloud Apps > Microsoft Defender For Endpoint
 https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern
 ## Information Protection
 
-This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content
+This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content, however is you plan on using File Policies you will at least need to tick the first box.  
 
 Microsoft Information Protection settings - this only applies to the App Connector and NOT the Conditional access app control.
 
@@ -658,6 +660,7 @@ Settings > Cloud Apps > Microsoft Information Protection
 
 ![image](https://github.com/user-attachments/assets/1e37ee94-30dd-4b0a-a9b1-8a65c1db47a5)
 
+https://learn.microsoft.com/en-us/defender-cloud-apps/azip-integration#how-to-integrate-microsoft-purview-with-defender-for-cloud-apps  
 
 Explict Oauth consent will be required to Inspect Protected files
 
