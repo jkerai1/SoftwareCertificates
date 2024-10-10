@@ -544,6 +544,8 @@ The email notification isn't particularly verbose so there is some advantage to 
 
 File Policies allow you to enforce a wide range of automated 🤖 processes using the cloud provider's APIs. Examples include: Put in Admin Quarantine, Notify Users, Apply Sensitivity Label, Make Private, remove external users  
 
+>Be sure to do [Information Protection](#information-protection) if you want to intergrate [Purview with Defender for cloud apps with File Policies](https://learn.microsoft.com/en-us/defender-cloud-apps/azip-integration) 
+
 The best practice guide for File Policy can be found at: https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies#file-policy-best-practices
 
 File Policy Results can be viewed from Cloud Apps > Policies > Policy management, and then select the Information protection tab
@@ -558,7 +560,6 @@ Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d
 
 ![image](https://github.com/user-attachments/assets/e282a56a-780a-41d7-8fdc-7395b3e5285d)
 
->Be sure to do [Information Protection](#information-protection) to intergrate [Purview with Defender for cloud apps](https://learn.microsoft.com/en-us/defender-cloud-apps/azip-integration) 
 
 ## File Shared with Personal Email Address
 
