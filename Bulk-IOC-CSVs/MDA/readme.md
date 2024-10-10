@@ -516,6 +516,9 @@ Some UI elements failed to load on out of date browsers, you can actually use an
 
 ![image](https://github.com/user-attachments/assets/5b72b0bd-c6a1-486a-af54-75b2099edfcd)
 
+The email notification isn't particularly verbose so there is some advantage to using an Access Policy as you can give much clearer instructions to the user of what to do:  
+
+![image](https://github.com/user-attachments/assets/63be225b-3ac7-4905-88b3-b00738fdbaef)
 
 # File Policy
 
