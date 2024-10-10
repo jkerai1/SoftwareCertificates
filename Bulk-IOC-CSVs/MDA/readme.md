@@ -392,6 +392,8 @@ The MDA Apps can be found in MDE IOC by filtering on "Application", this is avai
 
 ![image](https://github.com/user-attachments/assets/aad7f79c-b51f-421d-b182-aa7bcb7fc1e9)
 
+> App Discovery does not actually require any additional permission from M365 App Connector because it can infer from the connections from MDE agent / 3rd party Secure Web Gateways   
+
 ## Auto Block Risky apps
 
 ![image](https://github.com/user-attachments/assets/68a29e71-f351-4f70-a447-ecb16653461e)
