@@ -61,3 +61,6 @@ gzip
 7zip
 bzip2
 rar
+py
+rs
+go
