@@ -551,7 +551,7 @@ The email notification isn't particularly verbose so there is some advantage to 
 
 File Policies allow you to enforce a wide range of automated 🤖 processes using the cloud provider's APIs. Examples include: Put in Admin Quarantine, Notify Users, Apply Sensitivity Label, Make Private, remove external users  
 
->Be sure to do [Information Protection](#information-protection) if you want to intergrate [Purview with Defender for cloud apps with File Policies](https://learn.microsoft.com/en-us/defender-cloud-apps/azip-integration) 
+>Be sure to do [Information Protection](#information-protection) if you want to intergrate [Purview with Defender for cloud apps with File Policies](https://learn.microsoft.com/en-us/defender-cloud-apps/azip-integration) as well as ensuring Defender for Cloud Apps can see files in M365 ([File Monitoring](#file-monitoring))
 
 The best practice guide for File Policy can be found at: https://learn.microsoft.com/en-us/defender-cloud-apps/data-protection-policies#file-policy-best-practices
 
@@ -560,6 +560,11 @@ File Policy Results can be viewed from Cloud Apps > Policies > Policy management
 ![content-matches-ccn](https://github.com/user-attachments/assets/591c11c4-291d-4cad-b371-ff9d5adc7a76)
 
 > Note that File Policy is great feature but its not a substitute for proper Purview DLP as a preventation method
+
+🥬 FYI if you try to trash a file after disconnecting the app connector for M365 Files you'll see this prompt, you'll need to renable from App Connectors see [File Monitoring](#file-monitoring)  
+
+![image](https://github.com/user-attachments/assets/81637828-8771-4b70-81e8-f574227d7770)
+
 
 ## Externally shared source code
 
