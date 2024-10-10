@@ -576,12 +576,15 @@ Missing The ability to add extra domains? unsure. The only other domains that ap
 
 [Off by default](https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy#malware-detection), remember to enable and add any appropriate auto Governance action.
 
+> You must have at least one app connected using app connectors and this connector must be able to see the files, For example in App Connectors Microsoft 365 > Microsoft 365 Files Must be ticked. See [File Monitoring](#file-monitoring)
+
 ![image](https://github.com/user-attachments/assets/853b5c6e-cd38-4063-a590-caa8c9438020)
 
 Note that the File Sandboxing is an optional tickbox, if you don't want your files potentially entering a sandbox i.e. sensitive code scripts you want to leave this off.
 
 ![image](https://github.com/user-attachments/assets/0de57b5b-531d-41ad-9c74-29f70022a7c5)
 
+![image](https://github.com/user-attachments/assets/c9c7118d-bd52-417c-a035-9ec71707a3dc)
 
 # Block Script Baseline
 
