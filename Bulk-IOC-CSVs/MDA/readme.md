@@ -310,7 +310,7 @@ I am prevented but note the error message is backwards 🐛!
 
 # Block Download of Highly Sensitive Files
 
-You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your Purivew Trainable Classifiers here also if you wish instead which is a big bonus if you have already built a custom classifier.
+You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your Purview Trainable Classifiers here also if you wish instead which is a big bonus if you have already built a custom classifier.
 
    
 Sensitive Info Type           |  Trainable Classifier
