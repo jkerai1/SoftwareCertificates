@@ -197,7 +197,7 @@ DeviceFileEvents
 
 List of keywords from unusual User agents :suspect: can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
 
-__Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings.    
+__Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings. Also note that some browsers do not fingerprint differently, for example, Brave desktop will just fingerprint as Chrome     
 
 Some of these User Agents will not be supported in Azure portal natively such as seamonkey. Not all are Browser based, some are OS based and some are just bots/scrappers (I've left all in for hunting purposes)
 Everything after the first 30 entries or so is tending to the more niche categories. If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
