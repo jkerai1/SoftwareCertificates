@@ -233,7 +233,7 @@ See More Browser Blocking stuff here:
 [Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Browser%20IOCs.csv)  
 [User Agent KQL :oncoming_police_car: Parser](https://www.kqlsearch.com/query/Identity-parseuseragent&clmoxrwnu002tmc0k2lnnqbnz)
 
-> Note that 3rd party browsers will appear as BYOD to Entra and this is because it can't pull the DeviceId claim across without the [SSO Extension](https://chromewebstore.google.com/detail/microsoft-single-sign-on/ppnbnpeolgkicgegkbkbjmhlideopiji) (legacy) or the [CloudAPAuthEnabled](https://chromeenterprise.google/policies/#CloudAPAuthEnabled) Registry Key, this key can only be set via [ADMX/Administrative Template](https://scloud.work/google-chrome-single-sign-on-sso-azure-ad/). There is no CSP option in Intune, so you'll have to use administrative template.
+> Note that 3rd party browsers will appear as BYOD to Entra and this is because it can't pull the DeviceId claim across without the [SSO Extension](https://chromewebstore.google.com/detail/microsoft-single-sign-on/ppnbnpeolgkicgegkbkbjmhlideopiji) (legacy) or the [CloudAPAuthEnabled](https://chromeenterprise.google/policies/#CloudAPAuthEnabled) Registry Key, this key can only be set via [ADMX/Administrative Template](https://scloud.work/google-chrome-single-sign-on-sso-azure-ad/). There is no Settings Catalog (CSP) option in Intune, so you'll have to use administrative template.
 
 # Session Policy  
 
