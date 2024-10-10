@@ -53,7 +53,7 @@ Navigate to Cloud Apps > Policies > Policy Management to create a new policy or 
 
 
 # Access Policy
-When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA. You will also need this for [Session Policy](#session-policy)
+When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA. You will also need this conditional access policy for [Session Policy](#session-policy)
 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 
@@ -245,6 +245,8 @@ See More Browser Blocking stuff here:
 > See note about conditional access to handover session in [Access Policy](#access-policy), that is prerequisite here also.  
 
 The huge benefit to using Session Policy is that the receiving device does not need to be Intune enrolled/MDE enrolled/Entra joined/registered in any way shape or form. This allows us to essentially protect business data from BYOD devices, I wouldn't really bother using session control on Intune and Endpoint enrolled devices as we can control the configurations on those devices, with BYOD we cannot. I put an exclude filter compliant and corporate owned devices from my conditional access policy for Conditional Access App Control. You can also filter out Intune Compliant devices in Session Control if you do want that granularity but as I do that in conditional access I will not do this in this section. Note that the default policy templates will try to include this tag so I manually delete it.   
+
+⚠️ Session Policy ONLY works for browser-based applications so you'll need to block Mobile and desktop apps in Conditional access policy.I actually recommend creating 1 Conditional access policy to target browser and 1 to target Mobile & Desktop Clients and blocking in the later if you don't have strict device filter/ require Hybrid join grant policy     
 
 You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
 
