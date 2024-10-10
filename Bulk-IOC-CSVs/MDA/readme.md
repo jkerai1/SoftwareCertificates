@@ -360,6 +360,9 @@ Be sure to use the "edit and preview results" to check you are not going to bloc
 
 ![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
 
+Audit can be found under Settings > Cloud Apps > Goverance Log
+
+![image](https://github.com/user-attachments/assets/b177ff19-e98f-4306-8d4e-1a8172bd12d9)
 
 ## Auto ban discovered File Transfer apps
 
@@ -466,6 +469,10 @@ These policies enable you to monitor specific activities carried out by various 
 
 Consider adding a Governance action after testing to suspend user / confirm compromised / revoke token. Require user to sign-in again is just a revoke refresh token in back-end.  
 
+Audit for Governane actions can be found under Settings > Cloud Apps > Goverance Log
+
+![image](https://github.com/user-attachments/assets/fe23d419-c533-4401-a0a1-f59cc53af9a5)
+
 https://learn.microsoft.com/en-us/defender-cloud-apps/user-activity-policies
 
 Templates available:
@@ -534,6 +541,8 @@ Hunting for externally shared PEMs and PFXs could be useful:
 # App Governance
 
 App Goverance is the new umbrella for Oauth apps, these are designed to govern oauth apps (in Entra terms an [Enterprise Application](https://ericonidentity.com/2023/03/11/aad-app-registrations-and-enterprise-applications-the-definitive-guide/)) registered to Entra (and google/salesforce if you enable these) including visibility, usage and permissions. If a user fell for an illict consent attack and an attacker gained access to corporate data via an Enterprise application this is where you could auto-remediate and revoke permissions for these applications. Noted that illict consent attacks have very much decreased with most "fun" permissions requiring an admin to consent.
+
+> Note App Goverance will not show ALL apps registered to Entra, only priviliged and risky ones
 
 If you haven't already I'd strongly recommend changing user consent settings away from "allow consent for apps". By default this is set to "Allow user consent for apps". This setting can be found from Enterprise applications > Consent and Permissions > User Consent Settings
 
@@ -638,6 +647,10 @@ Settings > Endpoints > Advanced Features
 ![image](https://github.com/user-attachments/assets/b2d42023-abd8-4259-b909-53ddba1646d7)
 
 ![image](https://github.com/user-attachments/assets/c01066fb-cd5e-4b81-a1f5-d8efbf475970)
+
+I was unable to find actions regarding sanctioning/unsanctioning applications in Unified Audit Log but it was available in the Activity log (Settings > Cloud Apps > Activity Log) - Strange!  
+
+![image](https://github.com/user-attachments/assets/aafa1411-d441-4b82-8790-ac207140d045)
 
 
 ## Import Entra Groups
