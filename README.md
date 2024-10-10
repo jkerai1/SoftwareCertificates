@@ -21,7 +21,7 @@ Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, 
 Useful Ref For Programs people install on fresh desktop: https://ninite.com/ (also worth blocking ninite's cert)  
 # How to block a certificate in MDE?  
 
-Note that Certificate thumbprints will rotate as certificates are rolled so this is NOT the best way to block applications  
+> Note that Certificate thumbprints will rotate as certificates are rolled so this is NOT the best way to block applications  
 
 
 Download the Repo by hitting the "Code button" then "[Download Zip](https://github.com/jkerai1/SoftwareCertificates/archive/refs/heads/main.zip)"  
@@ -100,6 +100,8 @@ DeviceFileCertificateInfo
 ⚠️ Potential Business Impact if you upload without running a KQL against the CSV first
 
 As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes and note there is a limit of 500 for bulk upload, the current typosquat lists will not work as they are too large:  
+
+> Also note all Block lists with merge with MDA Unsanctioned apps so no need to deduplicate  manually
 
 Find the CSV of interest (after checking for business impact by checking it with a KQL query) and click on download 
 
