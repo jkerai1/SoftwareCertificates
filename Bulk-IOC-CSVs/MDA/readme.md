@@ -502,6 +502,7 @@ File Policy Results can be viewed from Cloud Apps > Policies > Policy management
 
 ![content-matches-ccn](https://github.com/user-attachments/assets/591c11c4-291d-4cad-b371-ff9d5adc7a76)
 
+> Note that File Policy is great feature but its not a substitute for proper Purview DLP as a preventation method
 
 ## Externally shared source code
 
