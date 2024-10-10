@@ -19,6 +19,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Auto Unsanction Web Mail](#auto-unsanction-web-mail)
   * [Auto Ban Discovered File Transfer apps](#auto-ban-discovered-file-transfer-apps)
   * [Auto Ban Discovered Paste apps](#auto-ban-discovered-paste-apps)
+  * [Auto Ban Discovered Torrent Sites](#auto-ban-discovered-Torrent-Sites)
   * [Auto Ban Discovered Risky Generative AI](#auto-ban-discovered-risky-generative-ai)
   * [Monitor Cloud Storage](#monitor-cloud-storage)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
@@ -47,6 +48,9 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Integrate with SaaS Security Posture](#integrate-with-saas-security-posture)
   * [Integrate with Power Automate for alerting](#integrate-with-power-atomate-for-alerting)
   * [Enrich cloud discovery data with Microsoft Entra usernames](#enrich-cloud-discovery-data-with-microsoft-entra-usernames)
+  * [Automatic Log Upload from Network](#Automatic-Log-Upload-from-Network)
+  * [Secure Score](#Secure-Score)
+  * [Network Requirements](#etwork-Requirements)
 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -388,7 +392,7 @@ DeviceEvents
 | extend Application= replace('"', '', Application)
 | summarize BlockedURls = make_list(RemoteUrl) by Application
 ```
-The MDA Apps can be found in MDE IOC by filtering on "Application", this is available from Settings > Endpoints > Indicators  
+The MDA Apps can be found in MDE IOC by filtering on "Application", this is available from Settings > Endpoints > Indicators. Note that Sanctioned applications will NOT create an allow indicator.    
 
 ![image](https://github.com/user-attachments/assets/aad7f79c-b51f-421d-b182-aa7bcb7fc1e9)
 
@@ -434,7 +438,7 @@ From Cloud App Catalog We can see the impact if we turn on Advanced Filters:
 
 ![image](https://github.com/user-attachments/assets/437ffaae-1165-4546-a9d8-f7c91295de81)
 
-See also MDE Blocklist: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv. Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
+See also MDE Blocklist: [https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv). Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
 
 ```
@@ -446,6 +450,29 @@ DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | summarize count() by RemoteUrl
 ```
+## Auto Ban Discovered Torrent Sites  
+
+Similiar to above but for torrents
+
+![image](https://github.com/user-attachments/assets/cfc93f42-6002-4051-a84f-49add7e8e22b)
+
+If we "edit and preview results", we don't see a single legitimate hit (but that is not to say there may be a legitimate app added that has torrent in its name, but I find this to be fairly unlikely)  
+
+![image](https://github.com/user-attachments/assets/2f6fccb8-7f72-4dd0-85b9-bdfeed39fc61)
+
+
+See also my MDE Blocklist for Piracy: [https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/FileTransfer%20PasteLike%20Sites.csv](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Piracy.csv). Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
+
+```
+let PiracyIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Piracy.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = PiracyIOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl in~(DomainList )
+| summarize count() by RemoteUrl
+```
+> See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Piracy for Software Certificate IOCs
 
 ## Auto Ban Discovered Risky Generative AI
 
@@ -469,6 +496,8 @@ DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | summarize count() by RemoteUrl
 ```
+
+
 ## Monitor Cloud Storage
 
 Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or meaningful in the default policy so I tend to remove this.  
@@ -806,6 +835,42 @@ Settings > Cloud Apps > User Enrichment
 
 ![image](https://github.com/user-attachments/assets/12e414c9-6c02-430a-b945-6dec9ae36b66)
 
+# Automatic Log Upload from Network
+
+↩️ I have not used the below but included for reference. I personally find this to be low down on the list of priorities as I work with MDE Estates where the discovery can happen via the MDE Agent which covers majority of use-cases. The collector would probably make more sense for you if you have many non-MDE devices on the on-prem network accessing corporate data and you have many custom apps you've added to cloud discovery (maybe a Line of business app built especially for your org) 
+
+Log collectors enable you to upload logs from your on-prem network. In the back-end its just a docker container that parses the firewall logs and uploads it to MDA for analysis. Note that the container doesn't actually have to be deployed on-prem you can still deploy it on Azure ☁️, you can also use a SIEM server as a source to the log collector. 
+
+It can be configured from Settings > Cloud Apps > Automatic log Upload
+https://learn.microsoft.com/en-us/defender-cloud-apps/discovery-docker
+
+![image](https://github.com/user-attachments/assets/11658fac-1498-43d7-aa4b-8b567cb3d9b4)
+
+After you have configured the log collector (or [Secure Web Gateway](#Integrate-with-third-party-Secure-Web-Gateways-For-Discovery) you can create a snapshot report:
+
+![snapshot-report-management](https://github.com/user-attachments/assets/8c002286-41f6-471c-87be-3dfd3daa81cc)
+> Microsoft suggests doing a manual upload of a sample log first so you can ensure MDA can parse the logs before you deploy the log collector. There is support for a wide range for appliances but if yours is not supported there is the option to create a custom parser.#
+
+![cloud-discovery-snapshot-verify](https://github.com/user-attachments/assets/fe2f0d49-1f55-4e56-8f59-c38dcddef513)
+
+
+# Secure Score
+
+We have 5️⃣ recommendations here at the time of writing and I've filtered Secure Score by Defender for cloud apps. It looks like the legacy oauth policy recommendation is still in here even though I have moved to app governance!  
+
+![image](https://github.com/user-attachments/assets/cf668dee-dfae-412d-9b44-5eb77a5de664)
+
+If I try to create a policy I notice we have two activity policy types when I go to filter - I wouldn't worry too much about this and this will likely disappear as app governance is rolled out:
+
+![image](https://github.com/user-attachments/assets/5df1bf04-9516-4565-b53b-5128323f92de)
+
+> If you want to read more about my thoughts on Secure Score, check out my [blog post](https://www.linkedin.com/posts/jay-kerai-cyber_microsoft-securescore-entra-activity-7245764184607531008-QZZS)
+
+# Network Requirements
+
+List of URLs/IPS and ports required for various bits of MDA to work. Could be useful for troubleshooting. You'll definitely need this if you intend on rolling out [Automatic-Log-Upload-from-Network](#Automatic-Log-Upload-from-Network)  
+
+https://learn.microsoft.com/en-us/defender-cloud-apps/network-requirements
 
 # Fin  
 
