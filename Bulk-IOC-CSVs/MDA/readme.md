@@ -504,9 +504,9 @@ Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or
 
 ![image](https://github.com/user-attachments/assets/63dbc74c-2fa0-46be-819b-bb303623c1c6)
 
+See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backup%20or%20Exfil%20Tools for Software Certificate IOCs
 
-See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Cloud%20backup%20or%20Exfil%20Tools
-
+> Also check out the [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/) and searching for +exfiltration
 # Anomaly Detection Policy
 
 These cannot be manually created, there are some potentially useful ones here that may be disabled by default, ensure to check these out from Cloud Apps > Policy Management (Type: Anomaly Detection Policy). Some of these policies such as Impossible Travel will have a learning period (typically 7 days), it is best to delay enabling these policies if you are in a holiday season/change freeze/brand new tenant for a higher fidelity.  
