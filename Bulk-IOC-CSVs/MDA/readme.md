@@ -527,7 +527,9 @@ Some Notes 🗒️ on the Templates:
 - Administrative activity from a non-corporate IP address - Ensure to [Add IP Range as a Corporate tag](#add-ip-range-for-usage-in-policies) before you deploy this
 - Activities from suspicious user agents - The list of user agents is quite limited here so if you want to use this be sure to checkout my [user agent list](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt) and add any appropriate strings. You will NOT want to add all of these are this will definitely result in false positives e.g. go-resty which is sometimes used by some Azure Tools. Am example of one to add here is ZmEu or gobuster, a better list can be found from: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv#L6 rather than leveraging my list. As stated above user agent is a spoofable string so this should not be relied on. If you are too lazy to add User Agents manually just use the User Agent tag of Robot instead and delete the existing "User Agent String contains".        
 
-> Ensure M365 is connected via App Connectors and has visibility for Activity Monitoring and apprioprate governance actions
+> Ensure M365 is connected via App Connectors and has visibility for Activity Monitoring and apprioprate governance actions  
+![image](https://github.com/user-attachments/assets/3901e203-3b9f-4576-9960-6377f084d22f)
+
 
 ## Dark Web Monitoring
 Alert on any activity from Dark Web or bad IPs and mark user compromised & Revoke token via Require user to sign-in again, ensure to not include failed logons as we don't want to cause impact for unsuccesful sign-ins. Once the user is marked compromised this will set their User Risk to high in Entra which will then apply the [User Risk policy](https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies#user-risk-based-conditional-access-policy) if you have one (if you don't I recommend one - ensure to not mix User Risk and Sign-in Risk in the same policy as this acts as an "AND" not an "OR"). Remember that true passwordless users will not have their password so will be unable to perform a password reset, so you may want to exclude a group of Passwordless users from the conditional access policy (it should not be done in MDA). You may also want to exclude breakglass from the Dark Web Policy depending on your risk appetite 🍰 (You can also create a seperate Activity Policy to alert + email on Breakglass sign-ins from any IP too but I'd recommend to do Sentinel/Azure Monitor instead if these are available to you). Ensure to preview the results before applying.  
@@ -704,6 +706,8 @@ For Purview to see files in SaaS Apps - Settings > Cloud Apps > Files
 For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Connectors > Microsoft 365 > Edit Connector  
 
 ![image](https://github.com/user-attachments/assets/ce5a7ae9-1650-4033-80fc-5cfeff0d575a)
+
+🛑 A lot of the policies and ideas discussed in this write-up depending on the above being enabled for M365 so ensure to check that all these boxes are ticked!  
 
 > Note that App Connectors is for APIs and not for Conditional Access Session Control, these are 2 seperate things. Also note for malware policy to work with M365 you need to enable the above for M365, for app governance actions you will need M365 Apps.
 
