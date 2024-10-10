@@ -431,7 +431,7 @@ This policy will miss a few such as sendnow, sendthisfile, dropsend but these ca
 
 Alternatively you can create another discovery policy with the following filters:
 
-However note there are a LOT of results, and even almost 5,000 when we bump the risk score to 6, ensure to sanction all legitmate business apps first from cloud app discovery as you won't want to scroll through pages and pages of apps.  
+However note there are a LOT of results, and even almost 5,000 when we bump the risk score to 6, ensure to sanction/review all legitmate business apps first from cloud app discovery as you won't want to scroll through pages and pages of apps.  
 
 ![image](https://github.com/user-attachments/assets/abcaba27-8b2d-4220-b041-2409df07935b)
 
