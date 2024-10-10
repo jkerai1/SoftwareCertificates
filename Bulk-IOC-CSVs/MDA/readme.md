@@ -439,6 +439,9 @@ In my case I only have 2 hits neither of which is LOB and both with very low amo
 
 ![image](https://github.com/user-attachments/assets/6a0424da-562d-4ed2-9ca3-472f0036408f)
 
+🏆 For best practice use "App Tag Does not Equal Sanctioned" rather than "App Tags Equals Monitored or No Value", this is because you can actually create extra tags if you need them in MDA so a creation of a new tag may leave a gap in policy:  
+
+![image](https://github.com/user-attachments/assets/ed8394de-a787-4936-b636-5458cccdced8)
 
 ## Auto Ban Discovered Paste apps
 
