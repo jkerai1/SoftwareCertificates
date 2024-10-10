@@ -261,7 +261,7 @@ Policy Templates are available via:
 
 Start building the policy with "Block upload based on real-time content inspection" template. I then remove Data Classification Inspection method as we don't need that. Then from "Filers", select "extension" and start adding in the extensions.  
 
-Note that I deliberately don't give a custom block message here, I don't want to give the user any information about what happened. If the user is aware of what file extensions are allowed they may look for an alternative binary. Furthermore this allows users to spoof file extensions, there is no header/metadata inspection happening here. Attacker could also container their binary in another format like an .iso or .zip, use [double file extensions - T1036.007](https://attack.mitre.org/techniques/T1036/007/).
+Note that I deliberately don't give a custom block message here, I don't want to give the user any information about what happened. If the user is aware of what file extensions are allowed they may look for an alternative binary. Furthermore this allows users to spoof file extensions, there is no header/metadata inspection happening here. Attacker could also container their binary in another format like an .iso or .zip, use [double file extensions - T1036.007](https://attack.mitre.org/techniques/T1036/007/). You should definitely be leveraging an exectuable file extension upload policy option the above malware upload/download session policies for extra coverage.  
 
 [A suspicious files extension if you need it](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/SuspiciousFileExtensions.txt)
 
@@ -280,23 +280,22 @@ OfficeActivity
 
 ![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)  
 
-Renaming extension bypasses - no header inspection taking place:  
+Renaming extension bypasses and I'm able to upload - no header inspection taking place:  
 ![image](https://github.com/user-attachments/assets/db683daf-6919-4870-9293-132e24c5101b)
 
-I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/T1036/002/) with a few lines of python and actually managed to lock myself out by hitting attack disruption 😆:
+I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/T1036/002/) with a [few lines of python](https://github.com/ctrlaltdev/RTLO-attack/tree/master) and actually managed to lock myself out by hitting [attack disruption](https://learn.microsoft.com/en-us/defender-xdr/automatic-attack-disruption) 😆:
 
-![image](https://github.com/user-attachments/assets/f04c42fa-dd05-481e-a884-9a8b19437828)
-
-![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)
+Alert             |                   Timeline         | Action Center
+:-------------------------:|:-------------------------:|:---------------------------------------:
+![image](https://github.com/user-attachments/assets/f04c42fa-dd05-481e-a884-9a8b19437828)| ![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)|![image](https://github.com/user-attachments/assets/e1c214ab-1ac2-4872-95d8-016d002ac674)  
 
 Anyway after releasing myself from containment (reminder to always have a backup plan), I carry on:  
 
-![image](https://github.com/user-attachments/assets/c4d5592e-7b41-4898-a7e6-449a89a7b55c) || ![image](https://github.com/user-attachments/assets/e1c214ab-1ac2-4872-95d8-016d002ac674)
+![image](https://github.com/user-attachments/assets/c4d5592e-7b41-4898-a7e6-449a89a7b55c) 
 
 I am prevented but note the error message is backwards!  
 
 ![image](https://github.com/user-attachments/assets/2217750f-3a00-4c32-a052-9311a29c0299)
-
 
 ## Copy Paste Credit Card Numbers
 
