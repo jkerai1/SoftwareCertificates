@@ -1,0 +1,2570 @@
+config webfilter urlfilter
+	edit <ID>
+		config entries
+			edit 1
+				set url 352hosting.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url 4shared.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url aimexpress.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url aim.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url aol.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url airvpn.org
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url anydesk.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url itunes.apple.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url astrill.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url atlasvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url bitbucket.org
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url backblaze.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url bittorrent.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url bluehost.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url ixwebhosting.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url ipage.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url box.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url boxcloud.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url boxlocalhost.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url box.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url boxcdn.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url box.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 7
+				set url boxenterprise.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url chatwee.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url clearvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url cloudflare-ipfs.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url pasted.co
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url controlc.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dacloud.me
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url paste.debian.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url deluge-torrent.org
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url digitalocean.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url digitaloceanspaces.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url discord.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url discordapp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url discord.gg
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url dl.discordapp.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url media.discordapp.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url cdn.discordapp.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url droidvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dropsend.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dropbox.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url dropboxstatic.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url dropboxusercontent.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url db.tt
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url dropboxapi.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url dropboxbusiness.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 7
+				set url dropboxdocs.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 8
+				set url dropboxforums.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 9
+				set url dropboxforum.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 10
+				set url dropboxinsiders.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 11
+				set url dropboxmail.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 12
+				set url dropboxpartners.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 13
+				set url dropbox.zendesk.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 14
+				set url getdropbox.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 15
+				set url dropboxbusinessblog.nl
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 16
+				set url dropboxbusinessblog.fr
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 17
+				set url dropbox.co.uk
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 18
+				set url dropboxbusinessblog.de
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 19
+				set url dropbox.jp
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 20
+				set url dropbox.com.au
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 21
+				set url instructorledlearning.dropboxbusiness.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 22
+				set url paper.dropbox.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dropmark.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dropmyemail.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url evernote.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url expressvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url extratorrent.cc
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url messenger.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url facebook.com/messages
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url fastvpn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url spotflux.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url file.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url filefactory.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url filemail.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url filesanywhere.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url filetransfer.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url fleek.co
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url gmx.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url gmx.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url gmx.ch
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url gmx.at
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mail.google.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url gmail.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url googlemail.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url mail-attachment.googleusercontent.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url hangouts.google.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url google.com/hangouts
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url talkgadgets.google.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url google.com/talk
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url talk.google.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url chat.google.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url googledrive.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url drive.google.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url google.com/drive
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url workspace.google.com/drive
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url drive.usercontent.google.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url heroku.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url hitto.jp
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url hosted.im
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url hostinger.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url hostinger.ru
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url idrive.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url idrive.com.sg
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url icedrive.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url icedrive.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url swisstransfer.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url instagram.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url cdninstagram.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url jumpcloud.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url justpaste.it
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url kat.cr
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url kickass.to
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url kickasstorrents.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url linecorp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url line.me
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url line.biz
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url line-apps.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url line.naver.jp
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url line-scdn.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 7
+				set url line-website.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 8
+				set url linepluscorp.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url lavabit.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url limetorrents.cc
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mega.co.nz
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url mega.nz
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url mega.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mail.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mail.ru
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mediafire.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url millenvpn.jp
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mullvad.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url myqnapcloud.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url myspace.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url myworkdrive.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url wanapath.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url nordvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url notion.so
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url ok.ru
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url odnoklassniki.ru
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url chat.openai.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url chatgpt.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url openai.com/chatgpt
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url chatgpt.es
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url opera.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url download3.operacdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url sd-images.operacdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url cashback-api-production.operacdn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url paste.sx
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url pastecry.pt
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url pastehtml.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url pastebin.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url kpaste.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url plex.tv
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url plustransfer.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url ipswitch.com/moveit
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url protonvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url billing.purevpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url queentorrent.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url rarlab.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url nic.ru
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url raidcall.com.ru
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url remoteutilities.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url remote.it
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url remotedesktop.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url remotepc.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url sendtodropbox.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url sendthisfile.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url sendspace.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url sharpcloud.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url signal.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url whispersystems.org
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url slack.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url slack-files.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url slack-redir.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url slack-imgs.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url slack-core.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url slack-msgs.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 7
+				set url slack-edge.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 8
+				set url slackhq.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 9
+				set url slack.shop
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 10
+				set url slackfrontiers.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 11
+				set url slack.help
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 12
+				set url slack.engineering
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 13
+				set url slackatwork.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 14
+				set url slackb.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 15
+				set url screenhero.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url strongvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url TLDWai.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url teamviewer.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url blizz.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url monitis.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url monitor.us
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url telegram.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url telegram.me
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url telegram-cdn.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url telesco.pe
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url terabox.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url thepiratebay.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url thepiratebay.se
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url threema.ch
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url thunderbird.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url tiktok.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url tiktokcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url tiktokv.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url tiktoktv.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url tiktokapis.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 6
+				set url tiktokcdn-us.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 7
+				set url tiktokd.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 8
+				set url ttlivecdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 9
+				set url ttoverseaus.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 10
+				set url mon-va.byteoversea.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 11
+				set url p16-sign-sg.tiktokcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 12
+				set url mon.us.tiktokv.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 13
+				set url lf16-tiktok-web.tiktokcdn-us.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 14
+				set url abtest-sg-tiktok.byteoversea.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 15
+				set url abtest-va-tiktok.byteoversea.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 16
+				set url gts.byteoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 17
+				set url isnssdk.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 18
+				set url lf1-ttcdn-tos.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 19
+				set url muscdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 20
+				set url musemuse.cn
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 21
+				set url musical.ly
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 22
+				set url p1-tt-ipv6.byteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 23
+				set url p1-tt.byteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 24
+				set url p16-ad-sg.ibyteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 25
+				set url p16-tiktok-sg.ibyteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 26
+				set url p16-tiktok-sign-va-h2.ibyteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 27
+				set url p16-tiktok-va-h2.ibyteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 28
+				set url p16-tiktok-va.ibyteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 29
+				set url p16-va-tiktok.ibyteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 30
+				set url p26-tt.byteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 31
+				set url p3-tt-ipv6.byteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 32
+				set url p9-tt.byteimg.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 33
+				set url pull-f3-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 34
+				set url pull-f5-hs.flive.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 35
+				set url pull-f5-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 36
+				set url pull-f5-mus.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 37
+				set url pull-flv-f1-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 38
+				set url pull-flv-f6-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 39
+				set url pull-flv-l1-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 40
+				set url pull-flv-l1-mus.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 41
+				set url pull-flv-l6-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 42
+				set url pull-hls-l1-mus.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 43
+				set url pull-l3-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 44
+				set url pull-rtmp-f1-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 45
+				set url pull-rtmp-f6-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 46
+				set url pull-rtmp-l1-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 47
+				set url pull-rtmp-l1-mus.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 48
+				set url pull-rtmp-l6-hs.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 49
+				set url quic-tiktok-core-proxy-i18n-gcpva.byteoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 50
+				set url quic-tiktok-proxy-i18n-gcpva.byteoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 51
+				set url sf1-ttcdn-tos.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 52
+				set url sf16-ttcdn-tos.ipstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 53
+				set url sf6-ttcdn-tos.pstatp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 54
+				set url sgsnssdk.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 55
+				set url tiktok-lb-alisg.byteoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 56
+				set url tiktok-lb-maliva.byteoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 57
+				set url tiktok-platform-lb-alisg.byteoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 58
+				set url tiktokcdn-in.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 59
+				set url tiktokcdn-us.com.atomile.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 60
+				set url tiktokcdn.com.atomile.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 61
+				set url tiktokcdn.com.c.bytetcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 62
+				set url tiktokcdn.com.c.worldfcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 63
+				set url tiktokcdn.com.rocket-cdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 64
+				set url tiktokv.com.c.worldfcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 65
+				set url tiktokv.com.c.worldfcdn2.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 66
+				set url ttlivecdn.com.c.worldfcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 67
+				set url ttoversea.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 68
+				set url p77-sign-va.tiktokcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 69
+				set url s20.tiktokcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 70
+				set url v16m.tiktokcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 71
+				set url v77.tiktokcdn.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 72
+				set url lf16-tiktok-common.ibytedtos.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torproject.org
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentdownloads.me
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrent4all.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentfunk.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentgalaxy.one
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentking.eu
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentprivacy.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentproject.se
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentwarrior.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrents.me
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentz.in
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url torrentz.me
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url torrentz.ch
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url torrentz.eu
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentz.cl
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentz.to
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentz2.eu
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrentzeu.to
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url totaaldomein.nl
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url transferbigfiles.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url transfernow.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url transferxl.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url transfertpro.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url treetorrent.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url tumblr.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url turbovpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url tutanota.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url tutamail.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url tuta.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url ufile.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url utorrent.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url browsec.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url vpnunlimitedapp.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url volkerwesselstransfer.nl
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url vyprvpn.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url wechat.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url wetransfer.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url we.tl
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url webtorrent.io
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url whatsapp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url whatsapp.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url worldwidetorrents.eu
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url xing.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url xing-share.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url mail.yahoo.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url ymail.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url yahoomail.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url mail.yahoo.co.jp
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url disk.yandex.ru
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url disk.yandex.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url yadi.sk
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url yandex.ru/chat
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dzen.ru
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url yandex.ru
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url yandex.net
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 4
+				set url ya.ru
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 5
+				set url yastatic.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url yourbittorrent.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url my.cl.ly
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url getcloudapp.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url zight.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url remotedesktop.google.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dpaste.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url dpaste.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url dpaste.de
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url ontorrent.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url my-app.net
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url owncloud.com
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 2
+				set url owncloud.org
+				set type simple
+				set action block
+				set status enable
+			next
+			edit 3
+				set url cloud.itl.waw.pl
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url pcloud.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url commerce.paltalk.com
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url qbittorrent.org
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url skytorrents.in
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrent.cd
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	edit <ID>
+		config entries
+			edit 1
+				set url torrenthound.cc
+				set type simple
+				set action block
+				set status enable
+			end
+		end
+	end
