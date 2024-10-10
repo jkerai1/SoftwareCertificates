@@ -506,7 +506,10 @@ Some Notes 🗒️ on the Templates:
 - Activities from suspicious user agents - The list of user agents is quite limited here so if you want to use this be sure to checkout my [user agent list](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt) and add any appropriate strings. You will NOT want to add all of these are this will definitely result in false positives e.g. go-resty which is sometimes used by some Azure Tools. Am example of one to add here is ZmEu or gobuster, a better list can be found from: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv#L6 rather than leveraging my list. As stated above user agent is a spoofable string so this should not be relied on.    
 
 ## Dark Web Monitoring
-![image](https://github.com/user-attachments/assets/eca631a6-2ff2-4e5e-b50d-504446824b38)
+Alert on any activity from Dark Web or bad IPs and mark user compromised & Revoke token via Require user to sign-in again, ensure to not include failed logons as we don't want to cause impact for unsuccesful sign-ins. Ensure to preview the results before applying.  
+
+![image](https://github.com/user-attachments/assets/0026b8da-788d-4d55-af79-20390ae21243)
+
 
 # Logon on From Outdated Browser
 
