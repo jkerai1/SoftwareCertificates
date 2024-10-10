@@ -736,11 +736,16 @@ App Goverance is the new umbrella for Oauth apps, these are designed to govern o
 
 > Note App Goverance will not show ALL apps registered to Entra, only priviliged and risky ones
 
-If you haven't already I'd strongly recommend changing user consent settings away from "allow consent for apps". By default this is set to "Allow user consent for apps". This setting can be found from Enterprise applications > Consent and Permissions > User Consent Settings
+If you haven't already I'd strongly recommend changing user consent settings in Entra away from "allow consent for apps". By default this is set to "Allow user consent for apps". This setting can be found from Enterprise applications > Consent and Permissions > User Consent Settings
 
 ![image](https://github.com/user-attachments/assets/26649403-acb8-4672-b4ab-19610528f918)
 
-> Ensure M365 apps are connected to app governance from Settings > Cloud Apps > App Connectors > Microsoft 365 > Edit Connector  
+Also ensure users cannot create Service Principals/App Registrations (Entra > User Settings > Users can register Applications), I believe by default these setting is on. Also ensure other 2 are configured as by default Entra lets users create tenants and security groups - below is my best practice:  
+
+![image](https://github.com/user-attachments/assets/b50320d0-a31a-4903-9c50-fd00d094715c)
+
+
+> Ensure M365 apps are connected to app governance from Settings > Cloud Apps > App Connectors > Microsoft 365 > Edit Connector
 
 ## Disable Overprivileged App
 
