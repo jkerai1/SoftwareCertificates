@@ -280,7 +280,7 @@ OfficeActivity
 
 ![image](https://github.com/user-attachments/assets/e6924d95-a0ac-4b03-aa79-df5082d8bc4a)  
 
-Renaming extension bypasses - no header inspection taking place:
+Renaming extension bypasses - no header inspection taking place:  
 ![image](https://github.com/user-attachments/assets/db683daf-6919-4870-9293-132e24c5101b)
 
 I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/T1036/002/) with a few lines of python and actually managed to lock myself out by hitting attack disruption 😆:
@@ -289,7 +289,7 @@ I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/
 
 ![image](https://github.com/user-attachments/assets/cd40b403-452e-4c84-9382-5678ba9aa3b5)
 
-Anyway after releasing myself from containment, I carry on:  
+Anyway after releasing myself from containment (reminder to always have a backup plan), I carry on:  
 
 ![image](https://github.com/user-attachments/assets/c4d5592e-7b41-4898-a7e6-449a89a7b55c) || ![image](https://github.com/user-attachments/assets/e1c214ab-1ac2-4872-95d8-016d002ac674)
 
@@ -356,7 +356,7 @@ DeviceEvents
 
 ## Auto Unsanction Web Mail
 
-I find 8 to be a good spot for legitimate work email vs personal email. Feel Free to edit this threshold.
+I find 8️⃣ to be a good spot for legitimate work email vs personal email. Feel Free to edit this threshold.
 Be sure to use the "edit and preview results" to check you are not going to block actual used business mail. Note that Gmail is a 10 so you'll need to unsanction Gmail manually.
 
 ![image](https://github.com/user-attachments/assets/dabc23fa-3854-42ce-89e7-73ccffc611c1)
