@@ -661,7 +661,7 @@ Settings > Endpoints > Advanced Features
 
 I was unable to find actions regarding sanctioning/unsanctioning applications in Unified Audit Log but it was available in the Activity log (Settings > Cloud Apps > Activity Log) - Strange!  
 
-![image](https://github.com/user-attachments/assets/aafa1411-d441-4b82-8790-ac207140d045)
+![image](https://github.com/user-attachments/assets/2226fef6-a120-415c-b370-88e7657e7e34)
 
 
 ## Import Entra Groups
