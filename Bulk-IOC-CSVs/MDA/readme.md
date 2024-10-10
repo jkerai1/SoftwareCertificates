@@ -508,7 +508,8 @@ Some Notes 🗒️ on the Templates:
 ## Dark Web Monitoring
 Alert on any activity from Dark Web or bad IPs and mark user compromised & Revoke token via Require user to sign-in again, ensure to not include failed logons as we don't want to cause impact for unsuccesful sign-ins. Ensure to preview the results before applying.  
 
-![image](https://github.com/user-attachments/assets/0026b8da-788d-4d55-af79-20390ae21243)
+![image](https://github.com/user-attachments/assets/19db6887-3e35-465d-9dba-9cc1c5970609)
+
 
 
 # Logon on From Outdated Browser
