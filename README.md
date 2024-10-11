@@ -7,6 +7,7 @@
 
 Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using [MDE IOC](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide)/AppLocker/[WDAC](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview)/ Intune Remediation Script  
 
+> WDAC is the preferred and best method for blocking executables but can be a monster to tackle and maintain with the possibility to brick a machine, if you need intend to rollout WDAC I recommend to check this [out](https://github.com/HotCakeX/Harden-Windows-Security/tree/main/WDACConfig) before doing so.  
 
 :warning:__Caution__: Some Certs for unsanctioned applications may be used for other applications from the same org that may be legitimate e.g. BlueJeans Conferencing (sanctioned) BlueJeans Remote Desktop Control (unsanctioned) :warning:
 
