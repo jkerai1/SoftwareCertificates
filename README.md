@@ -77,10 +77,20 @@ Export as Cer:
 
 # KQL
 
-Monitor Blocks:
+Monitor Blocks - Sentinel + DeviceFileCertificateInfo Table:
 ```
 DeviceEvents
 | where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection") or (AdditionalFields.ResponseCategory == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
+| join kind=leftouter DeviceFileCertificateInfo on SHA1
+| summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
+```
+> Note you cannot use DeviceNetwork Events for this because of how MDE performs TCP handshake  
+
+If you don't ingest  DeviceFileCertificateInfo to sentinel you can use Advanced Hunting instead:
+
+```
+DeviceEvents
+| where (ActionType == "SmartScreenUrlWarning" and todynamic(AdditionalFields).Experience == "CustomBlockList") or (todynamic(AdditionalFields).ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection") or ((todynamic(AdditionalFields).ResponseCategory) == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
 | summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
 ```
