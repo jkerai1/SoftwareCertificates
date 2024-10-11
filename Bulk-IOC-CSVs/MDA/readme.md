@@ -854,7 +854,7 @@ For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Conn
 
 ## App Onboarding and Maintenance
 
-Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂. See also [Behaviour During Downtime](#Behaviour-During-Downtime) 
+Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂. See also [Behaviour During Downtime](#Behaviour-During-Downtime).   
 You need to do add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the appropriate apps.
 
 Settings > Cloud Apps > App onboarding/maintenance
