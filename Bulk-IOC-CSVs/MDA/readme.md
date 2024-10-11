@@ -698,7 +698,7 @@ File Policy Results can be viewed from Cloud Apps > Policies > Policy management
 
 ## Externally shared source code  
 
-Template Policy  
+Template Policy, you may want to drop the Access level depending on the use case      
 
 Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d06686722d26d176fad46879d41) relevant to your org.
 
