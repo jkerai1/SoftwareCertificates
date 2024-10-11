@@ -854,7 +854,7 @@ For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Conn
 
 ## App Onboarding and Maintenance
 
-Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂.  
+Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂. See also [Behaviour During Downtime](#Behaviour-During-Downtime) 
 You need to do add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the appropriate apps.
 
 Settings > Cloud Apps > App onboarding/maintenance
@@ -982,7 +982,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/network-requirements
 Settings > Cloud Apps > Conditional Access App Control > General Settings  
 
 ![image](https://github.com/user-attachments/assets/707abcd0-84e7-4dc6-8579-de46f8a40c3f)
-> Consider Business Contiuity before selecting Block Access, you won't have much to secure if your business isn't making 💲🤑
+> Consider Business Continuity before selecting Block Access, you won't have much to secure if your business isn't making 💲🤑
  
  
 
