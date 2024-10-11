@@ -30,7 +30,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Dark Web Monitoring](#dark-web-monitoring)
   * [Logon on From Outdated Browser](#logon-on-from-outdated-browser)
 - [File Policy](#file-policy)
-  * [](#externally-shared-source-code)
+  * [Externally Shared Source Code](#externally-shared-source-code)
   * [File Shared with Personal Email Address](#file-shared-with-personal-email-address)
 - [Malware Detection Policy](#malware-detection-policy)
 - [Block Script Baseline](#block-script-baseline)
