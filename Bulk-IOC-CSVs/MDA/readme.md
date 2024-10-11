@@ -209,6 +209,7 @@ DeviceFileEvents
 
 ## Block user Agents
 > Remember that User Agents can be spoofed and even accidentally so e.g. Request Desktop site on Mobile Browser
+
 List of keywords from unusual User agents :suspect: can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
 
 __Note about user agents:__  Spaces have been included in some user agents to future proof any overlapping strings. Also note that some browsers do not fingerprint differently, for example, Brave desktop will just fingerprint as Chrome.     
