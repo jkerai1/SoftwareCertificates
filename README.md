@@ -11,7 +11,7 @@ Repository for Software Certs for easy software blocking (or allowing) across co
 
 :warning:__Caution__: Some Certs for unsanctioned applications may be used for other applications from the same org that may be legitimate e.g. BlueJeans Conferencing (sanctioned) BlueJeans Remote Desktop Control (unsanctioned) :warning:
 
-:warning: Please do not bulk upload these certs without checking, you may be impacting a user or service!:warning:
+:warning: Please do not upload these certs en masse without checking, you may be impacting a user or service - there is no native way to bulk upload indicators in the MDE portal!:warning:
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getintopc.com/all-software-categories/
 
