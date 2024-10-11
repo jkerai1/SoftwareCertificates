@@ -373,6 +373,7 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 
 # App Discovery Policy
 > This works via Network Logs from MDE, Secure Web Gateway or custom log collector. There is no dependency here for conditional access here, only Access/Session policies require conditional access.
+
 These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday (33,384 apps currently - even if you tried to block half of these you'd run out of space on MDE IOC as the limit there is 15,000), this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review.  
 
 That is to say you don't need to wait for apps to be discovered you can manually unsanction apps before they are even discovered. If you want more ideas of what to manually unsanction check out the [MDA baseline Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA/MDA-BlockScript-Baseline#going-further)   
