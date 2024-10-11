@@ -322,6 +322,11 @@ I am prevented but note the error message is backwards 🐛!
 
 ![image](https://github.com/user-attachments/assets/2217750f-3a00-4c32-a052-9311a29c0299)
 
+If we flip our logic we can exploit this and we won't be blocked but I suppose this is very niche category:  
+
+![image](https://github.com/user-attachments/assets/02c0ddd8-9cfe-4097-9a89-07600b337b17)
+
+
 # Block Download of Highly Sensitive Files
 
 You probably don't want someone to download sensitive files onto their BYOD device so you can leverage sensitivity labels/Trainable Classifiers/Sensitivite Info Types to prevent this activity. You can start building from the "block Download based of real-time content" template. Just for demonstration purpose I chose all sensitive info types, the wizard actually discourages this and if you do bulk action select it will only select the ones in the view, so in this demo I manually clicked through every page. You can also use your custom Purview Trainable Classifiers/Sensitive Info Types here also if you wish instead which is a big bonus if you have already built a custom classifier/info types.  
