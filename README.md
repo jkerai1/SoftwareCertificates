@@ -14,7 +14,7 @@ Repository for Software Certs for easy software blocking (or allowing) across co
 
 App Ref: https://appwiki.checkpoint.com/appwikisdb/public.htm  or https://getintopc.com/all-software-categories/
 
-Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)  
+Of course there are ways around Cert Blocking (e.g. ImageRemoveCertificate API, signTool, wait for certificate thumbprint to rotate, SigThief, delcert - more opportunities for detection😉). See [Testing Manipulated Executables](https://github.com/jkerai1/SoftwareCertificates/tree/ManipulatedExes/Manipulated%20Exes%20For%20Testing)  
 
 
 
