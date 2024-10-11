@@ -208,7 +208,7 @@ DeviceFileEvents
 ```
 
 ## Block user Agents
-> Remember that User Agents can be spoofed and even accidentally so e.g. Request Desktop site on Mobile Browser
+> Remember that User Agents can be spoofed and even accidentally so e.g. Request Desktop site on Mobile Browser. See my blog post about this [here](https://www.linkedin.com/posts/jay-kerai-cyber_browsers-mam-whoops-activity-7217520619532267521-HgPE)   
 
 List of keywords from unusual User agents :suspect: can be found at: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/MDA/BannedUserAgentsList.txt
 
