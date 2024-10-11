@@ -30,7 +30,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Dark Web Monitoring](#dark-web-monitoring)
   * [Logon on From Outdated Browser](#logon-on-from-outdated-browser)
 - [File Policy](#file-policy)
-  * [Externally shared source code](#externally-shared-source-code)
+  * [](#externally-shared-source-code)
   * [File Shared with Personal Email Address](#file-shared-with-personal-email-address)
 - [Malware Detection Policy](#malware-detection-policy)
 - [Block Script Baseline](#block-script-baseline)
@@ -696,14 +696,18 @@ File Policy Results can be viewed from Cloud Apps > Policies > Policy management
 ![image](https://github.com/user-attachments/assets/81637828-8771-4b70-81e8-f574227d7770)
 
 
-## Externally shared source code
+## Externally shared source code  
+
+Template Policy  
 
 Don't forget to add other [extensions](https://gist.github.com/ppisarczyk/43962d06686722d26d176fad46879d41) relevant to your org.
 
 ![image](https://github.com/user-attachments/assets/e282a56a-780a-41d7-8fdc-7395b3e5285d)
 
 
-## File Shared with Personal Email Address
+## File Shared with Personal Email Address  
+
+Template Policy  
 
 Missing The ability to add extra domains? unsure. The only other domains that appear here are the ones I have set as allowed for B2b External collaboration and the default personal emails pictured. Note that there are plenty of other personal email addresses missing here such as proton, gmx, fedora, yandex. Good news is you can do [Auto Unsanction Web Mail](#auto-unsanction-web-mail) to at least stop half of the bleed. After you have discovered what users are personally using you can block them with Exchange transport rule or better yet [TenantAllowBlockList](https://learn.microsoft.com/en-us/defender-office-365/tenant-allow-block-list-email-spoof-configure) which has a higher priority than Exchange Transport Rule. This will cover you also for that Auto-forwarding scenario too.
 
