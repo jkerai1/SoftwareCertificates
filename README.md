@@ -85,7 +85,7 @@ DeviceEvents
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
 | summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
 ```
-> Note you cannot use DeviceNetwork Events for this because of how MDE performs TCP handshake  
+> Note you cannot use DeviceNetworkEvents for this because of how MDE performs TCP handshake  
 
 If you don't ingest  DeviceFileCertificateInfo to sentinel you can use Advanced Hunting instead:
 
