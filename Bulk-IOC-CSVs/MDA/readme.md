@@ -54,7 +54,8 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Automatic Log Upload from Network](#Automatic-Log-Upload-from-Network)
   * [Secure Score](#Secure-Score)
   * [Network Requirements](#etwork-Requirements)
-
+  * [Behaviour During Downtime](#Behaviour-During-Downtime)
+ 
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
 Navigate to Cloud Apps > Policies > Policy Management to create a new policy or build a policy by selecting template. 
@@ -973,6 +974,17 @@ If I try to create a policy I notice we have two activity policy types when I go
 List of URLs/IPS and ports required for various bits of MDA to work. Could be useful for troubleshooting. You'll definitely need this if you intend on rolling out [Automatic-Log-Upload-from-Network](#Automatic-Log-Upload-from-Network)  
 
 https://learn.microsoft.com/en-us/defender-cloud-apps/network-requirements
+
+# Behaviour During Downtime  
+
+💩 happens - decide what you want to happen in the event MDA has any downtime and an access/session policy cannot be enforced
+
+Settings > Cloud Apps > Conditional Access App Control > General Settings  
+
+![image](https://github.com/user-attachments/assets/707abcd0-84e7-4dc6-8579-de46f8a40c3f)
+> Consider Business Contiuity before selecting Block Access, you won't have much to secure if your business isn't making 💲🤑
+ 
+ 
 
 # Fin  
 
