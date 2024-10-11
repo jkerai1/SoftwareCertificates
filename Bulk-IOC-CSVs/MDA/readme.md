@@ -818,7 +818,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern
 
 ## Information Protection
 
-This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content, however is you plan on using File Policies you will at least need to tick the first box.  
+This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content, however if you plan on using File Policies you will at least need to tick the first box.  
 
 Microsoft Information Protection settings - this only applies to the App Connector and NOT the Conditional access app control.
 
@@ -861,12 +861,13 @@ For Microsoft 365 Files you need to do this via Settings > Cloud Apps > App Conn
 ## App Onboarding and Maintenance
 
 Always have a back-out plan and allow an account to bypass e.g. breaklass 🥂. See also [Behaviour During Downtime](#Behaviour-During-Downtime).   
-You need to do add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the appropriate apps.
+You need to add an account to manually onboard the microsoft apps, remember to remove them from any bypasses once the admin has setup the appropriate apps.
 
 Settings > Cloud Apps > App onboarding/maintenance
 
 ![image](https://github.com/user-attachments/assets/905b1451-3b92-4abd-98a5-4900272406b1)
 
+> Admins should not really be logging in from BYOD this is bad practice and should be blocked in Conditional Access
 
 ## Unified Audit Log
 
@@ -934,7 +935,7 @@ The power automate playbooks can be managed from Settings > Cloud Apps > Playboo
 
 ## Enrich cloud discovery data with Microsoft Entra usernames
 
-Cloud discovery data can now be enriched with Microsoft Entra username data. When you enable this feature, the username, received in discovery traffic logs, is matched and replaced by the Microsoft Entra username. Cloud discovery enrichment enables the following features:
+Cloud discovery data can now be enriched with Microsoft Entra username data. When you enable this feature, the username, received in discovery traffic logs (such as Secure Web Gateway or from log collector), is matched and replaced by the Microsoft Entra username. Cloud discovery enrichment enables the following features:
 
 > You can investigate Shadow IT usage by Microsoft Entra user. The user will be shown with its UPN.  
 > You can correlate the Discovered cloud app use with the API collected activities.  
