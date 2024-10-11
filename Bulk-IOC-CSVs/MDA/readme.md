@@ -118,6 +118,9 @@ Some apps for some reason do not even prompt me for onboarding despite having a 
 
 For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far.
 
+![image](https://github.com/user-attachments/assets/7aae8bb4-99c1-49e5-9e66-82d2b87c1773)
+> My 2 conditions are Client Apps: Browser & Exclude Device Filter device.isCompliant -eq True -and device.deviceOwnership -eq "Company"
+
 The finished List - 38 Items - It's possible I missed a few or some more have become available post writing this. You will not need all of these as some are legacy portals.  
 
 This list can be found under Settings > Cloud Apps > Conditional Access App Control Apps:
