@@ -32,7 +32,7 @@ If you have the TVM bolt-on then Browser Extension hunting is trivial in Advance
 
 ```
 DeviceTvmBrowserExtensions
-| distinct ExtensionId, BrowserName, ExtensionName,ExtensionDescription
+| summarize count() by ExtensionId, BrowserName, ExtensionName,ExtensionDescription
 ```
 
 # List of disallowed applications (User)
