@@ -135,7 +135,7 @@ All other [3rd party apps will need to be onboarded with SAML](https://learn.mic
 
 Note that just because many microsoft apps didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
 
-> I tested Windows, MacOS, Linux and Android and they all behaved fine with the MDA Proxy. However noted that Android/iOS should really be going via MAM/MDM instead. 
+> I tested Windows, MacOS, Linux and Android and they all behaved fine with the MDA Proxy. However noted that Android/iOS should really be going via MAM/MDM instead. The devices tested where not Intune enrolled/entra joined/registered or MDE enrolled in any way shape or form. That is to say that Access/Session Policy works on BYOD.  
 
 ## Block Anonymous IPs
 
@@ -268,14 +268,14 @@ Policy Templates are available via:
 ![image](https://github.com/user-attachments/assets/79b8a3ed-d6ce-4eba-9195-89ecd401975b)
 
 
-## Block malware Upload  
+## Block Malware Upload  
 Template: Block upload of potential malware (based on Microsoft Threat Intelligence  
 
 ![image](https://github.com/user-attachments/assets/a1bf7a05-fbbc-4e42-a7ff-c4de3adbfec0)
 ![image](https://github.com/user-attachments/assets/f8d33b1a-05a1-4ee7-88b5-4c7997ab37e9)
 
 
-## Block malware download  
+## Block Malware download  
 
 Template: Block download of potential malware (based on Microsoft Threat Intelligence)
 
@@ -728,10 +728,10 @@ Note that the File Sandboxing is an optional tickbox, if you don't want your fil
 ![image](https://github.com/user-attachments/assets/c9c7118d-bd52-417c-a035-9ec71707a3dc)
 
 
-I decided to see if this policy could up some of my favourite cloud hacking tools🧰 for a 😆 - results below 3️⃣:/9️⃣:
+I decided to see if this policy could detect some of my favourite cloud hacking tools🧰 for a 😆 - results below 3️⃣:/9️⃣:
 ![image](https://github.com/user-attachments/assets/17a7eebe-b0f5-4676-8012-a3d50f261e5b)
 
-Not malware per se as they are tools but interesting to see the results. I'd say if we actually look at the code of some of these like o365 creeper and fireprox they aren't inheritently  malicious and do fairly normal things for python scripts. I may have edited the code to change the hash 😉. Can you spot the odd tool out? 🧩        
+Not malware per se as they are tools but interesting to see the results. I'd say if we actually look at the code of some of these like o365 creeper and fireprox they aren't inheritently malicious and do fairly normal things for python scripts. I may have edited the code to change the hash 😉. Can you spot the odd tool out? 🧩        
 
 # Block Script Baseline
 
@@ -989,7 +989,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/network-requirements
 
 # Behaviour During Downtime  
 
-💩 happens - decide what you want to happen in the event MDA has any downtime and an access/session policy cannot be enforced
+💩 happens - decide what you want to happen in the event MDA has any downtime and an access/session policy cannot be enforced. By Default this is set to Allow.  
 
 Settings > Cloud Apps > Conditional Access App Control > General Settings  
 
