@@ -598,7 +598,7 @@ Also I strongly recommend enabling [Web Content filtering for newly registered d
 
 ![image](https://github.com/user-attachments/assets/2b25b9d2-7cb8-41b6-b115-41661a1a47a8)
 
-Then reports will be available from Reports > Web Protection, we ensure to expand the time range if you have been in audit mode for a while, by default its 30 days.  
+Then reports will be available from Reports > Web Protection,be sure to expand the time range if you have been in audit mode for a while, by default its 30 days.  
 
 ![image](https://github.com/user-attachments/assets/c6cc2ee5-f652-4ab0-a7c0-ad41d9331b4b)
 
