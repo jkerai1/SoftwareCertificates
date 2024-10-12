@@ -139,12 +139,12 @@ Note that just because many microsoft apps didn't work, this is still coverage t
 
 ## Block Anonymous IPs
 
-I'd consider blocking anonymous proxy ,abused hosting 🌩️ (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum (if it makes sense in your environment of course!!!)
+I'd consider blocking anonymous proxy, abused hosting 🌩️ (LeaseWeb,OVH, Cloudiver, Digital Ocean, Host Royale, Linode, Cloudflare), Tor/Darknet IPs/Password Spray attacker to be the bare minimum (if it makes sense in your environment of course!!!)
 Real shame theres a few abused hosting Providers missing such as hostwinds. Malware C&C/Ten Cent/Sharktech/Alibaba/baCloud/Brute Force Attacker is also not a bad shout here.  
 
 🤔 I want explore the "no tag", dedicated server hosting, Cloud hosting Tags ☁️ to see their impact. These could have their use-cases in the right environments especially when leveraged when scoping to [Entra Groups](#import-entra-groups)  
 
-🛑 I would not recommend trying to do country Locations in MDA Access Policy, this is better suited to Conditional access as then you can hit all users and all apps.  
+🛑 I would not recommend trying to do banned country Locations in MDA Access Policy, this is better suited to Conditional access as then you can hit all users and all apps.  
 
 Country sign-in Conditional access KQL :oncoming_police_car::
 ```
@@ -177,7 +177,7 @@ SigninLogs
 | extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
 ```
 
-[MDE BlockList for Consumer VPNs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv), Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
+[MDE BlockList for Consumer VPNs Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv), Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
 ```
 let VPNIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv"] with (format="csv", ignoreFirstRecord=True);
