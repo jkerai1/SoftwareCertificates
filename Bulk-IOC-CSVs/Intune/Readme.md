@@ -12,8 +12,6 @@ I Created a variant of [OpenIntuneBaseline](https://github.com/SkipToTheEndpoint
 If you don't have MDE TVM Bolt on the following KQL may be useful for hunting for CRX Downloads for chromium based browsers:
 
 ```
-
-
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 DeviceFileEvents
 | where TimeGenerated > ago(90d)
