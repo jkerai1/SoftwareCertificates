@@ -517,7 +517,7 @@ OpenAI scores 8️⃣ or 9️⃣ and Copilot scores around 🔟. If you need to 
 
 ![image](https://github.com/user-attachments/assets/d7e92b57-1823-45fc-96c8-3638eccadb82)
 
-Also bear in mind savy users might find websites that have chatbots with no content filter so this by no means a substitute for good DLP.  
+Also bear in mind savy users might find legitimate company websites that have chatbots with no content filter so this by no means a substitute for good DLP.  
 
 ![image](https://github.com/user-attachments/assets/a36ef817-3fae-4abd-b58e-12de46ae3c86)
 
@@ -534,7 +534,8 @@ DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | summarize count() by RemoteUrl
 ```
-
+> Want a visual demo? See this [video from Microsoft](https://www.youtube.com/watch?v=ZQI4A7W4E_4)
+ 
 ## Auto Ban Discovered Personal Messaging Apps
 
 This serves as not only an exfil path but a malware delivery path. Imagine a user receives a phish via a personal messaging app, this would bypass protections of Defender for Office and the such, so we definitely want to be monitoring or blocking this. 
