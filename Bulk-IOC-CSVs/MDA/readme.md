@@ -373,6 +373,8 @@ If I hit "Close" I just end up in a prompt loop until I hit "Ok Proceed"
 
 I actually wasn't allowed back in, might be an issue with the preview. However the point is that someone sending wallet addresses is very suspicious and could be a compromised account so we definitely want to kick them out,note that even though I passed the challenge here the teams message wasn't actually sent.  
 
+> Update tried in multiple tenants with a variety of conditions, same error so this likely an issue with the preview.
+
 ![image](https://github.com/user-attachments/assets/9e896a42-6a9e-457a-bc43-32f3fb058767)
 
 > I haven't tested it but Slack is also supported for "Send Item" if Slack is connected to MDA
