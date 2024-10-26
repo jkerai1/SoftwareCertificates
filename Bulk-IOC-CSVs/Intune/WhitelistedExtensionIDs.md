@@ -49,7 +49,7 @@ fddhonoimfhgiopglkiokmofecgdiedb | RingCentral for Google  | https://chromewebst
  # HP Dynamic Audio
 | ID | Description | Ref|
 | --- | ----------- |-------------------------------------------------------------------------------------------------------------------------------------------------|
-fkhppjmkbifibialnglmjegmgckmkdco  |
+fkhppjmkbifibialnglmjegmgckmkdco  | HP Dynamic Audio | Possible legacy, doesn't seem to be required anymore. Nor is DSP dynamic audio any sign of fidelity    
 
 # Conferencing
 | ID | Description | Ref|
