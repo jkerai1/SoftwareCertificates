@@ -61,4 +61,4 @@ DeviceProcessEvents
 Extra blocking via HostFiles if MDE IOC is not an option, with some example sites you probably should be blocking    
 
 ![image](https://github.com/user-attachments/assets/ac7121b5-a1d2-4a1c-8725-bbc90f194280)
-
+> Reference https://www.nielskok.tech/intune/set-hosts-file-via-intune/  
