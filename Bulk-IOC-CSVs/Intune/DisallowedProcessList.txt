@@ -93,3 +93,4 @@ ArcInstaller.exe
 LibreWolf Installer.exe
 vivaldi.exe
 OperaGXSetup.exe
+SharpHound.exe
