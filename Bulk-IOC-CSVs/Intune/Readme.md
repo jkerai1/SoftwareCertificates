@@ -55,3 +55,10 @@ DeviceProcessEvents
 
 ![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
 
+
+# HostFile  
+
+Extra blocking via HostFiles if MDE IOC is not an option, with some example sites you probably should be blocking    
+
+![image](https://github.com/user-attachments/assets/ac7121b5-a1d2-4a1c-8725-bbc90f194280)
+
