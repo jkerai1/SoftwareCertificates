@@ -204,6 +204,7 @@ DeviceFileEvents
 | extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","N/A")
 | summarize count() by ExtensionID,ExtensionURL, EdgeExtensionURL, RiskyExtension
 | where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
+| where ExtensionID != "cnlefmmeadmemmdciolhbnfeacpdfbkd" //Grammarly
 | where RiskyExtension == "Yes"
 ```
 
