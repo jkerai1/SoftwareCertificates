@@ -67,7 +67,7 @@ When Conditional access hands over control to MDA these will then apply, ensure 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 > Note you only need to configure this in 1 Conditional access policy to apply to the user
 
-*Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App > Activity Log from Defender Portal in these scenarios.The Activity Type will be "Log On"
+*Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App > Activity Log from Defender Portal in these scenarios.The Activity Type will be "Log On". Update October 2024: https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-conditional-access-app-control--inline-data-in-advanced-hunting-cloudappevents-table  
 
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
 
