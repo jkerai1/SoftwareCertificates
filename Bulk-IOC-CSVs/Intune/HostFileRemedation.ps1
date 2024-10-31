@@ -34,6 +34,7 @@ $Records = @(
     "0.0.0.0 leak.sx"
     "0.0.0.0 bin.sx"
     "0.0.0.0 onionmail.org"
+    "0.0.0.0 pastebin.com"
 )
 Set-Content -Path "C:\Windows\System32\drivers\etc\hosts" -Value $Records
 Stop-Transcript
