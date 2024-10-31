@@ -94,3 +94,4 @@ LibreWolf Installer.exe
 vivaldi.exe
 OperaGXSetup.exe
 SharpHound.exe
+wps_office_inst.exe
