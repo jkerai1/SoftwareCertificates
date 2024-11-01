@@ -105,6 +105,7 @@ Some others include
 - mystaff.microsoft.com  (Does anyone actually use this?)
 - Viva / Viva Insights (but Viva Engage does work)
 - loop.cloud.microsoft
+- myworkaccount.microsoft.com
 
 My conclusion is that MDA handover is NOT fit for AI developers and I'd probably go with WVD/AVD instead especially given the data access they may have. Though many of the AI portals are unifying now. A fast way to onboard apps quickly into MDA is to open them all using something like [MSPortals-io](https://msportals.io) after creating a conditional access policy with a session control of "monitor only" scoped to the user doing the onboarding. Add the onboarding user under [App Onboarding and Maintenance](#app-onboarding-and-maintenance) to reduce any potential impact which provides them with the option to bypass if they need to continue doing work. After you have finished onboarding all the apps and created your policies you can go back to the conditional access policy and scope the Session control to custom. Once testing of that is finished you can go back and scope users/apps and exclude any Corporate owned and/or compliant devices. Then clear down any users who can bypass and switch these to an emergency account.
 
