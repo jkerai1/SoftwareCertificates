@@ -96,3 +96,4 @@ OperaGXSetup.exe
 SharpHound.exe
 wps_office_inst.exe
 ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
+Windows Caffeinated Installer.exe
