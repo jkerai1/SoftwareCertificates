@@ -14,7 +14,7 @@ DomainName,nomachine.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RM
 DomainName,remoteassistance.support.services.microsoft.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: Quick Assist,Unsanctioned,,,,false
 FileHash256,683fd29286a7f86cc2873a3ca3f07e3c8af8a97e1961b99625531acba29fe57e,,BlockAndRemediate,Informational,Unsanctioned: RMM,Chaos RMM,Unsanctioned,,,,false
 DomainName,datto.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-DomainName,anydesk.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+DomainName,anydesk.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned - Available as Block in MDA.,,,,false
 DomainName,kaseya.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,connectwise.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,teamviewer.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
