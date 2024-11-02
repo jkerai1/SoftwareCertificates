@@ -1,4 +1,9 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+DomainName,247ithelp.com,,Block,Informational,Potentially Unsanctioned RMM: ConnectWise,https://lolrmm.io/tools/247ithelp.com__connectwise,,,,,FALSE
+DomainName,screenconnect.com,,Block,Informational,Potentially Unsanctioned RMM: ConnectWise,Available as Block in MDA.,,,,,FALSE
+DomainName,connectwise.com,,Block,Informational,Potentially Unsanctioned RMM: ConnectWise,Available as Block in MDA.,,,,,FALSE
+DomainName,search.namequery.com,,Block,Informational,Potentially Unsanctioned RMM: Absolute,https://lolrmm.io/tools/absolute__computrace_ /  Available as Block in MDA.,,,,,FALSE
+DomainName,absolute.com,,Block,Informational,Potentially Unsanctioned RMM: Absolute,https://lolrmm.io/tools/absolute__computrace_ /  Available as Block in MDA.,,,,,FALSE
 DomainName,helpify.live,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,intelliadmin.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,cog-genomics.org,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -97,7 +102,6 @@ DomainName,ngrok-agent.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: 
 DomainName,update.equinox.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,ngrok.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,myconnectwise.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-DomainName,screenconnect.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,simple-help.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tailscale.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://github.com/amidaware/tacticalrmm,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -148,3 +152,5 @@ DomainName,quest.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Un
 DomainName,netsarang.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,sharemouse.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,fixme.it,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+DomainName,radmin.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+DomainName,alpemix.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
