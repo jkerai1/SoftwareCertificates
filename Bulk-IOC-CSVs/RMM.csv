@@ -145,6 +145,7 @@ Url,https://beinsync.en.uptodown.com/windows,,Block,Informational,Unsanctioned: 
 Url,https://launchpad.net/~x2go/,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,weezo.en.softonic.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://github.com/Mikej81/WebRDP,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,github.com/V-E-O/rdp2tcp,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tigervnc.org,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,remotepass.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,superops.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
