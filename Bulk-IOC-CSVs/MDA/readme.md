@@ -388,7 +388,7 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 
 Using similiar logic to above we can block phrases matching Javascript Web Tokens which could be a token exfil, this would be incredibly rare as there are better ways to exfil tokens outside the view of MCAS proxy.
 
-Keyword: "eyJ0e"
+Keyword: "eyJ0e" (but also eyJhbGc is valid)  
 
 ![image](https://github.com/user-attachments/assets/79813b9f-8331-4939-8674-002ce711a506)  
 
