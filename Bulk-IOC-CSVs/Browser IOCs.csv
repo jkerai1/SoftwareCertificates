@@ -35,9 +35,11 @@ DomainName,cryptotabbrowser.com,,Block,Informational,Unsanctioned browser,Unsanc
 Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9pd28ts2h9tr,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9n3g1m08p81p,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9ppnntg2g2g6,,Block,Informational,Unsanctioned browser - Web Macro Bot,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/lobobrowser/LoboBrowser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://www.ecosia.org/browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
 FileSha256,D3F8397BBFDFF5E1687855312329C292FF05EB81A7D086408D30AC3B1308B763,,BlockAndRemediate,Informational,Arc Browser Installer,Unsanctioned,Unsanctioned,,,,false
