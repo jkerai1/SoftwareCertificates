@@ -243,13 +243,13 @@ Edge For Business Enforcement (Preview):
 Settings > Cloud Apps > Edge For Business Protection
 
 
-![image](https://github.com/user-attachments/assets/36db23a5-65f5-45a3-a54c-f3fd4f7b58ba)
+![image](https://github.com/user-attachments/assets/78c58e1e-8b55-4a7f-b055-2e9607ed3067)
 
 
-The default block message isn't super useful so I would consider customizing this
+The default block message isn't super useful so I would consider customizing this - The average end user probably doesn't know what Edge for Business means:  
 ![image](https://github.com/user-attachments/assets/981b632a-8ce0-4d96-a1b8-be28363beb2d)  
 
-Also note when you use Edge for business, browser tools (i.e. when you hit F12) will not be available which makes perfect sense as that provides a bypass path to the proxy. This also means Device Emulation/native User Agent switching will not be possible which is a nice bonus.
+Also note when you use Edge for business with MDA, browser tools (i.e. when you hit F12) will not be available which makes perfect sense as that provides a bypass path to the proxy. This also means Device Emulation/native User Agent switching will not be possible which is a nice bonus.
 
 See More Browser Blocking stuff here:  
 [Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
