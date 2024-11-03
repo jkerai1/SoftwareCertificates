@@ -62,3 +62,20 @@ Extra blocking via HostFiles if MDE IOC is not an option, with some example site
 
 ![image](https://github.com/user-attachments/assets/ac7121b5-a1d2-4a1c-8725-bbc90f194280)
 > Reference https://www.nielskok.tech/intune/set-hosts-file-via-intune/  
+
+# Edge For Business Config
+
+Allows you to quickly build a baseline for Edge For Business. Import the Profile from admin.microsoft.com under Settings > Microsoft Edge
+
+You'll need to create an empty profile first to import it too
+
+![image](https://github.com/user-attachments/assets/4ddcadbe-7b32-4a98-8d3c-c751bf701d4a)
+
+Then you can hit import 
+
+![image](https://github.com/user-attachments/assets/3cdd98ea-86f3-40b9-a8de-159c8daaeb63)
+
+This is only merely a baseline, do not blindly roll out to production. You will need to configure extensions manually. You may want to unblock 3rd party LLMs too. Also consider leveraging the built in applocker policy to block non-edge browsers
+
+![image](https://github.com/user-attachments/assets/27f50ea0-84d0-456d-b53c-4d9c0d90fad6)
+
