@@ -78,7 +78,7 @@ Then you can hit import
 
 This is only merely a baseline, do not blindly roll out to all groups (by default it will not apply to any groups). You will need to configure extensions manually (I've left in some extensions I allow/use and also demonstrate how to do minimium extension version). 
 
-You may want to unblock 3rd party LLMs too though if you use them. At current it blocks chat.openai.com but not chatgpt.com or chatgpt.exe 🙄 (I have fed this back) . 
+You may want to unblock 3rd party LLMs too though if you use them. At current it blocks chat.openai.com but not chatgpt.com or chatgpt.es 🙄 (I have fed this back) . 
 
 ![image](https://github.com/user-attachments/assets/27f50ea0-84d0-456d-b53c-4d9c0d90fad6)  
 > You'll need to consider conflicts between Edge For Business and Intune Edge policies and which one will take precedence.
