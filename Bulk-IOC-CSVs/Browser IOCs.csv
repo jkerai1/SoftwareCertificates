@@ -32,9 +32,9 @@ DomainName,yandex.ru,,Block,Informational,Unsanctioned browser,Unsanctioned brow
 DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned browser,TBH I'd just block the entire of .uptodown.com,Unsanctioned,,,,false
 DomainName,torproject.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,cryptotabbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
-Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-Url,https://apps.microsoft.com/detail/9pd28ts2h9tr,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-Url,https://apps.microsoft.com/detail/9n3g1m08p81p,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9pd28ts2h9tr,,Block,Informational,Unsanctioned browser - Reluctant Web Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9n3g1m08p81p,,Block,Informational,Unsanctioned browser - One Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9ppnntg2g2g6,,Block,Informational,Unsanctioned browser - Web Macro Bot,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
