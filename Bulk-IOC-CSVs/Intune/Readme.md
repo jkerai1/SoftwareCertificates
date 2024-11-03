@@ -90,7 +90,7 @@ Also consider leveraging the built in applocker policy to block non-edge browser
 
 ![image](https://github.com/user-attachments/assets/97b10191-a901-40a4-a7fa-623af0f7cd7f)
 
-This in the background creates an Intune policy called "Block Third Party Browsing - Microsoft Edge management service" with Custom-OMA URI of ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement1/EXE/Policy:  
+This in the background creates an Intune policy called "Block Third Party Browsing - Microsoft Edge management service" with Custom-OMA URI of ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement1/EXE/Policy & ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement2/StoreApps/Policy:  
 
 ![image](https://github.com/user-attachments/assets/f220f9e1-28f6-4e3f-baca-a60b3340d569)
 
