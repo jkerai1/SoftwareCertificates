@@ -76,7 +76,7 @@ Then you can hit import
 
 ![image](https://github.com/user-attachments/assets/3cdd98ea-86f3-40b9-a8de-159c8daaeb63)
 
-This is only merely a baseline, do not blindly roll out to all groups (by default it will not apply to any groups). You will need to configure extensions manually (ive left in some extensions I allow/use and also demonstrate how to do minimium extension version). 
+This is only merely a baseline, do not blindly roll out to all groups (by default it will not apply to any groups). You will need to configure extensions manually (I've left in some extensions I allow/use and also demonstrate how to do minimium extension version). 
 
 You may want to unblock 3rd party LLMs too though if you use them. At current it blocks chat.openai.com but not chatgpt.com or chatgpt.exe 🙄 (I have fed this back) . 
 
