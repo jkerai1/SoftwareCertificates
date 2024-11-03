@@ -64,6 +64,7 @@ Extra blocking via HostFiles if MDE IOC is not an option, with some example site
 > Reference https://www.nielskok.tech/intune/set-hosts-file-via-intune/  
 
 # Edge For Business Config
+> Also Known as Microsoft Edge Management Service
 
 Allows you to quickly build a baseline for Edge For Business (heavily based of Open Intune Baseline). Import the [Profile JSON](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Edge%20for%20business%20Config%20Profile.json) from https://admin.microsoft.com under Settings > Microsoft Edge
 
@@ -75,7 +76,22 @@ Then you can hit import
 
 ![image](https://github.com/user-attachments/assets/3cdd98ea-86f3-40b9-a8de-159c8daaeb63)
 
-This is only merely a baseline, do not blindly roll out to all groups (by default it will not apply to any groups). You will need to configure extensions manually (ive left in some extensions I allow/use and also demonstrate how to do minimium extension version). You may want to unblock 3rd party LLMs too. Also consider leveraging the built in applocker policy to block non-edge browsers
+This is only merely a baseline, do not blindly roll out to all groups (by default it will not apply to any groups). You will need to configure extensions manually (ive left in some extensions I allow/use and also demonstrate how to do minimium extension version). 
 
-![image](https://github.com/user-attachments/assets/27f50ea0-84d0-456d-b53c-4d9c0d90fad6)
+You may want to unblock 3rd party LLMs too though if you use them. At current it blocks chat.openai.com but not chatgpt.com or chatgpt.exe 🙄 (I have fed this back) . 
+
+![image](https://github.com/user-attachments/assets/27f50ea0-84d0-456d-b53c-4d9c0d90fad6)  
+> You'll need to consider conflicts between Edge For Business and Intune Edge policies and which one will take precedence.
+![image](https://github.com/user-attachments/assets/d20b8c92-fded-4d74-bccc-9a56ab7cb0e4)  
+![image](https://github.com/user-attachments/assets/7a38daf6-0647-4218-b0b2-979c64f8fc2b)
+
+
+Also consider leveraging the built in applocker policy to block non-edge browsers which is found under "Customization Settings" > Security Settings > "Additional Settings"
+
+![image](https://github.com/user-attachments/assets/97b10191-a901-40a4-a7fa-623af0f7cd7f)
+
+This in the background creates an intune policy called "Block Third Party Browsing - Microsoft Edge management service" with Custom-OMA URI:  
+
+![image](https://github.com/user-attachments/assets/f220f9e1-28f6-4e3f-baca-a60b3340d569)
+
 
