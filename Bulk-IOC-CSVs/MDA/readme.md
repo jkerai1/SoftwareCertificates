@@ -220,7 +220,9 @@ __Note about user agents:__  Spaces have been included in some user agents to fu
 Some of these User Agents will not be supported in Azure portal natively such as seamonkey. Not all are Browser based, some are OS based and some are just bots/scrappers (I've left all in for hunting purposes)
 Everything after the first 30 entries or so is tending to the more niche categories. If you just want to block robots then use [user agent tag of "robot"](#logon-on-from-outdated-browser) in a seperate Access Policy (additional filters act as an "AND" not an "OR"). If you really need to block *ALL* user agents except Edge just Enforce Edge for business instead (Settings > Cloud Apps > Edge For Business Protection) (See Below)
 
-Reference https://whatmyuseragent.com/browser
+Reference https://whatmyuseragent.com/browser  
+
+I have an Edge For Business Config File available from the [Intune Section of this repo](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune)  
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
