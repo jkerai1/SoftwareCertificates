@@ -62,7 +62,7 @@ Navigate to Cloud Apps > Policies > Policy Management to create a new policy or 
 
 
 # Access Policy
-When Conditional access hands over control to MDA these will then apply, ensure you have a policy to actually send the user to MDA. You will also need this conditional access policy for [Session Policy](#session-policy)
+When Conditional access hands over control to MDA these will then apply (by default ALL Access policies will apply unless you filter by groups/users), ensure you have a policy to actually send the user to MDA. You will also need this conditional access policy for [Session Policy](#session-policy)
 
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 > Note you only need to configure this in 1 Conditional access policy to apply to the user
