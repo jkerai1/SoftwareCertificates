@@ -65,7 +65,7 @@ Extra blocking via HostFiles if MDE IOC is not an option, with some example site
 
 # Edge For Business Config
 
-Allows you to quickly build a baseline for Edge For Business. Import the [Profile JSON](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Edge%20for%20business%20Config%20Profile.json) from https://admin.microsoft.com under Settings > Microsoft Edge
+Allows you to quickly build a baseline for Edge For Business (heavily based of Open Intune Baseline). Import the [Profile JSON](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Edge%20for%20business%20Config%20Profile.json) from https://admin.microsoft.com under Settings > Microsoft Edge
 
 You'll need to create an empty profile first to import it too
 
