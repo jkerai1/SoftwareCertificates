@@ -222,7 +222,7 @@ Everything after the first 30 entries or so is tending to the more niche categor
 
 Reference https://whatmyuseragent.com/browser  
 
-I have an Edge For Business Config File available from the [Intune Section of this repo](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune)  
+I have an Edge For Business Config File available from the [Intune Section of this repo](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Readme.md#edge-for-business-config)  
 
 ![Opera block](https://github.com/user-attachments/assets/385cd08f-144c-44d6-8bea-d67542e718ff)
 
