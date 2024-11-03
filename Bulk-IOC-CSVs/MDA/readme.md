@@ -13,6 +13,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block Suspicious File Extension Upload](#block-suspicious-file-extension-upload)
   * [Block Download of Highly Sensitive Files](#block-download-of-highly-sensitive-Files)
   * [Copy Paste of Credit Card Numbers](#copy-paste-credit-card-numbers)
+  * [Copy Paste of JWTs](#Copy-Paste-of-JWTs)  
   * [Require Step up if Sending Ethereum Address](#require-step-up-if-sending-ethereum-address)
 - [App Discovery Policy](#app-discovery-policy)
   * [Auto Block Risky apps](#auto-block-risky-apps)
@@ -380,6 +381,16 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 ![image](https://github.com/user-attachments/assets/9e896a42-6a9e-457a-bc43-32f3fb058767)
 
 > I haven't tested it but Slack is also supported for "Send Item" if Slack is connected to MDA
+
+## Copy Paste of JWTs  
+
+Using similiar logic to above we can block phrases matching Javascript Web Tokens which could be a token exfil, this would be incredibly rare as there are better ways to exfil tokens outside the view of MCAS proxy.
+
+Keyword: "eyJ0e"
+
+![image](https://github.com/user-attachments/assets/79813b9f-8331-4939-8674-002ce711a506)  
+
+![image](https://github.com/user-attachments/assets/58a1422f-9783-4afc-9531-1c29e84a6736)  
 
 # App Discovery Policy
 > This works via Network Logs from MDE, Secure Web Gateway or custom log collector. There is no dependency here for conditional access here, only Access/Session policies require conditional access.
