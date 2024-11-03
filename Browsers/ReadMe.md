@@ -16,7 +16,7 @@ DeviceNetworkEvents
 
 ```
 
-# Browser AppLocker Example  
+# Browser AppLocker Example   - Non-Edge Browsers
 OMA-URI: ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement1/EXE/Policy
 ```
 <RuleCollection Type="Exe" EnforcementMode="Enabled">
