@@ -99,3 +99,10 @@ ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
 Windows Caffeinated Installer.exe
 Reluctant Web Browser Installer.exe
 Web Macro Bot Installer.exe
+Radon Browser Dev Installer.exe
+BlueBird Browser Installer.exe
+FireFly Browser Installer.exe
+Browser Pro+ Installer.exe
+GPTBrowser Installer.exe
+Sidekick Browser Installer.exe
+Carbonate Browser Installer.exe
