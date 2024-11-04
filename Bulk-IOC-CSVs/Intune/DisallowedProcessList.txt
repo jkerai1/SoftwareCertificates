@@ -109,3 +109,4 @@ Carbonate Browser Installer.exe
 Project Radon.exe
 Bluebird.exe
 Carbonate.exe
+FireFlyBrowser.exe
