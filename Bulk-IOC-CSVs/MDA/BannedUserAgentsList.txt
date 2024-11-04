@@ -5,6 +5,7 @@ OPRGX/
 SeaMonkey
 Vivaldi
 YaBrowser
+Bluebird
 Yandex
 ; MSIE 
  Kiwi 
