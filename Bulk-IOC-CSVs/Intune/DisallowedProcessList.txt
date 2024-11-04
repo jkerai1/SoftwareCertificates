@@ -111,3 +111,4 @@ Bluebird.exe
 Carbonate.exe
 FireFlyBrowser.exe
 GPTBrowser.exe
+sidekick.exe
