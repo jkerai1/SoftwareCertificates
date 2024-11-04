@@ -12,7 +12,6 @@ DomainName,tmate.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Uns
 DomainName,monect.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,nomachine.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,remoteassistance.support.services.microsoft.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: Quick Assist,Unsanctioned,,,,false
-FileHash256,683fd29286a7f86cc2873a3ca3f07e3c8af8a97e1961b99625531acba29fe57e,,BlockAndRemediate,Informational,Unsanctioned: RMM,Chaos RMM,Unsanctioned,,,,false
 DomainName,datto.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,anydesk.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned - Available as Block in MDA.,,,,false
 DomainName,kaseya.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -43,9 +42,7 @@ DomainName,anydesk-r.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RM
 DomainName,anydesk-o.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM - Fake Anydesk – batloader,Unsanctioned,,,,false
 DomainName,itheipdesk.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,rustdesk.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/rustdesk/rustdesk,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,remotedesktop.google.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,anysupport.net,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,pcnow.webex.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,seetrol.co.kr,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -75,10 +72,9 @@ DomainName,uvnc.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Uns
 DomainName,ngrok.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,ninjaone.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,remotecall.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/flit/cotvnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,skyfex.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,deskroll.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,ericom.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+DomainName,ericom.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,donkz.nl,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,itsupport247.net,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,distantdesktop.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -86,12 +82,10 @@ DomainName,remote.it,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Un
 DomainName,desknets.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,bt-work.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,4remotesupport.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/amidaware/rmmagent,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,gotoresolve.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,atera.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,fleetdeck.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,fleetdm.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/Ylianst/MeshCentral,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,meshcentral.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,pulseway.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,supremocontrol.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -103,7 +97,6 @@ DomainName,ngrok.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Un
 DomainName,myconnectwise.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,simple-help.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tailscale.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/amidaware/tacticalrmm,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tailscale.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tunnels.api.visualstudio.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,zoho.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -138,14 +131,6 @@ DomainName,mygreenpc.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RM
 DomainName,realvnc.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,khelpdesk.com.br,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,syspectr.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/TigerVNC/tigervnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,github.com/stascorp/rdpwrap,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/flit/cotvnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://beinsync.en.uptodown.com/windows,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://launchpad.net/~x2go/,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,weezo.en.softonic.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,https://github.com/Mikej81/WebRDP,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-Url,github.com/V-E-O/rdp2tcp,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tigervnc.org,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,remotepass.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,superops.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -179,3 +164,18 @@ DomainName,simple-help.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: 
 DomainName,servereye.de,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,rport.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,runsmart.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/TigerVNC/tigervnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/stascorp/rdpwrap,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/flit/cotvnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://beinsync.en.uptodown.com/windows,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://launchpad.net/~x2go/,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://weezo.en.softonic.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/Mikej81/WebRDP,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/V-E-O/rdp2tcp,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/amidaware/tacticalrmm,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/flit/cotvnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/Ylianst/MeshCentral,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/amidaware/rmmagent,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://github.com/rustdesk/rustdesk,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+FileHash256,683fd29286a7f86cc2873a3ca3f07e3c8af8a97e1961b99625531acba29fe57e,,BlockAndRemediate,Informational,Unsanctioned: RMM,Chaos RMM,Unsanctioned,,,,false
