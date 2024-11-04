@@ -107,3 +107,4 @@ GPTBrowser Installer.exe
 Sidekick Browser Installer.exe
 Carbonate Browser Installer.exe
 LibreWolf Installer.exe
+Project Radon.exe
