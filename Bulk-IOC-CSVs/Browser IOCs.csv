@@ -37,6 +37,16 @@ Url,https://apps.microsoft.com/detail/9pd28ts2h9tr,,Block,Informational,Unsancti
 Url,https://apps.microsoft.com/detail/9n3g1m08p81p,,Block,Informational,Unsanctioned browser - One Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9ppnntg2g2g6,,Block,Informational,Unsanctioned browser - Web Macro Bot,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9nvn9sz8kfd7,,Block,Informational,Unsanctioned browser - Librewolf,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp99gvqdx7jpr4,,Block,Informational,Unsanctioned browser - Vivaldi,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9n38ctmdrbff,,Block,Informational,Unsanctioned browser - Radon Browser Dev,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9pnxw61t4t0v,,Block,Informational,Unsanctioned browser - BlueBird Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9nblggh4lz15,,Block,Informational,Unsanctioned browser - DarkBrowser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9nsdnbl6xk4l,,Block,Informational,Unsanctioned browser - Firefly Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9wzdncrdr3wm,,Block,Informational,Unsanctioned browser - WebBrowser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp89dmjvg2wpz1,,Block,Informational,Unsanctioned browser - SideKick,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp9bf0wdp27s5t,,Block,Informational,Unsanctioned browser - Carbonate browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9mxg2155xxg2,,Block,Informational,Unsanctioned browser - GPTBrowser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9p5bk1mj0rdd,,Block,Informational,Unsanctioned browser - BrowserPro+,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
