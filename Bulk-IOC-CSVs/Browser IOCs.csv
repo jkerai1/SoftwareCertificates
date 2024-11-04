@@ -59,3 +59,4 @@ FileSha256,f0762b9c85027acb99ca26177ebf58bdf84d2d5e4401296c7ce95788280ece10,,Blo
 FileSha256,d3099f54b58041ff1d36f1e8f59b78e3589cb301e4dd0530bf75fcdfc4a35e2e,,BlockAndRemediate,Informational,SafeGuard Browser,Unsanctioned,Unsanctioned,,,,false
 FileSha256,ce886c24b9e0f0d70e11acf4d5cb60019df15b62d31289f9a9b1dc22be8b13cc,,BlockAndRemediate,Informational,Dolphin Anty Browser,Dolphin Anty Browser,Unsanctioned,,,,false
 FileSha256,3bcae4d72d6d6bf49673316eac81e2282056076e55b1091738ab0e9bad7fcf2d,,BlockAndRemediate,Informational,Dolphin anty browser,Dolphin anty browser,Unsanctioned,,,,false
+FileSha256,887DB563772C6C02236B447A8EA790D4F7ABC40D06BD93A41FCA7F64C5A01DE0,,BlockAndRemediate,Informational,Radon Dev Browser Installer,Radon Dev Browser Installer,Unsanctioned,,,,false
