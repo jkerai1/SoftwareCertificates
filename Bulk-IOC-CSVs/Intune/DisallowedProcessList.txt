@@ -112,3 +112,5 @@ Carbonate.exe
 FireFlyBrowser.exe
 GPTBrowser.exe
 sidekick.exe
+GyazoVideoCore.exe
+Gyazowin.exe
