@@ -83,7 +83,11 @@ and then run
 chrome.runtime.getManifest()
 ```
 
-![image](https://github.com/user-attachments/assets/0fc3e17d-8634-4a85-bcf2-bcb8f8092dde)  
+BitWarden           | NordVPN
+:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/8201b90f-a9dd-4a38-b924-3e6c28c509f2) | ![image](https://github.com/user-attachments/assets/37ba05af-e55c-40aa-8188-c9f54c25da19)
+  
+
 
 # HostFile  
 
