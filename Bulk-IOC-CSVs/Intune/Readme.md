@@ -42,6 +42,8 @@ DeviceTvmBrowserExtensions
 
 Allows you to quickly build a baseline for Edge For Business which is heavily based of [Open Intune Baseline, see my fork here](https://github.com/jkerai1/OpenIntuneBaseline). Import the [Profile JSON](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Edge%20for%20business%20Config%20Profile.json) from https://admin.microsoft.com under Settings > Microsoft Edge
 
+> I block the profile creation plane because creation of a new profile can affect settings in the Edge for business work profile
+
 You'll need to create an empty profile first to import it too
 
 ![image](https://github.com/user-attachments/assets/4ddcadbe-7b32-4a98-8d3c-c751bf701d4a)
