@@ -37,34 +37,6 @@ DeviceTvmBrowserExtensions
 | summarize count() by ExtensionId, BrowserName, ExtensionName,ExtensionDescription
 ```
 
-# List of disallowed applications (User)
-
-With regards to blocking process names, this is a weak policy and can be bypassed as it runs in user context and only applicable to file explorer however can add an extra layer if WDAC is not an option.
-
-This Setting can be nice to layer but reality is it can be bypassed easily. The corresponding Reg key lives in User land also.    
-
-"This policy setting only prevents users from running programs that are started by the File Explorer process. It doesn't prevent users from running programs, such as Task Manager, which are started by the system process or by other processes. Also, if users have access to the command prompt (Cmd.exe), this policy setting doesn't prevent them from starting programs in the command window even though they would be prevented from doing so using File Explorer."  
-
-https://learn.microsoft.com/en-gb/windows/client-management/mdm/policy-csp-admx-shellcommandpromptregedittools?WT.mc_id=Portal-fx#disallowapps
-
-```
-let DisallowedProcessNames = externaldata (DisallowedProcess: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/DisallowedProcessList.txt'] with (format=txt);
-DeviceProcessEvents
-| where TimeGenerated > ago(90d)
-| where FileName in~(DisallowedProcessNames) or InitiatingProcessFileName has_any(DisallowedProcessNames)// or InitiatingProcessCommandLine has_any(DisallowedProcessNames)
-| summarize count() by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
-```
-
-![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
-
-
-# HostFile  
-
-Extra blocking via HostFiles if MDE IOC is not an option, with some example sites you probably should be blocking    
-
-![image](https://github.com/user-attachments/assets/ac7121b5-a1d2-4a1c-8725-bbc90f194280)
-> Reference https://www.nielskok.tech/intune/set-hosts-file-via-intune/  
-
 # Edge For Business Config
 > Also Known as Microsoft Edge Management Service
 
@@ -110,6 +82,34 @@ and then run
 chrome.runtime.getManifest()
 ```
 
-![image](https://github.com/user-attachments/assets/0fc3e17d-8634-4a85-bcf2-bcb8f8092dde)
+![image](https://github.com/user-attachments/assets/0fc3e17d-8634-4a85-bcf2-bcb8f8092dde)  
+
+# HostFile  
+
+Extra blocking via HostFiles if MDE IOC is not an option, with some example sites you probably should be blocking    
+
+![image](https://github.com/user-attachments/assets/ac7121b5-a1d2-4a1c-8725-bbc90f194280)
+> Reference https://www.nielskok.tech/intune/set-hosts-file-via-intune/  
+
+# List of disallowed applications (User)
+
+With regards to blocking process names, this is a weak policy and can be bypassed as it runs in user context and only applicable to file explorer however can add an extra layer if WDAC is not an option.
+
+This Setting can be nice to layer but reality is it can be bypassed easily. The corresponding Reg key lives in User land also.    
+
+"This policy setting only prevents users from running programs that are started by the File Explorer process. It doesn't prevent users from running programs, such as Task Manager, which are started by the system process or by other processes. Also, if users have access to the command prompt (Cmd.exe), this policy setting doesn't prevent them from starting programs in the command window even though they would be prevented from doing so using File Explorer."  
+
+https://learn.microsoft.com/en-gb/windows/client-management/mdm/policy-csp-admx-shellcommandpromptregedittools?WT.mc_id=Portal-fx#disallowapps
+
+```
+let DisallowedProcessNames = externaldata (DisallowedProcess: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/DisallowedProcessList.txt'] with (format=txt);
+DeviceProcessEvents
+| where TimeGenerated > ago(90d)
+| where FileName in~(DisallowedProcessNames) or InitiatingProcessFileName has_any(DisallowedProcessNames)// or InitiatingProcessCommandLine has_any(DisallowedProcessNames)
+| summarize count() by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
+```
+
+![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
+
 
 
