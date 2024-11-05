@@ -114,3 +114,21 @@ GPTBrowser.exe
 sidekick.exe
 GyazoVideoCore.exe
 Gyazowin.exe
+O-browser Installer.exe
+Web Explorer Installer.exe
+X Browser Installer.exe
+DC Browser - Chrome and IE kernel Installer.exe
+Avast Secure Browser Installer.exe
+C Lite Browser Installer.exe
+Hotspot VPN_ Fast & Unlimited Proxy Installer.exe
+Ninja IP Hider Installer.exe
+CCleaner Browser Installer.exe
+Flash Browser Installer.exe
+One Page Browser Installer.exe
+Super-Fast Browser Installer.exe
+Twinkstar Browser Installer.exe
+Tango Browser Installer.exe
+Fast Internet Browser Installer.exe
+Nexus Mini Browser Installer.exe
+One Browser Installer.exe
+PrivacyGuard Browser Installer.exe
