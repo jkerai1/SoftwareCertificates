@@ -57,6 +57,21 @@ Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd,,Block,Informational,Unsanc
 Url,https://apps.microsoft.com/detail/xpfnx1qsgb40cp,,Block,Informational,Unsanctioned browser - Avast,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xp8bv7f2ct4ldk,,Block,Informational,Unsanctioned browser - DC Browser - Chrome and IE kernel,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9p9nk965g4dt,,Block,Informational,Unsanctioned browser - C Lite Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9wzdncrfj55j,,Block,Informational,Unsanctioned browser - Kiosk Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xpfd0r0mnzp8kp,,Block,Informational,Unsanctioned browser - CCleaner Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9npk22c65xd9,,Block,Informational,Unsanctioned browser - Flash browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9mxs3495h1jg,,Block,Informational,Unsanctioned browser - One Page Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9n5hz7tk6w6d,,Block,Informational,Unsanctioned browser - Super-Fast Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp8cbx99b2zlq1,,Block,Informational,Unsanctioned browser - Coccoc Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9nblggh1nsvj,,Block,Informational,Unsanctioned browser - Orions Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xpdff6p40p0m5q,,Block,Informational,Unsanctioned browser - Twinstar Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9wzdncrdhbdg,,Block,Informational,Unsanctioned browser - Tango Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp8jjhgtgr5wb6,,Block,Informational,Unsanctioned browser - UU Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9wzdncrdpsm0,,Block,Informational,Unsanctioned browser - 4Browsers - Secure Web Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9mxznpd3k6fb,,Block,Informational,Unsanctioned browser - Fast Internet Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9wzdncrfjlhn,,Block,Informational,Unsanctioned browser - Nexus Mini Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9phhm1pjlcft,,Block,Informational,Unsanctioned browser - Privacy Guard Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9n0n9v0vcv9v,,Block,Informational,Unsanctioned browser - Parallel Space For Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
