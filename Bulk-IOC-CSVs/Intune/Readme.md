@@ -83,7 +83,8 @@ You may want to unblock 3rd party LLMs too though if you use them. At current it
 ![image](https://github.com/user-attachments/assets/27f50ea0-84d0-456d-b53c-4d9c0d90fad6)  
 > You'll need to consider conflicts between Edge For Business and Intune Edge policies and which one will take precedence.
 ![image](https://github.com/user-attachments/assets/d20b8c92-fded-4d74-bccc-9a56ab7cb0e4)  
-![image](https://github.com/user-attachments/assets/7a38daf6-0647-4218-b0b2-979c64f8fc2b)
+> If you use enrollment token you'll also need chose the priority here also  
+![image](https://github.com/user-attachments/assets/7a38daf6-0647-4218-b0b2-979c64f8fc2b)  
 
 
 Also consider leveraging the built in applocker policy to block non-edge browsers which is found under "Customization Settings" > Security Settings > "Additional Settings"
@@ -93,6 +94,7 @@ Also consider leveraging the built in applocker policy to block non-edge browser
 This in the background creates an Intune policy called "Block Third Party Browsing - Microsoft Edge management service" with Custom-OMA URI of ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement1/EXE/Policy & ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement2/StoreApps/Policy:  
 
 ![image](https://github.com/user-attachments/assets/f220f9e1-28f6-4e3f-baca-a60b3340d569)
+> The XML can be found [here](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers#browser-applocker-example-----non-edge-browsers)
 
 I've left in ChromeExtension API Blocked permissions (such as ones that have ability to modifiy cookies and history, create VPN clients i.e. consumer VPNs such as nordvpn - as well as some that only apply to ChromeOS) in case for future usage and your organisation has no flow for picking up user requested extensions. The API Reference can be found here: https://developer.chrome.com/docs/extensions/mv2/reference
 
