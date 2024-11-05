@@ -42,7 +42,6 @@ DeviceTvmBrowserExtensions
 
 Allows you to quickly build a baseline for Edge For Business which is heavily based of [Open Intune Baseline, see my fork here](https://github.com/jkerai1/OpenIntuneBaseline). Import the [Profile JSON](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Edge%20for%20business%20Config%20Profile.json) from https://admin.microsoft.com under Settings > Microsoft Edge
 
-> I block the profile creation plane because creation of a new profile can affect settings in the Edge for business work profile
 
 You'll need to create an empty profile first to import it too
 
@@ -53,6 +52,7 @@ Then you can hit import
 ![image](https://github.com/user-attachments/assets/3cdd98ea-86f3-40b9-a8de-159c8daaeb63)
 
 This is only merely a baseline, do not blindly roll out to all groups (by default it will not apply to any groups). You will need to configure extensions manually (I've left in some extensions I allow/use and also demonstrate how to do minimium extension version). 
+> I block the profile creation plane because creation of a new profile can affect settings in the Edge for business work profile
 
 You may want to unblock 3rd party LLMs too though if you use them. At current it blocks chat.openai.com but not chatgpt.com or chatgpt.es 🙄 (I have fed this back) . I have added these blocks manually to this baseline as well as a few other good sites to block such as pastebin, onionmail.   
 
