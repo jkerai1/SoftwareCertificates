@@ -60,6 +60,7 @@ You may want to unblock 3rd party LLMs too though if you use them. At current it
 > If you use enrollment token you'll also need chose the priority here also  
 ![image](https://github.com/user-attachments/assets/7a38daf6-0647-4218-b0b2-979c64f8fc2b)  
 
+Also note that because I have denied the ability to delete history this prevents the sync of history & open tabs to the profile, pro vs con. Feel free to remove this setting.  
 
 Also consider leveraging the built in applocker policy to block non-edge browsers which is found under "Customization Settings" > Security Settings > "Additional Settings"
 
