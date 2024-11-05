@@ -751,6 +751,12 @@ I decided to see if this policy could detect some of my favourite cloud hacking 
 
 Not malware per se as they are tools but interesting to see the results. I'd say if we actually look at the code of some of these like o365 creeper and fireprox they aren't inheritently malicious and do fairly normal things for python scripts. I may have edited the code to change the hash 😉. Can you spot the odd tool out? 🧩        
 
+You may want to alert the user involved, as you can no longer alert the user natively in MDA you can leverage a logic app (or power automate). The Entites are mapped, making life much easier.  
+
+![image](https://github.com/user-attachments/assets/df065633-e28a-4d1a-8a1f-888142b0346a)
+
+
+
 # Block Script Baseline
 
 Contains export scripts for apps you should probably be blocking in MDA and can apply to various products such as zscaler, cisco, fortigate. This should show the example output from MDA. 
