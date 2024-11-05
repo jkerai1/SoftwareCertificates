@@ -71,7 +71,7 @@ This in the background creates an Intune policy called "Block Third Party Browsi
 ![image](https://github.com/user-attachments/assets/f220f9e1-28f6-4e3f-baca-a60b3340d569)
 > The XML can be found [here](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers#browser-applocker-example-----non-edge-browsers)
 
-I've left in ChromeExtension API Blocked permissions (such as ones that have ability to modifiy cookies and history - some are only available on chromeOS only) in case for future usage and your organisation has no flow for picking up user requested extensions. The API Reference can be found here: https://developer.chrome.com/docs/extensions/mv2/reference
+I've left in ChromeExtension API Blocked permissions (such as ones that have ability to modifiy cookies and history - some are only available on chromeOS but there is no harm in including these here) in case for future usage and your organisation has no flow for picking up user requested extensions. The API Reference can be found here: https://developer.chrome.com/docs/extensions/mv2/reference
 
 If you need to figure out what permission maps to the manifest, hop into developer mode
 
