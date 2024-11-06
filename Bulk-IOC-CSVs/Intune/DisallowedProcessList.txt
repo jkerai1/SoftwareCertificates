@@ -135,5 +135,6 @@ PrivacyGuard Browser Installer.exe
 GreenHub202.2.1.exe
 GreenHub.exe
 Brave Browser Installer.exe
+PrivacyGuard.exe
 Opera GX Installer.exe
 Opera Browser Installer.exe
