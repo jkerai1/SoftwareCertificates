@@ -145,3 +145,4 @@ Super-Fast Browser.exe
 DiscordForGameBar.exe
 midori.exe
 CCleanerBrowser.exe
+AvastBrowser.exe
