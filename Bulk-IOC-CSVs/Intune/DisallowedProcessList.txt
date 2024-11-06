@@ -1,3 +1,8 @@
+teamviewer.exe
+TeamViewer Remote Installer.exe
+ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
+Grammarly.Desktop.exe
+firefox.exe
 brave.exe
 opera.exe
 opera_autoupdate.exe
@@ -20,10 +25,8 @@ EpicGamesLauncher.exe
 Windscribe.exe
 EALaunchHelper.exe
 rclone.exe
-teamviewer.exe
 mimikatz.exe
 WinAuth.exe
-firefox.exe
 filezilla.exe
 BurpSuiteCommunity.exe
 Quick Assist Installer.exe
@@ -54,7 +57,6 @@ Move Mouse Installer.exe
 Thunderbird.exe
 SpotifySetup.exe
 Spotify.exe
-Grammarly.Desktop.exe
 Wave Browser.exe
 duckduckgo.exe
 ViberSetup.exe
@@ -96,7 +98,6 @@ vivaldi.exe
 OperaGXSetup.exe
 SharpHound.exe
 wps_office_inst.exe
-ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
 Windows Caffeinated Installer.exe
 Reluctant Web Browser Installer.exe
 Web Macro Bot Installer.exe
@@ -149,3 +150,12 @@ CCleanerBrowser.exe
 AvastBrowser.exe
 WebExplorerFrame.exe
 Ninja.IP.exe
+PortX Installer.exe
+RealVNC Server Installer.exe
+RealVNC Viewer Installer.exe
+Remote Desktop - Security Connection Installer.exe
+RemSupp - Remote Desktop Installer.exe
+Remote Toolbox Installer.exe
+Devolutions Remote Desktop Manager Installer.exe
+1Remote - mstsc remote desktop Installer.exe
+Team Remote Desktop Installer.exe
