@@ -139,3 +139,7 @@ PrivacyGuard.exe
 Opera GX Installer.exe
 Opera Browser Installer.exe
 OneBrowser.Uwp.exe
+Nexus Mini Browser.exe
+Webbrowser.exe
+Super-Fast Browser.exe
+DiscordForGameBar.exe
