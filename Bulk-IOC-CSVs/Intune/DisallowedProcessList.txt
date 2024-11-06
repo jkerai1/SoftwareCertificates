@@ -138,3 +138,4 @@ Brave Browser Installer.exe
 PrivacyGuard.exe
 Opera GX Installer.exe
 Opera Browser Installer.exe
+OneBrowser.Uwp.exe
