@@ -164,6 +164,18 @@ DomainName,simple-help.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: 
 DomainName,servereye.de,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,rport.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,runsmart.io,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xpdm17hk323c4x,,Block,Informational,Unsanctioned: RMM Teamviewer,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xpfcxhf337w98s,,Block,Informational,Unsanctioned: RMM - Devolutions Remote Desktop Manager,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9p5ztp14lqbr,,Block,Informational,Unsanctioned: RMM - Remote Toolbox,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9nfd5hqtqgbm,,Block,Informational,Unsanctioned: RMM - RemSupp - Remote Desktop,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9nql4qkv9cx6,,Block,Informational,Unsanctioned: RMM - Remote Desktop - Security Connection,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9nmsgrxc0rwn,,Block,Informational,Unsanctioned: RMM - Mobile Connect 2,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9pnmnf92jnfp,,Block,Informational,Unsanctioned: RMM - 1Remote - mstsc remote desktop,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9p90cmj610d0,,Block,Informational,Unsanctioned: RMM - Team Remote Desktop,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9pnmnf92jnfp,,Block,Informational,Unsanctioned: RMM - 1Remote - mstsc remote desktop,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp99dvcpgktxnj,,Block,Informational,Unsanctioned: RMM - RealVNC Viewer,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/xp98vl6ml4gps9,,Block,Informational,Unsanctioned: RMM - RealVNC Server,Unsanctioned: RMM,Unsanctioned,,,,false
+Url,https://apps.microsoft.com/detail/9pc9d7xxzm5s,,Block,Informational,Unsanctioned: RMM - PortX,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://github.com/TigerVNC/tigervnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://github.com/stascorp/rdpwrap,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://github.com/flit/cotvnc,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -179,3 +191,9 @@ Url,https://github.com/amidaware/rmmagent,,Block,Informational,Unsanctioned: RMM
 Url,https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://github.com/rustdesk/rustdesk,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 FileHash256,683fd29286a7f86cc2873a3ca3f07e3c8af8a97e1961b99625531acba29fe57e,,BlockAndRemediate,Informational,Unsanctioned: RMM,Chaos RMM,Unsanctioned,,,,false
+FileHash256,BCF3041B1C822D0394AB02089FB516F2F3DA9615A00ACCE681238A0AB432DC98,,BlockAndRemediate,Informational,Unsanctioned: RMM,1Remote - mstsc remote desktop Installer.exe RMM https://www.virustotal.com/gui/file/bcf3041b1c822d0394ab02089fb516f2f3da9615a00acce681238a0ab432dc98,Unsanctioned,,,,false
+FileHash256,77DD08BE900C475D22428FA87FB3D06C98A3ACA7207698FED986DF162C1DE975,,BlockAndRemediate,Informational,Unsanctioned: RMM,Remote Toolbox Installer.exe - ,Unsanctioned,,,,false
+FileHash256,A534D968210A1F6616CCCF97B09A7D9B54A7ABA50FB6DDA97E830FC81DFE8BBF,,BlockAndRemediate,Informational,Unsanctioned: RMM,Remote Desktop - Security Connection Installer.exe,Unsanctioned,,,,false
+FileHash256,92E423ED24F0DBFDB6685C9CE095822ED6A557B3D66BC1409ACBC9A9B0AA626F,,BlockAndRemediate,Informational,Unsanctioned: RMM,RealVNC Viewer Installer.exe	VT (0/76)	https://www.virustotal.com/gui/file/92e423ed24f0dbfdb6685c9ce095822ed6a557b3d66bc1409acbc9a9b0aa626f/detection,Unsanctioned,,,,false
+FileHash256,61E1A77081B4ADD51612F73CF16ADFBE4FCF4448ADB53E4FF4FE494F9CE0281C,,BlockAndRemediate,Informational,Unsanctioned: RMM,RealVNC Server Installer.exe	VT (0/76)	https://www.virustotal.com/gui/file/61e1a77081b4add51612f73cf16adfbe4fcf4448adb53e4ff4fe494f9ce0281c/detection,Unsanctioned,,,,false
+FileHash256,7B00A11F51AECF3D40BA8B100F5ABB6E49528145B6111F3223156336BA597776,,BlockAndRemediate,Informational,Unsanctioned: RMM,PortX Installer.exe	VT (0/76)	https://www.virustotal.com/gui/file/7b00a11f51aecf3d40ba8b100f5abb6e49528145b6111f3223156336ba597776/detection,Unsanctioned,,,,false
