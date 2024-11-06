@@ -15,6 +15,7 @@ AlohaBrowser
 AvantBrowser
 OneBrowser/
 Brave/
+Avast/
 ArcticFox
 iceweasel
 Midori/
