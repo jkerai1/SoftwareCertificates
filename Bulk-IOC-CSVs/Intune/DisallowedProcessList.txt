@@ -147,3 +147,4 @@ midori.exe
 CCleanerBrowser.exe
 AvastBrowser.exe
 WebExplorerFrame.exe
+Ninja.IP.exe
