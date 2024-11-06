@@ -1,5 +1,6 @@
 brave.exe
 opera.exe
+opera_autoupdate.exe
 waterfox.exe
 librewolf.exe
 BitTorrent.exe
