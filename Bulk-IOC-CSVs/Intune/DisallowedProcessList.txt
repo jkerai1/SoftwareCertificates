@@ -143,3 +143,4 @@ Nexus Mini Browser.exe
 Webbrowser.exe
 Super-Fast Browser.exe
 DiscordForGameBar.exe
+midori.exe
