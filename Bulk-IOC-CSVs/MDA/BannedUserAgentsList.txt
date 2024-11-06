@@ -119,6 +119,7 @@ RealmeBrowser
 QwantMobile
 RakutenBrowser
  Crusta/
+oBot/
 Polypane/
 PicoBrowser
 ; Palm-
