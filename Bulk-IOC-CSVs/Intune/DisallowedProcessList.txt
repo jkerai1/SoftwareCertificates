@@ -146,3 +146,4 @@ DiscordForGameBar.exe
 midori.exe
 CCleanerBrowser.exe
 AvastBrowser.exe
+WebExplorerFrame.exe
