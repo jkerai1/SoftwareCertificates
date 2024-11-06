@@ -76,7 +76,8 @@ Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctione
 Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/lobobrowser/LoboBrowser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://www.ecosia.org/browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360?nocache=1,Unsanctioned,,,,false
+FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
+FileSha256,803388ED1AAD2DACA10FF75946413E67B1DF4468D32F400C647227DAF5B713C7,,BlockAndRemediate,Informational,Astian - Midori,midori.exe	VT (0/77)	https://www.virustotal.com/gui/file/803388ed1aad2daca10ff75946413e67b1df4468d32f400c647227daf5b713c7/detection,Unsanctioned,,,,false
 FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
 FileSha256,D3F8397BBFDFF5E1687855312329C292FF05EB81A7D086408D30AC3B1308B763,,BlockAndRemediate,Informational,Arc Browser Installer,Unsanctioned,Unsanctioned,,,,false
 FileSha256,0e87f0fa2ce3888f051d3d1c8f120fe54b35c4eb04a9bd0f3893e4b562fccf4a,,BlockAndRemediate,Informational,Pinkio Browser,Unsanctioned,Unsanctioned,,,,false
