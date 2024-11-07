@@ -17,6 +17,7 @@ let ChatIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.
 let DomainList = ChatIOCs
 | project IndicatorValue;
 DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList )
 | summarize count() by RemoteUrl,DeviceName, InitiatingProcessAccountUpn
 
