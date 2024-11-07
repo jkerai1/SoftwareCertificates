@@ -161,3 +161,4 @@ Devolutions Remote Desktop Manager Installer.exe
 1Remote - mstsc remote desktop Installer.exe
 Team Remote Desktop Installer.exe
 PortX.exe
+vncserver.exe
