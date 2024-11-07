@@ -120,6 +120,7 @@ O-browser Installer.exe
 Web Explorer Installer.exe
 X Browser Installer.exe
 DC Browser - Chrome and IE kernel Installer.exe
+DCBrowser.exe
 Avast Secure Browser Installer.exe
 C Lite Browser Installer.exe
 Hotspot VPN_ Fast & Unlimited Proxy Installer.exe
@@ -159,3 +160,4 @@ Remote Toolbox Installer.exe
 Devolutions Remote Desktop Manager Installer.exe
 1Remote - mstsc remote desktop Installer.exe
 Team Remote Desktop Installer.exe
+PortX.exe
