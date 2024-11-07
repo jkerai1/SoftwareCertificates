@@ -58,7 +58,7 @@ DomainName,roulette.chat,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,wechat.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,paltalk.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,weechat.org,,Block,Low,Chat application,Chat application,,,,,FALSE
-DomainName,fluffychat.im,,,Block,Low,Chat application,Chat application,,,,,FALSE
+DomainName,fluffychat.im,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,cinny.in,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,matrix.to,,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,schildi.chat,,Block,Low,Chat application,Chat application,,,,,FALSE
