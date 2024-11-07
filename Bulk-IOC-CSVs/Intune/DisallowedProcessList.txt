@@ -156,6 +156,7 @@ RealVNC Server Installer.exe
 RealVNC Viewer Installer.exe
 Remote Desktop - Security Connection Installer.exe
 RemSupp - Remote Desktop Installer.exe
+RemSupp.exe
 Remote Toolbox Installer.exe
 Devolutions Remote Desktop Manager Installer.exe
 1Remote - mstsc remote desktop Installer.exe
