@@ -161,6 +161,8 @@ RemSupp.exe
 Remote Toolbox Installer.exe
 WinWoL.exe
 Devolutions Remote Desktop Manager Installer.exe
+Devolutions Workspace Installer.exe
+Devolutions Launcher Installer.exe
 1Remote - mstsc remote desktop Installer.exe
 1Remote.exe
 Team Remote Desktop Installer.exe
