@@ -1,10 +1,12 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+DomainName,wetransfer.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,pastebin.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,justpaste.it,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,kpaste.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,dpaste.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,zerobin.tk,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,wetransfer.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,send.vis.ee,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,bin.sx,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,transferxl.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
@@ -108,5 +110,4 @@ DomainName,sendspace.com,,Block,Informational,File Transfer,Unsanctioned,Unsanct
 DomainName,plesk.page,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,wasabisys.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,inmotionhosting.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
-DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,flameshot.org,,Block,Informational,File Transfer,Screenshotting tool with cloud upload functionality,Unsanctioned,,,,false
