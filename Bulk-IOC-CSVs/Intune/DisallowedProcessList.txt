@@ -158,6 +158,7 @@ Remote Desktop - Security Connection Installer.exe
 RemSupp - Remote Desktop Installer.exe
 RemSupp.exe
 Remote Toolbox Installer.exe
+WinWoL.exe
 Devolutions Remote Desktop Manager Installer.exe
 1Remote - mstsc remote desktop Installer.exe
 Team Remote Desktop Installer.exe
