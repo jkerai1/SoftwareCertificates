@@ -352,7 +352,7 @@ Block users from copy pasting content potentially sensitive content, you can't u
 
 Leverage the in-built preset for Finance: Credit card number    
 
-Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if you need it for testing  
+Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if you need it for testing. My test document can also be found [here](https://github.com/jkerai1/SoftwareCertificates/raw/refs/heads/main/Bulk-IOC-CSVs/MDA/Test%20credit%20card%20Numbers.docx), in this test I uploaded it to my onedrive from outside the proxy (i.e an Intune compliant device) then copy pasted the contents while inside the MDA proxy    
 
 ![image](https://github.com/user-attachments/assets/35977a49-06ea-4ebf-b776-8474acf92f21)
 
