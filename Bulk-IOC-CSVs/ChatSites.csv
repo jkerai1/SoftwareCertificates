@@ -85,5 +85,5 @@ DomainName,minsh.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,getconfide.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,keybase.io,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,yandex.ru,,Block,Low,Chat application,Chat application,,,,,FALSE
-DomainName,crypto-chat.com,Block,Low,Chat application,Chat application,,,,,FALSE
+DomainName,crypto-chat.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 FileSha256,624CBF9634B2BAEC7F76CC1B8E34347BF2918216D85A2EA52C0B7F220449B8A2,,BlockAndRemediate,Informational,Chat Application: nheko.exe	VT (0/76)	https://www.virustotal.com/gui/file/624cbf9634b2baec7f76cc1b8e34347bf2918216d85a2ea52c0b7f220449b8a2/detection,Unsanctioned,,,,false
