@@ -10,7 +10,9 @@ Telegram is another one I'd cautious about due to the large amount of piracy/hac
 # KQL
 
 URL Blocklist available: https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/ChatSites.csv  
-> ive Excluded Zoom, slack etc from here and left google hangouts in warn  
+> ive Excluded Zoom, slack etc from here and left google hangouts in warn
+
+MDA personal app category is missing a chunk of these domains, but I would recommend with layering with https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA#auto-ban-discovered-personal-messaging-apps for extra level of protection  
 
 ```
 let ChatIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/ChatSites.csv"] with (format="csv", ignoreFirstRecord=True);
