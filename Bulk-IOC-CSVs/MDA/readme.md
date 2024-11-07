@@ -136,7 +136,7 @@ All other [3rd party apps will need to be onboarded with SAML](https://learn.mic
 ![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
 > The reason from what I can tell for why you need to do this on top of having the Enterprise Application in Entra is that you need the assertion URL or you will run into redirect error
 
-Note that just because many microsoft apps didn't work, this is still coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
+Note that just because many microsoft apps didn't work, this is still enough coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
 
 > I tested Windows, MacOS, Linux and Android and they all behaved fine with the MDA Proxy. However noted that Android/iOS should really be going via MAM/MDM instead. The devices tested where not Intune enrolled/entra joined/registered or MDE enrolled in any way shape or form. That is to say that Access/Session Policy works on BYOD.  
 
