@@ -125,6 +125,7 @@ Avast Secure Browser Installer.exe
 C Lite Browser Installer.exe
 Hotspot VPN_ Fast & Unlimited Proxy Installer.exe
 Ninja IP Hider Installer.exe
+Ninja.IP.exe
 CCleaner Browser Installer.exe
 Flash Browser Installer.exe
 One Page Browser Installer.exe
@@ -150,8 +151,8 @@ midori.exe
 CCleanerBrowser.exe
 AvastBrowser.exe
 WebExplorerFrame.exe
-Ninja.IP.exe
 PortX Installer.exe
+PortX.exe
 RealVNC Server Installer.exe
 RealVNC Viewer Installer.exe
 Remote Desktop - Security Connection Installer.exe
@@ -162,5 +163,5 @@ WinWoL.exe
 Devolutions Remote Desktop Manager Installer.exe
 1Remote - mstsc remote desktop Installer.exe
 Team Remote Desktop Installer.exe
-PortX.exe
+TeamRemoteDesktop.exe
 vncserver.exe
