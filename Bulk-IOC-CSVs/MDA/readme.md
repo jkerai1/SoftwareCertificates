@@ -385,6 +385,12 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 
 > I haven't tested it but Slack is also supported for "Send Item" if Slack is connected to MDA
 
+This pattern will also work in Purview, I couldn't get other patterns to work so I am under the impression MDA and purview leverage a similiar regex engine.
+
+![image](https://github.com/user-attachments/assets/74ff2f68-ad86-41e4-b9c5-22ba0f185d2f)  
+![WhatsApp Image 2024-11-06 at 20 20 43](https://github.com/user-attachments/assets/7dd809d7-ad65-4e17-b3ff-0c601cfd180e)
+
+
 ## Copy Paste of JWTs  
 
 Using similiar logic to above we can block phrases matching Javascript Web Tokens which could be a token exfil, this would be incredibly rare as there are better ways to exfil tokens outside the view of MCAS proxy.
