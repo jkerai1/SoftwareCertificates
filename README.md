@@ -112,9 +112,9 @@ DeviceFileCertificateInfo
 
 As of 13/03/2023, certificates cannot be uploaded in bulk, however for domains, urls and hashes and note there is a limit of 500 for bulk upload, the current typosquat lists will not work as they are too large:  
 
-> Also note all Block lists with merge with MDA Unsanctioned apps so no need to deduplicate  manually
+> Also note all Block lists with merge with MDA Unsanctioned apps so no need to deduplicate manually
 
-Find the CSV of interest (after checking for business impact by checking it with a KQL query) and click on download 
+Find the CSV of interest (after checking for business impact by checking it with a KQL query) and click on download from the [Bulk-IOC-CSVs Folder](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs)  
 
 ![aaadsa](https://github.com/user-attachments/assets/465eec64-19db-486d-b491-26cc50d610f1)
 
