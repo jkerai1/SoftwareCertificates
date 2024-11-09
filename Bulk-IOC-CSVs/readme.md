@@ -88,6 +88,17 @@ DeviceNetworkEvents
 | where RemoteUrl in~(PornBlockListProj) or RemoteUrl in~(TorrentBlockListProj) or RemoteUrl in~(PiracyBlockListProj) or RemoteUrl in~(PhishingBlockListProj) or  RemoteUrl in~(MalwareBlockListProj) or RemoteUrl in~(RansomBlockListProj)
 | summarize count() by RemoteUrl
 ```
+### Ungoverened AI
+```
+let UngoverenedAI_IOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/PotentiallyUngovernedAITools.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = UngoverenedAI_IOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl in~(DomainList )
+| summarize count() by RemoteUrl
+```
+
 
 ## See More From Me on IOC Blocking!  
 
