@@ -4,6 +4,8 @@
 Browser extension [whitelisting](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/WhitelistedExtensionIDs.md) is MUCH better than [blacklisting](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv). However if this is something you are struggling to achieve, this list may give you a good starting point for both options.  
 > Alternatively consider Edge For Business which can provide a flow for users to request browser extensions natively. See [Edge For Business Config](#Edge-For-Business-Config)
 > ![image](https://github.com/user-attachments/assets/2058794f-8819-48cc-9975-3cb544dc262c)
+> ![image](https://github.com/user-attachments/assets/57b4e829-9938-4c7f-9a14-ca4d8d01b405)
+
 
 I've included in my blocklist:  
 
