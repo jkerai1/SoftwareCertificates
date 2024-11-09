@@ -5,6 +5,7 @@ DomainName,sider.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctione
 DomainName,naturalreaders.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,prowritingaid.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,promptstorm.app,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,magictool.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,perplexity.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,monica.im,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,otter.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -96,3 +97,6 @@ Url,https://microsoftedge.microsoft.com/addons/detail/search-engine-ai-assistan/
 Url,https://microsoftedge.microsoft.com/addons/detail/chatsnow-chatgpt-sidebar/jigjjhbimkkakoncmabgiefpjebkaoek,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/chatgpt-openai-for-zhihu/pdmiahhmekaaadpkmdndbnighgglnjnm,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/chatgpt-search/ejcfepkfckglbgocfkanmcdngdijcgld,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://chromewebstore.google.com/detail/ai-chrome-extension-power/fedmdabgnkfghjplejeilojikdaopkpm,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://addons.mozilla.org/en-US/firefox/addon/magictool-ai-assistant,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://microsoftedge.microsoft.com/addons/detail/ai-extension-powered-by-c/fpncncnngnkggnjajalboihdobmdenml,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
