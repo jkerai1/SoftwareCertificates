@@ -31,6 +31,19 @@ DomainName,yandex.ru,,Block,Informational,Unsanctioned browser,Unsanctioned brow
 DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned browser,TBH I'd just block the entire of .uptodown.com,Unsanctioned,,,,false
 DomainName,torproject.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,cryptotabbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,brow.sh,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,invisible-island.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,or.cz,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,twibright.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,w3m.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,retawq.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/atsepkov/Graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/nmbazima/LinksWWWbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/CMB/edbrowse,,Block,Informational,Unsanctioned browser - edbrowser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/fathyb/carbonyl,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/lukeaschenbrenner/TxtNet-Browser,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/zquestz/s,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/FreeFull/runt,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9pd28ts2h9tr,,Block,Informational,Unsanctioned browser - Reluctant Web Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9n3g1m08p81p,,Block,Informational,Unsanctioned browser - One Browser,Unsanctioned browser,Unsanctioned,,,,false
@@ -76,9 +89,9 @@ Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctione
 Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/lobobrowser/LoboBrowser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://www.ecosia.org/browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
-FileSha256,803388ED1AAD2DACA10FF75946413E67B1DF4468D32F400C647227DAF5B713C7,,BlockAndRemediate,Informational,Astian - Midori,midori.exe	VT (0/77)	https://www.virustotal.com/gui/file/803388ed1aad2daca10ff75946413e67b1df4468d32f400c647227daf5b713c7/detection,Unsanctioned,,,,false
-FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
+FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
+FileSha256,803388ED1AAD2DACA10FF75946413E67B1DF4468D32F400C647227DAF5B713C7,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,midori.exe	VT (0/77)	https://www.virustotal.com/gui/file/803388ed1aad2daca10ff75946413e67b1df4468d32f400c647227daf5b713c7/detection,Unsanctioned,,,,false
+FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Unsanctioned browser: Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
 FileSha256,D3F8397BBFDFF5E1687855312329C292FF05EB81A7D086408D30AC3B1308B763,,BlockAndRemediate,Informational,Arc Browser Installer,Unsanctioned,Unsanctioned,,,,false
 FileSha256,0e87f0fa2ce3888f051d3d1c8f120fe54b35c4eb04a9bd0f3893e4b562fccf4a,,BlockAndRemediate,Informational,Pinkio Browser,Unsanctioned,Unsanctioned,,,,false
 FileSha256,f0762b9c85027acb99ca26177ebf58bdf84d2d5e4401296c7ce95788280ece10,,BlockAndRemediate,Informational,SafeGuard Browser,Unsanctioned,Unsanctioned,,,,false
@@ -98,3 +111,6 @@ FileSha256,DCB220DB6394BB8282E0185C51EC9B2E36B35F1EA43149429FA3E272F653040D,,Blo
 FileSha256,486CC71046C051F3CFA239639E926DBC0F0A4B2B917719587DC2AB40A96356C0,,BlockAndRemediate,Informational,One Page Browser,One Page Browser - DiscordForGameBar.exe	VT (0/77)	https://www.virustotal.com/gui/file/486cc71046c051f3cfa239639e926dbc0f0a4b2b917719587dc2ab40a96356c0/detection  ,Unsanctioned,,,,false
 FileSha256,0A273A31E3C37B546F548EC500C2EF2F0EA1155F3DAC4543BA0A45B07F9B72B2,,BlockAndRemediate,Informational,WebExplorerFrame,WebExplorerFrame.exe	VT (0/76)	https://www.virustotal.com/gui/file/0a273a31e3c37b546f548ec500c2ef2f0ea1155f3dac4543ba0a45b07f9b72b2/detection,Unsanctioned,,,,false
 FileSha256,1D84AE96913FC23859FAC1C35A55A305BDD5C3040AE976204C71A10CF2AAB651,,BlockAndRemediate,Informational,DCBrowser,DCBrowser.exe	VT (1/79)	https://www.virustotal.com/gui/file/1d84ae96913fc23859fac1c35a55a305bdd5c3040ae976204c71a10cf2aab651/detection,Unsanctioned,,,,false
+FileSha256,A42E82494F00E054C2DE1B065BBC8FB439D93EB69F9B97CC4868E71E48A9EAE0,,BlockAndRemediate,Informational,Unsanctioned browser: retawq-0.2.6c.tar.gz	VT (0/60)	https://www.virustotal.com/gui/file/a42e82494f00e054c2de1b065bbc8fb439d93eb69f9b97cc4868e71e48a9eae0/detection,Unsanctioned,Unsanctioned,,,,false
+FileSha256,E994D263F2FD2C22FEBFBE45103526E00145A7674A0FDA79C822B97C2770A9E3,,BlockAndRemediate,Informational,Unsanctioned browser: w3m-0.5.3.tar.gz	VT (0/79)	https://www.virustotal.com/gui/file/e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3/detection,Unsanctioned,Unsanctioned,,,,false
+FileSha256,2433CB70CD781FF9D1CD9247F05F723988E8BD04DAF16C75C5D4015D6E10F447,,BlockAndRemediate,Informational,Unsanctioned browser: browsh_1.8.0_windows_amd64.exe	VT (2/74)	https://www.virustotal.com/gui/file/2433cb70cd781ff9d1cd9247f05f723988e8bd04daf16c75c5d4015d6e10f447/detection,Unsanctioned,Unsanctioned,,,,false
