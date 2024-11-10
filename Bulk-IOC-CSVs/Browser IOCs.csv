@@ -35,8 +35,12 @@ DomainName,brow.sh,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanc
 DomainName,invisible-island.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,or.cz,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,twibright.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,dillo.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,qutebrowser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,w3m.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,retawq.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,webbie.org.uk,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,lynx.browser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/atsepkov/Graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/nmbazima/LinksWWWbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/CMB/edbrowse,,Block,Informational,Unsanctioned browser - edbrowser,Unsanctioned browser,Unsanctioned,,,,false
@@ -114,3 +118,4 @@ FileSha256,1D84AE96913FC23859FAC1C35A55A305BDD5C3040AE976204C71A10CF2AAB651,,Blo
 FileSha256,A42E82494F00E054C2DE1B065BBC8FB439D93EB69F9B97CC4868E71E48A9EAE0,,BlockAndRemediate,Informational,Unsanctioned browser: retawq,Unsanctioned browser: retawq-0.2.6c.tar.gz	VT (0/60)	https://www.virustotal.com/gui/file/a42e82494f00e054c2de1b065bbc8fb439d93eb69f9b97cc4868e71e48a9eae0/detection,Unsanctioned,,,,false
 FileSha256,E994D263F2FD2C22FEBFBE45103526E00145A7674A0FDA79C822B97C2770A9E3,,BlockAndRemediate,Informational,Unsanctioned browser: w3m text based browser,Unsanctioned browser: w3m-0.5.3.tar.gz	VT (0/79)	https://www.virustotal.com/gui/file/e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3/detection,Unsanctioned,,,,false
 FileSha256,2433CB70CD781FF9D1CD9247F05F723988E8BD04DAF16C75C5D4015D6E10F447,,BlockAndRemediate,Informational,Unsanctioned browser: browsh,Unsanctioned browser: browsh_1.8.0_windows_amd64.exe	VT (2/74)	https://www.virustotal.com/gui/file/2433cb70cd781ff9d1cd9247f05f723988e8bd04daf16c75c5d4015d6e10f447/detection,Unsanctioned,,,,false
+FileSha256,7C6B94EFEE914A20A2C888888CCC63C117390BAA380318C22863584E7EF4042D,,BlockAndRemediate,Informational,Unsanctioned browser: WebbIE,Unsanctioned browser: WebbIE4.msi	VT (0/75)	https://www.virustotal.com/gui/file/7c6b94efee914a20a2c888888ccc63c117390baa380318c22863584e7ef4042d/detection,Unsanctioned,,,,false
