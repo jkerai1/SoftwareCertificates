@@ -155,10 +155,11 @@ let CountryCodes = externaldata (country: string,countryOrRegion:string) [@'http
 SigninLogs
 | where TimeGenerated > ago(90d)
 | where ResultType == 0
-| where isnotempty(countryOrRegion)
 | extend countryOrRegion = tostring(LocationDetails.countryOrRegion)
+| where isnotempty(countryOrRegion)
 | join kind = leftouter CountryCodes on countryOrRegion
-| summarize count() by country, UserPrincipalName
+|extend VT_IP= iff(isnotempty(IPAddress),strcat(@"https://www.virustotal.com/gui/ip-address/",IPAddress),IPAddress)
+| summarize count() by country, UserPrincipalName, VT_IP
 | where country <> "United Kingdom of Great Britain and Northern Ireland"
 ```
 
