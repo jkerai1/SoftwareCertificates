@@ -118,6 +118,7 @@ DomainName,danword.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Un
 DomainName,nintendo.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,playstation.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://www.xbox.com/en-GB/xbox-game-pass,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/cheat-engine/cheat-engine,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,leagueoflegends.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,dota2.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,bethesda.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
@@ -141,3 +142,5 @@ DomainName,zyngawithfriends.com,,Block,Informational,Unsanctioned: Gaming,Unsanc
 DomainName,kynto.us,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,imvu.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,engineowning.su,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+DomainName,paradoxplaza.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+DomainName,cheatengine.org,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
