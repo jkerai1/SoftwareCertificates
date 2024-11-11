@@ -94,7 +94,6 @@ Url,https://chromewebstore.google.com/detail/steam-context-menu/mcglhmpnpongdigc
 DomainName,cnclabs.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,itch.io,,Block,Informational,Unsanctioned: Gaming,Unsanctioned. Itch has a lot of malware on it.,Unsanctioned,,,,false
 DomainName,kick.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
-DomainName,epicgames.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,ea.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,ubisoft.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,raidshadowlegends.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
