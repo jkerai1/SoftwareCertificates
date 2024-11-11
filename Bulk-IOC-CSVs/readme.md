@@ -22,6 +22,7 @@ let DomainList = CrowdstrikeIOCs
 | project IndicatorValue;
 DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
 ```
 ## Email Events Example KQL
 ```
@@ -40,6 +41,7 @@ let DomainList = CrowdstrikeIOCs
 EmailUrlInfo
 | where UrlDomain in~(DomainList)
 | join EmailEvents on NetworkMessageId
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
 ```
 
 ## All in One KQL 
@@ -56,6 +58,7 @@ let emailevent = EmailEvents
 DeviceNetworkEvents
 | where RemoteUrl in~(DomainList )
 | union emailurl, emailevent
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
 ```
 
 ## BlocklistProject
@@ -86,7 +89,8 @@ let RansomBlockListProj = externaldata(type: string)[@"https://raw.githubusercon
 | project RemoteUrl;
 DeviceNetworkEvents
 | where RemoteUrl in~(PornBlockListProj) or RemoteUrl in~(TorrentBlockListProj) or RemoteUrl in~(PiracyBlockListProj) or RemoteUrl in~(PhishingBlockListProj) or  RemoteUrl in~(MalwareBlockListProj) or RemoteUrl in~(RansomBlockListProj)
-| summarize count() by RemoteUrl
+|extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl,VT_domain
 ```
 ### Ungoverened AI
 ```
@@ -96,7 +100,8 @@ let DomainList = UngoverenedAI_IOCs
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList )
-| summarize count() by RemoteUrl
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl, VT_domain
 ```
 
 
