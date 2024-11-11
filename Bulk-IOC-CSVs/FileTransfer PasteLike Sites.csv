@@ -65,9 +65,7 @@ DomainName,sendtodropbox.com,,Block,Informational,File Transfer/Paste Like Site,
 DomainName,plustransfer.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pcloud.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pastehtml.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,pastecry.pt,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,paste.sx,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,mega.io,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,mega.nz,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,mega.io,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,filefactory.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
@@ -90,10 +88,8 @@ DomainName,anonfiles.com,,Block,Informational,File Transfer,Unsanctioned,Unsanct
 DomainName,sprunge.us,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,termbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,filecloudonline.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,termbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,pastebin.pl,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,4sync.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,clbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,pastie.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,ideone.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,textbin.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
