@@ -174,10 +174,10 @@ SigninLogs
 | evaluate ipv4_lookup(VPNRanges, IPAddress, IpRange)
 | join kind=leftouter IdentityInfo on $left.UserPrincipalName == $right.AccountObjectId
 | extend Spur = strcat("https://spur.us/context/", IPAddress)
-| summarize by UserPrincipalName, IPAddress, UserAgent, AccountUPN, Spur //User Spur to validate data
 | extend IP_0_Address = IPAddress
 | extend Account_0_Name = UserPrincipalName
-| extend Account = iff(isempty( AccountUPN),Account_0_Name,AccountUPN)
+| extend UserPrincipalName = iff(countof(UserPrincipalName,"-") == 4, AccountUPN, UserPrincipalName)
+| summarize count() by UserPrincipalName, IPAddress, UserAgent, Spur
 ```
 
 [MDE BlockList for Consumer VPNs Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Consumer%20VPNs.csv), Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
@@ -189,7 +189,8 @@ let DomainList = VPNIOCs
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList)
-| summarize count() by RemoteUrl
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl,VT_domain
 ```
 Also consider Browser Extension VPNs, if you don't have MDE DeviceTVM bolt on you can leverage KQL :oncoming_police_car: on DeviceFileEvents to find recent downloads of Browser extensions. The following query is from the [intune](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune) portion of this repo:
 
@@ -509,7 +510,8 @@ let DomainList = PasteLikeSitesIOCs
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList )
-| summarize count() by RemoteUrl
+|extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl,VT_domain
 ```
 ## Auto Ban Discovered Torrent Sites  
 
@@ -531,7 +533,8 @@ let DomainList = PiracyIOCs
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList )
-| summarize count() by RemoteUrl
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl,VT_domain
 ```
 > See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Piracy for Software Certificate IOCs
 
@@ -556,7 +559,8 @@ let DomainList = UngoverenedAI_IOCs
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList )
-| summarize count() by RemoteUrl
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl,VT_domain
 ```
 > Want a visual demo? See this [video from Microsoft](https://www.youtube.com/watch?v=ZQI4A7W4E_4)
  
