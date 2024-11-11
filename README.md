@@ -83,7 +83,9 @@ Monitor Blocks - Sentinel + DeviceFileCertificateInfo Table:
 DeviceEvents
 | where (ActionType == "SmartScreenUrlWarning" and AdditionalFields.Experience == "CustomBlockList") or (AdditionalFields.ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection") or (AdditionalFields.ResponseCategory == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
-| summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
+|extend VT_hash = iff(isnotempty(SHA1),strcat(@"https://www.virustotal.com/gui/file/",SHA1),SHA1)
+|extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1, VT_hash, VT_domain
 ```
 > Note you cannot use DeviceNetworkEvents for this because of how MDE performs TCP handshake  
 
@@ -92,8 +94,10 @@ If you don't ingest  DeviceFileCertificateInfo to sentinel you can use Advanced 
 ```
 DeviceEvents
 | where (ActionType == "SmartScreenUrlWarning" and todynamic(AdditionalFields).Experience == "CustomBlockList") or (todynamic(AdditionalFields).ThreatName contains "EUS:Win32/Custom" and ActionType == "AntivirusDetection") or ((todynamic(AdditionalFields).ResponseCategory) == "CustomBlockList" and ActionType == "ExploitGuardNetworkProtectionBlocked")
+|extend VT_hash = iff(isnotempty(SHA1),strcat(@"https://www.virustotal.com/gui/file/",SHA1),SHA1)
+|extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
 | join kind=leftouter DeviceFileCertificateInfo on SHA1
-| summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1
+| summarize by FileName, RemoteUrl,DeviceName, Signer, InitiatingProcessAccountName, InitiatingProcessFileName, SHA1, VT_hash, VT_domain
 ```
 Find Unusual Software Certificates:
 
@@ -102,6 +106,7 @@ DeviceFileCertificateInfo
 | join DeviceFileEvents on SHA1
 | summarize count() by Signer //FileName,SHA1,Issuer,FileOriginUrl
 | where Signer !contains "Google "
+|extend VT_hash = iff(isnotempty(SHA1),strcat(@"https://www.virustotal.com/gui/file/",SHA1),SHA1)
 | where not(Signer has_any("Intel","fortinet",".net","citrix","microsoft","HP Inc.","adobe","cisco","Avaya Inc.","Zoom Video Communications, Inc.","zscaler","oracle","Advanced Micro Devices Inc.","Lenovo","Hewlett-Packard Company","RingCentral","Symantec","Mozilla","Dell Technologies Inc.")) 
 | order by count_
 ```
