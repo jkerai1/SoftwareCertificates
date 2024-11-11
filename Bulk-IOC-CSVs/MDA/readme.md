@@ -174,8 +174,6 @@ SigninLogs
 | evaluate ipv4_lookup(VPNRanges, IPAddress, IpRange)
 | join kind=leftouter IdentityInfo on $left.UserPrincipalName == $right.AccountObjectId
 | extend Spur = strcat("https://spur.us/context/", IPAddress)
-| extend IP_0_Address = IPAddress
-| extend Account_0_Name = UserPrincipalName
 | extend UserPrincipalName = iff(countof(UserPrincipalName,"-") == 4, AccountUPN, UserPrincipalName)
 | summarize count() by UserPrincipalName, IPAddress, UserAgent, Spur
 ```
