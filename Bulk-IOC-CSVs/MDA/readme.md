@@ -333,6 +333,11 @@ If we flip our logic we can exploit this and we won't be blocked but I suppose t
 
 ![image](https://github.com/user-attachments/assets/02c0ddd8-9cfe-4097-9a89-07600b337b17)
 
+Alternatively we can whitelist where we ONLY allow certain extensions - this can be quite restrictive so put in Audit Mode First 📖, see example below:  
+> List available at [here](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/AllowedFileExtensions.csv) - No option for importing here  
+![image](https://github.com/user-attachments/assets/9cad5eb9-d253-4883-830c-bb925bbf2607)  
+
+This is a very good protection and would benefit from BYOD *AND* Corporate Enrolled Devices as this makes it very hard to upload/download malware from a MDA proxy enrolled app.  
 
 # Block Download of Highly Sensitive Files
 
