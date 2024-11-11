@@ -13,7 +13,6 @@ DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList)
 | summarize count() by RemoteUrl
-
 ```
 
 # Browser AppLocker Example   - Non-Edge Browsers
