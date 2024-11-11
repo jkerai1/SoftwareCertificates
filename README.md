@@ -104,9 +104,9 @@ Find Unusual Software Certificates:
 ```
 DeviceFileCertificateInfo
 | join DeviceFileEvents on SHA1
+//|extend VT_hash = iff(isnotempty(SHA1),strcat(@"https://www.virustotal.com/gui/file/",SHA1),SHA1)
 | summarize count() by Signer //FileName,SHA1,Issuer,FileOriginUrl
 | where Signer !contains "Google "
-|extend VT_hash = iff(isnotempty(SHA1),strcat(@"https://www.virustotal.com/gui/file/",SHA1),SHA1)
 | where not(Signer has_any("Intel","fortinet",".net","citrix","microsoft","HP Inc.","adobe","cisco","Avaya Inc.","Zoom Video Communications, Inc.","zscaler","oracle","Advanced Micro Devices Inc.","Lenovo","Hewlett-Packard Company","RingCentral","Symantec","Mozilla","Dell Technologies Inc.")) 
 | order by count_
 ```
