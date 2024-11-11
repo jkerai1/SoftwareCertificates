@@ -577,6 +577,18 @@ Examining the catalog we don't see too much of an impact, however ⚠️ remembe
 
 > See also https://github.com/jkerai1/SoftwareCertificates/tree/main/Messaging%20or%20Conferencing Software Certificate IOCs
 
+Dirty Chat Application KQL :oncoming_police_car: - some apps were not in MDA library so I have requested them:  
+```
+let ChatIOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/ChatSites.csv"] with (format="csv", ignoreFirstRecord=True);
+let DomainList = ChatIOCs
+| project IndicatorValue;
+DeviceNetworkEvents
+| where TimeGenerated > ago(90d)
+| where RemoteUrl in~(DomainList )
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl,VT_domain //,DeviceName, InitiatingProcessAccountUpn 
+```
+
 
 ## Auto Ban Discovered Social Networking
 
