@@ -158,7 +158,7 @@ DomainName,nexusmods.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,
 DomainName,pcgamingwiki.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,retrostic.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,vimm.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
-DomainName,romsgames.net,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+DomainName,romsgames.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,emulatorgames.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,coolrom.com.au,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,emugames.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
