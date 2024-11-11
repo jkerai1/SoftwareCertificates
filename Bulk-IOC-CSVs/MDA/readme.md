@@ -443,7 +443,8 @@ The MDA Apps can be found in MDE IOC by filtering on "Application", this is avai
 
 ## Auto Block Risky apps
 
-![image](https://github.com/user-attachments/assets/68a29e71-f351-4f70-a447-ecb16653461e)
+![image](https://github.com/user-attachments/assets/bfdba71a-6637-4c3a-a247-2e73acec97cb)  
+
 
 ## Auto Unsanction Web Mail
 
