@@ -408,6 +408,9 @@ Keyword: "eyJ0e" (but also eyJhbGc is valid)
 
 # App Discovery Policy
 > This works via Network Logs from MDE, Secure Web Gateway or custom log collector. There is no dependency here for conditional access here, only Access/Session policies require conditional access.
+![image](https://github.com/user-attachments/assets/367067fd-a78a-43d1-a5c5-ef33b5ecf2bd)  
+*Image Taken From - [Mastering Microsoft 365 Defender: Implement Microsoft Defender for Endpoint, Identity, Cloud Apps, and Office 365 and respond to threats ](https://www.packtpub.com/en-us/product/mastering-microsoft-365-defender-9781803241708) - A book I highly recommend*  
+
 
 These will scale as apps are added to MDA and users navigate to them. The MDA catalogue is large and grows everyday (33,384 apps currently - even if you tried to block half of these you'd run out of space on MDE IOC as the limit there is 15,000), this is a much more scaleable way to block, if apps are required then sanction them as needed or auto-stick into monitor and review.  
 
