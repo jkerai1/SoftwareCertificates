@@ -12,14 +12,11 @@ FileSha256,c664767a3bbc112903ab6c76410f25e076a9911fb44cdfeb34e6da91dd3e7929,,Blo
 DomainName,transfer.sh/0tUIJu/Updater.zip ,,Block,Low,powerRAT delivery,PowerRAT delivery URL,,,,,FALSE
 DomainName,instagwordp.ru,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,cargozwoa.ru,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
-DomainName,quilers.ru,,Block,Low,"
-DEV-0867 ","Phishing domain from 
-DEV-0867 ",,,,,FALSE
+DomainName,quilers.ru,,Block,Low,DEV-0867 ,Phishing domain from DEV-0867 ,,,,,FALSE
 DomainName,lespritjardin.be,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 DomainName,sliack.com,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 DomainName,recp.mkt81.net,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
-DomainName,"
-fmrsolu.ru",,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
+DomainName,fmrsolu.ru,,Block,Low,Potentially malicious Domain,Potentially malicious Domain,,,,,FALSE
 FileSha256,9976625B5A3035DC68E878AD5AC3682CCB74EF2007C501C8023291548E11301A,,Block,Low,Cucky Hash,Cucky Hash,,,,,FALSE
 FileSha256,C60F778641942B7B0C00F3214211B137B683E8296ABB1905D2557BFB245BF775,,Block,Low,Cstealer Loader,Cstealer loader,,,,,FALSE
 FileSha256,E3181EE97D3FFD31C22C2C303C6E75D0196912083D0C21536E5833EE7D108736,,Block,Low,Packed Cstealer,Cstealer loader,,,,,FALSE
@@ -61,8 +58,7 @@ FileSha256,e4584bb5db986d9f64297863cd5a7c4062aeeb7e4775dbda4d93d760406165a8,,Blo
 FileSha256,e01264912f6b5d3f3cd84261b4b19408c317e06f83292d6f2ca87ebfb0b71fdc,,Block,Low,Titan Stealer,Titan Stealer,,,,,FALSE
 FileSha256,d0c428a9f32f9fa987ec74f50217d09e821d79435215eceab272dd45438c5a44,,Block,Low,Potentially malicious python malware,Potentially malicious python malware,,,,,FALSE
 DomainName,pvphoto.co,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
-DomainName,"
-rihann.ru",,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
+DomainName,rihann.ru,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,ziflow.io,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,flamcoggrenadec.gq,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 FileSha256,6e2069758228e8d69f8c0a82a88ca7433a0a71076c9b1cb0d4646ba8236edf23,,Block,Low,NOBELIUM ,NOBELIUM ,,,,,FALSE
@@ -126,28 +122,28 @@ DomainName,tarcomputadoras.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FA
 DomainName,somosnutrisalud.cl,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,wi-protect.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
 DomainName,oiartzunirratia.eus,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
-FileSha256,"	36ee7dff97f4789c5db6c8cfd894c3fa3ba2313648dd44eb99cd49bffd00e048",,Block,Low,AsyncRAT OneNote File ,AsyncRAT OneNote File ,,,,,FALSE
-FileSha256,"	63aa08feb545bb249a75fd3319fc911934fba3b8f31fac2bb2c3f44de1333bcb",,Block,Low,Dropped Batch File,Dropped Batch File,,,,,FALSE
-FileSha256,"	0c49b5030b910b09c8575a09800a1bd085bd4d16f7c0bed8062d0257b43a56ed",,Block,Low,IcedID OneNote File ,IcedID OneNote File ,,,,,FALSE
-FileSha256,"	fbad60002286599ca06d0ecb3624740efbf13ee5fda545341b3e0bf4d5348cfe",,Block,Low,IcedID DLL Payload,IcedID DLL Payload,,,,,FALSE
-FileSha256,"	b375e37ee678d8fa056e06cfeccbe1077d517365a46981a811adb637ba5c838c",,Block,Low,CobaltStrike DLL Payload,CobaltStrike DLL Payload,,,,,FALSE
+FileSha256,36ee7dff97f4789c5db6c8cfd894c3fa3ba2313648dd44eb99cd49bffd00e048,,Block,Low,AsyncRAT OneNote File ,AsyncRAT OneNote File ,,,,,FALSE
+FileSha256,63aa08feb545bb249a75fd3319fc911934fba3b8f31fac2bb2c3f44de1333bcb,,Block,Low,Dropped Batch File,Dropped Batch File,,,,,FALSE
+FileSha256,0c49b5030b910b09c8575a09800a1bd085bd4d16f7c0bed8062d0257b43a56ed,,Block,Low,IcedID OneNote File ,IcedID OneNote File ,,,,,FALSE
+FileSha256,fbad60002286599ca06d0ecb3624740efbf13ee5fda545341b3e0bf4d5348cfe,,Block,Low,IcedID DLL Payload,IcedID DLL Payload,,,,,FALSE
+FileSha256,b375e37ee678d8fa056e06cfeccbe1077d517365a46981a811adb637ba5c838c,,Block,Low,CobaltStrike DLL Payload,CobaltStrike DLL Payload,,,,,FALSE
 FileSha256,e93a79b0e10f59ee89f01f6ad827716234f61f37252cb8a86ad19a1d2a50d7e8,,Block,Low,Qakbot OneNote File (hta dropped),Qakbot OneNote File (hta dropped),,,,,FALSE
-FileSha256,"	f05d16207f093809a940d1caec7c6fd432319e248fc556c5ad2717b52be72a11",,Block,Low,Qakbot OneNote File (cmd dropped),Qakbot OneNote File (cmd dropped),,,,,FALSE
+FileSha256,f05d16207f093809a940d1caec7c6fd432319e248fc556c5ad2717b52be72a11,,Block,Low,Qakbot OneNote File (cmd dropped),Qakbot OneNote File (cmd dropped),,,,,FALSE
 FileSha256,f9a5106ac501e9dd700115310b20ed8aa0dbdaf854f556b44f04bba1ae28b783,,Block,Low,CMD file to download Qakbot,CMD file to download Qakbot,,,,,FALSE
-FileSha256,"	0ee181ce1138e076f9ccac1601ae5b8357d9c2d378b313dce3b363a04687e2f0",,Block,Low,Redline OneNote File ,Redline OneNote File ,,,,,FALSE
-FileSha256,"	e501319e9297fb68c79bdc32bada702d6f38f14ae3cd66e915be0aca98a83c82",,Block,Low,Dropped Hta File 1,Dropped Hta File 1,,,,,FALSE
-FileSha256,"	7b96da9c88b9ad7a56fdc220c0a68a196f8ce46e2247cd1c6cc26d6a4f12f870",,Block,Low,"	Dropped Hta File 1","	Dropped Hta File 1",,,,,FALSE
+FileSha256,0ee181ce1138e076f9ccac1601ae5b8357d9c2d378b313dce3b363a04687e2f0,,Block,Low,Redline OneNote File ,Redline OneNote File ,,,,,FALSE
+FileSha256,e501319e9297fb68c79bdc32bada702d6f38f14ae3cd66e915be0aca98a83c82,,Block,Low,Dropped Hta File 1,Dropped Hta File 1,,,,,FALSE
+FileSha256,7b96da9c88b9ad7a56fdc220c0a68a196f8ce46e2247cd1c6cc26d6a4f12f870,,Block,Low,	Dropped Hta File 1,	Dropped Hta File 1,,,,,FALSE
 FileSha256,5b2c5889d8004f48abd37cf66eec91153eaa3a84514ab4ffdf4ee99e456dbbf7,,Block,Low,Dropped Hta File 1,Dropped Hta File 1,,,,,FALSE
-FileSha256,"	97bfa0bd9f3b382280f67839c650a3d7be16aa31f124810f3a9b9559e34619c6",,Block,Low,Redline payload,Redline payload,,,,,FALSE
-DomainName,"	aderbuild.com.au",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,97bfa0bd9f3b382280f67839c650a3d7be16aa31f124810f3a9b9559e34619c6,,Block,Low,Redline payload,Redline payload,,,,,FALSE
+DomainName,aderbuild.com.au,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,blp.whydreamdesign.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,bosslevelgamer.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-DomainName,"	rlaxxtv.com",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-DomainName,"	blog.ceterus.se",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,rlaxxtv.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,	blog.ceterus.se,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,hubzter.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,thewire.in,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,zavodzastanovanje.hr,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-DomainName,"	albrechtpartners.com",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+DomainName,albrechtpartners.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,roger.tv,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,picheakhar.ir,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,carfluidfinder.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
@@ -166,15 +162,15 @@ DomainName,kepw.org,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,kristinee.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,lakeside-fishandchips.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,5e762412e8cf8a22f16a384d9bde312d8ac2610804c422db90d226f1fb4197d7,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	e2d60a6a388bebd8409b694e5199b94151a572047c786e01dbb30cf272d073d4",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	d0c75e43928d7a5eee86490af5a133c8ad17b284b349fdddf3e2d3b35c401aa8",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	41f81b9246f97b1a60e3c348e7659eb7fa191d3d4fa4032c4b4f432fd9d9b187",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	54edfd67a2ccc452733625885e2a77ed0463665f6bd3ac11360395a0ad6e1606",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	e2d60a6a388bebd8409b694e5199b94151a572047c786e01dbb30cf272d073d4,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	d0c75e43928d7a5eee86490af5a133c8ad17b284b349fdddf3e2d3b35c401aa8,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	41f81b9246f97b1a60e3c348e7659eb7fa191d3d4fa4032c4b4f432fd9d9b187,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	54edfd67a2ccc452733625885e2a77ed0463665f6bd3ac11360395a0ad6e1606,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,171bfd481a2e6afd8d409856460e90e8022efe30e2afc799de5760aa5f812e9c,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	9eb3783d3c73197458dc4200b75ce91ae6fb78d773289e94adaecd96730f65d9",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	5a2eea2485038ad7f94601f235c46e37eec70716f907f648845c476f809ab51b",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	e05cf4398f7996fc96c2ded2544098730ae78666183eb98ed9a163e8f0eba018",,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,"	fafb24d181a39a0a8ae4d2a3d16f2d68ed5c9a4dcaaab186e200f0682900f0df",,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	9eb3783d3c73197458dc4200b75ce91ae6fb78d773289e94adaecd96730f65d9,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	5a2eea2485038ad7f94601f235c46e37eec70716f907f648845c476f809ab51b,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	e05cf4398f7996fc96c2ded2544098730ae78666183eb98ed9a163e8f0eba018,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,	fafb24d181a39a0a8ae4d2a3d16f2d68ed5c9a4dcaaab186e200f0682900f0df,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,5b6f4ba22efa0be45e97c57722ed1b9986742d35d7bb5a6730ff8b49fc626022,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,63bf85c27e048cf7f243177531b9f4b1a3cb679a41a6cc8964d6d195d869093e,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,df19635adf3ae95927f848832d9aa2058f33f6fc6899c7fe04445e4892b3d044,,Block,Low,GootLoader,GootLoader,,,,,FALSE
@@ -260,10 +256,8 @@ DomainName,eomail6.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,poia.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,shahrarman.ir,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,0jt3eel1on63fbe18f23c8e.fileondun.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName,"canksru.ru
-
- ",,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
-DomainName, thegelerlawgroup.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,canksru.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
+DomainName,thegelerlawgroup.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,hjrbgeius-gh48tu-hrh9utn.org,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,bigholedrive-1316850103.cos.ap-singapore.myqcloud.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,quickerrefundllc.com,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
@@ -296,7 +290,7 @@ DomainName,dlucc.com,,Block,Low,Possibly Compromised Domain,Possibly Compromised
 DomainName,cleverwolf.in,,Block,Low,Possibly Compromised Domain,Possibly Compromised Domain,,,,,FALSE
 DomainName,decments-su.ru,,Block,Low,Phishing Domain,Phishing domain,,,,,FALSE
 DomainName,u21wxiiw.goldhaven.sa.com,,Block,Low,Phishing Domain,Phishing Domain,,,,,FALSE
-FileSha256,"	22bb73e97b01be2e11d741f3f4852380b3dae91d9ac511f33de8877a9e7c0534",,Block,Low,Russian MalDoc,Russian MalDoc,,,,,FALSE
+FileSha256,22bb73e97b01be2e11d741f3f4852380b3dae91d9ac511f33de8877a9e7c0534,,Block,Low,Russian MalDoc,Russian MalDoc,,,,,FALSE
 DomainName,freebookkeeping.cf,,Block,Low,Phishing Domain,Russian MalDoc,,,,,FALSE
 FileSha256,d3057949c50dcc3e761a0262808ca6525cc93503c19debd045707d4a511a6faf,,Block,Low,Potential MalDoc,Potential MalDoc,,,,,FALSE
 DomainName,uvr.grl.hydropodes.sa.com,,Block,Low,Phishing Domain,Phish,,,,,FALSE
@@ -409,12 +403,12 @@ DomainName,mkt.freee.co.jp,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,hsedermchyne.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,scitechnol.com,,Block,Low, IOC Hunt,IOC Hunt,,,,,FALSE
 DomainName,winterhero.buzz,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
-DomainName,6666deb5098e7874a2ddbca2b325cd37b4810ac1ed17b5908f81484d9f438e7f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
-DomainName,553af150837d027b5beefea467460e2660f6204b49bb07a127c6fc0a0f7e59c8,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
-DomainName,fd47043b55a8386c710be0783590cdb6d95f6bcc90e2cb9e43ab2453049cc5eb,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
-DomainName,881a98493eadcadb9d8cacf559f295e1820fa15e7500545e8721e76b277afb36,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
-DomainName,be6f4646ad9e844c16ff7109b64532be8daa2f88335d236d06de3eb2ef4a003f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
-DomainName,9b2327e87c2c4c60943c7ee61ee97ef12a0383ea42a4cb740f21bd88718a4dac,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+FileSha256,6666deb5098e7874a2ddbca2b325cd37b4810ac1ed17b5908f81484d9f438e7f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+FileSha256,553af150837d027b5beefea467460e2660f6204b49bb07a127c6fc0a0f7e59c8,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+FileSha256,fd47043b55a8386c710be0783590cdb6d95f6bcc90e2cb9e43ab2453049cc5eb,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+FileSha256,881a98493eadcadb9d8cacf559f295e1820fa15e7500545e8721e76b277afb36,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+FileSha256,be6f4646ad9e844c16ff7109b64532be8daa2f88335d236d06de3eb2ef4a003f,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
+FileSha256,9b2327e87c2c4c60943c7ee61ee97ef12a0383ea42a4cb740f21bd88718a4dac,,Block,Low,DoNotAPT,DoNotAPT,,,,,FALSE
 DomainName,electronel.com,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,modificpsi.com,,Block,Low,Phishing,Phishing,,,,,FALSE
 DomainName,hyey6b.affectstraight.co.in,,Block,Low,Phishing,Phishing,,,,,FALSE
@@ -434,3 +428,4 @@ DomainName,lovlr.com,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
 DomainName,luckies.cc,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
 DomainName,lukeamiller.net,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
 DomainName,hjlinen.com,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
+FileSha256,96920d601c95d13be934e071544eda074e9b36329e0b53735214519434aa41a0,,Block,Low,ShadowDumper,ShadowDumper,,,,,FALSE
