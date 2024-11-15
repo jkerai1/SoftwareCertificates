@@ -162,15 +162,15 @@ DomainName,kepw.org,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,kristinee.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 DomainName,lakeside-fishandchips.com,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,5e762412e8cf8a22f16a384d9bde312d8ac2610804c422db90d226f1fb4197d7,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	e2d60a6a388bebd8409b694e5199b94151a572047c786e01dbb30cf272d073d4,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	d0c75e43928d7a5eee86490af5a133c8ad17b284b349fdddf3e2d3b35c401aa8,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	41f81b9246f97b1a60e3c348e7659eb7fa191d3d4fa4032c4b4f432fd9d9b187,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	54edfd67a2ccc452733625885e2a77ed0463665f6bd3ac11360395a0ad6e1606,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,e2d60a6a388bebd8409b694e5199b94151a572047c786e01dbb30cf272d073d4,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,d0c75e43928d7a5eee86490af5a133c8ad17b284b349fdddf3e2d3b35c401aa8,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,41f81b9246f97b1a60e3c348e7659eb7fa191d3d4fa4032c4b4f432fd9d9b187,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,54edfd67a2ccc452733625885e2a77ed0463665f6bd3ac11360395a0ad6e1606,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,171bfd481a2e6afd8d409856460e90e8022efe30e2afc799de5760aa5f812e9c,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	9eb3783d3c73197458dc4200b75ce91ae6fb78d773289e94adaecd96730f65d9,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	5a2eea2485038ad7f94601f235c46e37eec70716f907f648845c476f809ab51b,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	e05cf4398f7996fc96c2ded2544098730ae78666183eb98ed9a163e8f0eba018,,Block,Low,GootLoader,GootLoader,,,,,FALSE
-FileSha256,	fafb24d181a39a0a8ae4d2a3d16f2d68ed5c9a4dcaaab186e200f0682900f0df,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,9eb3783d3c73197458dc4200b75ce91ae6fb78d773289e94adaecd96730f65d9,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,5a2eea2485038ad7f94601f235c46e37eec70716f907f648845c476f809ab51b,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,e05cf4398f7996fc96c2ded2544098730ae78666183eb98ed9a163e8f0eba018,,Block,Low,GootLoader,GootLoader,,,,,FALSE
+FileSha256,fafb24d181a39a0a8ae4d2a3d16f2d68ed5c9a4dcaaab186e200f0682900f0df,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,5b6f4ba22efa0be45e97c57722ed1b9986742d35d7bb5a6730ff8b49fc626022,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,63bf85c27e048cf7f243177531b9f4b1a3cb679a41a6cc8964d6d195d869093e,,Block,Low,GootLoader,GootLoader,,,,,FALSE
 FileSha256,df19635adf3ae95927f848832d9aa2058f33f6fc6899c7fe04445e4892b3d044,,Block,Low,GootLoader,GootLoader,,,,,FALSE
