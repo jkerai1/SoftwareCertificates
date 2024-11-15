@@ -28,7 +28,6 @@ DomainName,line.naver.jp,,Block,Informational,Chat application,Chat application,
 DomainName,line-scdn.net,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,line-website.com,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,linepluscorp.com,,Block,Informational,Chat application,Chat application,,,,,FALSE
-DomainName,line-chrome-gw.line-apps.com,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,getsession.org,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,signal.org,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,whispersystems.org,,Block,Informational,Chat application,Chat application,,,,,FALSE
