@@ -88,4 +88,23 @@ DomainName,yandex.ru,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,crypto-chat.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,aminoapps.com,,Block,Low,Chat application,Chat application,,,,,FALSE
 DomainName,clubhouse.com,,Block,Low,Chat application,Chat application,,,,,FALSE
+DomainName,0day.im,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,0day.la,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,01337.ru,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,01337.io,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,c99x.io,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,c99x.cc,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,htp.im,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,hell.la,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,sqli.io,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,shad0w.ru,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,shad0w.la,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,shad0w.io,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,breached.im,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,toad.im,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,darknet.im,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,xmpp.xxx,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,nigg.ir,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,priv.vc,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,Breached.IM,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
 FileSha256,624CBF9634B2BAEC7F76CC1B8E34347BF2918216D85A2EA52C0B7F220449B8A2,,BlockAndRemediate,Informational,Chat Application - nheko,nheko.exe	VT (0/76)	https://www.virustotal.com/gui/file/624cbf9634b2baec7f76cc1b8e34347bf2918216d85a2ea52c0b7f220449b8a2/detection,Unsanctioned,,,,false
