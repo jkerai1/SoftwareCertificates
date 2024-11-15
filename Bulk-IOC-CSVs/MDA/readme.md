@@ -337,7 +337,11 @@ Alternatively we can whitelist where we ONLY allow certain extensions - this can
 > List available at [here](https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/MDA/AllowedFileExtensions.csv) - No option for importing here  
 ![image](https://github.com/user-attachments/assets/9cad5eb9-d253-4883-830c-bb925bbf2607)  
 
-This is a very good protection and would benefit from BYOD *AND* Corporate Enrolled Devices as this makes it very hard to upload/download malware from a MDA proxy enrolled app.  
+This is a very good protection and would benefit from BYOD *AND* Corporate Enrolled Devices as this makes it very hard to upload/download malware from a MDA proxy enrolled app. Below is an example from an MDE enrolled device  
+> A false positive given that I am uploading remediation scripts to intune!
+
+![image](https://github.com/user-attachments/assets/5b83dd7a-2dc4-493f-bad7-b397551d0988)
+
 
 # Block Download of Highly Sensitive Files
 
