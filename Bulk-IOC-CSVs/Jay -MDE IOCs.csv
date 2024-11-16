@@ -428,4 +428,5 @@ DomainName,lovlr.com,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
 DomainName,luckies.cc,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
 DomainName,lukeamiller.net,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
 DomainName,hjlinen.com,,Block,Low,Compromised domain,Compromised Domain,,,,,FALSE
+DomainName,24paybanks.email,,Block,Low,CryptoLure domain,Crypto Lure Domain,,,,,FALSE
 FileSha256,96920d601c95d13be934e071544eda074e9b36329e0b53735214519434aa41a0,,Block,Low,ShadowDumper,ShadowDumper,,,,,FALSE
