@@ -40,6 +40,9 @@ DomainName,gingersoftware.com,,Block,Informational,Unsanctioned: Ungoverned AI,U
 DomainName,localio.io,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,wordai.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,articly.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,gptforwork.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,ghostwriter-ai.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,10studio.tech,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,pdf.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,gocopy.io,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,paragraphai.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -102,3 +105,7 @@ Url,https://chromewebstore.google.com/detail/chatgpt-search/ejcfepkfckglbgocfkan
 Url,https://chromewebstore.google.com/detail/ai-chrome-extension-power/fedmdabgnkfghjplejeilojikdaopkpm,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://addons.mozilla.org/en-US/firefox/addon/magictool-ai-assistant,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/ai-extension-powered-by-c/fpncncnngnkggnjajalboihdobmdenml,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://pages.store.office.com/addinsinstallpage.aspx?assetid=WA200005502,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://appsource.microsoft.com/en-us/product/web-apps/witivio.gpt-pro,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://appsource.microsoft.com/en-us/product/web-apps/top3651592492552154.jurisprudenciagpt_saas,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://appsource.microsoft.com/en-us/product/web-apps/top3651592492552154.jurisprudenciagpt_ai_saas,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
