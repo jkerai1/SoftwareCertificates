@@ -85,3 +85,7 @@ DomainName,monero.fail,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,ncwallet.net,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,walletconnect.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,cryptobatz.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,etherscan.io,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,blockscan.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,coingecko.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,ethereum.org,,Block,Low,Crypto,Crypto,,,,,FALSE
