@@ -4,11 +4,13 @@
 import pandas as pd
 import os
 
-# Input file path
-file_path = '/path/to/your/MDE-IOCs.csv'
+#TODO Add Looping Feature & Github Action
+
+# Input file path, Example Given
+file_path = 'C:\\Users\\JayKerai\\Downloads\\IOCs\\DNSTwist 1drv.com10-06-24.csv' #File path not folder path
 
 # Output directory
-output_dir = '/tmp/IOCs/'
+output_dir = 'C:\\Users\\JayKerai\\Downloads\\IOCs\\output' # Be careful of Controlled Folder Access which may trigger due to write operation to output path of downloads
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
