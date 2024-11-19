@@ -883,6 +883,7 @@ https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern
 ## Information Protection
 
 This is optional and depends on company compliance requirements. You may not want to scan for labels set by external tenants and you may not want microsoft defender for cloud apps to be able to inspect file content, however if you plan on using File Policies you will at least need to tick the first box.  
+> This feature is currently available for files stored in Box, Google Workspace, SharePoint Online, and OneDrive. More cloud apps will be supported in future versions.
 
 Microsoft Information Protection settings - this only applies to the App Connector and NOT the Conditional access app control.
 
