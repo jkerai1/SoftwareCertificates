@@ -735,6 +735,8 @@ The email notification isn't particularly verbose so there is some advantage to 
 
 We may want to monitor for the disabling of any of our policies  
 
+Action type equals "policy disabled"  
+
 ![image](https://github.com/user-attachments/assets/a09b1414-11f9-45e2-b411-c280403e40e5)  
 
 ![image](https://github.com/user-attachments/assets/61bcac0b-7f1b-4e5a-8404-2e059668fc5a)  
@@ -744,6 +746,7 @@ From the activity Log we can also audit the events within MDA:
 
 ![image](https://github.com/user-attachments/assets/0c5ee9f6-9598-4d67-bfc5-89847ce9b79d)  
 
+![image](https://github.com/user-attachments/assets/b8ae2b6c-72ab-47ab-bdab-a363a3eb6978)  
 
 # File Policy
 
