@@ -168,3 +168,4 @@ Devolutions Launcher Installer.exe
 Team Remote Desktop Installer.exe
 TeamRemoteDesktop.exe
 vncserver.exe
+zen.installer.exe
