@@ -30,6 +30,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
   * [Logon on From Outdated Browser](#logon-on-from-outdated-browser)
+  * [Monitor Disabling of MDA Policies](#Monitor-Disabling-of-MDA-Policies)
 - [File Policy](#file-policy)
   * [Externally Shared Source Code](#externally-shared-source-code)
   * [File Shared with Personal Email Address](#file-shared-with-personal-email-address)
@@ -729,6 +730,20 @@ Some UI elements failed to load on out of date browsers, you can actually use an
 The email notification isn't particularly verbose so there is some advantage to using an Access Policy as you can give much clearer instructions to the user of what to do by customizing the block message:  
 
 ![image](https://github.com/user-attachments/assets/63be225b-3ac7-4905-88b3-b00738fdbaef)
+
+# Monitor Disabling of MDA Policies  
+
+We may want to monitor for the disabling of any of our policies  
+
+![image](https://github.com/user-attachments/assets/a09b1414-11f9-45e2-b411-c280403e40e5)  
+
+![image](https://github.com/user-attachments/assets/61bcac0b-7f1b-4e5a-8404-2e059668fc5a)  
+
+
+From the activity Log we can also audit the events within MDA:  
+
+![image](https://github.com/user-attachments/assets/0c5ee9f6-9598-4d67-bfc5-89847ce9b79d)  
+
 
 # File Policy
 
