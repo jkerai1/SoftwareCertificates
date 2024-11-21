@@ -41,6 +41,8 @@ DomainName,w3m.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanct
 DomainName,retawq.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,webbie.org.uk,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,lynx.browser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,zen-browser.app,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/zen-browser/desktop,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/atsepkov/Graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/nmbazima/LinksWWWbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/CMB/edbrowse,,Block,Informational,Unsanctioned browser - edbrowser,Unsanctioned browser,Unsanctioned,,,,false
