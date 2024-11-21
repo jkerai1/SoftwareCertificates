@@ -739,7 +739,9 @@ Action type equals "policy disabled"
 
 ![image](https://github.com/user-attachments/assets/a09b1414-11f9-45e2-b411-c280403e40e5)  
 
-![image](https://github.com/user-attachments/assets/61bcac0b-7f1b-4e5a-8404-2e059668fc5a)  
+In this example, I disabled an Access Policy and an Activity Policy:  
+
+![image](https://github.com/user-attachments/assets/32910ec4-0914-4b6a-aabc-bb38931fd869)  
 
 
 From the activity Log we can also audit the events within MDA:  
