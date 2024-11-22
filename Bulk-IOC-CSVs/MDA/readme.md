@@ -398,8 +398,13 @@ I actually wasn't allowed back in, might be an issue with the preview. However t
 This pattern will also work in Purview, I couldn't get other patterns to work so I am under the impression MDA and purview leverage a similiar regex engine.
 
 ![image](https://github.com/user-attachments/assets/74ff2f68-ad86-41e4-b9c5-22ba0f185d2f)  
-![WhatsApp Image 2024-11-06 at 20 20 43](https://github.com/user-attachments/assets/7dd809d7-ad65-4e17-b3ff-0c601cfd180e)
+![WhatsApp Image 2024-11-06 at 20 20 43](https://github.com/user-attachments/assets/7dd809d7-ad65-4e17-b3ff-0c601cfd180e)  
 
+You can then apply this to a DLP policy to block Emails (this worked internally and externally sent emails too, when I tested)  
+
+![Untitled](https://github.com/user-attachments/assets/07490dc6-2f9c-4937-852e-7dd2a8093ece)  
+
+![image](https://github.com/user-attachments/assets/d992558d-6275-4dd6-bebd-10b1b8ef594c)  
 
 ## Copy Paste of JWTs  
 
