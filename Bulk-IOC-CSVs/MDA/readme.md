@@ -406,6 +406,23 @@ You can then apply this to a DLP policy to block Emails (this worked internally 
 
 ![image](https://github.com/user-attachments/assets/d992558d-6275-4dd6-bebd-10b1b8ef594c)  
 
+Audit usage of Cryptocurrency domains with the following KQL :oncoming_police_car: and consider blocking using the [blocklist](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Crypto.csv)  
+
+```
+let Crypto = externaldata(type:string)[@"https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/ZeroDot1_CoinBlockerLists/master/domains.list"] with (format="csv", ignoreFirstRecord=True);
+let CrytoDomains = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Crypto.csv"] with (format="csv", ignoreFirstRecord=True); 
+let DomainList = Crypto
+| where type !startswith "#"
+| extend RemoteUrl = replace_string(replace_string(type, " ", ""),"0.0.0.0","")
+| project RemoteUrl;
+let DomainList2 = CrytoDomains //// After Hunting visit https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs, download the CSV and consider uploading to MDE to block all domains. Remove any results that are legitimate usage.
+| project IndicatorValue;
+DeviceNetworkEvents
+| where RemoteUrl in~(DomainList) or RemoteUrl in~(DomainList2)
+| extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
+| summarize count() by RemoteUrl, VT_domain 
+```
+
 ## Copy Paste of JWTs  
 
 Using similiar logic to above we can block phrases matching Javascript Web Tokens which could be a token exfil, this would be incredibly rare as there are better ways to exfil tokens outside the view of MCAS proxy.
