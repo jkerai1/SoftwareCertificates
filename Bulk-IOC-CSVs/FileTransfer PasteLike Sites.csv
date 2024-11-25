@@ -107,3 +107,4 @@ DomainName,plesk.page,,Block,Informational,File Transfer,Unsanctioned,Unsanction
 DomainName,wasabisys.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,inmotionhosting.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,flameshot.org,,Block,Informational,File Transfer,Screenshotting tool with cloud upload functionality,Unsanctioned,,,,false
+DomainName,imgbb.com,,Block,Informational,File Transfer,Screenshotting tool with cloud upload functionality,Unsanctioned,,,,false
