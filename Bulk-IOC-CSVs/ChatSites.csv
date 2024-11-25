@@ -106,4 +106,5 @@ DomainName,xmpp.xxx,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,
 DomainName,nigg.ir,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
 DomainName,priv.vc,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
 DomainName,Breached.im,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
+DomainName,oguser.com,,Block,Low,darknet IM Chat Website,darknet IM Chat Website,,,,,FALSE
 FileSha256,624CBF9634B2BAEC7F76CC1B8E34347BF2918216D85A2EA52C0B7F220449B8A2,,BlockAndRemediate,Informational,Chat Application - nheko,nheko.exe	VT (0/76)	https://www.virustotal.com/gui/file/624cbf9634b2baec7f76cc1b8e34347bf2918216d85a2ea52c0b7f220449b8a2/detection,Unsanctioned,,,,false
