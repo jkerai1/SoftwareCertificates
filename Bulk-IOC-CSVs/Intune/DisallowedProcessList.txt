@@ -4,6 +4,7 @@ ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
 Grammarly.Desktop.exe
 firefox.exe
 brave.exe
+brave_vpn_wireguard_service.exe
 opera.exe
 opera_autoupdate.exe
 waterfox.exe
