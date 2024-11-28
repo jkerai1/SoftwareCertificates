@@ -59,6 +59,7 @@ facebot/
 ZumBot
 Lunascape
 OviBrowser/
+axios
 QQBrowser/
 Kinza/
 MQQBrowser/
