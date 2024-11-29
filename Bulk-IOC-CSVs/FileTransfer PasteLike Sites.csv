@@ -4,8 +4,8 @@ DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Some
 DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,bitbucket.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,dropbox.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
-DomainName,sendtodropbox.com,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
-DomainName,dropboxdocs.com,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
+DomainName,sendtodropbox.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
+DomainName,dropboxdocs.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,drive.google.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,box.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,pastebin.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
