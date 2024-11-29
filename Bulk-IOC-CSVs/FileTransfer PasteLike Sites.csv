@@ -3,9 +3,9 @@ DomainName,wetransfer.com,,Block,Informational,File Transfer/Paste Like Site,Uns
 DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,bitbucket.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,dropbox.com,,Audit,Informational,File Transfer.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,false
-DomainName,drive.google.com,,Audit,Informational,File Transfer,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,false
-DomainName,box.com,,Audit,Informational,File Transfer,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,false
+DomainName,dropbox.com,,Audit,Informational,File Transfer.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,true
+DomainName,drive.google.com,,Audit,Informational,File Transfer,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,true
+DomainName,box.com,,Audit,Informational,File Transfer,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,true
 DomainName,pastebin.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,justpaste.it,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,kpaste.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
