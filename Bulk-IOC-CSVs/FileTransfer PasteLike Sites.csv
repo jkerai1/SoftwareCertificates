@@ -2,6 +2,9 @@ IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,Re
 DomainName,wetransfer.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,bitbucket.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
+DomainName,dropbox.com,,Audit,Informational,File Transfer.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,false
+DomainName,drive.google.com,,Audit,Informational,File Transfer,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,,,false
 DomainName,pastebin.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,justpaste.it,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,kpaste.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
@@ -95,7 +98,6 @@ DomainName,ideone.com,,Block,Informational,File Transfer,Unsanctioned,Unsanction
 DomainName,textbin.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,zerobin.net,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,codesandbox.io,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
-DomainName,bitbucket.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,cloudwaysapps.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,clbin.com,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,wtools.io,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
