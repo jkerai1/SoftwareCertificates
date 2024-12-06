@@ -160,3 +160,8 @@ DomainName,pastebin.fr,,Block,Informational,File Transfer/Paste Like Site,Unsanc
 DomainName,paste.xinu.at,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,snipplr.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,dotnetfiddle.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,textsnip.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,pasteio.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,pastecode.ru,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,dumpz.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,ghostbin.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
