@@ -128,7 +128,7 @@ DomainName,notes.io,,Block,Informational,File Transfer/Paste Like Site,Unsanctio
 DomainName,paste2.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://www.toptal.com/developers/hastebin,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://defuse.ca/pastebin.htm,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-Url,https://everfall.com/paste,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+Url,https://everfall.com/paste,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,ivpaste.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,paste.ofcode.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,bpa.st,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
