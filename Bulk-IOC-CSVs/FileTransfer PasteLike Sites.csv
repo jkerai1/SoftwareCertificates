@@ -138,7 +138,7 @@ DomainName,quickhighlighter.com,,Block,Informational,File Transfer/Paste Like Si
 DomainName,paste-bin.xyz,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,vpaste.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,paste.org.ru,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,commie.io,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,commie.io,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,n0paste.tk,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pastebin.pt,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,tutpaste.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
