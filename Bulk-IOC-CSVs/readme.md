@@ -1,7 +1,7 @@
 Bulk CSV lists for blocking IOCs that aren't certificates  
 
 
-Note there is a limit of 500 IOCs at a time in bulk, I am thinking about ways I could chop and change this with a script   
+Note there is a limit of 500 IOCs at a time in bulk, if you need to bulk an IOC list use the [unbulk script](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Scripts/MDE-IOC-Batch-Separator.py)  
 
 I found web content filtering to sometimes mis-categorize so decided to create extra lists on top    
 
