@@ -29,6 +29,7 @@ DomainName,ct-vpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanction
 DomainName,hidemyass.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,zenmate.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,internxt.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,radmin-vpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,rotatingproxies.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9nb169bkkpz0,,Block,Informational,Unsanctioned: Consumer VPN - Ninja IP Hider,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9mzdsrmllp8l,,Block,Informational,Unsanctioned: Consumer VPN - Hotspot VPN: Fast & Unlimited Proxy,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
