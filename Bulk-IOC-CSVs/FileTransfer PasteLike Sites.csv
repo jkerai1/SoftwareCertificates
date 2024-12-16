@@ -1,6 +1,6 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
 DomainName,wetransfer.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
-DomainName,notion.so,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
+DomainName,notion.com,,Block,Informational,File Transfer,Unsanctioned Notion Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,evernote.com,,Block,Informational,File Transfer,Unsanctioned Evernote Sometimes used to proxy malicious Links in environment,Unsanctioned,,,,false
 DomainName,bitbucket.org,,Block,Informational,File Transfer,Unsanctioned,Unsanctioned,,,,false
 DomainName,dropbox.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
