@@ -115,7 +115,7 @@ let DisallowedProcessNames = externaldata (DisallowedProcess: string) [@'https:/
 DeviceProcessEvents
 | where TimeGenerated > ago(90d)
 | where FileName in~(DisallowedProcessNames) or InitiatingProcessFileName has_any(DisallowedProcessNames)// or InitiatingProcessCommandLine has_any(DisallowedProcessNames)
-| summarize count() by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
+| summarize make_list(DeviceName) by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
 ```
 
 ![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
