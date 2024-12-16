@@ -181,3 +181,5 @@ DomainName,privatlab.com,,Block,Informational,File Transfer/Paste Like Site,Unsa
 DomainName,qaz.im,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,catbox.moe,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,bashupload.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,restic.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/restic/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
