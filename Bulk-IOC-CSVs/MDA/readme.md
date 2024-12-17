@@ -57,6 +57,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Secure Score](#Secure-Score)
   * [Network Requirements](#etwork-Requirements)
   * [Behaviour During Downtime](#Behaviour-During-Downtime)
+  * [Request App Change To Microsoft](Request-App-Change-To-Microsoft)
  
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -1098,7 +1099,14 @@ Settings > Cloud Apps > Conditional Access App Control > General Settings
 ![image](https://github.com/user-attachments/assets/707abcd0-84e7-4dc6-8579-de46f8a40c3f)
 > Consider Business Continuity before selecting Block Access, you won't have much to secure if your business isn't making 💲🤑
  
- 
+# Request App Change To Microsoft
+
+We can do this from the dropdown, in this case I am using App Data is outdated as I have found the app uses more domains that what is given in the portal.  
+
+![image](https://github.com/user-attachments/assets/faea80f2-09f7-456c-8fa0-a1394654b3c6)
+
+![image](https://github.com/user-attachments/assets/22324996-948c-4ba5-9ae6-f57272c34bf8)
+
 
 # Fin  
 
