@@ -57,7 +57,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Secure Score](#Secure-Score)
   * [Network Requirements](#etwork-Requirements)
   * [Behaviour During Downtime](#Behaviour-During-Downtime)
-  * [Request App Change To Microsoft](Request-App-Change-To-Microsoft)
+  * [Request App Change To Microsoft](#Request-App-Change-To-Microsoft)
  
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
