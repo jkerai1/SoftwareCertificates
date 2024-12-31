@@ -102,3 +102,7 @@ DomainName,litecoinspace.org,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,cryptoid.info,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,blockchair.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,litecoin.org,,Block,Low,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/frzb/coinboot,,Block,Low,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/craciuncezar/browser-cryptominer,,Block,Low,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/planeklm/razed-cryptomining,,Block,Low,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/RavenProject/Ravencoin,,Block,Low,Crypto,Crypto,,,,,FALSE
