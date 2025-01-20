@@ -908,7 +908,7 @@ Policy result:
 > Need to sync Entra Trusted Named Locations to MDA? Check out https://365bythijs.be/2020/03/31/sync-named-locations-to-mcas-ip-ranges-using-azure-automation/
 
 ## Enforce MDA Blocks to MDE
-
+> Note this has a license requirement of E5 and MDE must be in use. This option will not appear for Business Premium  
 To make any advantage of Unsanctioned 🚫 Apps you'll need to enable this from
 
 Settings > Cloud Apps > Microsoft Defender For Endpoint 
