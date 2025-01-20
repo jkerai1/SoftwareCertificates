@@ -43,6 +43,7 @@ DomainName,webbie.org.uk,,Block,Informational,Unsanctioned browser,Unsanctioned,
 DomainName,lynx.browser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,zen-browser.app,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,tryonelaunch.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,iridiumbrowser.de,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/zen-browser/desktop,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/atsepkov/Graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/nmbazima/LinksWWWbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,Unsanctioned,,,,false
