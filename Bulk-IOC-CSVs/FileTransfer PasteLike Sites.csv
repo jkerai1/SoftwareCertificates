@@ -189,6 +189,7 @@ DomainName,ufile.io,,Block,Informational,File Transfer/Paste Like Site,Unsanctio
 DomainName,2brightsparks.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,kryo.se,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/Bill-Stewart/SyncthingWindowsSetup/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 FileSha256,0E330EBD26E38B5E4EFB2D3FA99B15E7C71FAB101E31C78B0A2C6D33A341E5B9,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: Kyro Iodine,Unsanctioned - iodined.exe.exe	VT (2/76)	https://www.virustotal.com/gui/file/0e330ebd26e38b5e4efb2d3fa99b15e7c71fab101e31c78b0a2c6d33a341e5b9/detection,Unsanctioned,,,,false
 FileSha256,262C734E55A66E5BC21E24D5B75B91382E1BBDD0D266B3B2784620B90D3BDB10,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: Kyro Iodine,Unsanctioned - iodine.exe.exe	VT (2/79)	https://www.virustotal.com/gui/file/262c734e55a66e5bc21e24d5b75b91382e1bbdd0d266b3b2784620b90d3bdb10/detection,Unsanctioned,,,,false
 FileSha256,F54BD55C2534F2AAF6C9EFDCB9BE62CC0574C6FDA4C6C93EE0CA911CBD5146BB,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: Kyro Iodine,Unsanctioned - iodine.exe.exe	VT (2/76)	https://www.virustotal.com/gui/file/f54bd55c2534f2aaf6c9efdcb9be62cc0574c6fda4c6c93ee0ca911cbd5146bb/detection,Unsanctioned,,,,false
