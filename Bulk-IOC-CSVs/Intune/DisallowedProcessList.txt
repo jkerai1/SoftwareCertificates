@@ -174,3 +174,4 @@ rustdesk.exe
 avast_secure_browser_setup.exe
 ISL Light Client.exe
 ISL Light.exe
+syncbackfree.exe
