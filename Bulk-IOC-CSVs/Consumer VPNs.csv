@@ -128,6 +128,7 @@ DomainName,bigma.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctione
 DomainName,vuzevpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,croxyproxy.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,anonymouse.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,ipany.net,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/windscribe-free-proxy-a/dkkdbpgldnmkhcliffjpajcfdjkcaddf,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/nordvpn-the-fastest-vpn/fphgeikpdcdcheaochkhldmnfblfogla,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/nordvpn-vpn-proxy-for-pri/fjoaledfpmneenckfbpdfhkmimnjocfa,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
