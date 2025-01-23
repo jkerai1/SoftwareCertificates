@@ -190,6 +190,7 @@ DomainName,2brightsparks.com,,Block,Informational,File Transfer/Paste Like Site,
 DomainName,pahe.win,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,kryo.se,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,mybinder.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,pdffiller.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/Bill-Stewart/SyncthingWindowsSetup/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 FileSha256,0E330EBD26E38B5E4EFB2D3FA99B15E7C71FAB101E31C78B0A2C6D33A341E5B9,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: Kyro Iodine,Unsanctioned - iodined.exe.exe	VT (2/76)	https://www.virustotal.com/gui/file/0e330ebd26e38b5e4efb2d3fa99b15e7c71fab101e31c78b0a2c6d33a341e5b9/detection,Unsanctioned,,,,false
