@@ -35,7 +35,9 @@ DeviceFileEvents
 If you have the TVM bolt-on then Browser Extension hunting is trivial in Advanced Hunting (no native Sentinel Connector yet)
 
 ```
+let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 DeviceTvmBrowserExtensions
+//| join UnsanctionedExtensions on $left.ExtensionId == $right.ExtensionID
 | summarize count() by ExtensionId, BrowserName, ExtensionName,ExtensionDescription
 ```
 
