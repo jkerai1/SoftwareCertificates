@@ -102,8 +102,8 @@ Url,https://github.com/Alex313031/Thorium-Win,,Block,Informational,Unsanctioned 
 Url,https://www.ecosia.org/browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://www.majorgeeks.com/files/details/seamonkey.html,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://seamonkey.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-Url,https://torch.en.softonic.com,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
-Url,https://chedot.en.softonic.com,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://torch.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://chedot.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,chedot.en.download.it,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/wicknix/brass-monkey,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
