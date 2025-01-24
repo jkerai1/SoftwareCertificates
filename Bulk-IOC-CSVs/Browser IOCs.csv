@@ -20,6 +20,7 @@ DomainName,arc.net,,Block,Informational,Unsanctioned browser,Unsanctioned browse
 DomainName,beakerbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,seamonkey-project.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,brave.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,bravesoftware.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,vivaldi.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,epicbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,maxthon.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
