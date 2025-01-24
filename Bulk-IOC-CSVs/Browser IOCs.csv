@@ -1,7 +1,7 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
-DomainName,astian.org,,Block,Informational,Midori Browser,Midori Browser,Unsanctioned,,,,false
-DomainName,bromite.org,,Block,Informational,Bromite Browser,Bromite Browser,Unsanctioned,,,,false
-DomainName,thorium.rocks,,Block,Informational,Throium Browser,Throium Browser,Unsanctioned,,,,false
+DomainName,astian.org,,Block,Informational,Unsanctioned browser: Midori Browser,Midori Browser,Unsanctioned,,,,false
+DomainName,bromite.org,,Block,Informational,Unsanctioned browser: Bromite Browser,Bromite Browser,Unsanctioned,,,,false
+DomainName,thorium.rocks,,Block,Informational,Unsanctioned browser: Throium Browser,Throium Browser,Unsanctioned,,,,false
 DomainName,librewolf.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,cromite.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,safe-guard.app,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
