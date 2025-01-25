@@ -5,7 +5,7 @@ DomainName,burrow.io,,Block,Informational,Unsanctioned: Living off The Tunnels (
 DomainName,burrow.link,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,trycloudflare.com,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 Url,https://github.com/cloudflare/cloudflared,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
-DomainName,downloads.cloudflareclient.com,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
+DomainName,cloudflareclient.com,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,dataplicity.com,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 Url,https://github.com/wildfoundry/dataplicity-agent,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,loca.lt,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
