@@ -177,3 +177,4 @@ ISL Light.exe
 syncbackfree.exe
 syncthing-windows-setup.exe
 PDFixers.exe
+justpdflab.msi
