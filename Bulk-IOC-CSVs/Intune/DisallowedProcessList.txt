@@ -178,3 +178,4 @@ syncbackfree.exe
 syncthing-windows-setup.exe
 PDFixers.exe
 justpdflab.msi
+keepassxc-proxy.exe
