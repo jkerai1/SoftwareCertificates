@@ -13,6 +13,7 @@ DomainName,vpnoverview.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsan
 DomainName,avast.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,belkavpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,itopvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,witopia.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,tunnelbear.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,torguard.net,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,airvpn.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
