@@ -17,17 +17,18 @@ DeviceNetworkEvents
 
 # Browser AppLocker Example   - Non-Edge Browsers
 
-This has been lifted from the edge management service option - you can create a dummy policy from https://admin.microsoft.com/Adminportal/Home#/Edge/PolicyConfiguration/:
-
+This has been lifted from the edge management service option (aka Edge for business) - you can create a dummy policy from https://admin.microsoft.com/Adminportal/Home#/Edge/PolicyConfiguration/:
+> If you do consider Edge for Business/Edge Management Service is viable for your business and want an importable template to baseline from check out the intune section of this repo [here](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune#edge-for-business-config)
+> 
 ![Untitled](https://github.com/user-attachments/assets/2a7242be-dd5d-482d-99e6-8494894e75cf)  
 
-In the backend this will deploy an intune policy Block Third Party Browsing - Microsoft Edge management service with the following 2 OMA-URIs  
+In the backend this will deploy an intune policy "Block Third Party Browsing - Microsoft Edge management service" with the following 2 OMA-URIs  
 
 ![Untitled](https://github.com/user-attachments/assets/194618d3-f9b9-4ded-8a88-7ae28ba806a0)  
 
 ![image](https://github.com/user-attachments/assets/16f2324a-6151-4fcb-93f8-40a05a975194)
 
-> I have dumped the XMLs here however these XMLs may update automatically from the edge management service and thus shouldn't be taken as fully update. Note this WILL block chrome/firefox and will miss a few obscure browsers.
+> I have dumped the XMLs here however these XMLs may update automatically from the edge management service and thus shouldn't be taken as fully updated. Note this WILL block chrome/firefox and will miss a few obscure browsers.
 
 OMA-URI: ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/MicrosoftEdgeManagement1/EXE/Policy
 ```
