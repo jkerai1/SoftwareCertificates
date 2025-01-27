@@ -37,6 +37,7 @@ avg_secure_browser_setup.exe
 minecraft.exe
 roblox.exe
 EpicSetup.exe
+ProtonVPN.exe
 ipvanish-setup.exe
 setup-lightshot.exe
 lightshot.exe
