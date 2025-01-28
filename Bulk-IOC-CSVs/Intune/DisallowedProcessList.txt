@@ -180,3 +180,4 @@ syncthing-windows-setup.exe
 PDFixers.exe
 justpdflab.msi
 keepassxc-proxy.exe
+Craft Installer.exe
