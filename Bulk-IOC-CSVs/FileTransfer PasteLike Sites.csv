@@ -10,6 +10,8 @@ DomainName,dropboxmail.com,,Audit,Informational,File Transfer IN AUDIT TO PREVEN
 DomainName,drive.google.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned.IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,box.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,docsend.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
+DomainName,craft.do,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,obsidian.md,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pastebin.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,justpaste.it,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,kpaste.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
