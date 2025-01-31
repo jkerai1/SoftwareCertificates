@@ -1,7 +1,7 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
 Url,https://download-installer.cdn.mozilla.net,,Audit,Informational,Browser IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 Url,https://mozilla.org/en-GB/firefox/download/,,Audit,Informational,Browser IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
-Url,dl.google.com,,Audit,Informational,Browser IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
+DomainName,dl.google.com,,Audit,Informational,Browser IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,astian.org,,Block,Informational,Unsanctioned browser: Midori Browser,Midori Browser,Unsanctioned,,,,false
 DomainName,bromite.org,,Block,Informational,Unsanctioned browser: Bromite Browser,Bromite Browser,Unsanctioned,,,,false
 DomainName,thorium.rocks,,Block,Informational,Unsanctioned browser: Throium Browser,Throium Browser,Unsanctioned,,,,false
