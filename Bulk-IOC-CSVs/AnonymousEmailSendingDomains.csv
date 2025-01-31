@@ -1,0 +1,21 @@
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+DomainName,5ymail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,anonymousemail.me,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,fedora.email,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,proxynova.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,guerrillamail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,sharpmail.co.uk,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,anonymoustext.co.uk,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,firstpostbox.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,flamegram.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,trashmail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,addy.io,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,bulc.club,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,tempmail.ninja,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,sendity.org,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,anonymous-mail.maildim.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,tempmail.zone,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,anonymousemail.app,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,yopmail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,sendtestemail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,emkei.cz,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
