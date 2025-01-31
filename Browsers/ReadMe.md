@@ -12,6 +12,7 @@ let DomainList = BrowserDomains
 DeviceNetworkEvents
 | where TimeGenerated > ago(90d)
 | where RemoteUrl in~(DomainList)
+//| where RemoteUrl != "dl.google.com" // if you allow google chrome
 | summarize count() by RemoteUrl
 ```
 
