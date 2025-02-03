@@ -598,7 +598,10 @@ DeviceNetworkEvents
 | extend VT_domain = iff(isnotempty(RemoteUrl),strcat(@"https://www.virustotal.com/gui/domain/",RemoteUrl),RemoteUrl)
 | summarize count() by RemoteUrl,VT_domain
 ```
-> Want a visual demo? See this [video from Microsoft](https://www.youtube.com/watch?v=ZQI4A7W4E_4)
+> Want a visual demo? See this [video from Microsoft](https://www.youtube.com/watch?v=ZQI4A7W4E_4)  
+
+> [After completing this, I would also look at Endpoint DLP for a further layer of protection](https://techcommunity.microsoft.com/blog/microsoftmechanicsblog/protect-data-used-in-prompts-with-common-ai-apps--microsoft-purview/4085973)  
+
  
 ## Auto Ban Discovered Personal Messaging Apps
 
