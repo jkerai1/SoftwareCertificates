@@ -107,6 +107,7 @@ DomainName,guild.xyz,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,pump.fun,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,mexc.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,xrpscan.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,kyberswap.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/frzb/coinboot,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/craciuncezar/browser-cryptominer,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/planeklm/razed-cryptomining,,Block,Low,Crypto,Crypto,,,,,FALSE
