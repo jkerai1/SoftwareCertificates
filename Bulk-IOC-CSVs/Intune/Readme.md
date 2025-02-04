@@ -60,6 +60,8 @@ This is only merely a baseline, do not blindly roll out to all groups (by defaul
 
 You may want to unblock 3rd party LLMs too though if you use them. At current it blocks chat.openai.com but not chatgpt.com or chatgpt.es 🙄 (I have fed this back) . I have added these blocks manually to this baseline as well as a few other good sites to block such as pastebin, onionmail.   
 
+> Note they fixed chatgpt domains however some more risky LLMs like deepseek are still missing  
+
 ![image](https://github.com/user-attachments/assets/27f50ea0-84d0-456d-b53c-4d9c0d90fad6)  
 > You'll need to consider conflicts between Edge For Business and Intune Edge policies and which one will take precedence.
 ![image](https://github.com/user-attachments/assets/d20b8c92-fded-4d74-bccc-9a56ab7cb0e4)  
