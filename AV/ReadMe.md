@@ -7,3 +7,12 @@ I have added AV Folder in this repo for a few reasons:
 5) AVs run at kernel level which could lead to outages (e.g. crowdstrike 19/07/2024)  
 
 See: https://www.linkedin.com/posts/jay-kerai-cyber_devfender-automateeverything-hacktheplanet-ugcPost-7102342764511535104-gM-F
+
+# KQL
+
+https://github.com/jkerai1/KQL-Queries/blob/main/Defender/Antivirus%20Domains%20-%20MDE%20DeviceNetworkEvents.kql
+
+# Domain Bulk IOC BlockList 
+
+https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Antivirus%20IOCs.csv
+
