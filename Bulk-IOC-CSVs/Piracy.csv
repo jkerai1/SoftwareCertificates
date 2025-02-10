@@ -206,6 +206,7 @@ DomainName,yts.contact,,Block,Low,Piracy/Temp File Hosting/Malware Delivery,Pira
 DomainName,utorrent-client.github.io,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,thepiratecity.co,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,warez-ddl.net,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
-DomainName,Mawtoload.com,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,mawtoload.com,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,cracked-games.org,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,annas-archive.org,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/torrent-scanner/aegnopegbbhjeeiganiajffnalhlkkjb,,Block,Low,Piracy,Piracy: torrent scanner Browser extension,,,,,FALSE
