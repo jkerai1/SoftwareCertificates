@@ -33,6 +33,7 @@ DomainName,epicbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctione
 DomainName,maxthon.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,mullvad.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,opera.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,opera-x.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,puffin.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,yandex.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,yandex.ru,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
