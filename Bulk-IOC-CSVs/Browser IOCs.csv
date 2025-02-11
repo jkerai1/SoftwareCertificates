@@ -18,6 +18,7 @@ DomainName,floorp.app,,Block,Informational,Unsanctioned browser,Unsanctioned bro
 DomainName,wavesor.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,palemoon.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,naver.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,gobrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,dolphin-anty.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,avast.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,arc.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
@@ -50,6 +51,7 @@ DomainName,lynx.browser.org,,Block,Informational,Unsanctioned browser,Unsanction
 DomainName,zen-browser.app,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,tryonelaunch.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,iridiumbrowser.de,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,baidu.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/zen-browser/desktop,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/atsepkov/Graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/nmbazima/LinksWWWbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,Unsanctioned,,,,false
@@ -110,6 +112,7 @@ Url,https://torch.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsa
 Url,https://chedot.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,chedot.en.download.it,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/wicknix/brass-monkey,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://baidu-browser.en.softonic.com/,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
 FileSha256,803388ED1AAD2DACA10FF75946413E67B1DF4468D32F400C647227DAF5B713C7,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,midori.exe	VT (0/77)	https://www.virustotal.com/gui/file/803388ed1aad2daca10ff75946413e67b1df4468d32f400c647227daf5b713c7/detection,Unsanctioned,,,,false
 FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Unsanctioned browser: Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
