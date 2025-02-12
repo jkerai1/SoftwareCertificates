@@ -181,3 +181,4 @@ PDFixers.exe
 justpdflab.msi
 keepassxc-proxy.exe
 Craft Installer.exe
+epibrowser.exe
