@@ -1,8 +1,9 @@
 teamviewer.exe
 TeamViewer Remote Installer.exe
+Quick Assist Installer.exe
+firefox.exe
 ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
 Grammarly.Desktop.exe
-firefox.exe
 brave.exe
 brave_vpn_wireguard_service.exe
 opera.exe
@@ -30,7 +31,6 @@ mimikatz.exe
 WinAuth.exe
 filezilla.exe
 BurpSuiteCommunity.exe
-Quick Assist Installer.exe
 WhatsApp Installer.exe
 DontSleep.exe
 avg_secure_browser_setup.exe
