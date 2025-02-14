@@ -17,6 +17,7 @@ steam.exe
 signal.exe
 SurfsharkSetup.exe
 NordVPNSetup.exe
+AVGBrowser.exe
 NiceHashQuickMinerInstaller.exe
 Battle.net.exe
 Le-VPN-Setup.exe
