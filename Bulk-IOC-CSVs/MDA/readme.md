@@ -658,7 +658,7 @@ Then we can select the scope profile we just made:
 
 ## Monitor Cloud Storage
 
-Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or meaningful in the default policy so I tend to remove this.  
+Monitor if the transfer is above X MB. I don't find the 50 user Filter useful or meaningful in the default policy so I tend to remove this. You may want to sanction Azure Blob Storage before implementing.    
 
 ![image](https://github.com/user-attachments/assets/63dbc74c-2fa0-46be-819b-bb303623c1c6)
 
