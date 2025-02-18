@@ -29,5 +29,3 @@ df = pd.read_csv(csv_file)
 df['ExtensionName'] = df['ExtensionURL'].apply(get_extension_name)
 
 df.to_csv('extensions_with_names.csv', index=False)
-
-print('Extension names have been retrieved and saved to extensions_with_names.csv')
