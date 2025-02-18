@@ -41,6 +41,14 @@ DeviceTvmBrowserExtensions
 | summarize count() by ExtensionId, BrowserName, ExtensionName,ExtensionDescription
 ```
 
+To just view the List of extensions and the URLs, you can export this List and then Run the ExtensionNameGrabber.py: 
+```
+let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
+UnsanctionedExtensions
+| extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
+
+```
+
 # Edge For Business Config
 > Also Known as Microsoft Edge Management Service
 
