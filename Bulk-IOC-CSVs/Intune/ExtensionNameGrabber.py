@@ -18,7 +18,7 @@ def get_extension_name(url):
                     return name_tag.text.strip()
             print(f'No extension name found for URL: {url}')
         else:
-            print(f'Failed to retrieve URL: {url}')
+            get_extension_name(url.replace("https://chrome.google.com/webstore/detail/","https://microsoftedge.microsoft.com/addons/detail/"))
     except Exception as e:
         print(f'Error occurred for URL: {url} - {e}')
     return None
@@ -27,5 +27,4 @@ csv_file = 'ExtensionIDs with URLs.csv'
 df = pd.read_csv(csv_file)
 
 df['ExtensionName'] = df['ExtensionURL'].apply(get_extension_name)
-
 df.to_csv('extensions_with_names.csv', index=False)
