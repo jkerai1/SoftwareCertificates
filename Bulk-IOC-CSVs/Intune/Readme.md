@@ -46,8 +46,8 @@ To just view the List of extensions and the URLs, you can export this List and t
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
 UnsanctionedExtensions
 | extend ExtensionURL = strcat("https://chrome.google.com/webstore/detail/",ExtensionID)
-
 ```
+Example of Named list [here](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/Unsanctioned_extensions_with_names.csv) 
 
 # Edge For Business Config
 > Also Known as Microsoft Edge Management Service
