@@ -32,7 +32,9 @@ DomainName,vivaldi.com,,Block,Informational,Unsanctioned browser,Unsanctioned br
 DomainName,epicbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,maxthon.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,mullvad.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,browseosiris.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,opera.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,polypane.app,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,opera-x.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,puffin.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,yandex.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
@@ -43,8 +45,13 @@ DomainName,cryptotabbrowser.com,,Block,Informational,Unsanctioned browser,Unsanc
 DomainName,brow.sh,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,invisible-island.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,or.cz,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,basilisk-browser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,eatbiscuit.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,twibright.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://impervious.com/beacon,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://tw3.gitlab.io/b/,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,dillo.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,artisbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,qutebrowser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,netscape-communications.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,w3m.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
@@ -52,11 +59,37 @@ DomainName,retawq.sourceforge.net,,Block,Informational,Unsanctioned browser,Unsa
 DomainName,webbie.org.uk,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,lynx.browser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,zen-browser.app,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,browser.ru,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,tryonelaunch.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,iridiumbrowser.de,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,baidu.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,centbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,cliqz.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,coccoc.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,carbon.website,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,catsxp.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,falkon.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,browserjet.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,epibrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,comodo.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,freedom.to,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,dezor.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,ghostbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,slimbrowser.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,ur-browser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,tempest.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,srware.net,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,slimjet.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,kmeleonbrowser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,lunascape.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,icecatbrowser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,getcatalyst.eu.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,textbrowser.github.io,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/textbrowser/dooble,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/QupZilla/qupzilla,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/roytam1/kmeleon/,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/zen-browser/desktop,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/CatalystDevOrg/Catalyst/,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/atsepkov/Graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/nmbazima/LinksWWWbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/CMB/edbrowse,,Block,Informational,Unsanctioned browser - edbrowser,Unsanctioned browser,Unsanctioned,,,,false
@@ -64,6 +97,8 @@ Url,https://github.com/fathyb/carbonyl,,Block,Informational,Unsanctioned browser
 Url,https://github.com/lukeaschenbrenner/TxtNet-Browser,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/zquestz/s,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/FreeFull/runt,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/BonBon-exchange/bonbon-browser,,Block,Informational,Unsanctioned browser - BonBon,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/fathyb/carbonyl,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcfkcnntxgqd,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9pd28ts2h9tr,,Block,Informational,Unsanctioned browser - Reluctant Web Browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/9n3g1m08p81p,,Block,Informational,Unsanctioned browser - One Browser,Unsanctioned browser,Unsanctioned,,,,false
@@ -117,6 +152,7 @@ Url,https://chedot.en.softonic.com,,Block,Informational,Unsanctioned browser,Uns
 Url,chedot.en.download.it,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/wicknix/brass-monkey,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://baidu-browser.en.softonic.com/,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/rmottola/Arctic-Fox,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
 FileSha256,803388ED1AAD2DACA10FF75946413E67B1DF4468D32F400C647227DAF5B713C7,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,midori.exe	VT (0/77)	https://www.virustotal.com/gui/file/803388ed1aad2daca10ff75946413e67b1df4468d32f400c647227daf5b713c7/detection,Unsanctioned,,,,false
 FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Unsanctioned browser: Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
