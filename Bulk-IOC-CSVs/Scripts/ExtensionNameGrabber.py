@@ -23,7 +23,7 @@ def get_extension_name(url):
         print(f'Error occurred for URL: {url} - {e}')
     return None
 
-csv_file = 'Bulk-IOC-CSVs\Intune\Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv' 
+csv_file = './Bulk-IOC-CSVs/Intune/Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv' # Change path accordingly
 df = pd.read_csv(csv_file)
 
 df['ExtensionName'] = df['ExtensionURL'].apply(get_extension_name)
