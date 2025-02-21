@@ -1,0 +1,4 @@
+pandas
+BeautifulSoup
+requests
+urllib3>=2.2.2
