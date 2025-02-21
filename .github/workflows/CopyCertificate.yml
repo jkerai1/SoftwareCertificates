@@ -16,13 +16,12 @@ jobs:
     - name: Move .cer files
       run: |
         target_dir="All Certs Uncategorized"
-        mkdir -p "$target_dir"
-        
+        mkdir -p "$target_dir" 
         # Find all .cer files except those already in the target directory
-        for file in $(find . -name "*.cer" ! -path "./$target_dir/*"); do
+        find . -name "*.cer" ! -path "./$target_dir/*" | while IFS= read -r file; do
           filename=$(basename "$file")
           if [ ! -f "$target_dir/$filename" ]; then
-            mv "${file}" "${target_dir}/"
+            mv "$file" "$target_dir/"
           else
             echo "File $filename already exists in $target_dir. Skipping..."
           fi
