@@ -24,7 +24,8 @@ def get_extension_name(url):
     return None
 
 csv_file = './Bulk-IOC-CSVs/Intune/Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv' # Change path accordingly
-df = pd.read_csv(csv_file)
+df = pd.read_csv(csv_file, names=['ExtensionID'], header=None)
+df['ExtensionURL'] = "https://chrome.google.com/webstore/detail/" + df['ExtensionID']
 
 df['ExtensionName'] = df['ExtensionURL'].apply(get_extension_name)
 df.to_csv('Unsanctioned_extensions_with_names.csv', index=False)
