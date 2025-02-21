@@ -20,8 +20,8 @@ jobs:
     - name: Count files in folder
       id: count
       run: |
-        FOLDER= 'All Certs Uncategorized'
-        FILE_COUNT=$(find $FOLDER -type f | wc -l)
+        FOLDER='All Certs Uncategorized'
+        FILE_COUNT=$(find "$FOLDER" -type f | wc -l)
         echo "file_count=$FILE_COUNT" >> $GITHUB_ENV
 
     - name: Create badge data
