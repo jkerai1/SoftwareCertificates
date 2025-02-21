@@ -30,13 +30,16 @@ jobs:
 
     - name: Create badge data
       run: |
-        echo "{\"schemaVersion\": 1, \"label\": \"files\", \"message\": \"${{ env.file_count }}\", \"color\": \"blue\"}" > file-count-badge.json
+        BADGE_URL="https://img.shields.io/badge/${LABEL}-${{env.file_count}}-blue.svg"
+        echo "Dynamic Badge URL: $BADGE_URL"
+        echo "![Dynamic Badge]($BADGE_URL)" > ./badge.md
+        # echo "{\"schemaVersion\": 1, \"label\": \"files\", \"message\": \"${{ env.file_count }}\", \"color\": \"blue\"}" > file-count-badge.json
 
     - name: Commit badge data
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git add -f .github/workflows/file-count-badge.json
+        git add -f ./badge.md
         if git diff --cached --quiet; then
           echo "No changes to commit."
         else
