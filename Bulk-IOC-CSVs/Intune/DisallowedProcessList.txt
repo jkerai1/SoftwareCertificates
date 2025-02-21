@@ -189,3 +189,5 @@ CatsxpBrowserSetup_x86.exe
 FreedomSetup.exe
 srware_iron.exe
 bhawk.exe
+liebao_win.exe
+sleipnir6420.exe
