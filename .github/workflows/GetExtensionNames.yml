@@ -13,7 +13,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  run-script:
+  Grab-Extension-Names:
     runs-on: ubuntu-latest
 
     steps:
