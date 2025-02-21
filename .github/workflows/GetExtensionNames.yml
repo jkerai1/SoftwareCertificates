@@ -29,5 +29,8 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add -f Bulk-IOC-CSVs/Intune/Unsanctioned_extensions_with_names.csv
-        git commit -m "Update unsanctioned extensions with names"
-        git push
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Update unsanctioned extensions with names"
+          git push
