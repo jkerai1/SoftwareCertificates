@@ -2,8 +2,10 @@ name: Run Extension Name Grabber
 
 on:
   push:
+    branches:
+      - main
     paths:
-      - './Bulk-IOC-CSVs/Intune/Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv'
+      - 'Bulk-IOC-CSVs/Intune/Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv'
   workflow_dispatch: # Allows manual trigger
 
 permissions:
