@@ -34,6 +34,6 @@ jobs:
         git config --global user.email 'github-actions@github.com'
         cd ".github"
         cd "workflows"
-        git add file-count-badge.json
+        git add -f file-count-badge.json
         git commit -m "Update file count badge"
         git push origin badges
