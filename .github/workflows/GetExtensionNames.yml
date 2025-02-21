@@ -1,9 +1,16 @@
 name: Run Extension Name Grabber
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
+  push:
+    paths:
+      - './Bulk-IOC-CSVs/Intune/Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv'
   workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write  # Ensure the token has push access
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   run-script:
@@ -25,8 +32,6 @@ jobs:
         python Bulk-IOC-CSVs/Scripts/ExtensionNameGrabber.py
 
     - name: Commit and Push Changes
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
