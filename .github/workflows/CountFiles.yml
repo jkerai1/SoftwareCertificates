@@ -33,9 +33,7 @@ jobs:
         LABEL='Total Count of Software Certificates'
         BADGE_URL="https://img.shields.io/badge/${LABEL}-${{env.file_count}}-green"
         echo "Dynamic Badge URL: $BADGE_URL"
-        # echo "![Dynamic Badge]($BADGE_URL)" > ./badge.md
-        # echo "{\"schemaVersion\": 1, \"label\": \"files\", \"message\": \"${{ env.file_count }}\", \"color\": \"blue\"}" > file-count-badge.json
-        sed -i "s|!\\[Total Count of Software Certificates\\](.*)|!\\[Total Count of Software Certificates\\](${BADGE_URL})|" README.md
+        sed -i "s|!\\[TotalCountofSoftwareCertificates\\](.*)|!\\[TotalCountofSoftwareCertificates\\](${BADGE_URL})|" README.md
         
     - name: Commit badge data
       run: |
