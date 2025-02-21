@@ -35,8 +35,14 @@ DomainName,mullvad.net,,Block,Informational,Unsanctioned browser,Unsanctioned br
 DomainName,browseosiris.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,opera.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,polypane.app,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,torchbrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,orbitum.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,coowon.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,liebao.cn,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,opera-x.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,puffin.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,fenrir-inc.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+DomainName,360totalsecurity.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,yandex.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,yandex.ru,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,yandex-browser.en.uptodown.com,,Block,Informational,Unsanctioned browser,TBH I'd just block the entire of .uptodown.com,Unsanctioned,,,,false
