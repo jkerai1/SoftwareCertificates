@@ -34,3 +34,4 @@ jobs:
         else
           git commit -m "Update unsanctioned extensions with names"
           git push
+        fi
