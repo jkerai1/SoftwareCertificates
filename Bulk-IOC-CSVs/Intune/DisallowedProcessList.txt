@@ -183,3 +183,4 @@ justpdflab.msi
 keepassxc-proxy.exe
 Craft Installer.exe
 epibrowser.exe
+kryptex-setup-latest.exe
