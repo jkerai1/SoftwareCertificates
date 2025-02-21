@@ -111,6 +111,16 @@ DomainName,kyberswap.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,srbminer.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,miningsoft.org,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,kryptex.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,coinomi.llc,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,exodus.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,electrum.org,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,atomicwallet.io,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,z.cash,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,bitcoinarmory.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,bytecoin.one,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,jaxx.io,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,guarda.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,bytecoin.one,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/frzb/coinboot,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/craciuncezar/browser-cryptominer,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/planeklm/razed-cryptomining,,Block,Low,Crypto,Crypto,,,,,FALSE
