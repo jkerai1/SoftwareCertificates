@@ -18,14 +18,8 @@ jobs:
       with:
         python-version: '3.x'
         cache: 'pip' # caching pip dependencies
-
-    - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-        pip install pandas
-        pip install BeautifulSoup
-
+    - run: pip install -r requirements.txt
+    
     - name: Run ExtensionNameGrabber.py
       run: |
         python Bulk-IOC-CSVs/Scripts/ExtensionNameGrabber.py
