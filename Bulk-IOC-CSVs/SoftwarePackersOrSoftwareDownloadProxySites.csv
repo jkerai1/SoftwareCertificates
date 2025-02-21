@@ -2,7 +2,9 @@ IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,Re
 DomainName,launchpad.net,,Block,Informational,WARNING: may cause issues with developers.Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,filehorse.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,software.informer.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
+DomainName,softonic.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,techno360.in,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
+DomainName,comss.ru,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,sooftware.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,majorgeeks.com ,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,ninite.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
