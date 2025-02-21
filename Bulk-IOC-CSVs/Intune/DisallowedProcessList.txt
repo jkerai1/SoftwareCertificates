@@ -188,3 +188,4 @@ BonBon.Browser.-.portable.exe
 CatsxpBrowserSetup_x86.exe
 FreedomSetup.exe
 srware_iron.exe
+bhawk.exe
