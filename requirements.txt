@@ -1,4 +1,4 @@
 pandas
-BeautifulSoup
-requests
+beautifulsoup4>=4.12.3
+requests>=2.32.3
 urllib3>=2.2.2
