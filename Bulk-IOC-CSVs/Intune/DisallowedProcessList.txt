@@ -184,3 +184,7 @@ keepassxc-proxy.exe
 Craft Installer.exe
 epibrowser.exe
 kryptex-setup-latest.exe
+BonBon.Browser.-.portable.exe
+CatsxpBrowserSetup_x86.exe
+FreedomSetup.exe
+srware_iron.exe
