@@ -31,7 +31,7 @@ jobs:
     - name: Create badge data
       run: |
         LABEL='Total Count of Software Certificates'
-        BADGE_URL="https://img.shields.io/badge/${LABEL}-${{env.file_count}}-blue.svg"
+        BADGE_URL="https://img.shields.io/badge/${LABEL}-${{env.file_count}}-green"
         echo "Dynamic Badge URL: $BADGE_URL"
         echo "![Dynamic Badge]($BADGE_URL)" > ./badge.md
         # echo "{\"schemaVersion\": 1, \"label\": \"files\", \"message\": \"${{ env.file_count }}\", \"color\": \"blue\"}" > file-count-badge.json
