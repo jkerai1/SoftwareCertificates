@@ -91,6 +91,7 @@ DomainName,lunascape.org,,Block,Informational,Unsanctioned browser,Unsanctioned,
 DomainName,icecatbrowser.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,getcatalyst.eu.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,textbrowser.github.io,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,ucoz.ru,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/textbrowser/dooble,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/QupZilla/qupzilla,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/roytam1/kmeleon/,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
@@ -155,6 +156,7 @@ Url,https://www.majorgeeks.com/files/details/seamonkey.html,,Block,Informational
 Url,https://seamonkey.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://torch.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://chedot.en.softonic.com,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://7-star-browser.updatestar.com/,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,chedot.en.download.it,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/wicknix/brass-monkey,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://baidu-browser.en.softonic.com/,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
