@@ -5,9 +5,13 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+}
+
 def get_extension_name(url):
     try:
-        response = requests.get(url, verify=False)
+        response = requests.get(url, verify=False,headers=HEADERS)
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')
             print(soup.prettify())  
@@ -25,7 +29,9 @@ def get_extension_name(url):
 
 csv_file = './Bulk-IOC-CSVs/Intune/Intune Browser Extension_IDs_the_user_should_be_prevented_from_installing.csv' # Change path accordingly
 df = pd.read_csv(csv_file, names=['ExtensionID'], header=None)
-df['ExtensionURL'] = "https://chrome.google.com/webstore/detail/" + df['ExtensionID']
 
+df['ExtensionURL'] = "https://chrome.google.com/webstore/detail/" + df['ExtensionID']
 df['ExtensionName'] = df['ExtensionURL'].apply(get_extension_name)
-df.to_csv('Unsanctioned_extensions_with_names.csv', index=False)
+
+output_file = './Bulk-IOC-CSVs/Intune/Unsanctioned_extensions_with_names.csv'
+df.to_csv(output_file, index=False)
