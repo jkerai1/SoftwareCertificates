@@ -2,7 +2,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/network)
 [![GitHub issues](https://img.shields.io/github/issues/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/SoftwareCertificates?style=flat-square)](https://github.com/jkerai1/SoftwareCertificates/pulls)
-![Total Count of Software Certificates](https://camo.githubusercontent.com/399be13d6d6fdd0496ee170b86e617a37f0960867482b6dcdd58abe7cb97d8c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d3730382d626c75652e737667)
+![Total Count of Software Certificates](https://img.shields.io/badge/Total Count of Software Certificates-708-green)
 # SoftwareCertificates  
 
 Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using [MDE IOC](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide)/AppLocker/[WDAC](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview)/ Intune Remediation Script/ Intune EPM (I would recommend Reusable settings here)     
