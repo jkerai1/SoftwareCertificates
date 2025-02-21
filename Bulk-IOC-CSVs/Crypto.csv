@@ -110,6 +110,7 @@ DomainName,xrpscan.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,kyberswap.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,srbminer.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,miningsoft.org,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,kryptex.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/frzb/coinboot,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/craciuncezar/browser-cryptominer,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/planeklm/razed-cryptomining,,Block,Low,Crypto,Crypto,,,,,FALSE
