@@ -197,6 +197,7 @@ Also consider Browser Extension VPNs, if you don't have MDE DeviceTVM bolt on yo
 
 ```
 let UnsanctionedExtensions = externaldata (ExtensionID: string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Intune%20Browser%20Extension_IDs_the_user_should_be_prevented_from_installing.csv'] with (format=txt);
+let RiskyExtensionsWithNames = externaldata (ExtensionID: string,ExtensionURL:string, ExtensionName:string) [@'https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/Intune/Unsanctioned_extensions_with_names.csv'] with (format=csv, ignoreFirstRecord = true);
 DeviceFileEvents
 | where TimeGenerated > ago(90d)
 | where ActionType == "FileCreated"
@@ -208,9 +209,10 @@ DeviceFileEvents
 | extend EdgeExtensionURL = strcat("https://microsoftedge.microsoft.com/addons/detail/",ExtensionID)
 | extend RiskyExtension = iff((ExtensionID in~(UnsanctionedExtensions)), "Yes","N/A")
 | summarize count() by ExtensionID,ExtensionURL, EdgeExtensionURL, RiskyExtension
-| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
-| where ExtensionID != "cnlefmmeadmemmdciolhbnfeacpdfbkd" //Grammarly
+//| where ExtensionID != "kbfnbcaeplbcioakkpcpgfkobkghlhen" //Grammarly
 | where RiskyExtension == "Yes"
+| join kind=leftouter RiskyExtensionsWithNames on ExtensionID
+| project-away ExtensionID1,ExtensionURL1
 ```
 
 ## Block User Agents
