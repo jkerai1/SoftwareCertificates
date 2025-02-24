@@ -6,11 +6,6 @@ on:
       - main
     paths:
       - 'All Certs Uncategorized/**'
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'All Certs Uncategorized/**'
   workflow_dispatch:
 
 jobs:
