@@ -192,3 +192,4 @@ bhawk.exe
 liebao_win.exe
 sleipnir6420.exe
 onestart.exe
+krisp.exe
