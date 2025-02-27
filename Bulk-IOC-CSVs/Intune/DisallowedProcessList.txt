@@ -16,6 +16,7 @@ UplayWebCore.exe
 steam.exe
 signal.exe
 SurfsharkSetup.exe
+NordVPN.exe
 NordVPNSetup.exe
 AVGBrowser.exe
 NiceHashQuickMinerInstaller.exe
