@@ -121,12 +121,12 @@ Some apps for some reason do not even prompt me for onboarding despite having a 
 
 > Note that when you enter the MDA Proxy all URLs will be written with .mcas.ms at the end in non-[Edge for Business browsers](https://learn.microsoft.com/en-us/defender-cloud-apps/in-browser-protection). Functionally this has no difference, however note when copying URLs that you may need to remove .mcas.ms. For example if giving a sharepoint link to Copilot, while Copilot is on behalf on flow the bot may not be able to authenticate past the proxy.
 
-For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far.
+For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far. If you need to add apps you can't target in CA you can manually [expose the Service Principal by using graph powershell](https://www.natehutchinson.co.uk/post/the-curious-case-of-the-missing-enterprise-app)   
 
 ![image](https://github.com/user-attachments/assets/7aae8bb4-99c1-49e5-9e66-82d2b87c1773)
 > My 2 conditions are Client Apps: Browser & Exclude Device Filter device.isCompliant -eq True -and device.deviceOwnership -eq "Company"
 
-The finished List - 38 Items - It's possible I missed a few or some more have become available post writing this. You will not need all of these as some are legacy portals.  
+The finished List - 38 Items - It's possible I missed a few or some more have become available post writing this (Update: I'm on 40 now). You will not need all of these as some are legacy portals.  
 
 This list can be found under Settings > Cloud Apps > Conditional Access App Control Apps:
 
