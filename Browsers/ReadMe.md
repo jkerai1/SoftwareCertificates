@@ -1,6 +1,8 @@
 I would outright block any unmanaged Browser  
 
-You could apply a soft-lock and stop users signing into entra with an unmanaged browser by enforcing token protection in conditional access. unless they install the SSO extension to get that WAM functionality they would be blocked from accessing corporate data.
+You could apply a soft-lock and stop users signing into entra with an unmanaged browser by enforcing token protection/device join in conditional access. unless they install the SSO extension to get that WAM functionality they would be blocked from accessing corporate data.
+
+See full article on blocking third party browsers [here](https://www.linkedin.com/pulse/third-party-browser-blocking-jay-kerai-ungme)
 
 See [Intune Section](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/Intune) for Process Names and browser extension blocking/whitelisting  and [MDA for BYOD situations](https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs/MDA)
 
