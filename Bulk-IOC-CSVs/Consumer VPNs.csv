@@ -137,6 +137,7 @@ DomainName,anonymouse.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanc
 DomainName,ipany.net,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,surfeasy.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,neverssl.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,getoutline.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/windscribe-free-proxy-a/dkkdbpgldnmkhcliffjpajcfdjkcaddf,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/nordvpn-the-fastest-vpn/fphgeikpdcdcheaochkhldmnfblfogla,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/nordvpn-vpn-proxy-for-pri/fjoaledfpmneenckfbpdfhkmimnjocfa,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
