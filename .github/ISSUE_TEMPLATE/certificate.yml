@@ -1,0 +1,30 @@
+---
+name: "Certificate Request"
+description: "Request extraction of a signing certificate from software."
+title: "X-Certificate Request: "
+labels: ["certificate-request"]
+body:
+  - type: input
+    id: software-download-link
+    attributes:
+      label: Software Download Link
+      description: "Please provide the URL for the software download."
+      placeholder: "https://example.com/download.exe"
+    validations:
+      required: true
+  - type: input
+    id: certificate-name
+    attributes:
+      label: Certificate Name
+      description: "Please provide the certificate name. Any '+' will be replaced with 'p' and spaces with underscores."
+      placeholder: "Enter certificate name"
+    validations:
+      required: true
+  - type: input
+    id: certificate-category
+    attributes:
+      label: Certificate Category
+      description: "Please provide the certificate Category of the certificate, such as VPN, Gambling, Gaming, etc."
+      placeholder: "Enter certificate Category"
+    validations:
+      required: true

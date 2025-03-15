@@ -1,0 +1,309 @@
+name: Certificate Extraction from Issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  extract_certificate:
+    if: startsWith(github.event.issue.title, 'X-Certificate Request')
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Parse Issue Body
+        id: parse_issue
+        shell: pwsh
+        run: |
+          # Capture the issue body from the event payload
+          $body = "${{ github.event.issue.body }}"
+          Write-Host "Issue Body: $body"
+          
+          # Match "Software Download Link" heading followed by its response on the next line
+          if ($body -match "Software Download Link\s*\n\s*(.+)") {
+              $downloadLink = $matches[1].Trim()
+          } else {
+              Write-Host "❌ Software Download Link not found in issue body!"
+              exit 1
+          }
+          
+          # Match "Certificate Name" heading followed by its response on the next line
+          if ($body -match "Certificate Name\s*\n\s*(.+)") {
+              $certificateName = $matches[1].Trim()
+          } else {
+              Write-Host "❌ Certificate Name not found in issue body!"
+              exit 1
+          }
+          
+          # Match "Certificate Category" heading followed by its response on the next line
+          if ($body -match "Certificate Category\s*\n\s*(.+)") {
+              $certificateCategory = $matches[1].Trim()
+          } else {
+              Write-Host "❌ Certificate Category not found in issue body!"
+              exit 1
+          }
+          
+          # Sanitize the certificate name:
+          $certificateName = $certificateName -replace "\+", "p" `
+                                              -replace " ", "_" `
+                                              -replace "\t", "" `
+                                              -replace '[:\\/*?"<>|]', ""
+          $certificateName = $certificateName -replace "_+", "_"
+          # Optionally limit the length (e.g., to 50 characters)
+          $maxLength = 50
+          if ($certificateName.Length -gt $maxLength) {
+              $certificateName = $certificateName.Substring(0, $maxLength)
+          }
+          
+          Write-Host "Parsed Software Download Link: $downloadLink"
+          Write-Host "Parsed Certificate Name: $certificateName"
+          Write-Host "Parsed Certificate Category: $certificateCategory"
+          
+          # Set outputs for later steps.
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "DOWNLOAD_LINK=$downloadLink"
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "CERTIFICATE_NAME=$certificateName"
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "CERTIFICATE_CATEGORY=$certificateCategory"
+
+      - name: Check Platform
+        id: check_platform
+        shell: pwsh
+        run: |
+          $download_link = "${{ steps.parse_issue.outputs.DOWNLOAD_LINK }}"
+          Write-Host "Checking platform for download link: $download_link"
+          if ($download_link -imatch "arm64" -or ($download_link -imatch "x86" -and -not ($download_link -imatch "x64"))) {
+              Write-Host "Detected unsupported platform (ARM64 or x86)."
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "PLATFORM_SUPPORTED=false"
+          } else {
+              Write-Host "Platform appears supported."
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "PLATFORM_SUPPORTED=true"
+          }
+
+      - name: Unsupported Platform - Comment and Close Issue
+        if: steps.check_platform.outputs.PLATFORM_SUPPORTED == 'false'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "The requested software appears to be for an unsupported platform (ARM64 or x86). Please provide a version compatible with x64."
+            });
+            await github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "closed"
+            });
+
+      - name: Download Software
+        if: steps.check_platform.outputs.PLATFORM_SUPPORTED == 'true'
+        id: download
+        shell: pwsh
+        run: |
+          $download_link = "${{ steps.parse_issue.outputs.DOWNLOAD_LINK }}"
+          $certificateName = "${{ steps.parse_issue.outputs.CERTIFICATE_NAME }}"
+          
+          if (-not $certificateName) { 
+            $certificateName = "downloaded_software" 
+          }
+
+          $ext = [System.IO.Path]::GetExtension($download_link)
+          if ([string]::IsNullOrEmpty($ext)) {
+            $ext = ".exe"
+          }
+          $downloadFile = "$certificateName$ext"
+          Write-Host "Determined file extension: $ext"
+          Write-Host "Download file name will be: $downloadFile"
+      
+          Write-Host "📥 Downloading software from: $download_link"
+          try {
+              Invoke-WebRequest -Uri $download_link -OutFile $downloadFile -ErrorAction Stop
+          } catch {
+              Write-Host "❌ ERROR: Download failed or file missing!"
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "DOWNLOAD_SUCCESS=false"
+              exit 0
+          }
+      
+          if (!(Test-Path $downloadFile)) {
+              Write-Host "❌ ERROR: Downloaded file does not exist!"
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "DOWNLOAD_SUCCESS=false"
+              exit 0
+          }
+      
+          Write-Host "✅ Download complete: $downloadFile"
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "DOWNLOAD_SUCCESS=true"
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "SOFTWARE_FILE=$downloadFile"
+
+      - name: Invalid Download Link Comment
+        if: steps.download.outputs.DOWNLOAD_SUCCESS == 'false'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "It appears that your download link for the software is invalid, please review this and update."
+            });
+
+      - name: Extract Signing Certificate
+        if: steps.download.outputs.DOWNLOAD_SUCCESS == 'true'
+        id: extract_certificate
+        shell: pwsh
+        run: |
+          # Use the full file name from the download step
+          $downloadFile = "${{ steps.download.outputs.SOFTWARE_FILE }}"
+          $certificateName = "${{ steps.parse_issue.outputs.CERTIFICATE_NAME }}"
+          $certificateCategory = "${{ steps.parse_issue.outputs.CERTIFICATE_CATEGORY }}"
+          
+          Write-Host "Using downloaded file: $downloadFile"
+          # Create a certificate directory based on the category inside the Certificates folder.
+          $baseCertDir = "Certificates"
+          $certDir = Join-Path -Path $baseCertDir -ChildPath $certificateCategory
+          if (-Not (Test-Path $certDir -PathType Container)) { 
+              Write-Host "Category folder not found. Creating folder: $certDir"
+              New-Item -ItemType Directory -Path $certDir | Out-Null 
+          } else {
+              Write-Host "Category folder exists: $certDir"
+          }
+          
+          $certPath = Join-Path -Path $certDir -ChildPath ("$certificateName.cer")
+          $found = $false
+          try {
+              Unblock-File -Path $downloadFile
+              $signature = Get-AuthenticodeSignature -FilePath $downloadFile
+              Write-Host "Signature Status: $($signature.Status)"
+              Write-Host "Signature Details:"
+              $signature | Format-List *
+              
+              if ($signature.SignerCertificate) {
+                  $cert = $signature.SignerCertificate
+              } elseif ($signature.TimeStampSignerCertificate) {
+                  $cert = $signature.TimeStampSignerCertificate
+              }
+              
+              if ($cert) {
+                  $found = $true
+                  [System.IO.File]::WriteAllBytes($certPath, $cert.Export("Cert"))
+                  Write-Host "✅ Certificate successfully extracted to: $certPath"
+              } else {
+                  Write-Host "❌ ERROR: No certificate found in the file."
+              }
+              Remove-Item -Path $downloadFile -Force
+          } catch {
+              Write-Host "❌ An error occurred: $_"
+          }
+          
+          if ($found) {
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "CERTIFICATE_FOUND=true"
+          } else {
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "CERTIFICATE_FOUND=false"
+          }
+
+      - name: Certificate Extracted - Comment and Close Issue
+        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Certificate extracted and saved to repository. Thank you for your request!"
+            });
+            await github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "closed"
+            });
+
+      - name: Commit Extracted Certificate
+        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
+        shell: pwsh 
+        run: |
+          $certificateName = "${{ steps.parse_issue.outputs.CERTIFICATE_NAME }}"
+          $certificateCategory = "${{ steps.parse_issue.outputs.CERTIFICATE_CATEGORY }}"
+          $certFile = "Certificates/$certificateCategory/$certificateName.cer"
+          
+          Write-Host "📤 Committing extracted certificate to repository..."
+          git config --local user.name "github-actions"
+          git config --local user.email "action@github.com"
+          git add $certFile
+          git commit -m "Added extracted certificate: $certificateName.cer" || Write-Host "Nothing to commit"
+          git push
+
+      - name: Update README.md
+        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
+        shell: pwsh
+        run: |
+            $certificateName = "${{ steps.parse_issue.outputs.CERTIFICATE_NAME }}"
+            $certificateCategory = "${{ steps.parse_issue.outputs.CERTIFICATE_CATEGORY }}"
+            $date = Get-Date -Format "yyyy-MM-dd"
+            $download_link = "${{ steps.parse_issue.outputs.DOWNLOAD_LINK }}"
+            $table_row = "| $date | $certificateName.cer | [$download_link]($download_link) |"
+            $readmePath = "Certificates/README.md"
+        
+            if (-not (Test-Path $readmePath)) {
+              Write-Host "README.md not found in Certificates folder. Creating new file..."
+              $header = "# Certificates for Defender blocking`n"
+              $horizontal = "---`n"
+              $badge = "![Certificates](https://img.shields.io/badge/Certificates-0-blue)`n"
+              $description = "This repository is provided by Philip Marsh to allow users to download certificates and provision their own certificates using the issue template for use in Microsoft Defender for Endpoint.`n"
+              $tableHeader = "| Date       | Title of certificate | Download link of software |`n"
+              $tableSeparator = "|------------|----------------------|---------------------------|`n"
+              $initialContent = $header + $horizontal + $badge + $description + $horizontal + $tableHeader + $tableSeparator
+              Set-Content -Path $readmePath -Value $initialContent
+            }
+            
+            $readmeContent = Get-Content $readmePath -Raw
+            
+            if ($readmeContent -match "\|.*$certificateName\.cer.*\|") {
+              $readmeContent = $readmeContent -replace "(\|.*$certificateName\.cer.*\|)", $table_row
+            } else {
+              $readmeContent = $readmeContent.TrimEnd("`r", "`n")
+              $readmeContent += "`n" + $table_row
+            }
+            
+            # Count the number of .cer files in all subfolders under Certificates
+            $cerCount = (Get-ChildItem -Path Certificates -Filter *.cer -Recurse).Count
+            $lines = $readmeContent -split "`n"
+            for ($i=0; $i -lt $lines.Length; $i++) {
+              if ($lines[$i] -like "![Certificates](https://img.shields.io/badge/Certificates-*") {
+                $lines[$i] = "![Certificates](https://img.shields.io/badge/Certificates-$cerCount-blue)"
+                break
+              }
+            }
+            $readmeContent = $lines -join "`n"
+            
+            Set-Content -Path $readmePath -Value $readmeContent
+            
+            git config --local user.name "github-actions"
+            git config --local user.email "action@github.com"
+            git add $readmePath
+            git commit -m "Updated Certificates README with last extraction details" || Write-Host "Nothing to commit for README"
+            git push
+
+      - name: No Certificate Found - Comment and Close Issue
+        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'false'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Certificate not found on requested software. Issue closed."
+            });
+            await github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "closed"
+            });
