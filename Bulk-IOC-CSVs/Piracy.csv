@@ -209,4 +209,5 @@ DomainName,warez-ddl.net,,Block,Low,Malware Piracy/Temp File Hosting/Malware Del
 DomainName,mawtoload.com,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,cracked-games.org,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,annas-archive.org,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,z-lib.gs,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/torrent-scanner/aegnopegbbhjeeiganiajffnalhlkkjb,,Block,Low,Piracy,Piracy: torrent scanner Browser extension,,,,,FALSE
