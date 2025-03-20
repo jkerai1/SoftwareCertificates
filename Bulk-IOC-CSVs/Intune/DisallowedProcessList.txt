@@ -194,3 +194,4 @@ liebao_win.exe
 sleipnir6420.exe
 onestart.exe
 krisp.exe
+Claude-Setup-x64.exe
