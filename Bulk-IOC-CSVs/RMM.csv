@@ -173,6 +173,7 @@ DomainName,syncromsp.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RM
 DomainName,superops.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,airdroid.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,bluetrait.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
+DomainName,crossloop.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpdm17hk323c4x,,Block,Informational,Unsanctioned: RMM Teamviewer,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcxhf337w98s,,Block,Informational,Unsanctioned: RMM - Devolutions Remote Desktop Manager,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcww02p2xjnm,,Block,Informational,Unsanctioned: RMM - Devolutions Workspace,Unsanctioned: RMM,Unsanctioned,,,,false
