@@ -921,7 +921,7 @@ Settings > Cloud Apps > Microsoft Defender For Endpoint
 ![image](https://github.com/user-attachments/assets/cbf669a5-d6ca-4dbe-b232-f4b5d4ddaf8b)  
 > You may want to include a custom message in the blocks to guide users where they should go to raise tickets to get apps unsanctioned if you want to do that kind of thing
 
-Also ensure that Network protection is in block mode and that Custom Indicators is also turned on:
+Also ensure that Network protection is in block mode and that Custom Indicators is also turned on. For Edge you __MUST__ manage smartscreen for users or disabling smartscreen in the browser will NOT block and let them bypass:
 
 ![image](https://github.com/user-attachments/assets/9fa81c57-eed8-4c5b-9d0d-7a575a2e1b96)
 
