@@ -196,3 +196,4 @@ onestart.exe
 krisp.exe
 Claude-Setup-x64.exe
 PDFHub.exe
+easypdfbox.exe
