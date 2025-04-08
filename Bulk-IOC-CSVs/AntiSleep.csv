@@ -1,5 +1,5 @@
 IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
-DomainName,prevent+AC0-mac+AC0-from+AC0-sleeping.3bitlab.com,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+DomainName,prevent-mac-from-sleeping.3bitlab.com,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 DomainName,dotnetniet.com,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 DomainName,acescreen.app,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 DomainName,inchwest.com,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
@@ -21,40 +21,40 @@ DomainName,stellawake.com,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,
 DomainName,coffeeff.sourceforge.net,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 DomainName,mrmilk.com.br,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 DomainName,insomniate.com,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://github.com/arkane+AC0-systems/mousejiggler,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://github.com/arkane-systems/mousejiggler,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://github.com/twentynine78/keepon,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://www.softpedia.com/get/others/miscellaneous/idle+AC0-clock+AC0-locker.shtml,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://www.softpedia.com/get/others/miscellaneous/idle-clock-locker.shtml,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://apps.apple.com/us/app/home/id954592389,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://github.com/downloads/dmnd/caffeinated/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://launchpad.net/insomniat,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://apps.microsoft.com/store/detail/move+AC0-mouse,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://apps.microsoft.com/store/detail/move-mouse,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://github.com/sabrogden/ditto,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://sourceforge.net/projects/coffeeff/files/latest/download,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://mackeeper.com/blog/prevent+AC0-your+AC0-mac+AC0-from+AC0-sleep/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://apps.apple.com/us/app/sleep+AC0-control+AC0-centre/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://mackeeper.com/blog/prevent-your-mac-from-sleep/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://apps.apple.com/us/app/sleep-control-centre/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://appahead.studio/apps/theine/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://cleanmymac.com/blog/keep+AC0-macbook+AC0-from+AC0-sleeping,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/keep+AC0-awake/bijihlabcfdnabacffofojgmehjdielb,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/keep+AC0-awake+AC0-display+AC0-system/apmicgkbejflkgeljipcebaoeigmangd,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/keep+AC0-awake/inglelmldhjcljkomheneakjkpadclhf,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/caffeine+AC0-keep+AC0-awake/fcblbbbkcneogddmpmfdchnocbpfpmag,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/keep+AC0-computer+AC0-awake+AC0-for+AC0-a/imbpigcghoambmanjekibelfjemnnool,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/stay+AC0-awake+AC0-keep+AC0-your+AC0-comp/gofaiibillcpfajafckhoieamembimje,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/awake+AC0-keep+AC0-awake+AC0-while+AC0-do/ihmfnheijlagmmbbegepekbebgpkolop,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/keep+AC0-awake+AC0-your+AC0-system+AC0-or/kioaomfokioenhackhaijiebhhkkcojo,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/be+AC0-awake/ibaenepllmhoekeccnhdbnijijebehdl,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/keep+AC0-awake/hjfibcmcdbeaikcglnhineogdmpdchio,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://chromewebstore.google.com/detail/turn+AC0-off+AC0-sleep+AC0-mode/pinjghhmldainbadpbmjhcjefadbmnck,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://cleanmymac.com/blog/keep-macbook-from-sleeping,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake/bijihlabcfdnabacffofojgmehjdielb,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake-display-system/apmicgkbejflkgeljipcebaoeigmangd,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake/inglelmldhjcljkomheneakjkpadclhf,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/caffeine-keep-awake/fcblbbbkcneogddmpmfdchnocbpfpmag,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-computer-awake-for-a/imbpigcghoambmanjekibelfjemnnool,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/stay-awake-keep-your-comp/gofaiibillcpfajafckhoieamembimje,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/awake-keep-awake-while-do/ihmfnheijlagmmbbegepekbebgpkolop,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake-your-system-or/kioaomfokioenhackhaijiebhhkkcojo,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/be-awake/ibaenepllmhoekeccnhdbnijijebehdl,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/keep-awake/hjfibcmcdbeaikcglnhineogdmpdchio,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://chromewebstore.google.com/detail/turn-off-sleep-mode/pinjghhmldainbadpbmjhcjefadbmnck,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/pinger/egbpibkpckbdhmacfijknpecliodfcgh,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://microsoftedge.microsoft.com/addons/detail/stay+AC0-awake+AC0-keep+AC0-your+AC0-com/odapbgbfegnaghhclilijaamaoellbla,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://microsoftedge.microsoft.com/addons/detail/caffeine+AC0-keep+AC0-awake/kfcdcelkpooajbeepngjepgklbagnkng,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://microsoftedge.microsoft.com/addons/detail/awake+AC0-keep+AC0-awake+AC0-while+AC0-/dflagdhilgplmbbhibadcnmbodcndaba,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://microsoftedge.microsoft.com/addons/detail/keep+AC0-awake/gfhofbkjceebgbcepiodhhmelbdbdcfh,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://microsoftedge.microsoft.com/addons/detail/keep+AC0-awake+AC0-display+AC0-sys/jjaendaehnalocdginbjmaclfjgidlla,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://microsoftedge.microsoft.com/addons/detail/keep+AC0-computer+AC0-awake+AC0-for+AC0-/gpcjnpdkecmdghbnkeifiljlknkjhjke,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://addons.mozilla.org/en+AC0-us/firefox/addon/keep+AC0-awake+AC0-screen+AC0-only/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/stay-awake-keep-your-com/odapbgbfegnaghhclilijaamaoellbla,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/caffeine-keep-awake/kfcdcelkpooajbeepngjepgklbagnkng,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/awake-keep-awake-while-/dflagdhilgplmbbhibadcnmbodcndaba,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/keep-awake/gfhofbkjceebgbcepiodhhmelbdbdcfh,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/keep-awake-display-sys/jjaendaehnalocdginbjmaclfjgidlla,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://microsoftedge.microsoft.com/addons/detail/keep-computer-awake-for-/gpcjnpdkecmdghbnkeifiljlknkjhjke,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://addons.mozilla.org/en-us/firefox/addon/keep-awake-screen-only/,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 Url,https://apps.microsoft.com/detail/9pbvhhsn78bl,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-Url,https://github.com/jnizm/stay+AC0-awake,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
+Url,https://github.com/jnizm/stay-awake,,Block,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,05a0e089b49e054ac7f1f980ca1815ee5d10d72a442d61965f65032eec4da5b9,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,4e4979e640139693df93b0312a7b406b768085190c8a87bcdafc714b6b506093,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,e77d02e8cc1355195d19e380de330b22c6fcabf95819b78362d1a7c16177d7c4,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
@@ -106,15 +106,15 @@ FileSha256,1ce344ef37998f2d2bdd6abcb121a08ef17f02ccfdc601f2da9bef6d02b00f7e,,Blo
 FileSha256,0420fc1940cd012de0d16cf16463241882572cffcf3bd35190cd4ca303c00c3a,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,ecc193ad66a559b28969b451ede6b4d3ef5c8789587bafcc1ae538d7ea2dd93b,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,40e0fbf29eff616be93e22c20aef7a66e3f193b269c929571487d3f4b4133cdf,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-FileSha256,e2fe3831de23fc83ae961c52c05b11dfc4215652a4d2b0ec8dbf8081606f8a59,,BlockAndRemediate,,Sleep Prevention Tool +IBM- Dont sleep,Sleep Prevention Tool +IBM- Dont Sleep,,,,,FALSE
+FileSha256,e2fe3831de23fc83ae961c52c05b11dfc4215652a4d2b0ec8dbf8081606f8a59,,BlockAndRemediate,,Sleep Prevention Tool - Dont sleep,Sleep Prevention Tool - Dont Sleep,,,,,FALSE
 FileSha256,c02a321ba1580be9c5f42a2cec8560f15767d863c9b2fb784fe084fb3d586ef8,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,31ea8184d258dccfc4a583222a4564270b4a27e73c6cdf01374d0f086148e2ba,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,eecf1e90df108853f7b405f4e07723696aa1401d58c5d5269d61b6f005d103a9,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,dbcf77911bf547ab7ac7f9755174b498c396bb5b98c7c481e99a9695b63bfd91,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,35d182f2f8bed58631793523114326c5de51a6b2fff9f929e269e2c9a524485a,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,ce6671b9612c356d70c977079c01daf09f18db7834847ef596ccd3b0d3ae5403,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-FileSha256,58102b7a560b1de4f2d621dcd18529cfa9c920dbdb06e47f6c5fc3670cca5e45,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool +IBM- Coffee,,,,,FALSE
-FileSha256,6acb380e6553a5cfb44138f5d9cf4b4bdbeae910d241de9e3f1ab5205590c68d,,BlockAndRemediate,,Sleep Prevention Tool +IBM- Coffee,Sleep Prevention Tool,,,,,FALSE
+FileSha256,58102b7a560b1de4f2d621dcd18529cfa9c920dbdb06e47f6c5fc3670cca5e45,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool - Coffee,,,,,FALSE
+FileSha256,6acb380e6553a5cfb44138f5d9cf4b4bdbeae910d241de9e3f1ab5205590c68d,,BlockAndRemediate,,Sleep Prevention Tool - Coffee,Sleep Prevention Tool,,,,,FALSE
 FileSha256,dc3bb88f6419ee7dde7d1547a41569aa03282fe00e0dc43ce035efd7c9d27d75,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,30975b2ad45e3194a8ab6245c863b92a822f3c662ae1df025a62ddd335423ceb,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,befd2c6c4520aeb7d04113b401acb2207b992387dcd0f63d2c04aaed31860de3,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
@@ -127,8 +127,8 @@ FileSha256,35f9f6534d1fab394776b0de4d6cff830859afa9d86dd4f3a09d19a95a5b27c4,,Blo
 FileSha256,8afd9246124248533e56cf40cc752b9b86a888493bea2ea497cf1802d949f082,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,cc4b8f1d1a41d8a984b771174f5c81922115150ca76e0dac3374f0c05e8ed60c,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,4ca26e6a026638a686896f48b733ca8912bad94bbc913cc4293632abe6fdbfba,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-FileSha256,059ad91921008299f76729f2d6eb0092ebaa11ae31b1871ca638c787544f8a07,,BlockAndRemediate,,Sleep Prevention Tool +IBM- Sharpkeys,Sleep Prevention Tool,,,,,FALSE
-FileSha256,ab09aa7c4f024b83798916e4e5b7f8c9d073576baed2113cdefd6a1bb5b501d2,,BlockAndRemediate,,Sleep Prevention Tool  +AC0- PowerToys Awake ,Sleep Prevention Tool,,,,,FALSE
+FileSha256,059ad91921008299f76729f2d6eb0092ebaa11ae31b1871ca638c787544f8a07,,BlockAndRemediate,,Sleep Prevention Tool - Sharpkeys,Sleep Prevention Tool,,,,,FALSE
+FileSha256,ab09aa7c4f024b83798916e4e5b7f8c9d073576baed2113cdefd6a1bb5b501d2,,BlockAndRemediate,,Sleep Prevention Tool  - PowerToys Awake ,Sleep Prevention Tool,,,,,FALSE
 FileSha256,9a31d1c1194c27ff47a39b3f8a1fc57d4336c9cbe32b457874271571254317b9,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,53ba74283e30ab87c283fcea5aac5ec056f5031a25a7ec56dcc08d8613847be4,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,3562f05ea9bfc338263f3c19aac768c53439f87d5dcb3702996279345620e101,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
@@ -138,9 +138,9 @@ FileSha256,e5feb78e52080ce46daccc80d5a65c7d7acd58b106b1212e23524c75f3d8943a,,Blo
 FileSha256,3df246b7b8c81e5ba96fb02699d77b4e483c26ddf9d17ba100dd55f3e8c50fba,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,ad197167f40807eb1b0c2f91de200895ea30e80a1b62bcd20ca8a00a84bd8fe3,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
 FileSha256,653810468fbc256dad4e8e997f3e2c912e9912c52ede5e1667a793d0e034e563,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
-FileSha256,fdc293b9fea9cf2824fedacfda0e8bcb81c34eb3b6fac38a16397cad9ecbc0aa,,BlockAndRemediate,,Sleep Prevention Tool +IBM- Stay Awake,Sleep Prevention Tool,,,,,FALSE
-FileSha256,30975b2ad45e3194a8ab6245c863b92a822f3c662ae1df025a62ddd335423ceb,,BlockAndRemediate,,Sleep Prevention Tool +AC0- NoDoze,Sleep Prevention Tool,,,,,FALSE
-FileSha256,befd2c6c4520aeb7d04113b401acb2207b992387dcd0f63d2c04aaed31860de3,,BlockAndRemediate,,Sleep Prevention Tool +AC0- NoDoze,Sleep Prevention Tool,,,,,FALSE
-FileSha256,bd49545597adad2886a6c8e76efbe021f6e4ca9880755bbbeb08ff8051a27a67,,BlockAndRemediate,,Sleep Prevention tool +AC0- No Blackout,Sleep Prevention Tool,,,,,FALSE
-FileSha256,738b34d1e480d2443e9c433d1c552dc7a213c7f02f17d8adc4825bfd8107bec4,,BlockAndRemediate,,Sleep Prevention Tool  +AC0- Keep Display On,Sleep Prevention Tool,,,,,FALSE
+FileSha256,fdc293b9fea9cf2824fedacfda0e8bcb81c34eb3b6fac38a16397cad9ecbc0aa,,BlockAndRemediate,,Sleep Prevention Tool - Stay Awake,Sleep Prevention Tool,,,,,FALSE
+FileSha256,30975b2ad45e3194a8ab6245c863b92a822f3c662ae1df025a62ddd335423ceb,,BlockAndRemediate,,Sleep Prevention Tool - NoDoze,Sleep Prevention Tool,,,,,FALSE
+FileSha256,befd2c6c4520aeb7d04113b401acb2207b992387dcd0f63d2c04aaed31860de3,,BlockAndRemediate,,Sleep Prevention Tool - NoDoze,Sleep Prevention Tool,,,,,FALSE
+FileSha256,bd49545597adad2886a6c8e76efbe021f6e4ca9880755bbbeb08ff8051a27a67,,BlockAndRemediate,,Sleep Prevention tool - No Blackout,Sleep Prevention Tool,,,,,FALSE
+FileSha256,738b34d1e480d2443e9c433d1c552dc7a213c7f02f17d8adc4825bfd8107bec4,,BlockAndRemediate,,Sleep Prevention Tool  - Keep Display On,Sleep Prevention Tool,,,,,FALSE
 FileSha256,4ca26e6a026638a686896f48b733ca8912bad94bbc913cc4293632abe6fdbfba,,BlockAndRemediate,,Sleep Prevention Tool,Sleep Prevention Tool,,,,,FALSE
