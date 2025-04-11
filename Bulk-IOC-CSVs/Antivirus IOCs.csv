@@ -70,3 +70,5 @@ Url,https://usbfix-free.en.softonic.com/,,Block,Informational,Unsanctioned: Anti
 DomainName,https://www.gdatasoftware.com/,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
 DomainName,webroot.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
 DomainName,zonealarm.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,avast.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,avcdn.net,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
