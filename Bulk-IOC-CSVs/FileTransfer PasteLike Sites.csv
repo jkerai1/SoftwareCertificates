@@ -260,6 +260,7 @@ DomainName,wanapath.net,,Block,Informational,File Transfer/Paste Like Site,Unsan
 DomainName,myworkdrive.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,thuk.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,nextcloud.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,stratospherix.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/tycrek/yaass,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/sergix44/XBackBone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
