@@ -199,3 +199,4 @@ Claude-Setup-x64.exe
 PDFHub.exe
 easypdfbox.exe
 windsurf.exe
+ccleaner.exe
