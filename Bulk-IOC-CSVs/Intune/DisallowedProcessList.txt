@@ -200,3 +200,7 @@ PDFHub.exe
 easypdfbox.exe
 windsurf.exe
 ccleaner.exe
+maxthon.exe
+avant.exe
+torch.exe
+ucbrowser.exe
