@@ -72,3 +72,10 @@ DomainName,webroot.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn of
 DomainName,zonealarm.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
 DomainName,avast.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
 DomainName,avcdn.net,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,abatis.ch,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,ahnlab.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,authentic8.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,bufferzonesecurity.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,gosecure.ai,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,digitalguardian.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,dtexsystems.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
