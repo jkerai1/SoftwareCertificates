@@ -121,6 +121,9 @@ DomainName,bytecoin.one,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,jaxx.io,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,guarda.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 DomainName,bytecoin.one,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,cakewallet.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,coinomi.com,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,coinomi.ing,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/frzb/coinboot,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/craciuncezar/browser-cryptominer,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/planeklm/razed-cryptomining,,Block,Low,Crypto,Crypto,,,,,FALSE
