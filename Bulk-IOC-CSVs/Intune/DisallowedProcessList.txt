@@ -3,6 +3,7 @@ TeamViewer Remote Installer.exe
 Quick Assist Installer.exe
 firefox.exe
 ChatGPT (Early Version for Plus, Team, Enterprise, and Edu) Installer.exe
+chatgpt.exe
 Grammarly.Desktop.exe
 brave.exe
 brave-portable.exe
