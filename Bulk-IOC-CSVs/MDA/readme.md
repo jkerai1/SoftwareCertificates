@@ -877,7 +877,8 @@ Also ensure users cannot create Service Principals/App Registrations (Entra > Us
 
 ## Disable Unverified External App
 
-![image](https://github.com/user-attachments/assets/16afe72f-9212-4cb2-8b73-e5ed340df023)
+![image](https://github.com/user-attachments/assets/777ee267-93d8-48ce-8554-784e92382291)
+
 
 ## Disable High privileged new app
 
