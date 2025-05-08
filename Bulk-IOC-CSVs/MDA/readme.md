@@ -876,7 +876,9 @@ Also ensure users cannot create Service Principals/App Registrations (Entra > Us
 
 ![image](https://github.com/user-attachments/assets/9daa039e-5108-476b-84db-5e3db9223507)
 
-## Disable Unverified External App
+## Disable Unverified External App  
+
+Custom policy. Note only applies to high privileged apps as it stands but you can add additional condition for certain permissions like Teams/exchange/sharepoint
 
 ![image](https://github.com/user-attachments/assets/777ee267-93d8-48ce-8554-784e92382291)
 
