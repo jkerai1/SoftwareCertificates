@@ -858,7 +858,7 @@ Hunting for externally shared PEMs and PFXs could be useful:
 
 App Goverance is the new umbrella for Oauth apps, these are designed to govern oauth apps (in Entra terms an [Enterprise Application](https://ericonidentity.com/2023/03/11/aad-app-registrations-and-enterprise-applications-the-definitive-guide/)) registered to Entra (and google/salesforce if you enable these) including visibility, usage and permissions. If a user fell for an illict consent attack and an attacker gained access to corporate data via an Enterprise application this is where you could auto-remediate and revoke permissions for these applications. Noted that illict consent attacks have very much decreased with most "fun" permissions requiring an admin to consent.
 
-> Note App Goverance will not show ALL apps registered to Entra, only priviliged and risky ones
+> Note App Goverance will not show ALL apps registered to Entra, only priviliged and risky ones  
 > Also Attack Disruption is supported in App Goverance
 
 If you haven't already I'd strongly recommend changing user consent settings in Entra away from "allow consent for apps". By default this is set to "Allow user consent for apps". This setting can be found from Enterprise applications > Consent and Permissions > User Consent Settings
