@@ -39,6 +39,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
 - [App Governance](#app-governance)
   * [Disable Overprivileged App](#disable-overprivileged-app)
   * [Disable High privileged new app](#disable-high-privileged-new-app)
+  * [Disable Unverified External App](#Disable-Unverified-External-App)
   * [Other Policies](#other-policies)
 - [Misc](#misc)
   * [Add IP Range for Usage in policies](#add-ip-range-for-usage-in-policies)
