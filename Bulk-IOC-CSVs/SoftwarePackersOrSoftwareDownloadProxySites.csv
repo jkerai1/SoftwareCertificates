@@ -35,4 +35,7 @@ DomainName,slunecnice.cz,,Block,Informational,Software Packer/Software Download 
 DomainName,haihaisoft.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,real-debrid.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,plc247.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
+DomainName,archive.ph,,Block,Informational,Archiving Tool can be used as Software Packer/Software Download Site,Archiving Tool Software Packer/Software Download Site,,,,,FALSE
+DomainName,archive.org,,Block,Informational,Archiving Tool can be used as Software Packer/Software Download Site,Archiving Tool Software Packer/Software Download Site,,,,,FALSE
+DomainName,archive.is,,Block,Informational,Archiving Tool can be used as Software Packer/Software Download Site,Archiving Tool Software Packer/Software Download Site,,,,,FALSE
 Url,techspot.com/downloads/,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
