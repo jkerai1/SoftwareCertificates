@@ -8,8 +8,8 @@ Url,https://github.com/sabrogden/ditto,,Block,Informational,Ditto,Ditto,,,,,FALS
 Url,https://github.com/autohotkey/ahk2exe,,Block,Informational,Autohotkey,users use this to script passwords,,,,,FALSE
 Url,https://github.com/autohotkey/autohotkey,,Block,Informational,Autohotkey,AutoHotKey,,,,,FALSE
 Url,https://github.com/bkahlert/kill-zscaler,,Block,Informational,zscaler bypass tool,zscaler bypass tool,,,,,FALSE
-Url,https://github.com/ravlaska/zsc+AF8-bypass,,Block,Informational,Zscaler Bypass,Zscaler Bypass,,,,,FALSE
-Url,https://github.com/ravlaska/afk+AF8-protector,,Block,Informational,Control Bypass,Control Bypass,,,,,FALSE
+Url,https://github.com/ravlaska/zsc_bypass,,Block,Informational,Zscaler Bypass,Zscaler Bypass,,,,,FALSE
+Url,https://github.com/ravlaska/afk_protector,,Block,Informational,Control Bypass,Control Bypass,,,,,FALSE
 Url,https://github.com/fourcorelabs/wintoken,,Block,Informational,Windows Token Manipulation Repo,Windows Token Manipulation Repo,,,,,FALSE
 Url,https://github.com/mika-/torrent-control,,Block,Informational,Piracy,Piracy,,,,,FALSE
 Url,https://github.com/picotorrent/picotorrent,,Block,Informational,Piracy,Piracy,,,,,FALSE
