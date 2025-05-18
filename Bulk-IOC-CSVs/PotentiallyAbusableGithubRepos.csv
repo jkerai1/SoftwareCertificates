@@ -44,13 +44,13 @@ Url,https://github.com/rustdesk/rustdesk,,Block,Informational,RustDesk Github re
 Url,https://github.com/restic,,Block,Informational,File Transfer/Paste Like Site,File Transfer/Paste Like Site,,,,,FALSE
 Url,https://github.com/restic/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
-Url,https://github.com/cloudflare/cloudflared,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/wildfoundry/dataplicity-agent,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/localtunnel/server,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/kaichaosun/rlt,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/loophole/cli,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/beyondcode/expose,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/antoniomika/sish,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/cloudflare/cloudflared,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
+Url,https://github.com/wildfoundry/dataplicity-agent,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
+Url,https://github.com/localtunnel/server,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
+Url,https://github.com/kaichaosun/rlt,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
+Url,https://github.com/loophole/cli,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
+Url,https://github.com/beyondcode/expose,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
+Url,https://github.com/antoniomika/sish,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/,,,,,FALSE
 Url,https://github.com/havocframework/havoc,,Block,Informational,Havoc C2 Framework,Havoc Framework,,,,,FALSE
 Url,https://github.com/bishopfox/sliver,,Block,Informational,Sliver c2 framework,Sliver c2 framework,,,,,FALSE
 Url,https://github.com/its-a-feature/mythic,,Block,Informational,Mythic C2 Framework,Mythic C2 Framework,,,,,FALSE
