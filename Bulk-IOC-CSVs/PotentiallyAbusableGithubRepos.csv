@@ -1,4 +1,4 @@
-+//3//f/9-IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
 Url,https://github.com/arkane+AC0-systems/mousejiggler,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/twentynine78/keepon,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/nicman42/noblackout,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
@@ -31,9 +31,7 @@ Url,https://github.com/doredry/tokenfinder,,Block,Informational,Token Stealer Re
 Url,https://github.com/huskyhacks/wtfbins,,Block,Informational,Token Stealer Repo,Token Stealer Repo,,,,,FALSE
 Url,https://github.com/rclone,,Block,Informational,Rclone,Rclone,,,,,FALSE
 DomainName,utorrent+AC0-client.github.io,,Block,Informational,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
-DomainName,excel+AC0-ms.github.io,,Block,Informational,malware,+ACI-malware
-
-https://securelist.com/miner+AC0-campaign+AC0-misuses+AC0-open+AC0-source+AC0-siem+AC0-agent/114022/+ACI-,,,,,FALSE
+DomainName,excel+AC0-ms.github.io,,Block,Informational,malware,+https://securelist.com/miner+AC0-campaign+AC0-misuses+AC0-open+AC0-source+AC0-siem+AC0-agent/114022/+ACI-,,,,,FALSE
 Url,https://github.com/friends+AC0-security/sharpexclusionfinder,,Block,Informational,Windows Defender Exclusion Enumerator,Windows Defender Exclusion Enumerator,,,,,FALSE
 Url,https://github.com/blacklanternsecurity/trevorspray,,Block,Informational,modular password sprayer ,modular password sprayer ,,,,,FALSE
 Url,https://github.com/magic+AC0-wormhole/magic+AC0-wormhole,,Block,Informational,File Sending Tool +AC0- Magicwormhole,File Sending Tool,,,,,FALSE
@@ -113,13 +111,9 @@ Url,https://github.com/gentilkiwi/kekeo,,Block,Informational,kekeo hacking tool,
 Url,https://github.com/dec0ne/krbrelayup,,Block,Informational,KrbRelayUp Hacking Tool,KrbRelayUp,,,,,FALSE
 Url,https://github.com/powershellmafia/powersploit,,Block,Informational,Powersploit,Powersploit,,,,,FALSE
 Url,https://github.com/wra7h/sharpghosting,,Block,Informational,SharpGhosting,SharpGhosting,,,,,FALSE
-Url,https://github.com/s3cur3th1ssh1t/powersharppack,,Block,Informational,PowerSharpPack,+ACI-PowerSharpPack
-+ACI-,,,,,FALSE
-Url,https://github.com/sud0woodo/dcomrade,,Block,Informational,DCOMrade hacking tool,+ACI-DCOMrade
-+ACI-,,,,,FALSE
-Url,https://github.com/parrotsec/mimikatz,,Block,Informational, mimikatz,+ACI-
-mimikatz
-+ACI-,,,,,FALSE
+Url,https://github.com/s3cur3th1ssh1t/powersharppack,,Block,Informational,PowerSharpPack,PowerSharpPack,,,,,FALSE
+Url,https://github.com/sud0woodo/dcomrade,,Block,Informational,DCOMrade hacking tool,DCOMrade,,,,,FALSE
+Url,https://github.com/parrotsec/mimikatz,,Block,Informational, mimikatz,mimikatz,,,,,FALSE
 Url,https://github.com/zeroblock0/mimikatz+AC0-,,Block,Informational,Mimikatz Fork,Mimikatz Fork,,,,,FALSE
 Url,https://github.com/specterops/bloodhound,,Block,Informational,Bloodhound recon tool,Bloodhound recon tool,,,,,FALSE
 Url,https://github.com/ghostpack/seatbelt,,Block,Informational,Seatbelt Hacking Tool,Seatbelt Hacking Tool,,,,,FALSE
