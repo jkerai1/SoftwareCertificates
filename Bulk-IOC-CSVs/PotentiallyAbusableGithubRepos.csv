@@ -1,0 +1,128 @@
++//3//f/9-IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques,GenerateAlert
+Url,https://github.com/arkane+AC0-systems/mousejiggler,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
+Url,https://github.com/twentynine78/keepon,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
+Url,https://github.com/nicman42/noblackout,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
+Url,https://github.com/downloads/dmnd/caffeinated/,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
+Url,https://github.com/newmarcel/keepingyouawake,,Block,Informational,AntiWork,AntiWork,,,,,FALSE
+Url,https://github.com/sabrogden/ditto,,Block,Informational,Ditto,Ditto,,,,,FALSE
+Url,https://github.com/autohotkey/ahk2exe,,Block,Informational,Autohotkey,users use this to script passwords,,,,,FALSE
+Url,https://github.com/autohotkey/autohotkey,,Block,Informational,Autohotkey,AutoHotKey,,,,,FALSE
+Url,https://github.com/bkahlert/kill+AC0-zscaler,,Block,Informational,zscaler bypass tool,zscaler bypass tool,,,,,FALSE
+Url,https://github.com/ravlaska/zsc+AF8-bypass,,Block,Informational,Zscaler Bypass,Zscaler Bypass,,,,,FALSE
+Url,https://github.com/ravlaska/afk+AF8-protector,,Block,Informational,Control Bypass,Control Bypass,,,,,FALSE
+Url,https://github.com/fourcorelabs/wintoken,,Block,Informational,Windows Token Manipulation Repo,Windows Token Manipulation Repo,,,,,FALSE
+Url,https://github.com/mika+AC0-/torrent+AC0-control,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/picotorrent/picotorrent,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/drakonkat/crawfish,,Block,Informational,Piracy,Piracy,,,,,FALSE
+DomainName,xd+AC0-torrent.github.io,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/majestrate/xd/releases,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/surgeonix/bitswarm/,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://ferrolho.github.io/magnet+AC0-player/,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/astro/bitford,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/degitx/rats+AC0-search,,Block,Informational,Piracy,Piracy,,,,,FALSE
+DomainName,decentnet.github.io,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/serenityos/serenity,,Block,Informational,SerenityOS,SerenityOS,,,,,FALSE
+Url,https://github.com/versotile+AC0-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/beefproject/beef,,Block,Informational,The Browser Exploitation Framework Project ,The Browser Exploitation Framework Project ,,,,,FALSE
+DomainName,github+AC0-scanner.com,,Block,Informational,lumma stealer,lumma stealer,,,,,FALSE
+Url,https://github.com/doredry/tokenfinder,,Block,Informational,Token Stealer Repo,Token Stealer Repo,,,,,FALSE
+Url,https://github.com/huskyhacks/wtfbins,,Block,Informational,Token Stealer Repo,Token Stealer Repo,,,,,FALSE
+Url,https://github.com/rclone,,Block,Informational,Rclone,Rclone,,,,,FALSE
+DomainName,utorrent+AC0-client.github.io,,Block,Informational,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,excel+AC0-ms.github.io,,Block,Informational,malware,+ACI-malware
+
+https://securelist.com/miner+AC0-campaign+AC0-misuses+AC0-open+AC0-source+AC0-siem+AC0-agent/114022/+ACI-,,,,,FALSE
+Url,https://github.com/friends+AC0-security/sharpexclusionfinder,,Block,Informational,Windows Defender Exclusion Enumerator,Windows Defender Exclusion Enumerator,,,,,FALSE
+Url,https://github.com/blacklanternsecurity/trevorspray,,Block,Informational,modular password sprayer ,modular password sprayer ,,,,,FALSE
+Url,https://github.com/magic+AC0-wormhole/magic+AC0-wormhole,,Block,Informational,File Sending Tool +AC0- Magicwormhole,File Sending Tool,,,,,FALSE
+Url,https://github.com/marcant01/fluent+AC0-screen+AC0-recorder,,Block,Informational,Screen Recording Software +AC0- fluent screen recorder,Screen Recording Software,,,,,FALSE
+Url,https://github.com/v+AC0-i+AC0-x+AC0-x/amsi+AC0-bypass,,Block,Informational,AMSI Bypass,AMSI Bypass,,,,,FALSE
+Url,https://github.com/versotile+AC0-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/lobobrowser/lobobrowser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/vysecurity/ps1+AC0-toolkit,,Block,Informational,PS+AC0-1 Toolkit +AC0- Red Team Toolkit,PS+AC0-1 Toolkit +AC0- Red Team Toolkit,,,,,FALSE
+Url,https://github.com/kevin+AC0-robertson/inveigh,,Block,Informational,.NET IPv4/IPv6 machine+AC0-in+AC0-the+AC0-middle tool for penetration testers ,.NET IPv4/IPv6 machine+AC0-in+AC0-the+AC0-middle tool for penetration testers ,,,,,FALSE
+Url,https://github.com/rustdesk/rustdesk,,Block,Informational,RustDesk Github repo,RustDesk Github repo,,,,,FALSE
+Url,https://github.com/restic,,Block,Informational,File Transfer/Paste Like Site,File Transfer/Paste Like Site,,,,,FALSE
+Url,https://github.com/restic/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/cloudflare/cloudflared,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/wildfoundry/dataplicity+AC0-agent,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/localtunnel/server,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/kaichaosun/rlt,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/loophole/cli/,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/beyondcode/expose,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/antoniomika/sish,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/havocframework/havoc,,Block,Informational,Havoc C2 Framework,Havoc Framework,,,,,FALSE
+Url,https://github.com/bishopfox/sliver,,Block,Informational,Sliver c2 framework,Sliver c2 framework,,,,,FALSE
+Url,https://github.com/its+AC0-a+AC0-feature/mythic,,Block,Informational,Mythic C2 Framework,Mythic C2 Framework,,,,,FALSE
+Url,https://github.com/frzb/coinboot,,Block,Informational,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/craciuncezar/browser+AC0-cryptominer,,Block,Informational,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/planeklm/razed+AC0-cryptomining,,Block,Informational,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/ravenproject/ravencoin,,Block,Informational,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/cheat+AC0-engine/cheat+AC0-engine,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,,,,,FALSE
+DomainName,r+AC0-roms.github.io,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,,,,,FALSE
+Url,https://github.com/zen+AC0-browser/desktop,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/atsepkov/graphene,,Block,Informational,Unsanctioned browser +AC0- Graphene Text Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/nmbazima/linkswwwbrowser,,Block,Informational,Unsanctioned browser +AC0- Links Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/cmb/edbrowse,,Block,Informational,Unsanctioned browser +AC0- edbrowser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/fathyb/carbonyl,,Block,Informational,Unsanctioned browser +AC0- Yandex Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/lukeaschenbrenner/txtnet+AC0-browser,,Block,Informational,Unsanctioned browser +AC0- Yandex Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/zquestz/s,,Block,Informational,Unsanctioned browser +AC0- Yandex Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/freefull/runt,,Block,Informational,Unsanctioned browser +AC0- Yandex Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/alex313031/thorium+AC0-win,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/sigmasd/stimulator,,Block,Informational,AntiWork,AntiWork,,,,,FALSE
+Url,https://flathub.org/apps/io.github.sigmasd.stimulator,,Block,Informational,Antiwork,Antiwork,,,,,FALSE
+Url,https://github.com/jnizm/stay+AC0-awake,,Block,Informational,stay awake,stay awake,,,,,FALSE
+Url,https://github.com/slayer0x/godpipe,,Block,Informational,Tor Exfilitrator,Tor Exfilitrator,,,,,FALSE
+Url,https://github.com/bill+AC0-stewart/syncthingwindowssetup/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+DomainName,qwenlm.github.io,,Block,Informational,Ungoverned AI,Ungoverned AI,,,,,FALSE
+Url,https://github.com/hlldz/phant0m,,Block,Informational,Log Killing Tool,Log Killing Tool,,,,,FALSE
+Url,https://github.com/doktor83/srbminer+AC0-multi,,Block,Informational,Crypto,Crypto,,,,,FALSE
+Url,https://github.com/wietze/argfuscator.net,,Block,Informational,Code Obfuscator,Code Obfuscator,,,,,FALSE
+Url,https://gist.github.com/s3cur3th1ssh1t/8294ec59d1ef38cba661697edcfacb9b,,Block,Informational,Mimikatz Alternative,Mimikatz Alternative,,,,,FALSE
+Url,https://github.com/jthack/hero,,Block,Informational,Hack bot,Hack bot,,,,,FALSE
+Url,https://github.com/zylon+AC0-ai/private+AC0-gpt,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,,,,,FALSE
+DomainName,textbrowser.github.io,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/textbrowser/dooble,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/qupzilla/qupzilla,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/roytam1/kmeleon/,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/catalystdevorg/catalyst/,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/bonbon+AC0-exchange/bonbon+AC0-browser,,Block,Informational,Unsanctioned browser +AC0- BonBon,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/wicknix/brass+AC0-monkey,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/rmottola/arctic+AC0-fox,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/tycrek/yaass,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/sergix44/xbackbone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/thecaduceus/multi+AC0-cloud+AC0-transfer+AC0-tool,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/dogbutcat/gclone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/alistgo/alist,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/jsmsj/sa+AC0-drive,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/menukaonline/any+AC0-file+AC0-to+AC0-google+AC0-drive,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/tai7sy/onedrivefly,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/pmqs/fix+AC0-onedrive+AC0-zip,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/syncthing/syncthing/,,Block,Informational,SyncThing,SyncThing,,,,,FALSE
+Url,https://github.com/ghostpack/rubeus,,Block,Informational,Rubeus Hacking ool,Rubeus Hacking ool,,,,,FALSE
+Url,https://github.com/ricardojoserf/nativedump,,Block,Informational,native dump lsass hacking tool,native dump lsass hacking tool,,,,,FALSE
+Url,https://github.com/zblurx/dploot,,Block,Informational,dploot hacking tool,dploot hacking tool,,,,,FALSE
+Url,https://github.com/ghostpack/sharpdpapi,,Block,Informational,SharpDPAPI hacking tool,SharpDPAPI hacking tool,,,,,FALSE
+Url,https://github.com/joelgmsec/autordpwn,,Block,Informational,AutoRDPPwn Tool,AutoRDPPwn Tool,,,,,FALSE
+Url,https://github.com/gentilkiwi/kekeo,,Block,Informational,kekeo hacking tool,kekeo hacking tool,,,,,FALSE
+Url,https://github.com/dec0ne/krbrelayup,,Block,Informational,KrbRelayUp Hacking Tool,KrbRelayUp,,,,,FALSE
+Url,https://github.com/powershellmafia/powersploit,,Block,Informational,Powersploit,Powersploit,,,,,FALSE
+Url,https://github.com/wra7h/sharpghosting,,Block,Informational,SharpGhosting,SharpGhosting,,,,,FALSE
+Url,https://github.com/s3cur3th1ssh1t/powersharppack,,Block,Informational,PowerSharpPack,+ACI-PowerSharpPack
++ACI-,,,,,FALSE
+Url,https://github.com/sud0woodo/dcomrade,,Block,Informational,DCOMrade hacking tool,+ACI-DCOMrade
++ACI-,,,,,FALSE
+Url,https://github.com/parrotsec/mimikatz,,Block,Informational, mimikatz,+ACI-
+mimikatz
++ACI-,,,,,FALSE
+Url,https://github.com/zeroblock0/mimikatz+AC0-,,Block,Informational,Mimikatz Fork,Mimikatz Fork,,,,,FALSE
+Url,https://github.com/specterops/bloodhound,,Block,Informational,Bloodhound recon tool,Bloodhound recon tool,,,,,FALSE
+Url,https://github.com/ghostpack/seatbelt,,Block,Informational,Seatbelt Hacking Tool,Seatbelt Hacking Tool,,,,,FALSE
+Url,https://github.com/fkasler/cuddlephish,,Block,Informational,CuddlePhish BrowserInTheMiddle Tool,CuddlePhish BrowserInTheMiddle Tool,,,,,FALSE
+Url,https://github.com/es3n1n/defendnot,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
+Url,https://github.com/ionuttbara/windows+AC0-defender+AC0-remover,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
