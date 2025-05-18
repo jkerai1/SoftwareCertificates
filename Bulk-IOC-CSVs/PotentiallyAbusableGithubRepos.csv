@@ -2,7 +2,7 @@ IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,Re
 Url,https://github.com/arkane-systems/mousejiggler,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/twentynine78/keepon,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/nicman42/noblackout,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
-Url,https://github.com/downloads/dmnd/caffeinated/,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
+Url,https://github.com/downloads/dmnd/caffeinated,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/newmarcel/keepingyouawake,,Block,Informational,AntiWork,AntiWork,,,,,FALSE
 Url,https://github.com/sabrogden/ditto,,Block,Informational,Ditto,Ditto,,,,,FALSE
 Url,https://github.com/autohotkey/ahk2exe,,Block,Informational,Autohotkey,users use this to script passwords,,,,,FALSE
@@ -16,8 +16,8 @@ Url,https://github.com/picotorrent/picotorrent,,Block,Informational,Piracy,Pirac
 Url,https://github.com/drakonkat/crawfish,,Block,Informational,Piracy,Piracy,,,,,FALSE
 DomainName,xd-torrent.github.io,,Block,Informational,Piracy,Piracy,,,,,FALSE
 Url,https://github.com/majestrate/xd/releases,,Block,Informational,Piracy,Piracy,,,,,FALSE
-Url,https://github.com/surgeonix/bitswarm/,,Block,Informational,Piracy,Piracy,,,,,FALSE
-Url,https://ferrolho.github.io/magnet-player/,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://github.com/surgeonix/bitswarm,,Block,Informational,Piracy,Piracy,,,,,FALSE
+Url,https://ferrolho.github.io/magnet-player,,Block,Informational,Piracy,Piracy,,,,,FALSE
 Url,https://github.com/astro/bitford,,Block,Informational,Piracy,Piracy,,,,,FALSE
 Url,https://github.com/degitx/rats-search,,Block,Informational,Piracy,Piracy,,,,,FALSE
 DomainName,decentnet.github.io,,Block,Informational,Piracy,Piracy,,,,,FALSE
@@ -84,8 +84,8 @@ Url,https://github.com/zylon-ai/private-gpt,,Block,Informational,Unsanctioned: U
 DomainName,textbrowser.github.io,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
 Url,https://github.com/textbrowser/dooble,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
 Url,https://github.com/qupzilla/qupzilla,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
-Url,https://github.com/roytam1/kmeleon/,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
-Url,https://github.com/catalystdevorg/catalyst/,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/roytam1/kmeleon,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
+Url,https://github.com/catalystdevorg/catalyst,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
 Url,https://github.com/bonbon-exchange/bonbon-browser,,Block,Informational,Unsanctioned browser - BonBon,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/wicknix/brass-monkey,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/rmottola/arctic-fox,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
@@ -98,7 +98,7 @@ Url,https://github.com/jsmsj/sa-drive,,Block,Informational,File Transfer/Paste L
 Url,https://github.com/menukaonline/any-file-to-google-drive,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
 Url,https://github.com/tai7sy/onedrivefly,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
 Url,https://github.com/pmqs/fix-onedrive-zip,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
-Url,https://github.com/syncthing/syncthing/,,Block,Informational,SyncThing,SyncThing,,,,,FALSE
+Url,https://github.com/syncthing/syncthing,,Block,Informational,SyncThing,SyncThing,,,,,FALSE
 Url,https://github.com/ghostpack/rubeus,,Block,Informational,Rubeus Hacking ool,Rubeus Hacking ool,,,,,FALSE
 Url,https://github.com/ricardojoserf/nativedump,,Block,Informational,native dump lsass hacking tool,native dump lsass hacking tool,,,,,FALSE
 Url,https://github.com/zblurx/dploot,,Block,Informational,dploot hacking tool,dploot hacking tool,,,,,FALSE
