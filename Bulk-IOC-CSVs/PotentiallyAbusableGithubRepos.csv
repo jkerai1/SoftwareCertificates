@@ -73,7 +73,7 @@ Url,https://github.com/sigmasd/stimulator,,Block,Informational,AntiWork,AntiWork
 Url,https://flathub.org/apps/io.github.sigmasd.stimulator,,Block,Informational,Antiwork,Antiwork,,,,,FALSE
 Url,https://github.com/jnizm/stay-awake,,Block,Informational,stay awake,stay awake,,,,,FALSE
 Url,https://github.com/slayer0x/godpipe,,Block,Informational,Tor Exfilitrator,Tor Exfilitrator,,,,,FALSE
-Url,https://github.com/bill-stewart/syncthingwindowssetup/,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
+Url,https://github.com/bill-stewart/syncthingwindowssetup,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,,,,,FALSE
 DomainName,qwenlm.github.io,,Block,Informational,Ungoverned AI,Ungoverned AI,,,,,FALSE
 Url,https://github.com/hlldz/phant0m,,Block,Informational,Log Killing Tool,Log Killing Tool,,,,,FALSE
 Url,https://github.com/doktor83/srbminer-multi,,Block,Informational,Crypto,Crypto,,,,,FALSE
