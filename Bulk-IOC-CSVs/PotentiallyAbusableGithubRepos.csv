@@ -48,7 +48,7 @@ Url,https://github.com/cloudflare/cloudflared,,Block,Informational,Unsanctioned:
 Url,https://github.com/wildfoundry/dataplicity-agent,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
 Url,https://github.com/localtunnel/server,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
 Url,https://github.com/kaichaosun/rlt,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
-Url,https://github.com/loophole/cli/,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
+Url,https://github.com/loophole/cli,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
 Url,https://github.com/beyondcode/expose,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
 Url,https://github.com/antoniomika/sish,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/+ACM-,,,,,FALSE
 Url,https://github.com/havocframework/havoc,,Block,Informational,Havoc C2 Framework,Havoc Framework,,,,,FALSE
@@ -66,7 +66,7 @@ Url,https://github.com/nmbazima/linkswwwbrowser,,Block,Informational,Unsanctione
 Url,https://github.com/cmb/edbrowse,,Block,Informational,Unsanctioned browser - edbrowser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/fathyb/carbonyl,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/lukeaschenbrenner/txtnet-browser,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,,,,,FALSE
-Url,https://github.com/zquestz/s,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,,,,,FALSE
+Url,https://github.com/zquestz/s,,Block,Informational,Unsanctioned Web Search In Terminal,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/freefull/runt,,Block,Informational,Unsanctioned browser - Yandex Browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/alex313031/thorium-win,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/sigmasd/stimulator,,Block,Informational,AntiWork,AntiWork,,,,,FALSE
