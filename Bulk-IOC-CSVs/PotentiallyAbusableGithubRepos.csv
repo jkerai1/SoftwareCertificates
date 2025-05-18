@@ -24,7 +24,6 @@ DomainName,decentnet.github.io,,Block,Informational,Piracy,Piracy,,,,,FALSE
 Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/serenityos/serenity,,Block,Informational,SerenityOS,SerenityOS,,,,,FALSE
-Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/beefproject/beef,,Block,Informational,The Browser Exploitation Framework Project ,The Browser Exploitation Framework Project ,,,,,FALSE
 DomainName,github-scanner.com,,Block,Informational,lumma stealer,lumma stealer,,,,,FALSE
 Url,https://github.com/doredry/tokenfinder,,Block,Informational,Token Stealer Repo,Token Stealer Repo,,,,,FALSE
@@ -38,8 +37,6 @@ Url,https://github.com/magic-wormhole/magic-wormhole,,Block,Informational,File S
 Url,https://github.com/marcant01/fluent-screen-recorder,,Block,Informational,Screen Recording Software - fluent screen recorder,Screen Recording Software,,,,,FALSE
 Url,https://github.com/v-i-x-x/amsi-bypass,,Block,Informational,AMSI Bypass,AMSI Bypass,,,,,FALSE
 Url,https://github.com/versotile-org/verso,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
-Url,https://github.com/ladybirdbrowser/ladybird,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
-Url,https://github.com/dioxuslabs/blitz,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/lobobrowser/lobobrowser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/vysecurity/ps1-toolkit,,Block,Informational,PS-1 Toolkit - Red Team Toolkit,PS-1 Toolkit - Red Team Toolkit,,,,,FALSE
 Url,https://github.com/kevin-robertson/inveigh,,Block,Informational,.NET IPv4/IPv6 machine-in-the-middle tool for penetration testers ,.NET IPv4/IPv6 machine-in-the-middle tool for penetration testers ,,,,,FALSE
