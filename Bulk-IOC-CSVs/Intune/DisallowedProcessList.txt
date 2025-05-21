@@ -205,3 +205,4 @@ maxthon.exe
 avant.exe
 torch.exe
 ucbrowser.exe
+RuneLiteSetup.exe
