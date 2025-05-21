@@ -199,3 +199,5 @@ DomainName,neteasegames.com,,Block,Informational,Unsanctioned: Gaming,Unsanction
 DomainName,espritgames.ru,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,allsacred.ru,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,pcgamingwiki.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+DomainName,runelite.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+Url,https://github.com/runelite/runelite,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
