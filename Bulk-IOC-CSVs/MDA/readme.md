@@ -437,6 +437,11 @@ Keyword: "eyJ0e" (but also eyJhbGc is valid)
 
 ![image](https://github.com/user-attachments/assets/58a1422f-9783-4afc-9531-1c29e84a6736)  
 
+--------------------------------------------------------------------------------------------
+> Note if you multiple accounts in the MCAS proxy from the same device you will get this error:
+> ![image](https://github.com/user-attachments/assets/60d2e54b-310d-408e-bcd0-bf50de2144cb)
+---------------------------------------------------------------------------------------------------  
+
 # App Discovery Policy
 > This works via Network Logs from MDE, Secure Web Gateway or custom log collector. There is no dependency here for conditional access here, only Access/Session policies require conditional access.
 ![image](https://github.com/user-attachments/assets/367067fd-a78a-43d1-a5c5-ef33b5ecf2bd)  
