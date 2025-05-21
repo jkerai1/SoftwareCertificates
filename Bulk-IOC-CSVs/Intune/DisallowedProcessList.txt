@@ -206,3 +206,4 @@ avant.exe
 torch.exe
 ucbrowser.exe
 RuneLiteSetup.exe
+teamspeak-client.msi
