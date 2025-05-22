@@ -16,7 +16,7 @@ DomainName,otter.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctione
 DomainName,readspeaker.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,neospeech.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,iblai.app,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
-DomainName,studyx.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,studyx.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,falseF
 DomainName,landbot.online,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,copy.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,h2o.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -215,6 +215,8 @@ DomainName,slidedog.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanct
 DomainName,langchain.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,bypassGPT.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,continue.dev,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,browsergpt.net,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,hix.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/vibn-ai-chatgpt-ai-powere/feeonheemodpkdckaljcjogdncpiiban,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/spell-checker-and-grammar/dmgkiikdlhmpikkhpiplldicbnicmboc,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -264,6 +266,7 @@ Url,https://chrome.google.com/webstore/detail/becfinhbfclcgokjlobojlnldbfillpf,,
 Url,https://chrome.google.com/webstore/detail/nolkleckgikphcknllccijejhfmcchkg,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chrome.google.com/webstore/detail/inhcgfpbfdjbjogdfjbclgolkmhnooop,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/deepseek-ai/npphdmcakmfhllhblkealgkeefamebih,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+Url,https://chromewebstore.google.com/detail/browsergpt-chatgpt-anywhe/njggknpmkjapgklcfhaiigafiiebpchm,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://addons.mozilla.org/en-US/firefox/addon/magictool-ai-assistant,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/ai-extension-powered-by-c/fpncncnngnkggnjajalboihdobmdenml,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://pages.store.office.com/addinsinstallpage.aspx?assetid=WA200005502,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
