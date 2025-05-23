@@ -201,3 +201,5 @@ Url,https://github.com/rapid7/metasploit-framework,,Block,Informational,Hacking 
 Url,https://github.com/gremwell/o365enum,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/0xZDH/o365spray,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/LuemmelSec/Pentest-Tools-Collection,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
+Url,https://github.com/siunam321/powerkatz,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
+Url,https://github.com/0xC01DF00D/Mimigoatz,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
