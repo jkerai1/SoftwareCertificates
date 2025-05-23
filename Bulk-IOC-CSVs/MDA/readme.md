@@ -665,9 +665,17 @@ Then we can select the scope profile we just made:
 ![image](https://github.com/user-attachments/assets/56034a53-5c13-4154-92c2-e7a5f55e6899)
 
 # Block Apps From Unsanctioned Countries
-> As Per usual make sure to edit and preview results, the country HQ may not be a place you expect (perhaps a tax reason)  
+> As Per usual make sure to edit and preview results, the country HQ may not be a place you expect (perhaps a tax reason)
 
-![image](https://github.com/user-attachments/assets/6f0c683e-5d49-42a7-8a66-5efd26032c1c)
+Blocking via HQ  
+![image](https://github.com/user-attachments/assets/3a328549-b193-4928-a405-ec4eff362a8c)  
+
+Blocking via Data Center - perhaps you have a compliance requirement  
+> Remember to create a second policy and do not add with the above HQ policy
+
+![image](https://github.com/user-attachments/assets/51ac0451-cc9d-4818-91a4-9a0dad122516)
+
+
 
 ## Monitor Cloud Storage
 
