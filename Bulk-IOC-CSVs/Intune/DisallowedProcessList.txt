@@ -205,5 +205,6 @@ maxthon.exe
 avant.exe
 torch.exe
 ucbrowser.exe
+RuneLite.exe
 RuneLiteSetup.exe
 teamspeak-client.msi
