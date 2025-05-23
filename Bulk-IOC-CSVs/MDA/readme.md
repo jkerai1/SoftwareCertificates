@@ -24,6 +24,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Auto Ban Discovered Risky Generative AI](#auto-ban-discovered-risky-generative-ai)
   * [Auto Ban Discovered Personal Messaging Apps](#Auto-Ban-Discovered-Personal-Messaging-Apps)
   * [Auto Ban Discovered Social Networking](#auto-ban-discovered-social-networking)
+  * [Block Apps From Unsanctioned Countries](#block-apps-from-unsanctioned-countries)
   * [Monitor Cloud Storage](#monitor-cloud-storage)
   * [Monitor Newly Created Apps](#monitor-new-created-apps)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
@@ -663,6 +664,10 @@ Then we can select the scope profile we just made:
 
 ![image](https://github.com/user-attachments/assets/56034a53-5c13-4154-92c2-e7a5f55e6899)
 
+# Block Apps From Unsanctioned Countries
+> As Per usual make sure to edit and preview results, the country HQ may not be a place you expect (perhaps a tax reason)  
+
+![image](https://github.com/user-attachments/assets/6f0c683e-5d49-42a7-8a66-5efd26032c1c)
 
 ## Monitor Cloud Storage
 
