@@ -209,3 +209,4 @@ RuneLite.exe
 RuneLiteSetup.exe
 teamspeak-client.msi
 World of Warcraft Launcher.exe
+HRSword.exe
