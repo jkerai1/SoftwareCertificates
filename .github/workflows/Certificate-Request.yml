@@ -128,9 +128,7 @@ jobs:
               New-Item -ItemType Directory -Path $certDir | Out-Null
           }
 
-          $certPath = Join-Path $certDir "$name.cer"
           $found = $false
-
           try {
               Unblock-File -Path $file
               $sig = Get-AuthenticodeSignature -FilePath $file
@@ -142,9 +140,15 @@ jobs:
               }
 
               if ($cert) {
+                  # Format expiry date as dd-MM-yyyy
+                  $expiry = $cert.NotAfter.ToString("dd-MM-yyyy")
+                  # Build filename with expiry in parentheses
+                  $fileName = "${name}_(Exp: $expiry).cer"
+                  $certPath = Join-Path $certDir $fileName
+
                   [IO.File]::WriteAllBytes($certPath, $cert.Export("Cert"))
-                  $found = $true
                   Write-Host "✅ Certificate extracted to: $certPath"
+                  $found = $true
               } else {
                   Write-Host "❌ ERROR: No certificate found."
               }
@@ -155,9 +159,25 @@ jobs:
           }
 
           Add-Content -Path $env:GITHUB_OUTPUT -Value "CERTIFICATE_FOUND=$found"
+          if ($found) {
+              # Expose the actual filename so downstream steps can pick it up
+              Add-Content -Path $env:GITHUB_OUTPUT -Value "CERT_FILENAME=$fileName"
+          }
 
+      - name: Certificate Extracted — Commit & Close
+        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
+        shell: pwsh
+        run: |
+          $fileName = "${{ steps.extract_certificate.outputs.CERT_FILENAME }}"
+          $certFile = "All Certs Uncategorized/$fileName"
 
-      - name: Certificate Extracted - Comment & Close
+          git config --local user.name "github-actions"
+          git config --local user.email "action@github.com"
+          git add $certFile
+          git commit -m "Added extracted certificate: $fileName" || Write-Host "Nothing to commit"
+          git push
+
+      - name: Certificate Extracted - Comment and Close Issue
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
         uses: actions/github-script@v6
         with:
@@ -167,7 +187,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: "Certificate extracted into **All Certs Uncategorized**. Thanks!"
+              body: "Certificate extracted into **All Certs Uncategorized** as `" + `${{ steps.extract_certificate.outputs.CERT_FILENAME }}` + "`. Thank you!"
             });
             await github.rest.issues.update({
               issue_number: context.issue.number,
@@ -175,6 +195,7 @@ jobs:
               repo: context.repo.repo,
               state: "closed"
             });
+
 
       - name: Commit Extracted Certificate
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
