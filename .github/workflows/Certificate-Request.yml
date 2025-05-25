@@ -122,7 +122,7 @@ jobs:
           $file = "${{ steps.download.outputs.SOFTWARE_FILE }}"
           $name = "${{ steps.parse_issue.outputs.CERTIFICATE_NAME }}"
 
-          # Root‐level “All Certs Uncategorized” folder
+          # Root level “All Certs Uncategorized” folder
           $certDir = "All Certs Uncategorized"
           if (-not (Test-Path $certDir)) {
               New-Item -ItemType Directory -Path $certDir | Out-Null
@@ -134,20 +134,28 @@ jobs:
           try {
               Unblock-File -Path $file
               $sig = Get-AuthenticodeSignature -FilePath $file
-              $cert = $sig.SignerCertificate ?: $sig.TimeStampSignerCertificate
+
+              # Pick the first available certificate
+              $cert = $sig.SignerCertificate
+              if (-not $cert) {
+                  $cert = $sig.TimeStampSignerCertificate
+              }
+
               if ($cert) {
                   [IO.File]::WriteAllBytes($certPath, $cert.Export("Cert"))
                   $found = $true
-                  Write-Host "Extracted to $certPath"
+                  Write-Host "✅ Certificate extracted to: $certPath"
               } else {
-                  Write-Host "No certificate found."
+                  Write-Host "❌ ERROR: No certificate found."
               }
+
               Remove-Item -Path $file -Force
           } catch {
-              Write-Host "Error: $_"
+              Write-Host "❌ An error occurred: $_"
           }
 
           Add-Content -Path $env:GITHUB_OUTPUT -Value "CERTIFICATE_FOUND=$found"
+
 
       - name: Certificate Extracted - Comment & Close
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
