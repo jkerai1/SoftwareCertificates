@@ -210,3 +210,4 @@ RuneLiteSetup.exe
 teamspeak-client.msi
 World of Warcraft Launcher.exe
 HRSword.exe
+utweb_installer.exe
