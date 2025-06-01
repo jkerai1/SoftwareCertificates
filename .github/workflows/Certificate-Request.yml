@@ -164,25 +164,6 @@ jobs:
               Add-Content -Path $env:GITHUB_OUTPUT -Value "CERT_FILENAME=$fileName"
           }
 
-      - name: Certificate Extracted - Comment and Close Issue
-        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "Certificate extracted into **All Certs Uncategorized** as `" + `${{ steps.extract_certificate.outputs.CERT_FILENAME }}` + "`. Thank you!"
-            });
-            await github.rest.issues.update({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: "closed"
-            });
-
       - name: Commit Extracted Certificate
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
         shell: pwsh
@@ -202,6 +183,24 @@ jobs:
           git commit -m "Add extracted certificate: $fileName" || Write-Host "Nothing to commit"
           git push
 
+      - name: Certificate Extracted - Comment and Close Issue
+        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Certificate extracted into **All Certs Uncategorized** as `" + `${{ steps.extract_certificate.outputs.CERT_FILENAME }}` + "`. Thank you!"
+            });
+            await github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "closed"
+            });
 
       - name: No Certificate Found - Comment & Close
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'false'
