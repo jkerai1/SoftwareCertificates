@@ -143,7 +143,7 @@ jobs:
                   # Format expiry date as dd-MM-yyyy
                   $expiry = $cert.NotAfter.ToString("dd-MM-yyyy")
                   # Build filename with expiry in parentheses
-                  $fileName = "${name}_(Exp: $expiry).cer"
+                  $fileName = "${name}_(Exp_$expiry).cer"
                   $certPath = Join-Path $certDir $fileName
 
                   [IO.File]::WriteAllBytes($certPath, $cert.Export("Cert"))
@@ -164,17 +164,23 @@ jobs:
               Add-Content -Path $env:GITHUB_OUTPUT -Value "CERT_FILENAME=$fileName"
           }
 
-      - name: Certificate Extracted — Commit & Close
+      - name: Commit Extracted Certificate
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
         shell: pwsh
         run: |
+          # grab the actual filename (with expiry) from outputs
           $fileName = "${{ steps.extract_certificate.outputs.CERT_FILENAME }}"
           $certFile = "All Certs Uncategorized/$fileName"
 
+          # DEBUG: make sure the file is actually there
+          Write-Host "🔍 Listing contents of 'All Certs Uncategorized':"
+          Get-ChildItem -Path "All Certs Uncategorized" | ForEach-Object { Write-Host $_.Name }
+
+          # set up git and commit
           git config --local user.name "github-actions"
           git config --local user.email "action@github.com"
           git add $certFile
-          git commit -m "Added extracted certificate: $fileName" || Write-Host "Nothing to commit"
+          git commit -m "Add extracted certificate: $fileName" || Write-Host "Nothing to commit"
           git push
 
       - name: Certificate Extracted - Comment and Close Issue
@@ -195,20 +201,6 @@ jobs:
               repo: context.repo.repo,
               state: "closed"
             });
-
-
-      - name: Commit Extracted Certificate
-        if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'true'
-        shell: pwsh
-        run: |
-          $name = "${{ steps.parse_issue.outputs.CERTIFICATE_NAME }}"
-          $certFile = "All Certs Uncategorized/$name.cer"
-
-          git config --local user.name "github-actions"
-          git config --local user.email "action@github.com"
-          git add $certFile
-          git commit -m "Add extracted certificate: $name.cer" || Write-Host "Nothing to commit"
-          git push
 
       - name: No Certificate Found - Comment & Close
         if: steps.extract_certificate.outputs.CERTIFICATE_FOUND == 'false'
