@@ -54,6 +54,7 @@ DomainName,ngrok-free.app,,Block,Informational,Unsanctioned: Living off The Tunn
 DomainName,ngrok-cname.com,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,beeceptor.com,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,jprq.io,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
+Url,https://github.com/jkuri/bore,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,bore.pub,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,localxpose.io,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
 DomainName,expose.sh,,Block,Informational,Unsanctioned: Living off The Tunnels (LOTS),Unsanctioned: https://lottunnels.github.io/#,Unsanctioned,,,,false
