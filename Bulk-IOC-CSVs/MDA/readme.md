@@ -25,6 +25,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Auto Ban Discovered Personal Messaging Apps](#Auto-Ban-Discovered-Personal-Messaging-Apps)
   * [Auto Ban Discovered Social Networking](#auto-ban-discovered-social-networking)
   * [Block Apps From Unsanctioned Countries](#block-apps-from-unsanctioned-countries)
+  * [Block Apps with a Data Breach after X Date](#Block-Apps-with-a-Data-Breach-after-X-Date)  
   * [Monitor Cloud Storage](#monitor-cloud-storage)
   * [Monitor Newly Created Apps](#monitor-new-created-apps)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
@@ -675,6 +676,11 @@ Blocking via Data Center - perhaps you have a compliance requirement
 
 ![image](https://github.com/user-attachments/assets/51ac0451-cc9d-4818-91a4-9a0dad122516)
 
+# Block Apps with a Data Breach after X Date  
+
+You may need to adjust this date after some time.  
+
+![image](https://github.com/user-attachments/assets/5a4d3a10-af4c-4368-9846-e0c081777546)
 
 
 ## Monitor Cloud Storage
