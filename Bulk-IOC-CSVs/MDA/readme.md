@@ -528,7 +528,7 @@ Also consider adding a threshold for data:
 
 
 🏆 For best practice use "App Tag Does not Equal Sanctioned" rather than "App Tags Equals Monitored or No Value", this is because you can actually create extra tags if you need them in MDA so a creation of a new tag may leave a gap in policy:  
-
+> You shouldn't need to add an app tag for does not equal sanctioned as discovery policy should ignore it but this is to show example of tag usage. Also a hard confirm it will not affect sanctioned apps is nice :)  
 ![image](https://github.com/user-attachments/assets/ed8394de-a787-4936-b636-5458cccdced8)
 
 Example of Custom Tag - Create one from Settings > Cloud Apps > App Tags > Add app Tag:
