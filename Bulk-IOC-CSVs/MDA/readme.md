@@ -502,7 +502,7 @@ Be sure to use the "edit and preview results" to check you are not going to bloc
 
 ## Auto Ban Discovered File Transfer apps
 
-You can leverage App Name or Domain Name for Auto discovery Policies.
+You can leverage App Name or Domain Name for Auto discovery Policies (but theres a better trick if you read on!)  
 
 ![image](https://github.com/user-attachments/assets/1ffe7e43-678e-47d3-a431-1f74d53a4d8f)
 
@@ -521,6 +521,11 @@ However note there are a LOT of results, and even almost 5,000 when we bump the 
 In my case I only have 2 hits neither of which is LOB and both with very low amount of traffic (little point in sanctioning these 2) so I am happy to proceed and block with a risk score of 5:  
 
 ![image](https://github.com/user-attachments/assets/6a0424da-562d-4ed2-9ca3-472f0036408f)
+
+Also consider adding a threshold for data:
+
+![image](https://github.com/user-attachments/assets/88bff683-31ea-47dc-b871-2b13e7b2498e)
+
 
 🏆 For best practice use "App Tag Does not Equal Sanctioned" rather than "App Tags Equals Monitored or No Value", this is because you can actually create extra tags if you need them in MDA so a creation of a new tag may leave a gap in policy:  
 
