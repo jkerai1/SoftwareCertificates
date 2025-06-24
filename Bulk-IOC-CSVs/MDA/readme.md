@@ -61,6 +61,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Network Requirements](#etwork-Requirements)
   * [Behaviour During Downtime](#Behaviour-During-Downtime)
   * [Request App Change To Microsoft](#Request-App-Change-To-Microsoft)
+  * [Cloud Discovery Report](#Cloud-Discovery-Report)
  
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -1149,6 +1150,23 @@ We can do this from the dropdown, in this case I am using App Data is outdated a
 ![image](https://github.com/user-attachments/assets/faea80f2-09f7-456c-8fa0-a1394654b3c6)
 
 ![image](https://github.com/user-attachments/assets/22324996-948c-4ba5-9ae6-f57272c34bf8)
+
+# Cloud Discovery Report
+
+Get an exec like PDF summary of cloud discovery, it will use the timeframe set from cloud app discovery. If you want 90 days for the report then change the timeframe to 90 days:
+
+From Cloud Apps > Cloud Discovery  
+> It will take a while to generate!
+
+![image](https://github.com/user-attachments/assets/e154cb59-a395-4b5c-813b-6c19b694c6ee)
+
+![image](https://github.com/user-attachments/assets/78f66c91-47aa-47fa-b2df-9190809fb5e9)
+
+What the PDF Looks like - its 6 pages long:  
+
+![image](https://github.com/user-attachments/assets/40372451-0ca1-443a-aa93-545555e358f2)
+
+![image](https://github.com/user-attachments/assets/61c128a5-faac-4d2e-a59a-f231c995cb61)
 
 
 # Fin  
