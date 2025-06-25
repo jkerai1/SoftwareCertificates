@@ -952,7 +952,7 @@ Policy result:
 > Need to sync Entra Trusted Named Locations to MDA? Check out https://365bythijs.be/2020/03/31/sync-named-locations-to-mcas-ip-ranges-using-azure-automation/
 
 ## Enforce MDA Blocks to MDE
-> Note this has a license requirement of MDE P2 and MDE must be in use. This option will not appear for Business Premium but you can purchase additional licensing. If you for downgrade your license for whatever reason, you will also lose ALL MDA blocks in MDE 🤦    
+> Note this has a license requirement of MDE P2 and MDE must be in use. This option will not appear for Business Premium but you can purchase additional licensing. If you for downgrade your license for whatever reason, you will also lose ALL MDA blocks in MDE 🤦. Take a back-up of the indicators from Settings > Endpoint > Indicators and you can drop the unecessary columns by comparing to the bulk import schema and then reimport so you can at least keep what you had before.    
 To make any advantage of Unsanctioned 🚫 Apps you'll need to enable this from
 
 Settings > Cloud Apps > Microsoft Defender For Endpoint 
