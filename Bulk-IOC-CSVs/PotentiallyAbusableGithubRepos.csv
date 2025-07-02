@@ -2,6 +2,7 @@ IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,Re
 Url,https://github.com/arkane-systems/mousejiggler,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/twentynine78/keepon,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/nicman42/noblackout,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
+Url,https://github.com/gtsteffaniak/filebrowser,,Block,Informational,Web File Browser,Web File Browser,,,,,FALSE
 Url,https://github.com/downloads/dmnd/caffeinated,,Block,Informational,Antiwork Tool,Antiwork Tool,,,,,FALSE
 Url,https://github.com/newmarcel/keepingyouawake,,Block,Informational,AntiWork,AntiWork,,,,,FALSE
 Url,https://github.com/sabrogden/ditto,,Block,Informational,Ditto,Ditto,,,,,FALSE
