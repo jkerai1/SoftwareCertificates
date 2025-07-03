@@ -297,6 +297,11 @@ Template: Block download of potential malware (based on Microsoft Threat Intelli
 
 ![image](https://github.com/user-attachments/assets/dd7da79a-ef96-47c5-a2cd-a06a24532f51)
 
+> Note: For Onedrive Session Policy blocks to work properly 'Microsoft 365 Copilot - General' must also be onboarded:
+
+![image](https://github.com/user-attachments/assets/e37a7a16-28cc-41ef-9dd7-3c75762efba6)  
+
+
 ## Block Suspicious File Extension Upload
 
 Start building the policy with "Block upload based on real-time content inspection" template. I then remove Data Classification Inspection method as we don't need that. Then from "Filters", select "extension" and start adding in the extensions.  
