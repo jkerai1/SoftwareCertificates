@@ -78,7 +78,7 @@ Url,https://github.com/bill-stewart/syncthingwindowssetup,,Block,Informational,F
 DomainName,qwenlm.github.io,,Block,Informational,Ungoverned AI,Ungoverned AI,,,,,FALSE
 Url,https://github.com/hlldz/phant0m,,Block,Informational,Log Killing Tool,Log Killing Tool,,,,,FALSE
 Url,https://github.com/doktor83/srbminer-multi,,Block,Informational,Crypto,Crypto,,,,,FALSE
-Url,https://github.com/wietze/argfuscator.net,,Block,Informational,Code Obfuscator,Code Obfuscator,,,,,FALSE
+Url,https://github.com/wietze/,,Block,Informational,Code Obfuscator,Code Obfuscator,,,,,FALSE
 Url,https://gist.github.com/s3cur3th1ssh1t/8294ec59d1ef38cba661697edcfacb9b,,Block,Informational,Mimikatz Alternative,Mimikatz Alternative,,,,,FALSE
 Url,https://github.com/jthack/hero,,Block,Informational,Hack bot,Hack bot,,,,,FALSE
 Url,https://github.com/zylon-ai/private-gpt,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,,,,,FALSE
@@ -121,7 +121,7 @@ Url,https://github.com/ionuttbara/windows-defender-remover,,Block,Informational,
 Url,https://github.com/Wahid-najim/rexC0n,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/Slayer0x/GodPipe,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/AssassinUKG/PortHunter,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
-Url,https://github.com/wietze/ArgFuscator.net,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
+DomainName,argfuscator.net,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/secureworks/pytune,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/0xBugatti/OffensiveDocker,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/mmarting/unwaf,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
