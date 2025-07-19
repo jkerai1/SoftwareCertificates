@@ -62,6 +62,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Behaviour During Downtime](#Behaviour-During-Downtime)
   * [Request App Change To Microsoft](#Request-App-Change-To-Microsoft)
   * [Cloud Discovery Report](#Cloud-Discovery-Report)
+  * [SaaS vs Oauth](#Saas-vs-oauth)
  
 
 Most of the policies below can be built from a policy template. For some reason, access policy/Anomaly Detection Policy does not have a template.  
@@ -1173,6 +1174,13 @@ What the PDF Looks like - its 6 pages long:
 
 ![image](https://github.com/user-attachments/assets/61c128a5-faac-4d2e-a59a-f231c995cb61)
 
+# Saas vs Oauth  
+
+If you're confused about the SaaS (App discovery) vs App Goverance (oauth & OIDC) this diagram may help:
+
+<img width="2084" height="1998" alt="saas vs oautgh" src="https://github.com/user-attachments/assets/abae458f-d06e-4a4f-9668-ee29c440d95b" />  
+
+App Discovery would block the URL from the enrolled corporate device but not stop Entra ID access from a BYOD device if that is allowed via Conditional Access. This would be stopped by not allowing users to consent to applications in Entra ID. 
 
 # Fin  
 
