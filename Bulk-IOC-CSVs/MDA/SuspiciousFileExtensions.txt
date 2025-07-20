@@ -64,3 +64,4 @@ rar
 py
 rs
 go
+pif
