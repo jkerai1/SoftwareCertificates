@@ -6,6 +6,7 @@ DomainName,astian.org,,Block,Informational,Unsanctioned browser: Midori Browser,
 DomainName,bromite.org,,Block,Informational,Unsanctioned browser: Bromite Browser,Bromite Browser,Unsanctioned,,,,false
 DomainName,thorium.rocks,,Block,Informational,Unsanctioned browser: Throium Browser,Throium Browser,Unsanctioned,,,,false
 DomainName,librewolf.net,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://codeberg.org/librewolf,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,cromite.org,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,safe-guard.app,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 DomainName,pinokio.computer,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
