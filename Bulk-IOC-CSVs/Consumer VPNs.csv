@@ -115,6 +115,7 @@ DomainName,avg.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned:
 DomainName,mega.io,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,vpnbook.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,bytzvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
+DomainName,guardianapp.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,troywellvpn.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,vpn.ac,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,millenvpn.jp,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
