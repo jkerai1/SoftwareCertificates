@@ -62,6 +62,7 @@ Url,https://github.com/ravenproject/ravencoin,,Block,Informational,Crypto,Crypto
 Url,https://github.com/cheat-engine/cheat-engine,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,,,,,FALSE
 DomainName,r-roms.github.io,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,,,,,FALSE
 DomainName,amsi.fail,,Block,Informational,Unsanctioned:AMSI bypass generator,Unsanctioned,,,,,FALSE
+DomainName,powershellforhackers.com,,Block,Informational,Unsanctioned:AMSI bypass generator,Unsanctioned,,,,,FALSE
 Url,https://github.com/zen-browser/desktop,,Block,Informational,Unsanctioned browser,Unsanctioned,,,,,FALSE
 Url,https://github.com/atsepkov/graphene,,Block,Informational,Unsanctioned browser - Graphene Text Browser,Unsanctioned browser,,,,,FALSE
 Url,https://github.com/nmbazima/linkswwwbrowser,,Block,Informational,Unsanctioned browser - Links Browser,Unsanctioned browser,,,,,FALSE
