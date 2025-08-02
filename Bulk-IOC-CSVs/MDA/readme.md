@@ -259,6 +259,18 @@ Settings > Cloud Apps > Edge For Business Protection
 The default block message isn't super useful so I would consider customizing this - The average end user probably doesn't know what Edge for Business means:  
 ![image](https://github.com/user-attachments/assets/981b632a-8ce0-4d96-a1b8-be28363beb2d)  
 
+Heres an example of a text you can use:  
+
+"Please use Edge for Business and then Sign-in to the browser profile with your work credentials into the browser. Create a new work profile for your account if you haven't already.  
+
+Select "No, this app only" after the sign-in.
+
+If you are on a BYOD device this is the download link for Edge for Business:
+https://www.microsoft.com/en-us/edge/business/download?msockid=37800a685ee16c0b3bee1f815ff46d65&form=MA13FJ
+
+The Sync May take a while. You know you're in Edge for Business as there will be a suitcase icon on the Edge Icon in the taskbar."
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Also note when you use Edge for business with MDA, browser tools (i.e. when you hit F12) will not be available which makes perfect sense as that provides a bypass path to the proxy. This also means Device Emulation/native User Agent switching will not be possible which is a nice bonus.
 
 See More Browser Blocking stuff here:  
