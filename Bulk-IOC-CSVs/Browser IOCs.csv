@@ -95,6 +95,8 @@ DomainName,icecatbrowser.org,,Block,Informational,Unsanctioned browser,Unsanctio
 DomainName,getcatalyst.eu.org,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,textbrowser.github.io,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 DomainName,ucoz.ru,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,diabrowser.com,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
+DomainName,perplexity.ai,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/textbrowser/dooble,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/QupZilla/qupzilla,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/roytam1/kmeleon/,,Block,Informational,Unsanctioned browser,Unsanctioned,Unsanctioned,,,,false
@@ -191,3 +193,4 @@ FileSha256,A42E82494F00E054C2DE1B065BBC8FB439D93EB69F9B97CC4868E71E48A9EAE0,,Blo
 FileSha256,E994D263F2FD2C22FEBFBE45103526E00145A7674A0FDA79C822B97C2770A9E3,,BlockAndRemediate,Informational,Unsanctioned browser: w3m text based browser,Unsanctioned browser: w3m-0.5.3.tar.gz	VT (0/79)	https://www.virustotal.com/gui/file/e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3/detection,Unsanctioned,,,,false
 FileSha256,2433CB70CD781FF9D1CD9247F05F723988E8BD04DAF16C75C5D4015D6E10F447,,BlockAndRemediate,Informational,Unsanctioned browser: browsh,Unsanctioned browser: browsh_1.8.0_windows_amd64.exe	VT (2/74)	https://www.virustotal.com/gui/file/2433cb70cd781ff9d1cd9247f05f723988e8bd04daf16c75c5d4015d6e10f447/detection,Unsanctioned,,,,false
 FileSha256,7C6B94EFEE914A20A2C888888CCC63C117390BAA380318C22863584E7EF4042D,,BlockAndRemediate,Informational,Unsanctioned browser: WebbIE,Unsanctioned browser: WebbIE4.msi	VT (0/75)	https://www.virustotal.com/gui/file/7c6b94efee914a20a2c888888ccc63c117390baa380318c22863584e7ef4042d/detection,Unsanctioned,,,,false
+
