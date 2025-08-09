@@ -202,6 +202,8 @@ DomainName,pcgamingwiki.com,,Block,Informational,Unsanctioned: Gaming,Unsanction
 DomainName,runelite.net,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,myabandonware.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,oceanofgamesu.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+DomainName,cemu.info,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/runelite/runelite,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/cemu-project/,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+
 
