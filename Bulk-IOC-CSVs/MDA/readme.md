@@ -274,6 +274,7 @@ The Sync May take a while. You know you're in Edge for Business as there will be
 Also note when you use Edge for business with MDA, browser tools (i.e. when you hit F12) will not be available which makes perfect sense as that provides a bypass path to the proxy. This also means Device Emulation/native User Agent switching will not be possible which is a nice bonus.
 
 See More Browser Blocking stuff here:  
+[Article by Me](https://www.linkedin.com/pulse/third-party-browser-blocking-jay-kerai-ungme/)  
 [Certificates](https://github.com/jkerai1/SoftwareCertificates/tree/main/Browsers)  
 [Domains/URLs](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Browser%20IOCs.csv)  
 [User Agent KQL :oncoming_police_car: Parser](https://www.kqlsearch.com/query/Identity-parseuseragent&clmoxrwnu002tmc0k2lnnqbnz)
