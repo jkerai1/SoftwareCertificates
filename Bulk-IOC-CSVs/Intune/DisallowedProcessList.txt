@@ -212,3 +212,4 @@ World of Warcraft Launcher.exe
 HRSword.exe
 utweb_installer.exe
 cemu.exe
+VPNMaster_setup.exe
