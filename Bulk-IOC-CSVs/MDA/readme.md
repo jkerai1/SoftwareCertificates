@@ -141,7 +141,16 @@ Page 1             |  Page 2
 
 All other [3rd party apps will need to be onboarded with SAML](https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-deployment-featured-idp) from Settings > Cloud Apps > Conditional Access App Control Apps:
 ![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
-> The reason from what I can tell for why you need to do this on top of having the Enterprise Application in Entra is that you need the assertion URL or you will run into redirect error
+> The reason from what I can tell for why you need to do this on top of having the Enterprise Application in Entra is that you need the assertion URL or you will run into redirect error  
+
+You can use autoonboarding and skip SAML step by finding the app in the catalog and hitting "edit details":
+
+<img width="2453" height="753" alt="image" src="https://github.com/user-attachments/assets/29e94e7b-c02b-4d4d-9c0b-9a8670ef90a0" />
+
+and then enable Conditional Access App Control after:
+<img width="1150" height="770" alt="image" src="https://github.com/user-attachments/assets/daf24ca9-2373-45e1-ad48-e35c76373fae" />
+
+You will then need to bring that app into the scope of a conditional access policy that has session control enabled and hopefully you will see the .mcas.ms domain after sometime. It can take some time for this to propogate and users may get redirected back to my apps the first time or during that initial switch over period.
 
 Note that just because many microsoft apps didn't work, this is still enough coverage to put damage control for Adversary in the middle (AiTM) type phishing as this typically targets Officehome (Office365). If you want to learn more about AiTMs, I'd encourage you to check out my talk on [M365-Security-&-Compliance-User-Group](https://github.com/jkerai1/So-You-ve-Got-MFA-Defending-and-Responding-Against-MFA-Bypass-Techniques-in-Entra)
 
