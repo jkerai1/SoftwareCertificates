@@ -215,3 +215,4 @@ Url,https://github.com/crazy-max/WindowsSpyBlocker,,Block,Informational,Hacking 
 Url,https://github.com/boogsec/MashedPotato,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/antonioCoco/RoguePotato,,Block,Informational,Hacking Tool,Hacking Tool,,,,,FALSE
 Url,https://github.com/gravitational/teleport/,,Block,Informational,Remote Tool,Remote Tool,,,,,FALSE
+Url,https://github.com/rclone/rclone,,Block,Informational,Exfil Tool,Remote Tool,,,,,FALSE
