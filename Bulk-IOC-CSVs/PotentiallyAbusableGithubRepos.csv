@@ -219,4 +219,8 @@ Url,https://github.com/rclone/rclone,,Block,Informational,Exfil Tool,Exfil Tool,
 Url,https://github.com/UnigramDev/Unigram,,Block,Informational,Chat Tool,Chat Tool,,,,,FALSE
 Url,https://github.com/hexchat/hexchat,,Block,Informational,Chat Tool,Chat Tool,,,,,FALSE
 Url,https://github.com/qTox/qTox,,Block,Informational,Chat Tool,Chat Tool,,,,,FALSE
+Url,https://github.com/PowerShellMafia/PowerSploit,,Block,Informational,Powersploit hacking Tool,Powersploit hacking Tool,,,,,FALSE
 Url,https://github.com/kiwids0220/deviceCode2WinHello,,Block,Informational,Persistence Tool,Persistence Tool,,,,,FALSE
+Url,https://github.com/Flangvik/TeamFiltration,,Block,Informational,Exfiltration Tool,Exfiltration Tool,,,,,FALSE
+Url,https://github.com/dafthack/GraphRunner,,Block,Informational,Exfiltration Tool,Exfiltration Tool,,,,,FALSE
+Url,https://github.com/trustedsec/social-engineer-toolkit,,Block,Informational,SET Tool,SET Tool,,,,,FALSE
