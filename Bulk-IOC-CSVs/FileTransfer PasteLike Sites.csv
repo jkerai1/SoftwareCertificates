@@ -12,6 +12,7 @@ DomainName,box.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINE
 DomainName,docsend.com,,Audit,Informational,File Transfer IN AUDIT TO PREVENT BUSINESS IMPACT.,Unsanctioned. IN AUDIT TO PREVENT BUSINESS IMPACT,Unsanctioned,,None,,true
 DomainName,craft.do,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,obsidian.md,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,colab.research.google.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,keep.google.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,joplinapp.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,nimbusweb.me,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
@@ -308,6 +309,7 @@ DomainName,2share.su,,Block,Informational,File Transfer/Paste Like Site,Unsancti
 DomainName,file-works.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,filedropper.io,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,file-upload.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,labs.iximiuz.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/tycrek/yaass,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/sergix44/XBackBone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
@@ -326,6 +328,7 @@ FileSha256,262C734E55A66E5BC21E24D5B75B91382E1BBDD0D266B3B2784620B90D3BDB10,,Blo
 FileSha256,F54BD55C2534F2AAF6C9EFDCB9BE62CC0574C6FDA4C6C93EE0CA911CBD5146BB,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: Kyro Iodine,Unsanctioned - iodine.exe.exe	VT (2/76)	https://www.virustotal.com/gui/file/f54bd55c2534f2aaf6c9efdcb9be62cc0574c6fda4c6c93ee0ca911cbd5146bb/detection,Unsanctioned,,,,false
 FileSha256,F086C134A36049325A4CA4CDCC5817096FFA964E52938B81BEAF8F8608B2AAEF,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: Kyro Iodine,Unsanctioned - iodined.exe.exe	VT (2/76)	https://www.virustotal.com/gui/file/f086c134a36049325a4ca4cdcc5817096ffa964e52938b81beaf8f8608b2aaef/detection,Unsanctioned,,,,false
 FileSha256,2E01FA54CD7DE8E202504C9D7B497082AB778E47066F83B7D012F55CF33D42AC,,BlockAndRemediate,Informational,File Transfer/Paste Like Site: SyncThing, Unsanctioned - syncthing-windows-setup.exe	VT (0/77)	https://www.virustotal.com/gui/file/2e01fa54cd7de8e202504c9d7b497082ab778e47066f83b7d012f55cf33d42ac/detection,Unsanctioned,,,,false
+
 
 
 
