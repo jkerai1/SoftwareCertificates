@@ -57,6 +57,8 @@ DomainName,chatgptoutlookaddin.com,,Block,Informational,Unsanctioned: Ungoverned
 DomainName,claude.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,exa.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,gemini.google.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,colab.research.google.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,colab.dev,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,aistudio.google.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,getliner.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,getmerlin.in,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -305,5 +307,6 @@ Url,https://github.com/Deemocean/GhostGPT,,Block,Informational,Unsanctioned: Ung
 Url,https://github.com/ghostkiwicoder/GhostGPT,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://github.com/zylon-ai/private-gpt,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+
 
 
