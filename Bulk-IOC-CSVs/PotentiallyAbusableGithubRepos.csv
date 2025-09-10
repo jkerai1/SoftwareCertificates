@@ -219,3 +219,4 @@ Url,https://github.com/rclone/rclone,,Block,Informational,Exfil Tool,Exfil Tool,
 Url,https://github.com/UnigramDev/Unigram,,Block,Informational,Chat Tool,Chat Tool,,,,,FALSE
 Url,https://github.com/hexchat/hexchat,,Block,Informational,Chat Tool,Chat Tool,,,,,FALSE
 Url,https://github.com/qTox/qTox,,Block,Informational,Chat Tool,Chat Tool,,,,,FALSE
+Url,https://github.com/kiwids0220/deviceCode2WinHello,,Block,Informational,Persistence Tool,Persistence Tool,,,,,FALSE
