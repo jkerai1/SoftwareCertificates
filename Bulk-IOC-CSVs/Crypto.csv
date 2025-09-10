@@ -128,8 +128,10 @@ DomainName,softline.top,,Block,Low,Crypto,Crypto - Malicious Cryptominer,,,,,FAL
 DomainName,blockbitcoin.com,,Block,Low,Crypto,Crypto - Malicious Cryptominer,,,,,FALSE
 DomainName,bit2me.com,,Block,Low,Crypto,Crypto - Malicious Cryptominer,,,,,FALSE
 DomainName,nobitex.ir,,Block,Low,Crypto,Crypto,,,,,FALSE
+DomainName,styxmarket.com,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/frzb/coinboot,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/craciuncezar/browser-cryptominer,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/planeklm/razed-cryptomining,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/RavenProject/Ravencoin,,Block,Low,Crypto,Crypto,,,,,FALSE
 Url,https://github.com/doktor83/SRBMiner-Multi,,Block,Low,Crypto,Crypto,,,,,FALSE
+
