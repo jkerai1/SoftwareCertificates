@@ -74,6 +74,7 @@ gs-auto-clicker-4-0.exe
 TIDALSetup.exe
 MEGAvpnSetup64.exe
 MEGAsyncSetup64.exe
+MegaSync.exe
 Telegram.exe
 Mullvad VPN.exe
 foobar2000.exe
