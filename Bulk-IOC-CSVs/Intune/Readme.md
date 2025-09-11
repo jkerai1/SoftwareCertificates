@@ -133,7 +133,11 @@ DeviceProcessEvents
 | summarize make_list(DeviceName) by FileName, InitiatingProcessFileName,ProcessVersionInfoCompanyName //, ProcessCommandLine
 ```
 
-![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)
+![image](https://github.com/user-attachments/assets/13c0059d-af09-430a-818a-8862d3664895)  
+
+You can also use these process names for Endpoint DLP as an additional layer  
+
+<img width="1512" height="941" alt="image" src="https://github.com/user-attachments/assets/a41c1b92-770c-4c3c-9537-1032b18adab6" />
 
 
 
