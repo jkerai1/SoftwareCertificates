@@ -224,3 +224,4 @@ Url,https://github.com/kiwids0220/deviceCode2WinHello,,Block,Informational,Persi
 Url,https://github.com/Flangvik/TeamFiltration,,Block,Informational,Exfiltration Tool,Exfiltration Tool,,,,,FALSE
 Url,https://github.com/dafthack/GraphRunner,,Block,Informational,Exfiltration Tool,Exfiltration Tool,,,,,FALSE
 Url,https://github.com/trustedsec/social-engineer-toolkit,,Block,Informational,SET Tool,SET Tool,,,,,FALSE
+Url,https://github.com/ValdikSS/GoodbyeDPI,,Block,Informational,Network monitoring bypass Tool,SET Tool,,,,,FALSE
