@@ -250,6 +250,7 @@ DomainName,kiro.dev,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctione
 DomainName,simplified.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,voicemaker.in,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,bolt.new,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,replit.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/vibn-ai-chatgpt-ai-powere/feeonheemodpkdckaljcjogdncpiiban,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/spell-checker-and-grammar/dmgkiikdlhmpikkhpiplldicbnicmboc,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -311,6 +312,7 @@ Url,https://github.com/ghostkiwicoder/GhostGPT,,Block,Informational,Unsanctioned
 Url,https://github.com/zylon-ai/private-gpt,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://app.gitpod.io/ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+
 
 
 
