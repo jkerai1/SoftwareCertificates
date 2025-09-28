@@ -214,3 +214,4 @@ HRSword.exe
 utweb_installer.exe
 cemu.exe
 VPNMaster_setup.exe
+comet_installer_latest.exe
