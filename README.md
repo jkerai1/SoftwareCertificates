@@ -6,7 +6,7 @@
 ![TotalCountofSoftwareCertificates](https://img.shields.io/badge/TotalCountofSoftwareCertificates-771-green)
 # SoftwareCertificates  
 
-Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using [MDE IOC](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide)/AppLocker/[WDAC](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview)/ Intune Remediation Script/ Intune EPM (I would recommend Reusable settings here)     
+Repository for Software Certs for easy software blocking (or allowing) across corp environments, for example, using [MDE IOC](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/indicator-certificates?view=o365-worldwide?WT.mc_id=MVP_473477)/AppLocker/[WDAC](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview?WT.mc_id=MVP_473477)/ Intune Remediation Script/ Intune EPM (I would recommend Reusable settings here)     
 
 > WDAC is the preferred and best method for blocking executables but can be a monster to tackle and maintain with the possibility to brick a machine, if you need intend to rollout WDAC I recommend to check this [out](https://github.com/HotCakeX/Harden-Windows-Security/tree/main/WDACConfig) before doing so. I have written a blog post about WDAC [here](https://www.linkedin.com/posts/jay-kerai-cyber_intune-opensource-appcontrol-activity-7286366737460002816-6p-b/) also  
 
