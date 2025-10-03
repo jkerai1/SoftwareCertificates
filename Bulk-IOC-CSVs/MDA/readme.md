@@ -75,7 +75,7 @@ When Conditional access hands over control to MDA these will then apply (by defa
 ![image](https://github.com/user-attachments/assets/317f1a1e-6fd6-42c6-8ae6-89db26c21ef7)
 > Note you only need to configure this in 1 Conditional access policy to apply to the user
 
-*Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App > Activity Log from Defender Portal in these scenarios.The Activity Type will be "Log On". Update October 2024: https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-conditional-access-app-control--inline-data-in-advanced-hunting-cloudappevents-table  
+*Note*: Just because you fail to pass Access policy, it will still show as success in conditional access because Conditional Access successfully handed the session over. You'll need to review the Cloud App > Activity Log from Defender Portal in these scenarios.The Activity Type will be "Log On". Update October 2024: https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-conditional-access-app-control--inline-data-in-advanced-hunting-cloudappevents-table?WT.mc_id=MVP_473477  
 
 ![image](https://github.com/user-attachments/assets/f137756f-8bf9-4c61-89a0-de9a5200f9be)
 
@@ -124,7 +124,7 @@ Some apps for some reason do not even prompt me for onboarding despite having a 
 - azureiotcentral.com
 - ea.azure.com
 
-> Note that when you enter the MDA Proxy all URLs will be written with .mcas.ms at the end in non-[Edge for Business browsers](https://learn.microsoft.com/en-us/defender-cloud-apps/in-browser-protection). Functionally this has no difference, however note when copying URLs that you may need to remove .mcas.ms. For example if giving a sharepoint link to Copilot, while Copilot is on behalf on flow the bot may not be able to authenticate past the proxy.
+> Note that when you enter the MDA Proxy all URLs will be written with .mcas.ms at the end in non-[Edge for Business browsers](https://learn.microsoft.com/en-us/defender-cloud-apps/in-browser-protection?WT.mc_id=MVP_473477). Functionally this has no difference, however note when copying URLs that you may need to remove .mcas.ms. For example if giving a sharepoint link to Copilot, while Copilot is on behalf on flow the bot may not be able to authenticate past the proxy.
 
 For a pilot run you are best scoping just to Office365 in Conditional access. Admin Portals also works if you allow admins to sign-in from BYOD/non-entra Join device. A Conditional Access Policy scoped to these two is what have I have been testing and it has worked out great so far. If you need to add apps you can't target in CA you can manually [expose the Service Principal by using graph powershell](https://www.natehutchinson.co.uk/post/the-curious-case-of-the-missing-enterprise-app)   
 
@@ -139,7 +139,7 @@ Page 1             |  Page 2
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/8f85c792-81a0-4f6a-ad38-47897cc82f8c)|  ![image](https://github.com/user-attachments/assets/2d80230f-4a90-43ea-ae1f-a02c8b94b3b3)
 
-All other [3rd party apps will need to be onboarded with SAML](https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-deployment-featured-idp) from Settings > Cloud Apps > Conditional Access App Control Apps:
+All other [3rd party apps will need to be onboarded with SAML](https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-deployment-featured-idp?WT.mc_id=MVP_473477) from Settings > Cloud Apps > Conditional Access App Control Apps:
 ![image](https://github.com/user-attachments/assets/a4d84b59-91c3-41ef-be90-23bd4ec30e95)
 > The reason from what I can tell for why you need to do this on top of having the Enterprise Application in Entra is that you need the assertion URL or you will run into redirect error  
 
@@ -298,7 +298,7 @@ The huge benefit to using Session Policy is that the receiving device does not n
 
 ⚠️ Session Policy ONLY works for browser-based applications so you'll need to block Mobile and desktop apps in Conditional access policy.I actually recommend creating 1 Conditional access policy to target browser and 1 to target Mobile & Desktop Clients and blocking in the later if you don't have strict device filter/ require Hybrid join grant in Conditional Access policy already       
 
-You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
+You can also leverage [Purview](https://learn.microsoft.com/en-us/defender-cloud-apps/use-case-proxy-block-session-aad#create-a-block-download-policy-for-unmanaged-devices?WT.mc_id=MVP_473477), block upload/download of file extensions etc (perhaps .doc,.pdf etc.) with session policy. Malware Upload/Download should be bare minimium. 
 
 Policy Templates are available via:  
 
@@ -351,7 +351,7 @@ OfficeActivity
 Renaming extension bypasses and I'm able to upload - no header inspection taking place:  
 ![image](https://github.com/user-attachments/assets/db683daf-6919-4870-9293-132e24c5101b)
 
-I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/T1036/002/) with a [few lines of python](https://github.com/ctrlaltdev/RTLO-attack/tree/master) and actually managed to lock myself out by hitting [attack disruption](https://learn.microsoft.com/en-us/defender-xdr/automatic-attack-disruption) 😆:  
+I tried to craft a [Right to Left Override](https://attack.mitre.org/techniques/T1036/002/) with a [few lines of python](https://github.com/ctrlaltdev/RTLO-attack/tree/master) and actually managed to lock myself out by hitting [attack disruption](https://learn.microsoft.com/en-us/defender-xdr/automatic-attack-disruption?WT.mc_id=MVP_473477) 😆:  
 
 Alert             |                   Timeline         | Action Center
 :-------------------------:|:-------------------------:|:---------------------------------------:
@@ -410,12 +410,12 @@ Regex Pattern For Visa Card: ^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$ if yo
 
 > __Note__ step up in Session Policy is in preview  
 
-Force the user into an [authentication context](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps#authentication-context) if they send a [ethereum address](blockchain.com), in this case the context is Sign-in Frequency of everytime with passwordless authentication. Leverage with a custom authentication strengths for bonus points. See my article here on [Passwordless quirks](https://www.linkedin.com/pulse/passwordlessphishing-resistant-considerations-entra-jay-kerai-zh6nc). Don't forget to exclude breakglass from Conditional Access when tagging the authentication context.  
+Force the user into an [authentication context](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-cloud-apps#authentication-context?WT.mc_id=MVP_473477) if they send a [ethereum address](blockchain.com), in this case the context is Sign-in Frequency of everytime with passwordless authentication. Leverage with a custom authentication strengths for bonus points. See my article here on [Passwordless quirks](https://www.linkedin.com/pulse/passwordlessphishing-resistant-considerations-entra-jay-kerai-zh6nc). Don't forget to exclude breakglass from Conditional Access when tagging the authentication context.  
 > If you want to see how to setup authentication context on video check out my section from [Microsoft EMS Virtual Event 2024](https://youtu.be/hc11q4404H0?t=4033)
 
 ETH Regex Pattern: 0x[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{9}[a-fA-F0-9]{4}  
 
-https://learn.microsoft.com/en-us/defender-cloud-apps/working-with-the-regex-engine, the regex engine seems quite limited, I tried to do ethereum address but hit failure of Quantifiers of type {n,m} n,m must be less than 10 and so yep I tried splitting into blocks of 9️⃣
+https://learn.microsoft.com/en-us/defender-cloud-apps/working-with-the-regex-engine?WT.mc_id=MVP_473477, the regex engine seems quite limited, I tried to do ethereum address but hit failure of Quantifiers of type {n,m} n,m must be less than 10 and so yep I tried splitting into blocks of 9️⃣
 
 ![image](https://github.com/user-attachments/assets/78e7e3d0-f2c4-48e9-8aee-081aac8d3c5a)
 
@@ -734,7 +734,7 @@ You may want to keep an eye on newly founded apps. Annoyingly you can't do a dyn
 
 ![image](https://github.com/user-attachments/assets/b8924ff1-d7e5-4ba0-a93b-3609c28c352e)
 
-Also I strongly recommend enabling [Web Content filtering for newly registered domains in MDE](https://learn.microsoft.com/en-us/defender-endpoint/web-content-filtering#turn-on-web-content-filtering). To block sites that are newly registered in the past 30 days and haven't yet been moved to another category. If you want to audit before you whack this in, create a web content filtering Policy with no categories (Settings > Endpoints > Web Content Filtering). 
+Also I strongly recommend enabling [Web Content filtering for newly registered domains in MDE](https://learn.microsoft.com/en-us/defender-endpoint/web-content-filtering#turn-on-web-content-filtering?WT.mc_id=MVP_473477). To block sites that are newly registered in the past 30 days and haven't yet been moved to another category. If you want to audit before you whack this in, create a web content filtering Policy with no categories (Settings > Endpoints > Web Content Filtering). 
 
 ![image](https://github.com/user-attachments/assets/2b25b9d2-7cb8-41b6-b115-41661a1a47a8)
 
@@ -748,7 +748,7 @@ Then reports will be available from Reports > Web Protection,be sure to expand t
 
 These cannot be manually created, there are some potentially useful ones here that may be disabled by default, ensure to check these out from Cloud Apps > Policy Management (Type: Anomaly Detection Policy). Some of these policies such as Impossible Travel will have a learning period (typically 7 days), it is best to delay enabling these policies if you are in a holiday season/change freeze/brand new tenant for a higher fidelity.  
 
-Also check the MS learn reference: https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy  
+Also check the MS learn reference: https://learn.microsoft.com/en-us/defender-cloud-apps/anomaly-detection-policy?WT.mc_id=MVP_473477  
 
 Some notes 📓 are: 	
 
