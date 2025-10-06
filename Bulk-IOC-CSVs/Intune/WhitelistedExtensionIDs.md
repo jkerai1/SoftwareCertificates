@@ -71,6 +71,7 @@ odfafepnkmbhccpbejgmiehpchacaeak |Ublock Origin, Approved adblock that isn't pri
 ifoakfbpdcdoeenechcleahebpibofpc | dark mode CSS reader for accessibility users. I would say risk is accepted as risk of abuse is low  | https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc
 ampgmpmlobbbhjoplcbdfcgplbkbmked | Centro 365: 625 Microsoft 365 shortcuts, spanning 18 different admin centres  | https://microsoftedge.microsoft.com/addons/detail/centro-365/ampgmpmlobbbhjoplcbdfcgplbkbmked
 khbbpcejnfijlaobdgahfeodlplpnaic | Azure Xray | https://microsoftedge.microsoft.com/addons/detail/azure-xray/khbbpcejnfijlaobdgahfeodlplpnaic
+knepjpocdagponkonnbggpcnhnaikajg | Check by CyberDrain | https://microsoftedge.microsoft.com/addons/detail/check-by-cyberdrain/knepjpocdagponkonnbggpcnhnaikajg
 
  # Google
 | ID | Description | Ref|
