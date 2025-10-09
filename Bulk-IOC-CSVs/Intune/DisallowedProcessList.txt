@@ -216,3 +216,4 @@ cemu.exe
 VPNMaster_setup.exe
 comet_installer_latest.exe
 comet.exe
+opencode.exe
