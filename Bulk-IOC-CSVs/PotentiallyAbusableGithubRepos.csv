@@ -226,4 +226,5 @@ Url,https://github.com/dafthack/GraphRunner,,Block,Informational,Exfiltration To
 Url,https://github.com/trustedsec/social-engineer-toolkit,,Block,Informational,SET Tool,SET Tool,,,,,FALSE
 Url,https://github.com/ValdikSS/GoodbyeDPI,,Block,Informational,Network monitoring bypass Tool,SET Tool,,,,,FALSE
 Url,https://github.com/iIIusi0n/DevilGinx,,Block,Informational,Phishing Toolkit,Phishing Tool,,,,,FALSE
-
+Url,https://github.com/bol-van/zapret-win-bundle,,Block,Informational,Web Bypass Tool,Web Bypass Tool,,,,,FALSE
+Url,https://github.com/Flowseal/zapret-discord-youtube,,Block,Informational,Web Bypass Tool,Web Bypass Tool,,,,,FALSE
