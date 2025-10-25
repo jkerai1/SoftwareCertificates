@@ -31,6 +31,7 @@ DomainName,eztv.unblocked.how,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,tixati.com,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,torrentkitty.asia,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,limetorrents.lol,,Block,Low,Piracy,Piracy,,,,,FALSE
+DomainName,limetorrents.fun,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,openwebtorrent.com,,Block,Low,Piracy,Piracy,,,,,FALSE
 DomainName,icetorrent.org,,Block,Low,Piracy,Piracy,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/bittorent-for-chrome/aahnibhpidkdaeaplfdogejgoajkjgob,,Block,Low,Piracy,Piracy,,,,,FALSE
@@ -215,4 +216,5 @@ DomainName,oceanofgamesu.com,,Block,Low,Malware Piracy/Temp File Hosting/Malware
 DomainName,cineby.app,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,emule-mods.de,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/torrent-scanner/aegnopegbbhjeeiganiajffnalhlkkjb,,Block,Low,Piracy,Piracy: torrent scanner Browser extension,,,,,FALSE
+
 
