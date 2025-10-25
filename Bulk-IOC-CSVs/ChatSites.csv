@@ -30,6 +30,7 @@ DomainName,line-website.com,,Block,Informational,Chat application,Chat applicati
 DomainName,linepluscorp.com,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,getsession.org,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,signal.org,,Block,Informational,Chat application,Chat application,,,,,FALSE
+DomainName,molly.im,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,whispersystems.org,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,wechat.com,,Block,Informational,Chat application,Chat application,,,,,FALSE
 DomainName,teamspeak.com,,Block,Informational,Chat application,Chat application,,,,,FALSE
@@ -122,5 +123,6 @@ Url,https://github.com/UnigramDev/Unigram,,Block,Low,Chat App - Unigram,Chat App
 Url,https://apps.microsoft.com/detail/9n97zckpd60q,,Block,Low,Chat App - Unigram,Chat App - Unigram,,,,,FALSE
 FileSha256,624CBF9634B2BAEC7F76CC1B8E34347BF2918216D85A2EA52C0B7F220449B8A2,,BlockAndRemediate,Informational,Chat Application - nheko,nheko.exe	VT (0/76)	https://www.virustotal.com/gui/file/624cbf9634b2baec7f76cc1b8e34347bf2918216d85a2ea52c0b7f220449b8a2/detection,Unsanctioned,,,,false
 FileSha256,41A5E0852F665FA7415A21275F9F9B4307670326499588D448ADF6463E1CFD22,,BlockAndRemediate,Informational,Chat Application - Revolt-Setup,Revolt-Setup-1.0.8.exe	VT (1/75)	https://www.virustotal.com/gui/file/41a5e0852f665fa7415a21275f9f9b4307670326499588d448adf6463e1cfd22/detection,Unsanctioned,,,,false
+
 
 
