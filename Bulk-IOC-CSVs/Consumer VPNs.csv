@@ -143,6 +143,7 @@ DomainName,dontssl.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctio
 DomainName,getoutline.org,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,zerotier.com,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 DomainName,corsproxy.io,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Unsanctioned: Consumer VPN/Proxy,Unsanctioned,,,,false
+DomainName,nym.com,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Unsanctioned: Consumer VPN/Proxy,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/windscribe-free-proxy-a/dkkdbpgldnmkhcliffjpajcfdjkcaddf,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/nordvpn-the-fastest-vpn/fphgeikpdcdcheaochkhldmnfblfogla,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/nordvpn-vpn-proxy-for-pri/fjoaledfpmneenckfbpdfhkmimnjocfa,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
@@ -187,3 +188,4 @@ Url,https://github.com/jotyGill/openpyn-nordvpn,,Block,Informational,Unsanctione
 FileSha256,8D2435E0AD212FB34E55DB0579A7CDE239244B3B3D86EC714850286A597415D1,,BlockAndRemediate,Informational,MS Store Installer: Ninja IP Hider,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
 FileSha256,E30F2AE3B3DA2D68978A009B366C3BBC897A7C963FBFEE77154DCF1D485256C0,,BlockAndRemediate,Informational,Ninja IP Hider,https://www.virustotal.com/gui/file/e30f2ae3b3da2d68978a009b366c3bbc897a7c963fbfee77154dcf1d485256c0/details,Unsanctioned,,,,false
 FileSha256,06DB7DE3A6FC38ADC44BCFBBA04E4A2B74344DBCC2854C648CDAE417BF5A5D98,,BlockAndRemediate,Informational,MS Store Installer: Hotspot VPN_ Fast & Unlimited Proxy Installer,Hotspot VPN_ Fast & Unlimited Proxy Installer VT (0/76)	https://www.virustotal.com/gui/file/06db7de3a6fc38adc44bcfbba04e4a2b74344dbcc2854c648cdae417bf5a5d98/detection,Unsanctioned,,,,false
+
