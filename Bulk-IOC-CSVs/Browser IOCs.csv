@@ -170,6 +170,9 @@ Url,https://github.com/wicknix/brass-monkey,,Block,Informational,Unsanctioned br
 Url,https://baidu-browser.en.softonic.com/,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/rmottola/Arctic-Fox,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 Url,https://github.com/imputnet/helium,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://github.com/casanovalx/gamma-browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://gitea.com/casanovalx/gamma-browser,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
+Url,https://sourceforge.net/projects/gammawebbrowser/,,Block,Informational,Unsanctioned browser,Unsanctioned browser,Unsanctioned,,,,false
 FileSha256,5B6D0826CFD123F7064EBE69AF54E3B112EC82769C6ADAD6BBB87968322856E3,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,https://www.virustotal.com/gui/file/4bdf3ea203951072a9ee92f458b6e6367d279178950392eeb4a19c49eb018360,Unsanctioned,,,,false
 FileSha256,803388ED1AAD2DACA10FF75946413E67B1DF4468D32F400C647227DAF5B713C7,,BlockAndRemediate,Informational,Unsanctioned browser: Astian - Midori,midori.exe	VT (0/77)	https://www.virustotal.com/gui/file/803388ed1aad2daca10ff75946413e67b1df4468d32f400c647227daf5b713c7/detection,Unsanctioned,,,,false
 FileSha256,71605B992F22D577A23CDF3A49EF28A715F637BD095736F2F2F5B8046816C7E0,,BlockAndRemediate,Informational,Unsanctioned browser: Librewolf Installer (MS Store),Unsanctioned,Unsanctioned,,,,false
@@ -197,6 +200,7 @@ FileSha256,A42E82494F00E054C2DE1B065BBC8FB439D93EB69F9B97CC4868E71E48A9EAE0,,Blo
 FileSha256,E994D263F2FD2C22FEBFBE45103526E00145A7674A0FDA79C822B97C2770A9E3,,BlockAndRemediate,Informational,Unsanctioned browser: w3m text based browser,Unsanctioned browser: w3m-0.5.3.tar.gz	VT (0/79)	https://www.virustotal.com/gui/file/e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3/detection,Unsanctioned,,,,false
 FileSha256,2433CB70CD781FF9D1CD9247F05F723988E8BD04DAF16C75C5D4015D6E10F447,,BlockAndRemediate,Informational,Unsanctioned browser: browsh,Unsanctioned browser: browsh_1.8.0_windows_amd64.exe	VT (2/74)	https://www.virustotal.com/gui/file/2433cb70cd781ff9d1cd9247f05f723988e8bd04daf16c75c5d4015d6e10f447/detection,Unsanctioned,,,,false
 FileSha256,7C6B94EFEE914A20A2C888888CCC63C117390BAA380318C22863584E7EF4042D,,BlockAndRemediate,Informational,Unsanctioned browser: WebbIE,Unsanctioned browser: WebbIE4.msi	VT (0/75)	https://www.virustotal.com/gui/file/7c6b94efee914a20a2c888888ccc63c117390baa380318c22863584e7ef4042d/detection,Unsanctioned,,,,false
+
 
 
 
