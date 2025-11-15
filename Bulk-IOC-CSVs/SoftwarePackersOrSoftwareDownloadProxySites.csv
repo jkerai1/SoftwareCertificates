@@ -41,4 +41,5 @@ DomainName,archive.is,,Block,Informational,Archiving Tool can be used as Softwar
 DomainName,portableapps.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,chip.de,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 DomainName,myabandonware.com,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
+DomainName,webcatalog.io,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
 Url,techspot.com/downloads/,,Block,Informational,Software Packer/Software Download Site,Software Packer/Software Download Site,,,,,FALSE
