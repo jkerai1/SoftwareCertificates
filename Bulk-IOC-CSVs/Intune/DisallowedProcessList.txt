@@ -218,3 +218,4 @@ comet_installer_latest.exe
 comet.exe
 opencode.exe
 fellou.exe
+windhawk_setup.exe
