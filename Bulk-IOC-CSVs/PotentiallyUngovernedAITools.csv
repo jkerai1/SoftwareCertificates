@@ -214,6 +214,8 @@ DomainName,jenni.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctione
 DomainName,frase.io,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,maestrolabs.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,klingai.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,klingai.art,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+DomainName,kling-ai.video,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,pika.art,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,vidu.com,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 DomainName,pixverse.ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
@@ -331,5 +333,6 @@ Url,https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1,,Block,Informa
 Url,https://app.gitpod.io/ai,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://github.com/openai/codex,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
 Url,https://github.com/sst/opencode/,,Block,Informational,Unsanctioned: Ungoverned AI,Unsanctioned: Ungoverned AI,Unsanctioned,,,,false
+
 
 
