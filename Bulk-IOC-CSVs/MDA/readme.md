@@ -28,7 +28,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block Apps with a Data Breach after X Date](#Block-Apps-with-a-Data-Breach-after-X-Date)  
   * [Monitor Cloud Storage](#monitor-cloud-storage)
   * [Monitor Newly Created Apps](#monitor-new-created-apps)
-  * [Monitor Activity From Particular App/App Set](#monitor-activity-from-particular-app/App-Set)
+  * [Monitor Activity From Particular App/App Set](#monitor-activity-from-particular-app-set)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
@@ -745,7 +745,7 @@ Then reports will be available from Reports > Web Protection,be sure to expand t
 
 > You'll also want to make sure Web Content Filtering is also turned on from Settings > Endpoints > Advanced Features
 
-# Monitor Activity From Particular App/App Set
+# Monitor Activity From Particular App Set
 
 In some scenarios you may want to monitor activity to an app such as file activity. While you could use Domains it is better to use Tags to make sure you have full coverage of all the domains.
 
