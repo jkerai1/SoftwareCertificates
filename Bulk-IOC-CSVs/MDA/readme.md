@@ -28,6 +28,7 @@ Not a comprehensive list, just some ideas of the capability of Defender for Clou
   * [Block Apps with a Data Breach after X Date](#Block-Apps-with-a-Data-Breach-after-X-Date)  
   * [Monitor Cloud Storage](#monitor-cloud-storage)
   * [Monitor Newly Created Apps](#monitor-new-created-apps)
+  * [Monitor Activity From Particular App/App Set](#monitor-activity-from-particular-app/App-Set)
 - [Anomaly Detection Policy](#anomaly-detection-policy)
 - [Activity Policy](#activity-policy)
   * [Dark Web Monitoring](#dark-web-monitoring)
@@ -743,6 +744,31 @@ Then reports will be available from Reports > Web Protection,be sure to expand t
 ![image](https://github.com/user-attachments/assets/c6cc2ee5-f652-4ab0-a7c0-ad41d9331b4b)
 
 > You'll also want to make sure Web Content Filtering is also turned on from Settings > Endpoints > Advanced Features
+
+# Monitor Activity From Particular App/App Set
+
+In some scenarios you may want to monitor activity to an app such as file activity. While you could use Domains it is better to use Tags to make sure you have full coverage of all the domains.
+
+Create a new tag From Settings > Cloud apps > App Tags (under cloud discovery)
+
+<img width="1442" height="694" alt="image" src="https://github.com/user-attachments/assets/11523f8d-c1a8-4171-ad0c-36f3aadf3dba" />
+
+Let's say we want to monitor some dropbox apps:
+
+<img width="2165" height="627" alt="image" src="https://github.com/user-attachments/assets/5f36f1bf-aa09-4c7c-b937-a922de93787b" />
+> Fun fact: An App can have multiple Custom Tags
+
+In this example I want to monitor the top 3 apps but keep the last one blocked:
+<img width="1852" height="581" alt="image" src="https://github.com/user-attachments/assets/a75e5b29-30c3-4e5c-a9c4-c5f0005aab86" />
+
+I can now use the apps in a app discovery policy as per usual - in this case I am monitoring file upload to these domains:
+<img width="928" height="1061" alt="image" src="https://github.com/user-attachments/assets/0c7122fc-2a5d-48a7-b619-4fb4fc6ff2c4" />
+
+Using the Preview Results we can see the correct apps are flagged:
+<img width="2112" height="900" alt="image" src="https://github.com/user-attachments/assets/b8753cfd-c418-4555-8857-4cb7ef62d4bd" />
+
+You can also create policies with App Tags with Scoped Profiles, though custom tags don't support scoped profiles so I am unclear on the usecase for this:
+<img width="967" height="356" alt="image" src="https://github.com/user-attachments/assets/f9517031-14f8-4875-9788-dbc19ffc2b08" />
 
 # Anomaly Detection Policy
 
