@@ -118,6 +118,7 @@ Extra blocking via HostFiles if MDE IOC is not an option, with some example site
 # List of disallowed applications (User)
 
 With regards to blocking process names, this is a weak policy and can be bypassed as it runs in user context and only applicable to file explorer however can add an extra layer if WDAC is not an option.
+> The list is avaiable [here](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/Intune/DisallowedProcessList.txt)
 
 This Setting can be nice to layer but reality is it can be bypassed easily. The corresponding Reg key lives in User land also.    
 
