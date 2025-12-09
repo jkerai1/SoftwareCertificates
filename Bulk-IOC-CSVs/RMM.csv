@@ -141,7 +141,6 @@ DomainName,realvnc.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,
 DomainName,khelpdesk.com.br,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,syspectr.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,tigervnc.org,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
-DomainName,remotepass.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,superops.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,addigy.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
 DomainName,action1.com,,Block,Informational,Unsanctioned: RMM,Unsanctioned: RMM,Unsanctioned,,,,false
@@ -347,5 +346,6 @@ FileSha256,AD4CCBE81C753705F4916FF8C9153835B61DBEA0125DF2E9D1ED58C34802D4EE,,Blo
 FileSha256,040218B628BEB03AD0EC79F092CE9DE02D895D57C75F782F9FF6176B9A882305,,BlockAndRemediate,Informational,Unsanctioned: RMM,Devolutions Workspace - workspace.exe	VT (0/76)	https://www.virustotal.com/gui/file/040218b628beb03ad0ec79f092ce9de02d895d57c75f782f9ff6176b9a882305/detection,Unsanctioned,,,,false
 FileSha256,6351F8659B2FCD281457D61E534D2A54EC06BA76C1DFCC85C904FA83F462A3CC,,BlockAndRemediate,Informational,Unsanctioned: RMM,1Remote - MSTC Remote Desktop - 1Remote.exe	VT (0/76)	https://www.virustotal.com/gui/file/6351f8659b2fcd281457d61e534d2a54ec06ba76c1dfcc85c904fa83f462a3cc/detection,Unsanctioned,,,,false
 FileSha256,52A7C3D04B7D1197E9D3B2840F105CC6CC7CC0475557D54AD5C875B93EE5565E,,BlockAndRemediate,Informational,Unsanctioned: RMM,Team Remote Desktop - TeamRemoteDesktop.exe	VT (0/76)	https://www.virustotal.com/gui/file/52a7c3d04b7d1197e9d3b2840f105cc6cc7cc0475557d54ad5c875b93ee5565e/detection ,Unsanctioned,,,,false
+
 
 
