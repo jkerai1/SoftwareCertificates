@@ -13,6 +13,7 @@ opera_autoupdate.exe
 waterfox.exe
 librewolf.exe
 BitTorrent.exe
+btweb_installer.exe
 Nicotine+.exe
 UplayWebCore.exe
 steam.exe
