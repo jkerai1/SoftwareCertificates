@@ -115,6 +115,7 @@ DomainName,valvesoftware.com,,Block,Informational,Unsanctioned: Gaming,Unsanctio
 DomainName,steamstatic.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,sporcle.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,twitch.tv,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+DomainName,dos.zone,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,nintendo.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,playstation.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://www.xbox.com/en-GB/xbox-game-pass,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
@@ -207,3 +208,4 @@ DomainName,modsfire.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,U
 DomainName,5play.org,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/runelite/runelite,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/cemu-project/,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+
