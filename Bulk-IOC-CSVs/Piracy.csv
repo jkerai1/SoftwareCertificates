@@ -216,4 +216,5 @@ DomainName,oceanofgamesu.com,,Block,Low,Malware Piracy/Temp File Hosting/Malware
 DomainName,cineby.app,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,emule-mods.de,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,lucida.to,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,doubledouble.top,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/torrent-scanner/aegnopegbbhjeeiganiajffnalhlkkjb,,Block,Low,Piracy,Piracy: torrent scanner Browser extension,,,,,FALSE
