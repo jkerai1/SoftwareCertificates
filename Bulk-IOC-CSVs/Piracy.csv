@@ -219,4 +219,6 @@ DomainName,lucida.to,,Block,Low,Malware Piracy/Temp File Hosting/Malware Deliver
 DomainName,squid.wtf,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,doubledouble.top,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 DomainName,binimum.org,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
+DomainName,qqdl.site,,Block,Low,Malware Piracy/Temp File Hosting/Malware Delivery,Piracy,,,,,FALSE
 Url,https://chromewebstore.google.com/detail/torrent-scanner/aegnopegbbhjeeiganiajffnalhlkkjb,,Block,Low,Piracy,Piracy: torrent scanner Browser extension,,,,,FALSE
+
