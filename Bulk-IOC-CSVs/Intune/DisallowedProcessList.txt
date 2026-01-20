@@ -221,3 +221,5 @@ opencode.exe
 fellou.exe
 windhawk_setup.exe
 Antigravity.exe
+PDFSkillsApp.exe
+PDFSkills.exe
