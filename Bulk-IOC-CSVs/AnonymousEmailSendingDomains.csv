@@ -21,3 +21,7 @@ DomainName,sendtestemail.com,,Block,,Anonymous Email Sending,Anonymous Email Sen
 DomainName,emkei.cz,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
 DomainName,dropmail.me,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
 DomainName,mail.tm,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,simplelogin.io,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,mozmail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,c2.hu,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,konto.onet.pl,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
