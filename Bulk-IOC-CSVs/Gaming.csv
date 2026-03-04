@@ -208,5 +208,6 @@ DomainName,modsfire.com,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,U
 DomainName,5play.org,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,flashmuseum.org,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 DomainName,ruffle.rs,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
+Url,https://www.webdesignmuseum.org/flash-games,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/runelite/runelite,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/cemu-project/,,Block,Informational,Unsanctioned: Gaming,Unsanctioned,Unsanctioned,,,,false
