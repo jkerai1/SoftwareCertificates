@@ -122,6 +122,7 @@ DomainName,qq-messenger.en.softonic.com,,Block,Low,Chat Website,Chat Website,,,,
 DomainName,fluxer.app,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 DomainName,simplex.chat,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 DomainName,beeper.com,,Block,Low,Chat Website,Chat Website,,,,,FALSE
+DomainName,kiwifarms.st,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 Url,https://apps.microsoft.com/detail/9nmtvmrj7n1k,,Block,Low,Chat App - Revolt,Chat App - Revolt,,,,,FALSE
 Url,https://github.com/UnigramDev/Unigram,,Block,Low,Chat App - Unigram,Chat App - Unigram,,,,,FALSE
 Url,https://apps.microsoft.com/detail/9n97zckpd60q,,Block,Low,Chat App - Unigram,Chat App - Unigram,,,,,FALSE
