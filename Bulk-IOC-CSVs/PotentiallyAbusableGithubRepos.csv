@@ -233,3 +233,5 @@ Url,https://github.com/TwoSevenOneT/EDR-Freeze,,Block,Informational,EDR Freeze T
 Url,https://github.com/BlWasp/PhantomTask,,Block,Informational,EDR Abuse Tool,EDR Abuse Tool,,,,,FALSE
 Url,https://github.com/loosehose/SilentButDeadly,,Block,Informational,EDR Abuse Tool,EDR Abuse Tool,,,,,FALSE
 Url,https://github.com/dafthack/MFASweep,,Block,Informational,MFA Abuse Tool,MFA Abuse Tool,,,,,FALSE
+Url,https://github.com/dazzyddos/PrivHound,,Block,Informational,Priv Abuse Tool,Priv Abuse Tool,,,,,FALSE
+Url,https://github.com/RantaSec/golinhound,,Block,Informational,Bloodhound Abuse Tool,Bloodhound Abuse Tool,,,,,FALSE
