@@ -223,3 +223,4 @@ windhawk_setup.exe
 Antigravity.exe
 PDFSkillsApp.exe
 PDFSkills.exe
+Root-win-Setup.exe
