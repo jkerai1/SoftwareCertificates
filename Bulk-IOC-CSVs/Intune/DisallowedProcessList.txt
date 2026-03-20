@@ -224,3 +224,4 @@ Antigravity.exe
 PDFSkillsApp.exe
 PDFSkills.exe
 Root-win-Setup.exe
+Granola - AI Notepad.exe
