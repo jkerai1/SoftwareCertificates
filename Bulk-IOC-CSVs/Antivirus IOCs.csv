@@ -79,3 +79,4 @@ DomainName,bufferzonesecurity.com,,Block,Informational,Unsanctioned: Antivirus. 
 DomainName,gosecure.ai,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
 DomainName,digitalguardian.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
 DomainName,dtexsystems.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
+DomainName,symantec.com,,Block,Informational,Unsanctioned: Antivirus. Can Turn off Defender,Unsanctioned: Antivirus. Can Turn off Defender. Ensure “EDR in block Mode” is enabled.,Unsanctioned,,,,false
