@@ -225,3 +225,4 @@ PDFSkillsApp.exe
 PDFSkills.exe
 Root-win-Setup.exe
 Granola - AI Notepad.exe
+x64_SamsungBrowserSetup.exe
