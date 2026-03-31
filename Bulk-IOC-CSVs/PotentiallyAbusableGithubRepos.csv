@@ -235,3 +235,4 @@ Url,https://github.com/loosehose/SilentButDeadly,,Block,Informational,EDR Abuse 
 Url,https://github.com/dafthack/MFASweep,,Block,Informational,MFA Abuse Tool,MFA Abuse Tool,,,,,FALSE
 Url,https://github.com/dazzyddos/PrivHound,,Block,Informational,Priv Abuse Tool,Priv Abuse Tool,,,,,FALSE
 Url,https://github.com/RantaSec/golinhound,,Block,Informational,Bloodhound Abuse Tool,Bloodhound Abuse Tool,,,,,FALSE
+Url,https://github.com/TeneBrae93/defender_bypass_with_sliver,,Block,Informational,Bloodhound Abuse Tool,Bloodhound Abuse Tool,,,,,FALSE
