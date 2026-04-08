@@ -132,6 +132,9 @@ DomainName,spacebar.chat,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 DomainName,sovr.top,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 DomainName,rootapp.com,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 DomainName,nerimity.com,,Block,Low,Chat Website,Chat Website,,,,,FALSE
+DomainName,zangi.com,,Block,Low,Chat Website,Chat Website,,,,,FALSE
+DomainName,nomadtable.app,,Block,Low,Chat Website,Chat Website,,,,,FALSE
+DomainName,tripbff.com,,Block,Low,Chat Website,Chat Website,,,,,FALSE
 Url,https://apps.microsoft.com/detail/9nmtvmrj7n1k,,Block,Low,Chat App - Revolt,Chat App - Revolt,,,,,FALSE
 Url,https://github.com/UnigramDev/Unigram,,Block,Low,Chat App - Unigram,Chat App - Unigram,,,,,FALSE
 Url,https://github.com/mattermost/mattermost,,Block,Low,Chat App - MatterMost,Chat App - MatterMost,,,,,FALSE
