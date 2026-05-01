@@ -318,6 +318,7 @@ DomainName,limewire.com,,Block,Informational,File Transfer/Paste Like Site,Unsan
 DomainName,telegra.ph,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,send.now,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,send.cm,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,up-4ever.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/tycrek/yaass,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/sergix44/XBackBone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
