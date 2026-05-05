@@ -26,3 +26,4 @@ DomainName,mozmail.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,
 DomainName,c2.hu,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
 DomainName,konto.onet.pl,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
 DomainName,atomicmail.io,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
+DomainName,mailfence.com,,Block,,Anonymous Email Sending,Anonymous Email Sending,,,,,FALSE
