@@ -38,3 +38,6 @@ DomainName,trib.al,,Block,,Redirector,Redirector,,,,,FALSE
 DomainName,Mjt.lu,,Block,,Redirector,Redirector,,,,,FALSE
 DomainName,Dgt.link,,Block,,Redirector,Redirector,,,,,FALSE
 DomainName,qrs.ly,,Block,,Redirector,Redirector,,,,,FALSE
+DomainName,is.gd,,Block,,Redirector,Redirector,,,,,FALSE
+DomainName,rb.gy,,Block,,Redirector,Redirector,,,,,FALSE
+DomainName,shorturl.cc,,Block,,Redirector,Redirector,,,,,FALSE
