@@ -326,6 +326,12 @@ DomainName,filetender.com,,Block,Informational,File Transfer/Paste Like Site,Uns
 DomainName,filesender.org,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,privatebin.net,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pasteboard.co,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,cryptgeon.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,paste.rs,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,controlc.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,transfer.sh,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,oshi.at,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,0x0.st,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/tycrek/yaass,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/sergix44/XBackBone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
