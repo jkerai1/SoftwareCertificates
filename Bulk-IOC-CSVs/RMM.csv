@@ -291,6 +291,7 @@ DomainName,xeox.com,,Block,Informational,Unsanctioned RMM,Unsanctioned RMM,Unsan
 DomainName,zabbix.com,,Block,Informational,Unsanctioned RMM,Unsanctioned RMM,Unsanctioned,,,,FALSE
 DomainName,alpemix.com,,Block,Informational,Unsanctioned RMM,Unsanctioned RMM,Unsanctioned,,,,FALSE
 DomainName,netlockrmm.com,,Block,Informational,Unsanctioned RMM,Unsanctioned RMM,Unsanctioned,,,,FALSE
+DomainName,myrro.io,,Block,Informational,Unsanctioned RMM,Unsanctioned RMM,Unsanctioned,,,,FALSE
 Url,https://apps.microsoft.com/detail/xpdm17hk323c4x,,Block,Informational,Unsanctioned: RMM Teamviewer,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcxhf337w98s,,Block,Informational,Unsanctioned: RMM - Devolutions Remote Desktop Manager,Unsanctioned: RMM,Unsanctioned,,,,false
 Url,https://apps.microsoft.com/detail/xpfcww02p2xjnm,,Block,Informational,Unsanctioned: RMM - Devolutions Workspace,Unsanctioned: RMM,Unsanctioned,,,,false
