@@ -337,6 +337,7 @@ DomainName,spaste.com,,Block,Informational,File Transfer/Paste Like Site,Unsanct
 DomainName,shz.al,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,rejetto.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 DomainName,pillows.su,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
+DomainName,ilovepdf.com,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/yarrick/iodine,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/tycrek/yaass,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
 Url,https://github.com/sergix44/XBackBone,,Block,Informational,File Transfer/Paste Like Site,Unsanctioned,Unsanctioned,,,,false
