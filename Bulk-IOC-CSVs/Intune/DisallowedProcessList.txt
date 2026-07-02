@@ -228,3 +228,4 @@ Granola - AI Notepad.exe
 x64_SamsungBrowserSetup.exe
 HopToDesk.exe
 AnythingLLMDesktop.exe
+FPilot.exe
