@@ -632,7 +632,6 @@ Also bear in mind savy users might find legitimate company websites that have ch
 A dirty KQL :oncoming_police_car: to search for these - this is by no means a complete list there are just far too many tools (477 GenAI tools currently sitting in MDA catalog)  
 As per usual the [MDE Bulk IOC Blocklist](https://github.com/jkerai1/SoftwareCertificates/blob/main/Bulk-IOC-CSVs/PotentiallyUngovernedAITools.csv) is downloadable if you need to import the CSVs for whatever reason. Audit with below KQL :oncoming_police_car:, you can upload the list afterwards to MDE. [Instructions here](https://github.com/jkerai1/SoftwareCertificates?tab=readme-ov-file#how-to-upload-the-bulk-ioc-csv-to-mde-bulk-ioc-csvs-folder)
 
-
 ```
 let UngoverenedAI_IOCs = externaldata(type: string, IndicatorValue: string)[@"https://raw.githubusercontent.com/jkerai1/SoftwareCertificates/refs/heads/main/Bulk-IOC-CSVs/PotentiallyUngovernedAITools.csv"] with (format="csv", ignoreFirstRecord=True);
 let DomainList = UngoverenedAI_IOCs
@@ -647,7 +646,11 @@ DeviceNetworkEvents
 
 > [After completing this, I would also look at Endpoint DLP for a further layer of protection](https://techcommunity.microsoft.com/blog/microsoftmechanicsblog/protect-data-used-in-prompts-with-common-ai-apps--microsoft-purview/4085973)  
 
- 
+Update: Now you can also monitor for AI MCP servers too
+<img width="911" height="637" alt="image" src="https://github.com/user-attachments/assets/d042b0e6-bd20-48ae-8b08-df4b3f2393d9" />
+
+<img width="996" height="874" alt="image" src="https://github.com/user-attachments/assets/64286bb9-5590-4cf4-880b-97e53f087e4a" />  
+
 ## Auto Ban Discovered Personal Messaging Apps
 
 This serves as not only an exfil path but a malware delivery path. Imagine a user receives a phish via a personal messaging app, this would bypass protections of Defender for Office and the such, so we definitely want to be monitoring or blocking this. 
