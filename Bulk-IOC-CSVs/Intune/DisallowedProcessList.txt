@@ -230,3 +230,4 @@ x64_SamsungBrowserSetup.exe
 HopToDesk.exe
 AnythingLLMDesktop.exe
 FPilot.exe
+Z-Library-latest.exe
