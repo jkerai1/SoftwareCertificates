@@ -7,6 +7,9 @@ DomainName,Disneyplus.com,,Block,Informational,Streaming,Block streaming/enterta
 DomainName,Paramountplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,Universalplus.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 DomainName,netflix.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,nflxvideo.net,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,nflxext.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
+DomainName,nflximg.com,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.amazon.co.uk/gp/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.amazon.com/gp/video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
 Url,https://www.amazon.co.uk/Amazon-Video,,Block,Informational,Streaming,Block streaming/entertainment,,,,,FALSE
