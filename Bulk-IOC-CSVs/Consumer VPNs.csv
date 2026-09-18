@@ -158,6 +158,7 @@ DomainName,slickvpn.com,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Un
 DomainName,librem.one,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Unsanctioned: Consumer VPN/Proxy,Unsanctioned,,,,false
 DomainName,ur.io,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Unsanctioned: Consumer VPN/Proxy,Unsanctioned,,,,false
 DomainName,vp.net,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Unsanctioned: Consumer VPN/Proxy,Unsanctioned,,,,false
+DomainName,atomicvpn.io,,Block,Informational,Unsanctioned: Consumer VPN/Proxy,Unsanctioned: Consumer VPN/Proxy,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/windscribe-free-proxy-a/dkkdbpgldnmkhcliffjpajcfdjkcaddf,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://microsoftedge.microsoft.com/addons/detail/nordvpn-the-fastest-vpn/fphgeikpdcdcheaochkhldmnfblfogla,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
 Url,https://chromewebstore.google.com/detail/nordvpn-vpn-proxy-for-pri/fjoaledfpmneenckfbpdfhkmimnjocfa,,Block,Informational,Unsanctioned: Consumer VPN,Unsanctioned: Consumer VPN,Unsanctioned,,,,false
